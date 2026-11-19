@@ -1,0 +1,312 @@
+{
+ "su-02-001": {
+  "bloque": "ambito",
+  "precepto": "Art. 4.d del TREBEP",
+  "correcta": 1,
+  "justificaciones": [
+   "No. Bernarda es funcionaria interina de una comunidad autónoma: el TREBEP le aplica directamente (**arts. 2.1.b y 10.5**).",
+   "Es esta. El personal militar de las Fuerzas Armadas solo se rige por el TREBEP cuando lo disponga su legislación específica (**art. 4.d**).",
+   "No. La Policía Local se rige por el TREBEP y la legislación autonómica, con la excepción de la LO 2/1986 (**art. 3.2**).",
+   "No. El personal de investigación está en el ámbito del TREBEP, con posibles normas singulares (**art. 2.2**)."
+  ]
+ },
+ "su-02-002": {
+  "bloque": "ambito",
+  "precepto": "Arts. 2.3 y 4 del TREBEP",
+  "correcta": 3,
+  "justificaciones": [
+   "No. El personal funcionario de la Administración de Justicia solo se rige por el TREBEP si lo dice su legislación específica (**art. 4.c**).",
+   "No. El personal funcionario de los parlamentos autonómicos solo se rige por el TREBEP si lo dice su legislación específica (**art. 4.a**).",
+   "No. El personal funcionario de Correos se rige por sus normas específicas y el TREBEP es supletorio (**art. 5**).",
+   "Es esta. El personal estatutario de los Servicios de Salud se rige por su legislación específica y por lo previsto en el TREBEP, sin que este requiera que su legislación lo disponga (**art. 2.3**)."
+  ],
+  "ojo": "El art. 2.3 excluye para el personal estatutario algunos preceptos concretos (capítulo II del título III, salvo el art. 20, y los arts. 22.3, 24 y 84), así que la aplicación directa no es total."
+ },
+ "su-02-003": {
+  "bloque": "ambito",
+  "precepto": "Art. 5 del TREBEP",
+  "correcta": 0,
+  "justificaciones": [
+   "Es esta. El personal funcionario de la Sociedad Estatal Correos y Telégrafos se rige por sus normas específicas y supletoriamente por el TREBEP (**art. 5, párrafo primero**).",
+   "No. El personal laboral de Correos se rige por la legislación laboral y las normas convencionales (**art. 5, párrafo segundo**).",
+   "No. El personal laboral de un ayuntamiento se rige por la legislación laboral y los preceptos del TREBEP que lo dispongan (**art. 7**).",
+   "No. El personal de investigación se rige por el TREBEP, con normas singulares posibles (**art. 2.2**)."
+  ]
+ },
+ "su-02-004": {
+  "bloque": "ambito",
+  "precepto": "Art. 2.2 del TREBEP",
+  "correcta": 2,
+  "justificaciones": [
+   "No. Para una funcionaria interina no se prevén normas singulares por razón de su función.",
+   "No. La Policía Local tiene su propio régimen en el **art. 3.2**, no normas singulares.",
+   "Es esta. Al personal de investigación se le podrán dictar normas singulares para adecuar el TREBEP a sus peculiaridades (**art. 2.2**).",
+   "No. El personal de los parlamentos autonómicos solo se rige por el TREBEP si lo dispone su legislación específica (**art. 4.a**)."
+  ]
+ },
+ "su-02-005": {
+  "bloque": "ambito",
+  "precepto": "Art. 3.2 del TREBEP",
+  "correcta": 1,
+  "justificaciones": [
+   "No. El personal militar solo se rige por el TREBEP si lo dispone su legislación específica (**art. 4.d**).",
+   "Es esta. Los Cuerpos de Policía Local se rigen por el TREBEP y por la legislación autonómica, excepto lo establecido para ellos en la Ley Orgánica de Fuerzas y Cuerpos de Seguridad (**art. 3.2**).",
+   "No. El personal laboral se rige por la legislación laboral y los preceptos del TREBEP que lo dispongan (**art. 7**).",
+   "No. El personal de la Administración de Justicia se rige por su legislación específica (**art. 4.c**)."
+  ]
+ },
+ "su-02-006": {
+  "bloque": "ambito",
+  "precepto": "Art. 7 del TREBEP",
+  "correcta": 3,
+  "justificaciones": [
+   "No. El personal laboral de Correos se rige por la legislación laboral y las normas convencionales, sin remisión a los preceptos del TREBEP (**art. 5, párrafo segundo**).",
+   "No. Es funcionario de Correos: normas específicas y TREBEP supletorio (**art. 5**).",
+   "No. Es funcionaria interina: se le aplica el régimen de los funcionarios de carrera (**art. 10.5**).",
+   "Es esta. El personal laboral de una Administración se rige por la legislación laboral, las normas convencionales y los preceptos del TREBEP que así lo dispongan (**art. 7**)."
+  ],
+  "ojo": "Genoveva Navas, laboral de Correos, se rige por el art. 5 (legislación laboral y normas convencionales), y no por el art. 7, por eso la respuesta es Bartolo Molina."
+ },
+ "su-02-007": {
+  "bloque": "ambito",
+  "precepto": "Art. 2.4 del TREBEP",
+  "correcta": 1,
+  "justificaciones": [
+   "No. El personal laboral no se equipara al funcionario de carrera.",
+   "Es esta. Cuando el TREBEP menciona al personal funcionario de carrera se entiende comprendido el personal estatutario de los Servicios de Salud (**art. 2.4**).",
+   "No. El personal laboral no se equipara al funcionario de carrera.",
+   "No. La funcionaria interina no se equipara al personal funcionario de carrera en esta regla."
+  ]
+ },
+ "su-02-008": {
+  "bloque": "derechos",
+  "precepto": "Arts. 7, 10.5 y 49 del TREBEP",
+  "correcta": 3,
+  "justificaciones": [
+   "No. Bernarda sí lo tiene (funcionaria interina, **art. 10.5**), pero no es la única.",
+   "No. Leonardo sí lo tiene (funcionario de carrera), pero no es el único.",
+   "No. Bartolo sí lo tiene (personal laboral, **art. 7, párrafo segundo**), pero no es el único.",
+   "Es esta. El permiso por adopción del TREBEP se aplica a los tres: Bernarda (interina, **art. 10.5**), Leonardo (funcionario de carrera) y Bartolo (laboral, **art. 7, párrafo segundo**)."
+  ]
+ },
+ "su-03-001": {
+  "bloque": "clases",
+  "precepto": "Art. 9.2 del TREBEP",
+  "correcta": 2,
+  "justificaciones": [
+   "No. También pueden Bernarda Pérez, porque los funcionarios interinos son funcionarios públicos.",
+   "No. El personal laboral no puede: lo reservado a funcionarios públicos queda fuera de su alcance (**art. 9.2**).",
+   "Es esta. Las funciones que impliquen participación directa o indirecta en potestades públicas corresponden exclusivamente a los funcionarios públicos, de carrera e interinos (**art. 9.2**).",
+   "No. El personal eventual y el laboral no pueden ejercerlas."
+  ]
+ },
+ "su-03-002": {
+  "bloque": "clases",
+  "precepto": "Art. 11.1 del TREBEP",
+  "correcta": 1,
+  "justificaciones": [
+   "No. El contrato de trabajo ha de formalizarse por escrito (**art. 11.1**).",
+   "Es esta. Solo es laboral Baltasar García, y su contrato se formaliza por escrito (**art. 11.1**).",
+   "No. Zenaida López es personal eventual, nombrado, no contratado.",
+   "No. Zenaida no tiene contrato de trabajo."
+  ]
+ },
+ "su-03-003": {
+  "bloque": "clases",
+  "precepto": "Art. 12.3 del TREBEP",
+  "correcta": 0,
+  "justificaciones": [
+   "Es esta. El nombramiento y cese del personal eventual son libres (**art. 12.3**).",
+   "No. La interina cesa por las causas del **art. 10.3**, no libremente.",
+   "No. Bernarda no puede ser cesada libremente.",
+   "No. El personal eventual sí es de libre cese."
+  ]
+ },
+ "su-03-004": {
+  "bloque": "clases",
+  "precepto": "Art. 12.5 del TREBEP",
+  "correcta": 3,
+  "justificaciones": [
+   "No. El personal eventual no es funcionario de carrera.",
+   "No. Solo realiza funciones expresamente calificadas como de confianza o asesoramiento especial (**art. 12.1**).",
+   "No. Su nombramiento es libre (**art. 12.3**), sin selección por mérito y capacidad.",
+   "Es esta. Al personal eventual se le aplica, en lo adecuado a su naturaleza, el régimen general de los funcionarios de carrera (**art. 12.5**)."
+  ]
+ },
+ "su-03-005": {
+  "bloque": "derechos",
+  "precepto": "Art. 14.a del TREBEP",
+  "correcta": 3,
+  "justificaciones": [
+   "No. La inamovilidad es solo de los funcionarios de carrera, no de los interinos.",
+   "No. El personal laboral no tiene inamovilidad en la condición de funcionario de carrera.",
+   "No. El personal eventual es de libre cese.",
+   "Es esta. Solo los funcionarios de carrera tienen derecho a la inamovilidad (**art. 14.a**)."
+  ]
+ },
+ "su-03-006": {
+  "bloque": "clases",
+  "precepto": "Art. 10.2 del TREBEP",
+  "correcta": 2,
+  "justificaciones": [
+   "No. La celeridad sí rige, pues la finalidad es la cobertura inmediata del puesto (**art. 10.2**).",
+   "No. La capacidad sí rige (**art. 10.2**).",
+   "Es esta. Los principios son igualdad, mérito, capacidad, publicidad y celeridad, y la discrecionalidad no figura entre ellos (**art. 10.2**).",
+   "No. La publicidad sí rige: los procedimientos son públicos (**art. 10.2**)."
+  ]
+ },
+ "su-03-007": {
+  "bloque": "clases",
+  "precepto": "Art. 10.4 del TREBEP",
+  "correcta": 0,
+  "justificaciones": [
+   "Es esta. Las plazas vacantes ocupadas por interinos se cubren mediante cualquiera de los mecanismos de provisión o movilidad de cada Administración (**art. 10.4, párrafo primero**).",
+   "No. El TREBEP no exige incluirla en la oferta del año del nombramiento.",
+   "No. Tampoco se exige incluirla en la oferta del ejercicio siguiente.",
+   "No. El texto no habla de libre designación sin convocatoria pública."
+  ]
+ },
+ "su-03-008": {
+  "bloque": "clases",
+  "precepto": "Art. 10.4 del TREBEP",
+  "correcta": 1,
+  "justificaciones": [
+   "No. El plazo es de tres años, no de uno.",
+   "Es esta. Transcurridos tres años desde el nombramiento se produce el fin de la interinidad (**art. 10.4, párrafo segundo**).",
+   "No. La ampliación hasta doce meses más es para los programas temporales (**art. 10.1.c**), no para vacantes.",
+   "No. El plazo es de tres años, no de cinco."
+  ]
+ },
+ "su-03-009": {
+  "bloque": "clases",
+  "precepto": "Art. 10.4 del TREBEP",
+  "correcta": 1,
+  "justificaciones": [
+   "No. Hay una excepción: que el proceso selectivo quede desierto.",
+   "Es esta. Tras el cese la vacante solo la ocupa un funcionario de carrera, salvo que el proceso selectivo quede desierto y entonces se puede nombrar otro interino (**art. 10.4, párrafo segundo**).",
+   "No. El texto no lo permite por el mero hecho de haberse convocado el proceso.",
+   "No. No basta, porque exige que el proceso haya quedado desierto."
+  ]
+ },
+ "su-03-010": {
+  "bloque": "clases",
+  "precepto": "Art. 10.4 del TREBEP",
+  "correcta": 2,
+  "justificaciones": [
+   "No. No son doce meses más, sino hasta la resolución de la convocatoria.",
+   "No. Tampoco son doce meses más, y su cese no da lugar a compensación.",
+   "Es esta. Si la convocatoria se publicó dentro de los tres años, puede permanecer hasta su resolución, sin compensación económica por el cese (**art. 10.4, párrafo tercero**).",
+   "No. Es hasta la resolución, pero sin compensación económica."
+  ]
+ },
+ "su-04-001": {
+  "bloque": "clases",
+  "precepto": "Art. 16.3.b del TREBEP",
+  "correcta": 1,
+  "justificaciones": [
+   "No. Paco progresa sin cambiar de puesto (carrera horizontal).",
+   "Es esta. Kiko asciende en la estructura de puestos por un procedimiento de provisión, el concurso: carrera vertical (**art. 16.3.b**).",
+   "No. Curro cambia de cuerpo dentro del mismo Subgrupo.",
+   "No. Francisco sube a un Subgrupo superior mediante promoción interna."
+  ]
+ },
+ "su-04-002": {
+  "bloque": "clases",
+  "precepto": "Arts. 16.3.d y 18 del TREBEP",
+  "correcta": 2,
+  "justificaciones": [
+   "No. Paco no cambia de cuerpo.",
+   "No. Kiko cambia de puesto, no de cuerpo.",
+   "Es esta. Pasar de un cuerpo a otro del mismo Subgrupo (C1) es promoción interna horizontal (**art. 16.3.d**).",
+   "No. Francisco cambiaría a un Subgrupo superior."
+  ]
+ },
+ "su-04-003": {
+  "bloque": "clases",
+  "precepto": "Arts. 16.3.a y 17 del TREBEP",
+  "correcta": 0,
+  "justificaciones": [
+   "Es esta. Progresar de grado, categoría o escalón sin cambiar de puesto es carrera horizontal, con evaluación del desempeño (**arts. 16.3.a y 17**).",
+   "No. Kiko cambia de puesto.",
+   "No. Curro cambia de cuerpo.",
+   "No. Francisco cambia de cuerpo y de Subgrupo."
+  ]
+ },
+ "su-04-004": {
+  "bloque": "clases",
+  "precepto": "Art. 16.3.c del TREBEP",
+  "correcta": 3,
+  "justificaciones": [
+   "No. Paco no cambia de cuerpo.",
+   "No. Kiko no cambia de cuerpo.",
+   "No. Es promoción horizontal si el Subgrupo es el mismo, y aquí se sube.",
+   "Es esta. Del Cuerpo General Administrativo (C1) al de Gestión (A2) se asciende a un Subgrupo superior: promoción interna vertical (**art. 16.3.c**)."
+  ]
+ },
+ "su-04-005": {
+  "bloque": "retribuciones",
+  "precepto": "Arts. 22.2 y 23 del TREBEP",
+  "correcta": 3,
+  "justificaciones": [
+   "No. Las retribuciones básicas dependen del Subgrupo y la antigüedad, que no cambian en todos los casos.",
+   "No. Kiko y Curro siguen en su mismo Subgrupo.",
+   "No. Curro cambia de cuerpo, pero no de Subgrupo, y el sueldo es el mismo (**art. 23.a**).",
+   "Es esta. El sueldo depende del Subgrupo, y solo Francisco cambia a otro superior (**arts. 22.2 y 23.a**)."
+  ]
+ },
+ "su-04-006": {
+  "bloque": "retribuciones",
+  "precepto": "Art. 24.b del TREBEP",
+  "correcta": 0,
+  "justificaciones": [
+   "Es esta. El específico retribuye las características del puesto, y solo Paco sigue en el mismo puesto (**art. 24.b**).",
+   "No. Kiko cambia a un puesto de nivel superior y su específico puede cambiar.",
+   "No. Los demás cambian de puesto, así que no es seguro que lo mantengan.",
+   "No. Solo Paco mantiene seguro el puesto."
+  ]
+ },
+ "su-04-007": {
+  "bloque": "retribuciones",
+  "precepto": "Art. 24.c del TREBEP",
+  "correcta": 1,
+  "justificaciones": [
+   "No. El de productividad depende del rendimiento, no de la progresión.",
+   "Es esta. El complemento de productividad retribuye el rendimiento o resultados obtenidos (**art. 24.c**), por lo que ninguna progresión garantiza que suba.",
+   "No. Ni Curro ni Francisco lo ven subir necesariamente.",
+   "No. Ni Paco ni Kiko lo ven subir necesariamente."
+  ]
+ },
+ "su-04-008": {
+  "bloque": "retribuciones",
+  "precepto": "Art. 22.4 del TREBEP",
+  "correcta": 1,
+  "justificaciones": [
+   "No. Los servicios extraordinarios de Curro quedan fuera de las pagas extra.",
+   "Es esta. Las pagas extraordinarias incluyen la totalidad de las retribuciones complementarias, salvo productividad y servicios extraordinarios (**arts. 22.4 y 24.c y d**): entra el de Kiko.",
+   "No. Es justo el que queda excluido.",
+   "No. Entra el complemento de Kiko."
+  ]
+ },
+ "su-04-009": {
+  "bloque": "retribuciones",
+  "precepto": "Art. 23.a del TREBEP",
+  "correcta": 2,
+  "justificaciones": [
+   "No. El específico depende del puesto, y los puestos son distintos.",
+   "No. La productividad depende del rendimiento de cada uno.",
+   "Es esta. El sueldo es el mismo para todo el Subgrupo (**art. 23.a**).",
+   "No. Los servicios extraordinarios dependen de las horas realizadas."
+  ]
+ },
+ "su-04-010": {
+  "bloque": "retribuciones",
+  "precepto": "Art. 23.b del TREBEP",
+  "correcta": 0,
+  "justificaciones": [
+   "Es esta. Los trienios son iguales para el Subgrupo y se cobran uno por cada tres años: Paco tiene 3 y Curro 2 (**art. 23.b**).",
+   "No. El sueldo es igual para el mismo Subgrupo.",
+   "No. El sueldo no es mayor, solo los trienios.",
+   "No. Ni el sueldo ni el específico serían necesariamente mayores."
+  ]
+ }
+}

@@ -1,0 +1,366 @@
+{
+ "ex-09-001": {
+  "bloque": "negociacion",
+  "precepto": "Art. 38.1 del TREBEP",
+  "correcta": 1,
+  "justificaciones": [
+   "No. Los convenios colectivos son del personal laboral (ET), no de los funcionarios.",
+   "Es esta. En las Mesas de Negociación se conciertan Pactos y Acuerdos (**art. 38.1**).",
+   "No. Los convenios colectivos no son instrumento de los funcionarios.",
+   "No. Falta el Pacto y sobran los convenios colectivos."
+  ]
+ },
+ "ex-09-002": {
+  "bloque": "negociacion",
+  "precepto": "Art. 38.2 del TREBEP",
+  "correcta": 0,
+  "justificaciones": [
+   "Es esta. Si la materia corresponde estrictamente al ámbito competencial del órgano que lo suscribe, es un Pacto y se aplica directamente (**art. 38.2**).",
+   "No. El Pacto sí tiene eficacia directa.",
+   "No. Se llama Acuerdo cuando versa sobre materias de los órganos de gobierno (**art. 38.3**).",
+   "No. Es Pacto, y además con eficacia directa."
+  ]
+ },
+ "ex-09-003": {
+  "bloque": "negociacion",
+  "precepto": "Art. 38.3 del TREBEP",
+  "correcta": 3,
+  "justificaciones": [
+   "No. Si la materia es de los órganos de gobierno es un Acuerdo, no un Pacto.",
+   "No. Es Acuerdo, pero lo aprueba el órgano de gobierno (en la AGE, el Gobierno), no las Cortes Generales.",
+   "No. Ni es Pacto ni lo aprueban las Cortes.",
+   "Es esta. Es un Acuerdo y para su validez y eficacia necesita la aprobación expresa y formal del órgano de gobierno, en la AGE el Gobierno (**art. 38.3**)."
+  ]
+ },
+ "ex-09-004": {
+  "bloque": "negociacion",
+  "precepto": "Art. 38.3 del TREBEP",
+  "correcta": 0,
+  "justificaciones": [
+   "Es esta. Ratificado el Acuerdo y siendo materia que el órgano de gobierno decide de forma definitiva, es directamente aplicable, sin perjuicio de modificar la normativa reglamentaria (**art. 38.3, párrafo primero**).",
+   "No. Carecer de eficacia directa es lo propio de las materias con reserva de ley, y las dietas no lo son en este caso.",
+   "No. La remisión a las Cortes solo se da con reserva de ley.",
+   "No. Exigir una ley de las Cortes solo vale para materias con reserva de ley."
+  ]
+ },
+ "ex-09-005": {
+  "bloque": "negociacion",
+  "precepto": "Art. 38.3 del TREBEP",
+  "correcta": 3,
+  "justificaciones": [
+   "No. Con reserva de ley el contenido carece de eficacia directa.",
+   "No. La adaptación reglamentaria no basta: la materia solo la decide la ley.",
+   "No. Es incompleta: omite que carece de eficacia directa y que el Consejo de Ministros debe elaborar y remitir el proyecto de ley a las Cortes.",
+   "Es esta. Carece de eficacia directa y el órgano de gobierno con iniciativa legislativa debe elaborar, aprobar y remitir a las Cortes el proyecto de ley conforme al Acuerdo (**art. 38.3, párrafo segundo**)."
+  ]
+ },
+ "ex-09-006": {
+  "bloque": "negociacion",
+  "precepto": "Art. 38.3 del TREBEP",
+  "correcta": 2,
+  "justificaciones": [
+   "No. Si lo pide la mayoría de una de las partes, sí hay que renegociar.",
+   "No. El plazo no es de quince días.",
+   "Es esta. Ante la falta de ratificación, se inicia la renegociación en el plazo de un mes si lo solicita al menos la mayoría de una de las partes (**art. 38.3, último párrafo**).",
+   "No. No hay que esperar tres meses: el plazo es de un mes."
+  ]
+ },
+ "ex-09-007": {
+  "bloque": "negociacion",
+  "precepto": "Art. 38.11 del TREBEP",
+  "correcta": 2,
+  "justificaciones": [
+   "No. Sin denuncia expresa no se extingue.",
+   "No. La prórroga no es por el mismo periodo de duración.",
+   "Es esta. Salvo acuerdo en contrario, los Pactos y Acuerdos se prorrogan de año en año si no hay denuncia expresa de una de las partes (**art. 38.11**).",
+   "No. No queda en suspenso: se prorroga de año en año."
+  ]
+ },
+ "ex-09-008": {
+  "bloque": "negociacion",
+  "precepto": "Art. 38.13 del TREBEP",
+  "correcta": 0,
+  "justificaciones": [
+   "Es esta. Los Pactos y Acuerdos que suceden a otros los derogan en su integridad, salvo los aspectos que expresamente se acuerde mantener (**art. 38.13**).",
+   "No. Es al revés: se deroga el anterior, salvo lo que se mantenga expresamente.",
+   "No. La derogación es íntegra, no solo de lo incompatible.",
+   "No. No conviven ambos hasta una denuncia: el nuevo deroga al anterior."
+  ]
+ },
+ "ex-10-001": {
+  "bloque": "representacion",
+  "precepto": "Arts. 31.1 y 39 del TREBEP",
+  "correcta": 2,
+  "justificaciones": [
+   "No. La negociación colectiva es determinar condiciones de trabajo en las Mesas.",
+   "No. La participación institucional es participar en entes y organismos, no elegir representantes.",
+   "Es esta. Elegir representantes y constituir órganos unitarios para la interlocución con la Administración es el derecho de representación (**art. 31.1**, órganos del **art. 39**).",
+   "No. La sindicación es afiliarse a un sindicato."
+  ]
+ },
+ "ex-10-002": {
+  "bloque": "representacion",
+  "precepto": "Art. 39.1 del TREBEP",
+  "correcta": 3,
+  "justificaciones": [
+   "No. Los Comités de Empresa son del personal laboral.",
+   "No. Los Delegados Sindicales no son órgano unitario de representación de los funcionarios.",
+   "No. Las Secciones Sindicales son estructura del sindicato, no órgano de representación unitaria.",
+   "Es esta. Los órganos específicos son los Delegados de Personal y las Juntas de Personal (**art. 39.1**)."
+  ]
+ },
+ "ex-10-003": {
+  "bloque": "representacion",
+  "precepto": "Art. 39.2 del TREBEP",
+  "correcta": 1,
+  "justificaciones": [
+   "No. Con 31 a 49 funcionarios se eligen tres Delegados, no uno.",
+   "Es esta. Con 42 funcionarios se eligen tres Delegados de Personal, que ejercen su representación conjunta y mancomunadamente (**art. 39.2**).",
+   "No. Son tres, sí, pero actúan de forma conjunta y mancomunada, no independiente.",
+   "No. La Junta de Personal exige un censo mínimo de 50 funcionarios (**art. 39.3**)."
+  ]
+ },
+ "ex-10-004": {
+  "bloque": "representacion",
+  "precepto": "Art. 39.5 del TREBEP",
+  "correcta": 2,
+  "justificaciones": [
+   "No. Trece miembros corresponden a 251 a 500 funcionarios.",
+   "No. Diecisiete corresponden a 501 a 750 funcionarios.",
+   "Es esta. De 751 a 1.000 funcionarios la Junta tiene 21 miembros (**art. 39.5**).",
+   "No. Veinticinco no es ningún escalón de la escala."
+  ]
+ },
+ "ex-10-005": {
+  "bloque": "representacion",
+  "precepto": "Art. 39.5 del TREBEP",
+  "correcta": 0,
+  "justificaciones": [
+   "Es esta. Hasta 1.000 funcionarios son 21 miembros, y de 1.001 en adelante se suman dos por cada 1.000 o fracción: con 1.500 son 23. El máximo es 75 (**art. 39.5**).",
+   "No. El máximo legal es 75, no 100.",
+   "No. Con 1.500 funcionarios son 23, no 25, y el máximo es 75.",
+   "No. Ni 25 miembros ni un máximo de 100."
+  ],
+  "ojo": "El texto del art. 39.5 dice solo «de 1.001 en adelante, dos por cada 1.000 o fracción». La lectura habitual, igual que en el art. 66 del Estatuto de los Trabajadores, es sumar esos dos a los 21 del escalón anterior."
+ },
+ "ex-10-006": {
+  "bloque": "representacion",
+  "precepto": "Art. 39.6 del TREBEP",
+  "correcta": 3,
+  "justificaciones": [
+   "No. Ocho es menos de la mitad de los 21 miembros.",
+   "No. Diez no alcanza los dos tercios.",
+   "No. Once es la mayoría simple de 21, no los dos tercios.",
+   "Es esta. El reglamento exige los votos favorables de al menos dos tercios de sus miembros, no de los asistentes: dos tercios de 21 son 14 (**art. 39.6**)."
+  ]
+ },
+ "ex-10-007": {
+  "bloque": "representacion",
+  "precepto": "Art. 40.1 del TREBEP",
+  "correcta": 2,
+  "justificaciones": [
+   "No. Sí les corresponde: recibir información sobre política de personal y evolución de retribuciones (**art. 40.1.a**).",
+   "No. Sí les corresponde: emitir informe, a solicitud de la Administración, sobre organización y métodos de trabajo (**art. 40.1.b**).",
+   "Es esta. No les corresponde: la negociación en las Mesas la hacen las organizaciones sindicales (**art. 33**), no los órganos de representación unitaria.",
+   "No. Sí les corresponde: conocer y ser oídos sobre jornada y horario (**art. 40.1.d**)."
+  ]
+ },
+ "ex-10-008": {
+  "bloque": "representacion",
+  "precepto": "Art. 40.1.c del TREBEP",
+  "correcta": 1,
+  "justificaciones": [
+   "No. La sanción por falta grave no hay que comunicarla.",
+   "Es esta. Solo se informa de las sanciones por faltas muy graves, la de Miguel (**art. 40.1.c**).",
+   "No. Es al revés: la falta grave de Laura no entra.",
+   "No. La sanción muy grave sí debe comunicarse."
+  ]
+ },
+ "ex-10-009": {
+  "bloque": "representacion",
+  "precepto": "Arts. 39.3 y 40.2 del TREBEP",
+  "correcta": 0,
+  "justificaciones": [
+   "Es esta. Con 75 funcionarios hay Junta de Personal (censo mínimo de 50), y está legitimada colegiadamente, por decisión mayoritaria de sus miembros (**art. 40.2**).",
+   "No. No hace falta unanimidad, basta la mayoría.",
+   "No. Con 75 funcionarios no hay Delegados sino Junta de Personal.",
+   "No. No son Delegados, y en su caso actuarían mancomunadamente, no por separado."
+  ]
+ },
+ "ex-10-010": {
+  "bloque": "representacion",
+  "precepto": "Art. 41.1.c del TREBEP",
+  "correcta": 1,
+  "justificaciones": [
+   "No. La audiencia se mantiene también el año siguiente al mandato.",
+   "Es esta. La audiencia a la Junta en los expedientes disciplinarios de sus miembros dura el mandato y el año inmediatamente posterior; seis meses después aún corre (**art. 41.1.c**).",
+   "No. No se limita a las faltas muy graves.",
+   "No. El texto no exige relación con la actividad representativa."
+  ]
+ },
+ "ex-10-011": {
+  "bloque": "representacion",
+  "precepto": "Art. 41.1.e del TREBEP",
+  "correcta": 3,
+  "justificaciones": [
+   "No. La protección no acaba con el mandato: sigue un año más.",
+   "No. El plazo posterior es de un año, no de seis meses.",
+   "No. Si el mandato acaba por revocación o dimisión no hay protección posterior.",
+   "Es esta. La protección dura durante el mandato y el año siguiente a su extinción, salvo que esta sea por revocación o dimisión (**art. 41.1.e**)."
+  ]
+ },
+ "ex-10-012": {
+  "bloque": "representacion",
+  "precepto": "Art. 41.1.d del TREBEP",
+  "correcta": 2,
+  "justificaciones": [
+   "No. Veinte horas son de 101 a 250 funcionarios.",
+   "No. Veinticinco no es ningún escalón de la escala.",
+   "Es esta. De 251 a 500 funcionarios corresponden 30 horas mensuales (**art. 41.1.d**).",
+   "No. Treinta y cinco son de 501 a 750 funcionarios."
+  ]
+ },
+ "ex-10-013": {
+  "bloque": "representacion",
+  "precepto": "Art. 41.1.d del TREBEP",
+  "correcta": 0,
+  "justificaciones": [
+   "Es esta. Deben ser de la misma candidatura, manifestarlo y comunicarlo previamente a la Jefatura de Personal (**art. 41.1.d**).",
+   "No. No hace falta autorización, basta la comunicación previa.",
+   "No. Han de ser de la misma candidatura, no de distintas.",
+   "No. Ni vale cualquier candidatura ni se exige autorización."
+  ]
+ },
+ "ex-10-014": {
+  "bloque": "representacion",
+  "precepto": "Art. 41.3 del TREBEP",
+  "correcta": 3,
+  "justificaciones": [
+   "No. El sigilo se mantiene aún después de expirar el mandato.",
+   "No. El plazo de un año es el de otras garantías, no el del sigilo.",
+   "No. No hay un límite de dos años: el sigilo subsiste.",
+   "Es esta. El sigilo profesional sobre lo que la Administración señale como reservado subsiste aún después de expirar el mandato (**art. 41.3**)."
+  ]
+ },
+ "ex-10-015": {
+  "bloque": "representacion",
+  "precepto": "Art. 42 del TREBEP",
+  "correcta": 2,
+  "justificaciones": [
+   "No. Pueden ser reelegidos.",
+   "No. El mandato es de cuatro años, no de cinco.",
+   "Es esta. El mandato es de cuatro años, pudiendo ser reelegidos (**art. 42**).",
+   "No. Ni cinco años ni sin reelección."
+  ]
+ },
+ "ex-10-016": {
+  "bloque": "representacion",
+  "precepto": "Art. 42 del TREBEP",
+  "correcta": 1,
+  "justificaciones": [
+   "No. Si no se han promovido nuevas elecciones, el mandato se entiende prorrogado.",
+   "Es esta. Se entiende prorrogado, sin que haga falta ninguna autorización ni votación (**art. 42**).",
+   "No. No depende de lo que acuerde la mayoría de los funcionarios.",
+   "No. La prórroga no tiene un límite de un año: dura hasta que haya nuevas elecciones."
+  ]
+ },
+ "ex-10-017": {
+  "bloque": "representacion",
+  "precepto": "Art. 43.1 del TREBEP",
+  "correcta": 1,
+  "justificaciones": [
+   "No. Sí está legitimado: los sindicatos más representativos a nivel estatal (**art. 43.1.a**).",
+   "Es esta. Un sindicato que no sea más representativo necesita al menos el 10 % de los representantes del conjunto de las Administraciones, no el 5 % (**art. 43.1.c**).",
+   "No. Sí está legitimado: el 10 % en la unidad electoral afectada (**art. 43.1.d**).",
+   "No. Sí están legitimados: los funcionarios de la unidad, por acuerdo mayoritario (**art. 43.1.e**)."
+  ]
+ },
+ "ex-10-018": {
+  "bloque": "representacion",
+  "precepto": "Art. 44.b del TREBEP",
+  "correcta": 1,
+  "justificaciones": [
+   "No. Hay que estar en servicio activo, y la excedencia voluntaria por interés particular no lo es.",
+   "Es esta. Es elector y elegible quien está en servicio activo, y no se exige afiliación sindical. La jefatura de sección no está excluida (**art. 44.b**).",
+   "No. Los puestos con nombramiento por real decreto no son electores ni elegibles.",
+   "No. La excedencia voluntaria por agrupación familiar tampoco es servicio activo."
+  ]
+ },
+ "ex-10-019": {
+  "bloque": "representacion",
+  "precepto": "Arts. 39.5 y 44.c del TREBEP",
+  "correcta": 3,
+  "justificaciones": [
+   "No. Nueve son los miembros de la Junta, no el triple.",
+   "No. Quince no corresponde a ningún cálculo.",
+   "No. Dieciocho es el doble de los miembros a elegir, y se exige el triple.",
+   "Es esta. Con 240 funcionarios la Junta tiene 9 miembros (de 101 a 250), y el grupo de electores debe ser al menos el triple: 27 (**art. 44.c**)."
+  ]
+ },
+ "ex-10-020": {
+  "bloque": "representacion",
+  "precepto": "Art. 44.d del TREBEP",
+  "correcta": 0,
+  "justificaciones": [
+   "Es esta. Las Juntas de Personal se eligen mediante listas cerradas y sistema proporcional corregido, así que no se pueden mezclar candidatos de distintas listas (**art. 44.d**).",
+   "No. Son listas cerradas, sí, pero el sistema es proporcional corregido, no mayoritario.",
+   "No. No hay listas abiertas en las Juntas.",
+   "No. Ni listas abiertas ni sistema mayoritario: eso es de los Delegados."
+  ]
+ },
+ "ex-10-021": {
+  "bloque": "representacion",
+  "precepto": "Arts. 39.2 y 44.d del TREBEP",
+  "correcta": 3,
+  "justificaciones": [
+   "No. Los Delegados de Personal se eligen con listas abiertas.",
+   "No. Ni listas cerradas ni sistema proporcional corregido: eso es de las Juntas.",
+   "No. Son listas abiertas, pero el sistema es mayoritario, no proporcional corregido.",
+   "Es esta. Con 38 funcionarios se eligen tres Delegados de Personal, mediante listas abiertas y sistema mayoritario, y puede votar candidatos de distintos sindicatos (**art. 44.d**)."
+  ]
+ },
+ "ex-10-022": {
+  "bloque": "representacion",
+  "precepto": "Art. 45.3 del TREBEP",
+  "correcta": 2,
+  "justificaciones": [
+   "No. La conciliación no se menciona en el art. 45.",
+   "No. Falta el arbitraje y la conciliación no figura.",
+   "Es esta. Los sistemas podrán estar integrados por procedimientos de mediación y arbitraje (**art. 45.3**).",
+   "No. Ni negociación ni conciliación son los procedimientos que cita."
+  ]
+ },
+ "ex-10-023": {
+  "bloque": "representacion",
+  "precepto": "Art. 45.3 del TREBEP",
+  "correcta": 1,
+  "justificaciones": [
+   "No. La mediación es obligatoria, pero las propuestas no hay que aceptarlas.",
+   "Es esta. La mediación es obligatoria cuando la solicita una de las partes, y las propuestas del mediador pueden aceptarse o rechazarse libremente (**art. 45.3**).",
+   "No. No es voluntaria si la pide una parte, y las propuestas no obligan.",
+   "No. Las propuestas son libres, pero la mediación es obligatoria cuando la solicita una de las partes."
+  ]
+ },
+ "ex-10-024": {
+  "bloque": "representacion",
+  "precepto": "Art. 45.3 del TREBEP",
+  "correcta": 3,
+  "justificaciones": [
+   "No. El arbitraje no se impone por solicitud de una sola parte.",
+   "No. Exige acuerdo de ambas, y además hay compromiso de aceptar.",
+   "No. Deben acordarlo ambas, pero el compromiso es de aceptar de antemano, no de poder rechazar.",
+   "Es esta. Las partes acuerdan voluntariamente encomendar la resolución a un tercero, comprometiéndose de antemano a aceptar su contenido (**art. 45.3, párrafo segundo**)."
+  ]
+ },
+ "ex-10-025": {
+  "bloque": "representacion",
+  "precepto": "Art. 46.1 del TREBEP",
+  "correcta": 2,
+  "justificaciones": [
+   "No. Sí está legitimada: las organizaciones sindicales, directamente o por Delegados Sindicales (**art. 46.1**).",
+   "No. Sí están legitimados los Delegados de Personal y las Juntas de Personal (**art. 46.1.a y b**).",
+   "Es esta. Los empleados públicos deben ser al menos el 40 % del colectivo convocado, no el 30 % (**art. 46.1.d**).",
+   "No. Sí está legitimado el Comité de Empresa (**art. 46.1.c**)."
+  ]
+ }
+}

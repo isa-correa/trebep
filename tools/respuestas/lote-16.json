@@ -1,0 +1,270 @@
+{
+ "ej-01-001": {
+  "bloque": "negociacion",
+  "precepto": "Art. 37 del TREBEP",
+  "correcta": 0,
+  "justificaciones": [
+   "Es esta. Los criterios generales de acción social son materia negociable (**art. 37.1.i**).",
+   "No. No es una materia excluida: figura entre las negociables del **art. 37.1**."
+  ]
+ },
+ "ej-01-002": {
+  "bloque": "negociacion",
+  "precepto": "Art. 37 del TREBEP",
+  "correcta": 0,
+  "justificaciones": [
+   "Es esta. Las condiciones de trabajo y retribuciones cuya regulación exija norma con rango de ley son materia negociable (**art. 37.1.k**).",
+   "No. No es una materia excluida: figura entre las negociables del **art. 37.1**."
+  ]
+ },
+ "ej-01-003": {
+  "bloque": "negociacion",
+  "precepto": "Art. 37 del TREBEP",
+  "correcta": 1,
+  "justificaciones": [
+   "No. No figura entre las materias del **art. 37.1**.",
+   "Es esta. Las potestades de organización quedan excluidas de la obligatoriedad de negociar, aunque si afectan a condiciones de trabajo del apartado 1 sí se negocian estas (**art. 37.2.a**)."
+  ]
+ },
+ "ej-01-004": {
+  "bloque": "negociacion",
+  "precepto": "Art. 37 del TREBEP",
+  "correcta": 1,
+  "justificaciones": [
+   "No. No figura entre las materias del **art. 37.1**.",
+   "Es esta. La regulación del ejercicio de los derechos de ciudadanos y usuarios queda excluida (**art. 37.2.b**)."
+  ]
+ },
+ "ej-01-005": {
+  "bloque": "negociacion",
+  "precepto": "Art. 37 del TREBEP",
+  "correcta": 0,
+  "justificaciones": [
+   "Es esta. Las propuestas sobre derechos sindicales y de participación son materia negociable (**art. 37.1.h**).",
+   "No. No es una materia excluida: figura entre las negociables del **art. 37.1**."
+  ]
+ },
+ "ej-01-006": {
+  "bloque": "negociacion",
+  "precepto": "Art. 37 del TREBEP",
+  "correcta": 0,
+  "justificaciones": [
+   "Es esta. Los planes de Previsión Social Complementaria son materia negociable (**art. 37.1.e**).",
+   "No. No es una materia excluida: figura entre las negociables del **art. 37.1**."
+  ]
+ },
+ "ej-01-007": {
+  "bloque": "negociacion",
+  "precepto": "Art. 37 del TREBEP",
+  "correcta": 0,
+  "justificaciones": [
+   "Es esta. Las normas con los criterios generales de acceso, carrera y provisión son materia negociable (**art. 37.1.c**).",
+   "No. No es una materia excluida: figura entre las negociables del **art. 37.1**."
+  ]
+ },
+ "ej-01-008": {
+  "bloque": "negociacion",
+  "precepto": "Art. 37 del TREBEP",
+  "correcta": 1,
+  "justificaciones": [
+   "No. No figura entre las materias del **art. 37.1**.",
+   "Es esta. Los poderes de dirección y control propios de la relación jerárquica quedan excluidos (**art. 37.2.d**)."
+  ]
+ },
+ "ej-01-009": {
+  "bloque": "negociacion",
+  "precepto": "Art. 37 del TREBEP",
+  "correcta": 1,
+  "justificaciones": [
+   "No. No figura entre las materias del **art. 37.1**.",
+   "Es esta. El procedimiento de formación de los actos y disposiciones administrativas queda excluido (**art. 37.2.b**)."
+  ]
+ },
+ "ej-01-010": {
+  "bloque": "negociacion",
+  "precepto": "Art. 37 del TREBEP",
+  "correcta": 0,
+  "justificaciones": [
+   "Es esta. Calendario laboral, horarios, jornadas, vacaciones, permisos y movilidad son materia negociable (**art. 37.1.m**).",
+   "No. No es una materia excluida: figura entre las negociables del **art. 37.1**."
+  ]
+ },
+ "ej-01-011": {
+  "bloque": "negociacion",
+  "precepto": "Art. 37 del TREBEP",
+  "correcta": 0,
+  "justificaciones": [
+   "Es esta. La determinación y aplicación de las retribuciones complementarias es materia negociable (**art. 37.1.b**).",
+   "No. No es una materia excluida: figura entre las negociables del **art. 37.1**."
+  ]
+ },
+ "ej-01-012": {
+  "bloque": "negociacion",
+  "precepto": "Art. 37 del TREBEP",
+  "correcta": 1,
+  "justificaciones": [
+   "No. No figura entre las materias del **art. 37.1**.",
+   "Es esta. La determinación de condiciones de trabajo del personal directivo queda excluida (**art. 37.2.c**)."
+  ]
+ },
+ "ej-01-013": {
+  "bloque": "negociacion",
+  "precepto": "Art. 37 del TREBEP",
+  "correcta": 0,
+  "justificaciones": [
+   "Es esta. Los criterios y mecanismos generales de evaluación del desempeño son materia negociable (**art. 37.1.d**).",
+   "No. No es una materia excluida: figura entre las negociables del **art. 37.1**."
+  ]
+ },
+ "ej-01-014": {
+  "bloque": "negociacion",
+  "precepto": "Art. 37 del TREBEP",
+  "correcta": 1,
+  "justificaciones": [
+   "No. No figura entre las materias del **art. 37.1**.",
+   "Es esta. La determinación concreta, en cada caso, de los criterios y sistemas de acceso y promoción queda excluida (**art. 37.2.e**); solo son negociables los criterios generales (**art. 37.1.c**)."
+  ]
+ },
+ "ej-01-015": {
+  "bloque": "negociacion",
+  "precepto": "Art. 37 del TREBEP",
+  "correcta": 0,
+  "justificaciones": [
+   "Es esta. Los criterios generales sobre ofertas de empleo público son materia negociable (**art. 37.1.l**).",
+   "No. No es una materia excluida: figura entre las negociables del **art. 37.1**."
+  ]
+ },
+ "ej-02-001": {
+  "bloque": "representacion",
+  "precepto": "Art. 39.3 y 39.5 del TREBEP",
+  "correcta": 2,
+  "justificaciones": [
+   "No. Tres miembros no es ningún escalón de la escala.",
+   "No. Cinco miembros corresponden a 50 a 100 funcionarios.",
+   "Es esta. Con 150 funcionarios (de 101 a 250) la Junta tiene 9 miembros (**art. 39.5**).",
+   "No. Con 50 funcionarios o más hay Junta de Personal, no Delegados (**art. 39.3**)."
+  ]
+ },
+ "ej-02-002": {
+  "bloque": "representacion",
+  "precepto": "Art. 39.3 y 39.5 del TREBEP",
+  "correcta": 1,
+  "justificaciones": [
+   "No. Tres miembros no es ningún escalón de la escala.",
+   "Es esta. Con 50 funcionarios ya hay Junta de Personal (censo mínimo de 50) y, de 50 a 100, son 5 miembros (**art. 39.3 y 39.5**).",
+   "No. Nueve corresponden a 101 a 250 funcionarios.",
+   "No. Los Delegados de Personal son para menos de 50 funcionarios (**art. 39.2**)."
+  ]
+ },
+ "ej-02-003": {
+  "bloque": "representacion",
+  "precepto": "Art. 39.5 del TREBEP",
+  "correcta": 2,
+  "justificaciones": [
+   "No. Nueve miembros son de 101 a 250 funcionarios.",
+   "No. Trece son de 251 a 500 funcionarios.",
+   "Es esta. Con 750 funcionarios (de 501 a 750) son 17 miembros (**art. 39.5**).",
+   "No. Veintiuno son de 751 a 1.000 funcionarios."
+  ]
+ },
+ "ej-02-004": {
+  "bloque": "representacion",
+  "precepto": "Art. 39.2 del TREBEP",
+  "correcta": 0,
+  "justificaciones": [
+   "Es esta. Hasta 30 funcionarios se elige un Delegado de Personal (**art. 39.2**).",
+   "No. Dos Delegados no es una cifra que prevea el artículo.",
+   "No. Tres Delegados son para 31 a 49 funcionarios.",
+   "No. Cinco Delegados no es una cifra que prevea el artículo."
+  ]
+ },
+ "ej-02-005": {
+  "bloque": "representacion",
+  "precepto": "Art. 39.5 del TREBEP",
+  "correcta": 1,
+  "justificaciones": [
+   "No. Veintiuno es el tope del escalón de 751 a 1.000 funcionarios.",
+   "Es esta. Hasta 1.000 funcionarios son 21 y, de 1.001 en adelante, se suman dos por cada 1.000 o fracción: con 2.000 son 23 (**art. 39.5**).",
+   "No. Con 2.000 funcionarios son 23, no 25.",
+   "No. Con 2.000 funcionarios son 23, no 27."
+  ],
+  "ojo": "El texto del art. 39.5 dice solo «de 1.001 en adelante, dos por cada 1.000 o fracción». La lectura habitual, igual que en el art. 66 del Estatuto de los Trabajadores, es sumar esos dos a los 21 del escalón anterior."
+ },
+ "ej-02-006": {
+  "bloque": "representacion",
+  "precepto": "Art. 39.5 del TREBEP",
+  "correcta": 3,
+  "justificaciones": [
+   "No. Once no es ningún escalón de la escala.",
+   "No. Trece son de 251 a 500 funcionarios.",
+   "No. Quince no es ningún escalón de la escala.",
+   "Es esta. Con 555 funcionarios (de 501 a 750) son 17 miembros (**art. 39.5**)."
+  ]
+ },
+ "ej-02-007": {
+  "bloque": "representacion",
+  "precepto": "Art. 41.1.d del TREBEP",
+  "correcta": 1,
+  "justificaciones": [
+   "No. Quince horas son para unidades de hasta 100 funcionarios.",
+   "Es esta. De 101 a 250 funcionarios corresponden 20 horas mensuales (**art. 41.1.d**).",
+   "No. Diez horas no figuran en la escala.",
+   "No. Veinticinco horas no figuran en la escala."
+  ]
+ },
+ "ej-02-008": {
+  "bloque": "representacion",
+  "precepto": "Art. 41.1.d del TREBEP",
+  "correcta": 2,
+  "justificaciones": [
+   "No. Veinte horas son de 101 a 250 funcionarios.",
+   "No. Veinticinco horas no figuran en la escala.",
+   "Es esta. De 501 a 750 funcionarios corresponden 35 horas mensuales (**art. 41.1.d**).",
+   "No. Cuarenta horas son de 751 funcionarios en adelante."
+  ]
+ },
+ "ej-02-009": {
+  "bloque": "representacion",
+  "precepto": "Art. 41.1.d del TREBEP",
+  "correcta": 1,
+  "justificaciones": [
+   "No. Veinte horas son de 101 a 250 funcionarios.",
+   "Es esta. De 251 a 500 funcionarios, 500 incluido, corresponden 30 horas mensuales (**art. 41.1.d**).",
+   "No. Treinta y cinco horas son de 501 a 750 funcionarios.",
+   "No. Cuarenta horas son de 751 funcionarios en adelante."
+  ]
+ },
+ "ej-02-010": {
+  "bloque": "representacion",
+  "precepto": "Art. 41.1.d del TREBEP",
+  "correcta": 0,
+  "justificaciones": [
+   "Es esta. De 751 funcionarios en adelante corresponden 40 horas mensuales, sin escalón superior (**art. 41.1.d**).",
+   "No. La escala no llega a 45 horas.",
+   "No. Treinta y cinco horas son de 501 a 750 funcionarios.",
+   "No. La escala no llega a 50 horas."
+  ]
+ },
+ "ej-02-011": {
+  "bloque": "representacion",
+  "precepto": "Art. 41.1.d del TREBEP",
+  "correcta": 1,
+  "justificaciones": [
+   "No. Diez horas no figuran en la escala.",
+   "Es esta. Hasta 100 funcionarios corresponden 15 horas mensuales (**art. 41.1.d**).",
+   "No. Veinte horas son de 101 a 250 funcionarios.",
+   "No. Treinta horas son de 251 a 500 funcionarios."
+  ]
+ },
+ "ej-02-012": {
+  "bloque": "representacion",
+  "precepto": "Art. 41.1.d del TREBEP",
+  "correcta": 2,
+  "justificaciones": [
+   "No. Veinte horas son de 101 a 250 funcionarios.",
+   "No. Cinco horas no figuran en la escala.",
+   "Es esta. Con 29 funcionarios la representación es un Delegado de Personal, que tiene las mismas garantías que los miembros de la Junta: hasta 100 funcionarios, 15 horas (**art. 41.1.d**).",
+   "No. Los Delegados de Personal también tienen crédito de horas (**art. 41.1**)."
+  ]
+ }
+}
