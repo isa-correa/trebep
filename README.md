@@ -29,7 +29,7 @@ Autoevaluación, Oficiales, Votaciones, Exámenes y Ejercicios salen en Examen. 
 
 ## Apuntes (tools/volumen.py)
 
-La pestaña Apuntes lleva el volumen «TREBEP · Apuntes» (23 hojas A4 apaisadas, clase 1, arts. 1 a 30): una entrada con el método del supuesto y los señuelos, cinco bloques con su teoría y su práctica (ámbito, clases de empleados, derechos, carrera y retribuciones) y un cierre con cifras y plazos, quién decide y glosario. Se importa con:
+La pestaña Apuntes lleva el volumen «TREBEP · Apuntes» (24 hojas A4 apaisadas, clase 1, arts. 1 a 30): una entrada con el método del supuesto y los señuelos, cinco bloques con su teoría y su práctica (ámbito, clases de empleados, derechos, carrera y retribuciones) y un cierre con cifras y plazos, quién decide y glosario. Se importa con:
 
 ```bash
 python3 tools/construir.py                                  # primero, para que data/trebep.js tenga las preguntas
