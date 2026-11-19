@@ -1,0 +1,227 @@
+{
+"au-04-001": {"bloque": "retribuciones", "precepto": "Art. 23 del TREBEP", "correcta": 0, "justificaciones": [
+ "Es esta. El **art. 23** dice que las retribuciones básicas se fijan en la Ley de Presupuestos Generales del Estado.",
+ "No. Los órganos de gobierno de cada Administración no fijan las básicas. Eso es para las complementarias a través de sus leyes (**art. 24**).",
+ "No. No se fijan por Real Decreto, sino en la Ley de Presupuestos Generales del Estado.",
+ "No. Las leyes de Función Pública de cada Administración regulan las complementarias (**art. 24**), no las básicas."]},
+"au-04-002": {"bloque": "retribuciones", "precepto": "Art. 23 del TREBEP", "correcta": 2, "justificaciones": [
+ "No. El complemento de destino es una retribución complementaria, no básica.",
+ "No. Ni el complemento de destino ni el específico son básicas.",
+ "Es esta. El **art. 23** dice que las básicas están integradas única y exclusivamente por el sueldo y los trienios.",
+ "No. Los complementos de destino y específico son retribuciones complementarias."]},
+"au-04-003": {"bloque": "retribuciones", "precepto": "Art. 24 del TREBEP", "correcta": 2, "justificaciones": [
+ "Es verdadera, así que no se marca. Es el factor del **art. 24.c**.",
+ "Es verdadera, así que no se marca. Es el factor del **art. 24.a**.",
+ "Esta es la falsa, y por eso es la que hay que marcar. El **art. 24.d** habla de servicios extraordinarios prestados “fuera” de la jornada normal, no dentro.",
+ "Es verdadera, así que no se marca. Es el factor del **art. 24.b**."]},
+"au-04-004": {"bloque": "retribuciones", "precepto": "Art. 24.d del TREBEP", "correcta": 1, "justificaciones": [
+ "No. Las básicas son solo el sueldo y los trienios (**art. 23**).",
+ "Es esta. Los servicios extraordinarios fuera de la jornada son un factor de las retribuciones complementarias (**art. 24.d**).",
+ "No. Las pagas extraordinarias no se determinan por ese factor.",
+ "No. Las indemnizaciones por razón del servicio son otra cosa (**art. 28**)."]},
+"au-04-005": {"bloque": "retribuciones", "precepto": "Art. 24 del TREBEP", "correcta": 1, "justificaciones": [
+ "Es un factor del **art. 24.a**, así que no se marca.",
+ "Esta es la falsa, y por eso es la que hay que marcar. La antigüedad se retribuye con los trienios, que son retribución básica (**art. 23.b**), no complementaria.",
+ "Es un factor del **art. 24.c**, así que no se marca.",
+ "Es un factor del **art. 24.d**, así que no se marca."]},
+"au-04-006": {"bloque": "retribuciones", "precepto": "Art. 29 del TREBEP", "correcta": 2, "justificaciones": [
+ "No. No son retribuciones básicas.",
+ "No. Tampoco complementarias.",
+ "Es esta. El **art. 29** dice que tendrán a todos los efectos la consideración de retribución diferida.",
+ "No. No se llaman pagos en especie."]},
+"au-04-007": {"bloque": "retribuciones", "precepto": "Arts. 25, 28 y 30 del TREBEP", "correcta": 2, "justificaciones": [
+ "No. Sí perciben indemnizaciones por razón del servicio (**art. 28**).",
+ "No. Los interinos perciben también las pagas extraordinarias y complementarias (**art. 25**).",
+ "Es esta. Según el **art. 30.2**, quienes ejercitan la huelga no devengan ni perciben retribuciones por el tiempo en esa situación.",
+ "No. La deducción de haberes por jornada no realizada no tiene carácter sancionador (**art. 30.1**)."]},
+"au-04-008": {"bloque": "retribuciones", "precepto": "Art. 26 del TREBEP", "correcta": 1, "justificaciones": [
+ "No. Es “como mínimo”, no “como máximo”.",
+ "Es esta. El **art. 26** dice que, como mínimo, se corresponderán a las del sueldo del Subgrupo o Grupo en que aspiren a ingresar.",
+ "No. Es mínimo, y además habla del sueldo, no de las retribuciones básicas.",
+ "No. Habla del sueldo, no de las retribuciones básicas (que incluyen trienios)."]},
+"au-04-009": {"bloque": "retribuciones", "precepto": "Art. 22.1 del TREBEP", "correcta": 0, "justificaciones": [
+ "Es esta. El **art. 22.1** clasifica las retribuciones de los funcionarios de carrera en básicas y complementarias.",
+ "No. Ordinarias y extraordinarias no es la clasificación del Estatuto.",
+ "No. Las extraordinarias son las pagas, no una categoría de retribución.",
+ "No. No existen “retribuciones globales” en esa clasificación."]},
+"au-04-010": {"bloque": "retribuciones", "precepto": "Art. 23.b del TREBEP", "correcta": 1, "justificaciones": [
+ "No. Los trienios son retribuciones básicas (**art. 23.b**).",
+ "Es esta. Los trienios son una cantidad igual para cada Subgrupo o Grupo por cada tres años de servicio (**art. 23.b**).",
+ "No. La retribución diferida son las aportaciones a planes de pensiones (**art. 29**).",
+ "No. Los trienios retribuyen la antigüedad. La progresión en la carrera se retribuye con complementarias (**art. 24.a**)."]},
+"au-04-011": {"bloque": "retribuciones", "precepto": "Art. 30.2 del TREBEP", "correcta": 2, "justificaciones": [
+ "No. El **art. 30.2** dice que la deducción no tiene carácter de sanción.",
+ "No. No perciben ni básicas ni trienios por ese tiempo.",
+ "Es esta. No devengarán ni percibirán las retribuciones correspondientes al tiempo en huelga (**art. 30.2**).",
+ "No. Tampoco perciben las básicas por ese tiempo."]},
+"au-04-012": {"bloque": "retribuciones", "precepto": "Art. 23 del TREBEP", "correcta": 0, "justificaciones": [
+ "Es esta. Las básicas son única y exclusivamente el sueldo y los trienios (**art. 23**).",
+ "No. Las retribuciones específicas son complementarias.",
+ "No. El complemento específico es complementario.",
+ "No. Los componentes de las pagas extraordinarias están ya incluidos en sueldo y trienios (**art. 22.2**), no son un concepto aparte."]},
+"au-04-013": {"bloque": "retribuciones", "precepto": "Art. 30.2 del TREBEP", "correcta": 3, "justificaciones": [
+ "Es verdadera, así que no se marca. La deducción no tiene carácter sancionador (**art. 30.2**).",
+ "Es verdadera, así que no se marca. No perciben retribuciones por ese tiempo.",
+ "Es verdadera, así que no se marca. La deducción no afecta a sus prestaciones sociales (**art. 30.2**).",
+ "Esta es la falsa, y por eso es la que hay que marcar. No devengan las retribuciones del tiempo de huelga."]},
+"au-04-014": {"bloque": "retribuciones", "precepto": "Art. 22.4 del TREBEP", "correcta": 1, "justificaciones": [
+ "Es verdadera, así que no se marca. **Art. 22.1**.",
+ "Esta es la falsa, y por eso es la que hay que marcar. Las pagas extraordinarias incluyen la totalidad de las complementarias salvo las de los apartados c) y d) del art. 24 (**art. 22.4**).",
+ "Es verdadera, así que no se marca. **Art. 22.3**.",
+ "Es verdadera, así que no se marca. **Art. 22.5**."]},
+"au-04-015": {"bloque": "retribuciones", "precepto": "Art. 24 del TREBEP", "correcta": 0, "justificaciones": [
+ "Es esta. El **art. 24** dice que se establecen por las correspondientes leyes de cada Administración Pública.",
+ "No. No se fijan por convenios colectivos (que son del personal laboral).",
+ "No. No son los órganos de gobierno, sino las leyes de cada Administración.",
+ "No. La Ley de Presupuestos del Estado fija las básicas (**art. 23**)."]},
+"au-04-016": {"bloque": "retribuciones", "precepto": "Art. 22.3 del TREBEP", "correcta": 2, "justificaciones": [
+ "No. Las básicas retribuyen la adscripción al Subgrupo y la antigüedad (**art. 22.2**).",
+ "No. “Fijas” no es una categoría del Estatuto.",
+ "Es esta. El **art. 22.3** dice que las complementarias retribuyen las características de los puestos, la carrera profesional o el desempeño.",
+ "No. “Variables” no es una categoría del Estatuto."]},
+"au-04-017": {"bloque": "retribuciones", "precepto": "Arts. 22.4 y 24 del TREBEP", "correcta": 1, "justificaciones": [
+ "No. También incluyen las complementarias, salvo las de los apartados c) y d) del art. 24.",
+ "Es esta. Una mensualidad de básicas y de las complementarias, salvo c) y d) del art. 24, es decir, las de los apartados a) y b) (**art. 22.4**).",
+ "No. Son justo las que se excluyen.",
+ "No. No incluyen la totalidad: quedan fuera las de los apartados c) y d)."]},
+"au-04-018": {"bloque": "retribuciones", "precepto": "Art. 25 del TREBEP", "correcta": 1, "justificaciones": [
+ "Es verdadera, así que no se marca. **Art. 25.1**.",
+ "Esta es la falsa, y por eso es la que hay que marcar. Perciben las complementarias de los apartados b), c) y d) del art. 24 y las de la categoría de entrada (**art. 25.1**).",
+ "Es verdadera, así que no se marca. **Art. 25.1**.",
+ "Es verdadera, así que no se marca. **Art. 25.2**."]},
+"au-04-019": {"bloque": "retribuciones", "precepto": "Art. 27 del TREBEP", "correcta": 3, "justificaciones": [
+ "Es correcta, pero no es la única.",
+ "Es correcta, pero no es la única.",
+ "Es correcta, pero no es la única.",
+ "Es esta. El **art. 27** menciona las tres: legislación laboral, convenio colectivo y contrato de trabajo."]},
+"au-04-020": {"bloque": "retribuciones", "precepto": "Arts. 22.2 y 24.d del TREBEP", "correcta": 1, "justificaciones": [
+ "No. Los trienios son retribuciones básicas.",
+ "Es esta. Los trienios (incluidos los de las pagas extraordinarias) son básicos (**art. 22.2**) y los servicios extraordinarios fuera de jornada son complementarios (**art. 24.d**).",
+ "No. Los has invertido.",
+ "No. Los servicios extraordinarios son complementarios."]},
+"au-05-001": {"bloque": "negociacion", "precepto": "Art. 33.1 del TREBEP", "correcta": 2, "justificaciones": [
+ "No. La jerarquía y la eficacia no son principios del art. 33.1.",
+ "No. Eficacia, eficiencia y desconcentración no están en la lista.",
+ "Es esta. El **art. 33.1** cita legalidad, cobertura presupuestaria, obligatoriedad, buena fe negocial, publicidad y transparencia.",
+ "No. Ni jerarquía, ni desconcentración, ni coordinación son principios del art. 33.1."]},
+"au-05-002": {"bloque": "negociacion", "precepto": "Art. 37 del TREBEP", "correcta": 2, "justificaciones": [
+ "No. Está excluida (**art. 37.2.c**).",
+ "No. Está excluida (**art. 37.2.b**).",
+ "Es esta. Los criterios generales sobre ofertas de empleo público son materia de negociación obligatoria (**art. 37.1.l**).",
+ "No. Está excluida (**art. 37.2.d**)."]},
+"au-05-003": {"bloque": "negociacion", "precepto": "Art. 34.6 del TREBEP", "correcta": 2, "justificaciones": [
+ "No. No son seis meses.",
+ "No. No son veinte días.",
+ "Es esta. A falta de acuerdo, el proceso se inicia en el plazo máximo de un mes (**art. 34.6**).",
+ "No. No son tres meses."]},
+"au-05-004": {"bloque": "negociacion", "precepto": "Art. 37.2.c del TREBEP", "correcta": 0, "justificaciones": [
+ "Es esta. La determinación de condiciones de trabajo del personal directivo está excluida de la negociación obligatoria (**art. 37.2.c**).",
+ "No. Es materia de negociación (**art. 37.1.e**).",
+ "No. Es materia de negociación (**art. 37.1.h**).",
+ "No. Es materia de negociación (**art. 37.1.g**)."]},
+"au-05-005": {"bloque": "negociacion", "precepto": "Art. 36.1 del TREBEP", "correcta": 3, "justificaciones": [
+ "Es correcta, pero no es la única.",
+ "Es correcta, pero no es la única.",
+ "Es correcta, pero no es la única.",
+ "Es esta. La Mesa General cuenta con representantes de las Comunidades Autónomas, Ceuta y Melilla y la FEMP (**art. 36.1**)."]},
+"au-05-006": {"bloque": "negociacion", "precepto": "Art. 34.1 del TREBEP", "correcta": 0, "justificaciones": [
+ "Es esta. Se constituirá una Mesa General de Negociación en la Administración General del Estado (**art. 34.1**).",
+ "No. Las Mesas Sectoriales son facultativas: se constituyen por acuerdo de las Mesas Generales (**art. 34.4**).",
+ "No. Las Mesas Sectoriales no son obligatorias.",
+ "No. La Mesa General sí es obligatoria."]},
+"au-05-007": {"bloque": "negociacion", "precepto": "Art. 36.1 del TREBEP", "correcta": 0, "justificaciones": [
+ "Es esta. La Mesa General de las Administraciones Públicas está presidida por la Administración General del Estado (**art. 36.1**).",
+ "No. Las Comunidades Autónomas tienen representantes, pero no la presiden.",
+ "No. La FEMP tiene representantes, pero no la preside.",
+ "No. No hay presidencia rotativa."]},
+"au-05-008": {"bloque": "negociacion", "precepto": "Art. 38.1 del TREBEP", "correcta": 0, "justificaciones": [
+ "Es esta. Los Pactos y Acuerdos se concertan con las organizaciones sindicales legitimadas (**art. 38.1**).",
+ "No. Los delegados de personal son órganos de representación, no negocian Pactos y Acuerdos en la Mesa.",
+ "No. La Junta de Personal es un órgano de representación unitaria, no una parte del Pacto.",
+ "No. Solo vale la primera."]},
+"au-05-009": {"bloque": "negociacion", "precepto": "Art. 38.5 del TREBEP", "correcta": 2, "justificaciones": [
+ "No. Las Mesas Generales son donde se negocia.",
+ "No. Las organizaciones sindicales son una de las partes.",
+ "Es esta. El **art. 38.5** establece Comisiones Paritarias de seguimiento.",
+ "No. Las Mesas Sectoriales negocian, no hacen el seguimiento."]},
+"au-05-010": {"bloque": "negociacion", "precepto": "Art. 31.4 del TREBEP", "correcta": 2, "justificaciones": [
+ "No. La representación es la facultad de elegir representantes (**art. 31.3**).",
+ "No. Las Mesas son órganos de negociación.",
+ "Es esta. La participación institucional es el derecho a participar, a través de los sindicatos, en los órganos de control y seguimiento (**art. 31.4**).",
+ "No. La negociación colectiva es el derecho a negociar condiciones de trabajo (**art. 31.2**)."]},
+"au-05-011": {"bloque": "negociacion", "precepto": "Art. 38.11 del TREBEP", "correcta": 1, "justificaciones": [
+ "No. No hace falta aceptación expresa: se prorrogan si nadie los denuncia.",
+ "Es esta. Salvo acuerdo en contrario, se prorrogan de año en año si no media denuncia expresa de una de las partes (**art. 38.11**).",
+ "No. El plazo es de año en año, no de mes en mes.",
+ "No. El plazo es de un año."]},
+"au-05-012": {"bloque": "negociacion", "precepto": "Art. 33.1 del TREBEP", "correcta": 3, "justificaciones": [
+ "Es un principio del **art. 33.1**, pero no el único.",
+ "Es un principio del **art. 33.1**, pero no el único.",
+ "Es un principio del **art. 33.1**, pero no el único.",
+ "Es esta. Las tres son principios del **art. 33.1**."]},
+"au-05-013": {"bloque": "negociacion", "precepto": "Art. 34.7 del TREBEP", "correcta": 2, "justificaciones": [
+ "No. La cobertura presupuestaria es otro principio del art. 33.1.",
+ "No. Es otro principio del art. 33.1, no el del 34.7.",
+ "Es esta. El **art. 34.7** dice que ambas partes negociarán bajo el principio de la buena fe.",
+ "No. Es otro principio del art. 33.1."]},
+"au-05-014": {"bloque": "negociacion", "precepto": "Art. 33.1 del TREBEP", "correcta": 2, "justificaciones": [
+ "Es un principio del **art. 33.1**, así que no se marca.",
+ "Es un principio del **art. 33.1**, así que no se marca.",
+ "Esta es la que NO está, y por eso es la que hay que marcar. La jerarquía no es un principio de la negociación colectiva.",
+ "Es un principio del **art. 33.1**, así que no se marca."]},
+"au-05-015": {"bloque": "negociacion", "precepto": "Art. 37.2.b del TREBEP", "correcta": 1, "justificaciones": [
+ "No. Es materia de negociación (**art. 37.1.b**).",
+ "Es esta. El procedimiento de formación de los actos y disposiciones administrativas está excluido (**art. 37.2.b**).",
+ "No. Es materia de negociación (**art. 37.1.i**).",
+ "No. Es materia de negociación (**art. 37.1.d**)."]},
+"au-05-016": {"bloque": "negociacion", "precepto": "Art. 37.2.e del TREBEP", "correcta": 2, "justificaciones": [
+ "No. Es materia de negociación (**art. 37.1.l**).",
+ "No. Es materia de negociación (**art. 37.1.e**).",
+ "Es esta. La regulación y determinación concreta de los sistemas de acceso al empleo público está excluida (**art. 37.2.e**).",
+ "No. Es materia de negociación (**art. 37.1.b**)."]},
+"au-05-017": {"bloque": "negociacion", "precepto": "Art. 33.1 del TREBEP", "correcta": 3, "justificaciones": [
+ "No. Están legitimadas (**art. 33.1**).",
+ "No. Están legitimados.",
+ "No. Están legitimadas.",
+ "Es esta. Los sindicatos necesitan el 10 por 100 o más de los representantes, no el 5 (**art. 33.1**)."]},
+"au-05-018": {"bloque": "negociacion", "precepto": "Art. 37 del TREBEP", "correcta": 3, "justificaciones": [
+ "No. Es materia de negociación (**art. 37.1.f**).",
+ "No. Es materia de negociación (**art. 37.1.e**).",
+ "No. Es materia de negociación (**art. 37.1.d**).",
+ "Es esta. Los poderes de dirección y control propios de la relación jerárquica están excluidos (**art. 37.2.d**)."]},
+"au-05-019": {"bloque": "negociacion", "precepto": "Art. 37.2.a del TREBEP", "correcta": 0, "justificaciones": [
+ "Es esta. Las decisiones que afecten a las potestades de organización están excluidas (**art. 37.2.a**).",
+ "No. Es materia de negociación (**art. 37.1.l**).",
+ "No. Es materia de negociación (**art. 37.1.b**).",
+ "No. Es materia de negociación (**art. 37.1.d**)."]},
+"au-05-020": {"bloque": "negociacion", "precepto": "Art. 38.3 del TREBEP", "correcta": 2, "justificaciones": [
+ "No. Se prorrogan de año en año, no cada cinco años (**art. 38.11**).",
+ "No. Eso describe los Pactos (**art. 38.2**). Los Acuerdos versan sobre materias de los órganos de gobierno.",
+ "Es esta. Los Acuerdos versan sobre materias competencia de los órganos de gobierno de las Administraciones Públicas (**art. 38.3**).",
+ "No. No siempre tienen eficacia directa: si tratan materias de reserva de ley, carecen de ella (**art. 38.3**)."]},
+"au-05-021": {"bloque": "negociacion", "precepto": "Art. 31.2 del TREBEP", "correcta": 1, "justificaciones": [
+ "No. No existe como tal en el Estatuto.",
+ "Es esta. Es el derecho a negociar la determinación de condiciones de trabajo (**art. 31.2**).",
+ "No. Los Pactos son el resultado de la negociación.",
+ "No. Los Acuerdos son el resultado de la negociación."]},
+"au-05-022": {"bloque": "negociacion", "precepto": "Art. 31.6 del TREBEP", "correcta": 2, "justificaciones": [
+ "No. El Estatuto no legitima a todos los empleados públicos en este supuesto.",
+ "No. Los órganos de control no recurren.",
+ "Es esta. Las organizaciones sindicales más representativas en el ámbito de la Función Pública están legitimadas (**art. 31.6**).",
+ "No. No vale cualquier organización sindical, solo las más representativas."]},
+"au-05-023": {"bloque": "negociacion", "precepto": "Art. 35.4 del TREBEP", "correcta": 3, "justificaciones": [
+ "No. El tope es quince.",
+ "No. El tope es quince.",
+ "No. El tope es quince.",
+ "Es esta. Ninguna de las partes puede superar el número de quince miembros (**art. 35.4**)."]},
+"au-05-024": {"bloque": "negociacion", "precepto": "Art. 36.1 del TREBEP", "correcta": 2, "justificaciones": [
+ "No. Los delegados de personal son órganos de representación.",
+ "No. El Comité de Empresa es órgano de representación del personal laboral.",
+ "Es esta. La preside la Administración General del Estado (**art. 36.1**).",
+ "No. La Junta de Personal es órgano de representación."]},
+"au-05-025": {"bloque": "negociacion", "precepto": "Art. 38.3 del TREBEP", "correcta": 0, "justificaciones": [
+ "Es esta. Se renegocia en el plazo de un mes si lo solicita al menos la mayoría de una de las partes (**art. 38.3**).",
+ "No. No son los dos tercios.",
+ "No. El plazo es de un mes, no de un año.",
+ "No. Ni un año ni dos tercios."]}
+}
