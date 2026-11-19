@@ -284,11 +284,12 @@
     }
     h += '<div class="pestanas" role="tablist" aria-label="Tipo de prueba">';
     /* El fondo blanco de la pestaña activa es una pieza aparte para poder animarlo sin tocar el texto. */
-    h += '<i class="pestana-marca" aria-hidden="true" style="grid-column:' + (ajustes.modo === "supuesto" ? 2 : 1) + '"></i>';
+    h += '<i class="pestana-marca" aria-hidden="true" style="grid-column:' + (ajustes.modo === "supuesto" ? 2 : ajustes.modo === "apuntes" ? 3 : 1) + '"></i>';
     h += '<button class="pestana" role="tab" aria-selected="' + (ajustes.modo === "examen") + '" data-a="modo" data-v="examen">Examen</button>';
     h += '<button class="pestana" role="tab" aria-selected="' + (ajustes.modo === "supuesto") + '" data-a="modo" data-v="supuesto">Supuestos</button>';
+    h += '<button class="pestana" role="tab" aria-selected="' + (ajustes.modo === "apuntes") + '" data-a="modo" data-v="apuntes">Apuntes</button>';
     h += "</div>";
-    h += ajustes.modo === "examen" ? formExamen() : formSupuesto();
+    h += ajustes.modo === "examen" ? formExamen() : ajustes.modo === "apuntes" ? formApuntes() : formSupuesto();
     h += "</main>";
     raiz.innerHTML = h;
     raiz.querySelectorAll("[data-parcial]").forEach(function (c) { c.indeterminate = true; });
@@ -371,6 +372,11 @@
       var cuantas = todas.filter(function (p) { return p.origen === o[0] && (!ajustes.bloques.length || ajustes.bloques.indexOf(p.bloque) >= 0); }).length;
       h += '<label class="check' + (ajustes.origenes.indexOf(o[0]) >= 0 ? " marcado" : "") + '"><input type="checkbox" data-a="origen" value="' + o[0] + '"' + (ajustes.origenes.indexOf(o[0]) >= 0 ? " checked" : "") + "><span>" + o[1] + "</span><b>" + cuantas + "</b></label>";
     });
+    h += "</fieldset></div>";
+        var antes = ajustes.soloClave; ajustes.soloClave = true;
+    var nClave = poolExamen().length; ajustes.soloClave = antes;
+    h += '<div class="panel"><fieldset><legend>Lo que más cae</legend><p class="nota">Solo preguntas de lo que el profesor marca en los apuntes como estrella o pregunta de examen. Se combina con los temas y la procedencia que elijas. Las marcas salen de los apuntes del profesor y se irán ampliando a medida que avance el temario.</p>';
+    h += '<label class="check' + (ajustes.soloClave ? " marcado" : "") + '"><input type="checkbox" data-a="soloClave" value="1"' + (ajustes.soloClave ? " checked" : "") + "><span>Solo estrella y clave de examen</span><b>" + nClave + "</b></label>";
     h += "</fieldset></div>";
     h += '<div class="panel"><fieldset><legend>Número de preguntas</legend><div class="rejilla">';
     LONGITUDES.forEach(function (l) {
