@@ -1,0 +1,222 @@
+{
+ "su-01-001": {
+  "bloque": "jornada",
+  "precepto": "Art. 49.a del TREBEP",
+  "correcta": 3,
+  "justificaciones": [
+   "No. Dieciséis semanas era la duración anterior a la reforma.",
+   "No. Diecinueve es la duración base, sin sumar el parto múltiple.",
+   "No. Veinte sería sumar solo una semana, y son dos hijos a partir del segundo.",
+   "Es esta. Son 19 semanas más una por cada hijo a partir del segundo: con trillizos, 2 más, 21 (**art. 49.a**)."
+  ]
+ },
+ "su-01-002": {
+  "bloque": "jornada",
+  "precepto": "Art. 49.a del TREBEP",
+  "correcta": 2,
+  "justificaciones": [
+   "No. El descanso obligatorio no puede ser a tiempo parcial.",
+   "No. Son seis semanas, no ocho.",
+   "Es esta. Seis semanas ininterrumpidas inmediatamente posteriores al parto, a jornada completa (**art. 49.a, 1.º**).",
+   "No. Deben ser ininterrumpidas, no acumuladas o interrumpidas."
+  ]
+ },
+ "su-01-003": {
+  "bloque": "jornada",
+  "precepto": "Art. 49.a del TREBEP",
+  "correcta": 0,
+  "justificaciones": [
+   "Es esta. Cada período interrumpido requiere preaviso de al menos quince días y se disfruta por semanas completas (**art. 49.a**).",
+   "No. El preaviso es de quince días, no de diez.",
+   "No. No se pueden disfrutar días sueltos, sino semanas completas.",
+   "No. Ni diez días de preaviso ni días sueltos."
+  ]
+ },
+ "su-01-004": {
+  "bloque": "jornada",
+  "precepto": "Art. 49.a del TREBEP",
+  "correcta": 2,
+  "justificaciones": [
+   "No. Veintiuna semanas es el permiso sin ampliación por hospitalización.",
+   "No. Treinta y dos son las de monoparentalidad.",
+   "Es esta. Las 21 semanas se amplían tantos días como dure la hospitalización, con un máximo de trece semanas adicionales: 21 más 13, 34 (**art. 49.a**).",
+   "No. Treinta y seis supondría sumar las diecisiete semanas, y el tope es de trece."
+  ]
+ },
+ "su-01-005": {
+  "bloque": "jornada",
+  "precepto": "Art. 49.a del TREBEP",
+  "correcta": 1,
+  "justificaciones": [
+   "No. Los cursos de formación solo se permiten una vez finalizado el descanso obligatorio.",
+   "Es esta. La quinta semana cae en las seis de descanso obligatorio, y solo después de ese período se puede participar en los cursos (**art. 49.a**).",
+   "No. No depende del horario.",
+   "No. Basta con que haya finalizado el descanso obligatorio, no todo el permiso."
+  ]
+ },
+ "su-01-006": {
+  "bloque": "jornada",
+  "precepto": "Art. 49.a del TREBEP",
+  "correcta": 2,
+  "justificaciones": [
+   "No. Las semanas posteriores al descanso obligatorio pueden disfrutarse a tiempo parcial.",
+   "No. No basta con preavisar: depende de las necesidades del servicio.",
+   "Es esta. El permiso de los apartados 2.º y 3.º puede disfrutarse a jornada completa o a tiempo parcial cuando lo permitan las necesidades del servicio, en los términos reglamentarios (**art. 49.a**).",
+   "No. No se limita a las dos semanas hasta los ocho años."
+  ]
+ },
+ "su-01-007": {
+  "bloque": "jornada",
+  "precepto": "Art. 49.c del TREBEP",
+  "correcta": 3,
+  "justificaciones": [
+   "No. El TREBEP ya no habla de paternidad.",
+   "No. No se denomina así.",
+   "No. El permiso parental es otro, el del **art. 49.g**.",
+   "Es esta. Se llama permiso del progenitor diferente de la madre biológica por nacimiento (**art. 49.c**)."
+  ]
+ },
+ "su-01-008": {
+  "bloque": "jornada",
+  "precepto": "Art. 49.c del TREBEP",
+  "correcta": 2,
+  "justificaciones": [
+   "No. Diecinueve semanas es el permiso ordinario.",
+   "No. Veintiséis no figura en el artículo.",
+   "Es esta. En monoparentalidad el permiso es de treinta y dos semanas (**art. 49.c**).",
+   "No. Treinta y ocho no figura en el artículo."
+  ]
+ },
+ "su-01-009": {
+  "bloque": "jornada",
+  "precepto": "Art. 49.c.3.º del TREBEP",
+  "correcta": 1,
+  "justificaciones": [
+   "No. Dos semanas son las del supuesto ordinario.",
+   "Es esta. Las semanas para el cuidado del menor hasta los ocho años son dos, y cuatro en monoparentalidad (**art. 49.c, 3.º**).",
+   "No. Once semanas se ejercen en los doce primeros meses, y veintidós en monoparentalidad.",
+   "No. No son trece semanas."
+  ]
+ },
+ "su-01-010": {
+  "bloque": "jornada",
+  "precepto": "Art. 49.g del TREBEP",
+  "correcta": 0,
+  "justificaciones": [
+   "Es esta. El permiso parental es de hasta ocho semanas, continuas o discontinuas, no retribuido, hasta que el menor cumpla ocho años (**art. 49.g**).",
+   "No. No es retribuido.",
+   "No. Son ocho semanas, no seis.",
+   "No. Puede disfrutarse hasta los ocho años y la hija tiene seis."
+  ]
+ },
+ "su-01-011": {
+  "bloque": "jornada",
+  "precepto": "Art. 49.c del TREBEP",
+  "correcta": 1,
+  "justificaciones": [
+   "No. El permiso no se reduce por el fallecimiento.",
+   "Es esta. La duración no se reduce, salvo que, terminadas las seis semanas obligatorias, se solicite la reincorporación (**art. 49.c**).",
+   "No. No se puede reincorporar antes de las seis semanas.",
+   "No. No se extingue."
+  ]
+ },
+ "su-01-012": {
+  "bloque": "jornada",
+  "precepto": "Art. 49.b del TREBEP",
+  "correcta": 0,
+  "justificaciones": [
+   "Es esta. En la adopción internacional con desplazamiento previo hay un permiso adicional de hasta dos meses, con retribuciones básicas exclusivamente (**art. 49.b**).",
+   "No. Son solo las retribuciones básicas, no las íntegras.",
+   "No. No son cuatro semanas, sino hasta dos meses.",
+   "No. Ni cuatro semanas ni retribuciones íntegras."
+  ]
+ },
+ "su-01-013": {
+  "bloque": "jornada",
+  "precepto": "Art. 49.b del TREBEP",
+  "correcta": 1,
+  "justificaciones": [
+   "No. El permiso puede iniciarse hasta cuatro semanas antes.",
+   "Es esta. El permiso por adopción internacional puede iniciarse hasta cuatro semanas antes de la resolución judicial (**art. 49.b**).",
+   "No. No son seis semanas.",
+   "No. No son dos meses: eso es otro permiso."
+  ]
+ },
+ "su-01-014": {
+  "bloque": "jornada",
+  "precepto": "Art. 49.b del TREBEP",
+  "correcta": 2,
+  "justificaciones": [
+   "No. El permiso no se puede transferir ni siquiera en parte.",
+   "No. No se pueden ceder semanas, aunque no se supere ninguna cifra.",
+   "Es esta. Es un derecho individual de cada adoptante, sin que pueda transferirse su ejercicio (**art. 49.b**).",
+   "No. Ambos adoptantes tienen su propio permiso."
+  ]
+ },
+ "su-01-015": {
+  "bloque": "jornada",
+  "precepto": "Art. 49.b del TREBEP",
+  "correcta": 1,
+  "justificaciones": [
+   "No. El plazo se cuenta desde la adopción, no hasta que el menor cumpla un año.",
+   "Es esta. Las once semanas se ejercen dentro de los doce meses a contar desde la resolución judicial por la que se constituye la adopción (**art. 49.b, 2.º**).",
+   "No. Los ocho años son para las dos semanas del apartado 3.º.",
+   "No. El cómputo no empieza al terminar el descanso obligatorio."
+  ]
+ },
+ "su-01-016": {
+  "bloque": "jornada",
+  "precepto": "Art. 49.b del TREBEP",
+  "correcta": 3,
+  "justificaciones": [
+   "No. La Administración puede aplazar el disfrute si se altera seriamente el servicio.",
+   "No. No basta con comunicarlo por escrito: antes debe ofrecer una alternativa más flexible.",
+   "No. No se exige la conformidad de los adoptantes.",
+   "Es esta. Puede aplazarse por un período razonable, justificándolo por escrito y tras ofrecer una alternativa más flexible (**art. 49.b**)."
+  ]
+ },
+ "su-01-017": {
+  "bloque": "jornada",
+  "precepto": "Art. 49.e del TREBEP",
+  "correcta": 1,
+  "justificaciones": [
+   "No. Es al menos la mitad, no hasta la mitad.",
+   "Es esta. La reducción es de al menos la mitad de la jornada, con retribuciones íntegras (**art. 49.e**).",
+   "No. Las retribuciones son íntegras.",
+   "No. Ni es hasta la mitad ni se disminuyen las retribuciones."
+  ]
+ },
+ "su-01-018": {
+  "bloque": "jornada",
+  "precepto": "Art. 49.d del TREBEP",
+  "correcta": 0,
+  "justificaciones": [
+   "Es esta. Mantiene sus retribuciones íntegras cuando reduce su jornada en un tercio o menos (**art. 49.d**).",
+   "No. La mitad conlleva disminución proporcional.",
+   "No. Dos tercios conllevan disminución proporcional.",
+   "No. Hay un caso en que se mantienen: un tercio o menos."
+  ]
+ },
+ "su-01-019": {
+  "bloque": "jornada",
+  "precepto": "Art. 50.2 del TREBEP",
+  "correcta": 2,
+  "justificaciones": [
+   "No. El plazo es de dieciocho meses desde el final del año, no seis.",
+   "No. Dieciocho meses desde el final de 2026 no llegan a diciembre de 2027.",
+   "Es esta. Pueden disfrutarse mientras no hayan pasado más de dieciocho meses desde el final del año en que se originó la situación: 31 de diciembre de 2026 más dieciocho meses, 30 de junio de 2028 (**art. 50.2**).",
+   "No. Sería exceder los dieciocho meses."
+  ]
+ },
+ "su-01-020": {
+  "bloque": "jornada",
+  "precepto": "Art. 50.3 del TREBEP",
+  "correcta": 3,
+  "justificaciones": [
+   "No. La renuncia voluntaria no da compensación: se garantiza el disfrute (**art. 50.3**).",
+   "No. La jubilación forzosa por edad no se menciona expresamente.",
+   "No. Las vacaciones no pueden sustituirse por una cuantía económica (**art. 50.3**).",
+   "Es esta. El artículo menciona en particular la jubilación por incapacidad permanente y el fallecimiento (**art. 50.3, párrafo segundo**)."
+  ]
+ }
+}
