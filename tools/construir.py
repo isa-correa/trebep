@@ -97,8 +97,46 @@ for p in salida:
 casos = [c for k, c in D["casos"].items() if hechas.get(k) == total.get(k)]
 ok = {c["id"] for c in casos}
 salida = [p for p in salida if "caso" not in p or p["caso"] in ok]
+
+# Supuestos va ordenado como «Clases prácticas Bloque IV» del aula virtual: por clase y en el mismo orden.
+# Un cuestionario o un ejercicio entra como caso corto (sin enunciado común) con la lista de sus preguntas,
+# que siguen saliendo también en Examen. Los supuestos y mini supuestos son los casos de preguntas.json.
+CLASES = [
+    ("Clase práctica nº 1 · Arts. 1 a 30", [
+        ("ex-01", "Cuestionario 1 · Ámbito de aplicación (arts. 1 a 7)"),
+        ("ex-02", "Cuestionario 2 · Personal con legislación específica (art. 4)"),
+        ("caso-02", "Mini supuesto 1 · Ámbito subjetivo (arts. 1 a 7)"),
+        ("ex-03", "Cuestionario 3 · Clases de empleados públicos (arts. 8 a 13)"),
+        ("caso-03", "Mini supuesto 2"),
+        ("ex-04", "Cuestionario 4 · Derechos de los empleados públicos (arts. 14 y 15)"),
+        ("ex-05", "Cuestionario 5 · Carrera profesional (arts. 16 a 20)"),
+        ("ex-06", "Cuestionario 6 · Derechos retributivos (arts. 21 a 30)"),
+        ("caso-04", "Mini supuesto 3"),
+    ]),
+    ("Clase práctica nº 2 · Arts. 31 a 51", [
+        ("ex-07", "Cuestionario teórico 1 · Artículos 1 a 30"),
+        ("ex-08", "Cuestionario teórico 2 · Artículos 31 a 36"),
+        ("ej-01", "Ejercicio 1 · Materias objeto de negociación (art. 37)"),
+        ("ex-09", "Cuestionario teórico 3 · Pactos y acuerdos (art. 38)"),
+        ("ej-02", "Ejercicio 2 · Órganos de representación y crédito horario"),
+        ("ex-10", "Cuestionario teórico 4 · Representación y reunión (arts. 39 a 46)"),
+        ("caso-05", "Mini supuesto 4 · Permisos del artículo 48.a"),
+        ("caso-06", "Mini supuesto 5 · Permisos del artículo 48"),
+        ("caso-01", "Supuesto práctico 1 · Permisos y vacaciones (arts. 49 y 50)"),
+    ]),
+]
+porcaso = {c["id"]: c for c in casos}
+for i, (_, items) in enumerate(CLASES):
+    for j, (src, nombre) in enumerate(items):
+        if src in porcaso:
+            porcaso[src].update(clase=i, orden=j, titulo=nombre)
+            continue
+        ids = sorted(p["id"] for p in salida if p["id"].startswith(src + "-"))
+        if ids:
+            casos.append({"id": "cl-" + src, "titulo": nombre, "texto": "", "corto": True, "ids": ids, "clase": i, "orden": j})
 t = {"id": "trebep", "nombre": "TREBEP, Estatuto Básico del Empleado Público", "bloques": [{"id": a, "nombre": b} for a, b in BLOQUES],
-     "calendarios": {}, "casos": casos, "preguntas": salida}
+     "calendarios": {}, "clases": [n for n, _ in CLASES], "casos": casos, "preguntas": salida}
 with open("data/trebep.js", "w", encoding="utf8") as f:
     f.write("window.BANCO = window.BANCO || [];\nwindow.BANCO.push(" + json.dumps(t, ensure_ascii=False, separators=(",", ":")) + ");\n")
-print(len(salida), "preguntas con respuesta de", len(D["preguntas"]), "·", len(casos), "supuestos completos · data/trebep.js")
+print(len(salida), "preguntas con respuesta de", len(D["preguntas"]), "·", len(ok), "supuestos completos ·",
+      len(casos) - len(ok), "cuestionarios y ejercicios en Supuestos · data/trebep.js")

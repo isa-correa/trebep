@@ -410,25 +410,26 @@
     var n = ajustes.caso ? idsCaso(ajustes.caso).length : 0;
     var sup = leer(K_SUP, {});
     /* Igual que en Examen: un desplegable por tema y, dentro, sus supuestos. */
-    var h = '<div class="panel"><fieldset><legend>Temas</legend><p class="nota">Abre el tema y elige un supuesto. Respondes a todas y corriges al final. Si hay enunciado, lo tienes siempre a la vista.</p>';
+    var h = '<div class="panel"><fieldset><legend>Temas</legend><p class="nota">Ordenado como las clases prácticas del aula virtual: abre una clase y elige un cuestionario, un ejercicio o un supuesto. Respondes a todas y corriges al final. Si hay enunciado, lo tienes siempre a la vista.</p>';
     BANCO.forEach(function (t) {
       var suyos = lista.filter(function (c) { return c.tema === t.id; });
       if (!suyos.length) return;
-      var ejercicios = suyos.filter(esEjercicio).sort(function (x, y) { return numero(x) - numero(y); });
-      var examenes = suyos.filter(esExamenClase).sort(function (x, y) { return numero(x) - numero(y); });
-      var refuerzo = suyos.filter(function (c) { return c.refuerzo; }).sort(function (x, y) { return numero(x) - numero(y); });
-      var otros = suyos.filter(function (c) { return !esEjercicio(c) && !esExamenClase(c) && !c.refuerzo; });
+      /* Por clase práctica y en el orden del aula. Lo que no tenga clase va al final, en «Otros supuestos». */
+      var porOrden = function (x, y) { return x.orden - y.orden; };
+      var grupos = (t.clases || []).map(function (nombre, i) { return [nombre, suyos.filter(function (c) { return c.clase === i; }).sort(porOrden)]; });
+      grupos.push(["Otros supuestos", suyos.filter(function (c) { return c.clase === undefined; })]);
+      var cortos = suyos.filter(function (c) { return c.corto; }).length;
       var clave = "s-" + t.id;
       var elegido = suyos.filter(function (c) { return c.id === ajustes.caso; })[0];
       var abierto = !!temasAbiertos[clave]; /* Cerrado hasta que lo abras. */
       var preguntas = suyos.reduce(function (a, c) { return a + idsCaso(c.id).length; }, 0);
       h += '<div class="tema"><div class="tema-cab sin-check">';
-      h += '<button type="button" class="tema-abrir" data-a="tema-abrir" data-v="' + clave + '" aria-expanded="' + abierto + '" aria-controls="t-' + clave + '"><span>' + esc(t.nombre) + "<small>" + otros.length + " supuestos · " + preguntas + " preguntas" + (elegido ? " · elegido: " + esc(titulo(elegido)) : "") + "</small><small>" + suyos.filter(function (c) { return sup[c.id]; }).length + " de " + suyos.length + " hechos</small></span>" + ICONOS.flecha + "</button></div>";
+      h += '<button type="button" class="tema-abrir" data-a="tema-abrir" data-v="' + clave + '" aria-expanded="' + abierto + '" aria-controls="t-' + clave + '"><span>' + esc(t.nombre) + "<small>" + plural(cortos, "cuestionario o ejercicio", "cuestionarios y ejercicios") + " · " + plural(suyos.length - cortos, "supuesto", "supuestos") + " · " + preguntas + " preguntas" + (elegido ? " · elegido: " + esc(titulo(elegido)) : "") + "</small><small>" + suyos.filter(function (c) { return sup[c.id]; }).length + " de " + suyos.length + " hechos</small></span>" + ICONOS.flecha + "</button></div>";
       h += '<div class="tema-dentro" id="t-' + clave + '"' + (abierto ? "" : " hidden") + ">";
-      [["Supuestos prácticos", otros.filter(function (c) { return !/^Mini/.test(c.titulo); })], ["Mini supuestos", otros.filter(function (c) { return /^Mini/.test(c.titulo); })]].forEach(function (g) {
+      grupos.forEach(function (g, i) {
         if (!g[1].length) return;
         /* Subacordeón: cerrado hasta que lo abras, salvo que dentro esté el supuesto elegido. */
-        var gk = "g-" + clave + "-" + g[0].charAt(0) + g[0].length;
+        var gk = "g-" + clave + "-c" + i;
         var hechos = g[1].filter(function (c) { return sup[c.id]; }).length;
         var gAbierto = !!temasAbiertos[gk] || g[1].some(function (c) { return c.id === ajustes.caso; });
         h += '<div class="grupo"><button type="button" class="grupo-abrir" data-a="tema-abrir" data-v="' + gk + '" aria-expanded="' + gAbierto + '" aria-controls="' + gk + '"><span>' + g[0] + "<small>" + g[1].length + " · " + plural(hechos, "hecho", "hechos") + "</small></span>" + ICONOS.flecha + "</button>";
@@ -442,7 +443,7 @@
     });
     h += "</fieldset></div>";
     h += panelTiempo(n);
-    h += '<div class="acciones"><button class="btn btn-principal" data-a="empezar-caso"' + (ajustes.caso ? "" : " disabled") + ">Empezar supuesto</button>" + botonReinicio() + "</div>";
+    h += '<div class="acciones"><button class="btn btn-principal" data-a="empezar-caso"' + (ajustes.caso ? "" : " disabled") + ">Empezar</button>" + botonReinicio() + "</div>";
     return h;
   }
   /* ---------- Apuntes: todos los esquemas, por bloques del temario y con buscador ---------- */

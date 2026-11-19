@@ -25,7 +25,7 @@ Bloques: `ambito`, `clases`, `derechos`, `retribuciones`, `negociacion`, `debere
 
 ## Orígenes
 
-Autoevaluación, Oficiales, Votaciones, Exámenes y Ejercicios salen en Examen. Los supuestos (un caso común y sus preguntas) salen en Supuestos, en dos grupos: Supuestos prácticos y Mini supuestos.
+Autoevaluación, Oficiales, Votaciones, Exámenes y Ejercicios salen en Examen. Supuestos va ordenado como «Clases prácticas Bloque IV» del aula virtual: un desplegable por clase práctica con sus cuestionarios (los Exámenes 1 a 10), ejercicios, mini supuestos y supuestos, en el mismo orden. El orden y los títulos están en `CLASES`, en `tools/construir.py`: cuando haya una clase nueva, se añade ahí. Los cuestionarios y ejercicios siguen saliendo también en Examen.
 
 ## Movimiento
 
