@@ -1,0 +1,254 @@
+{
+"au-01-001": {"bloque": "ambito", "precepto": "Art. 1.1 del TREBEP", "correcta": 1, "justificaciones": [
+ "No. El Estatuto no regula a todos los funcionarios, solo a los incluidos en su ámbito de aplicación. Hay funcionarios (jueces, militares, Cortes...) que se rigen por su propia ley.",
+ "Es esta. El **art. 1.1** dice que el Estatuto fija las bases del régimen estatutario de los funcionarios públicos incluidos en su ámbito de aplicación.",
+ "No. Te han cambiado “funcionarios” por “empleados públicos” y “incluidos en su ámbito” por “todos”. Las bases estatutarias son para funcionarios; el personal laboral se trata aparte (art. 1.2).",
+ "No. El personal laboral solo aparece en el **art. 1.2**, para determinar las normas que se le aplican. El objeto principal (art. 1.1) es el régimen estatutario de los funcionarios."]},
+"au-01-002": {"bloque": "ambito", "precepto": "Arts. 2 y 4 del TREBEP", "correcta": 3, "justificaciones": [
+ "Es verdadera, así que no se marca. Las Universidades Públicas están en el ámbito del **art. 2.1.e**, y su personal laboral se rige por el Estatuto en lo que proceda.",
+ "Es verdadera, así que no se marca. La Administración General del Estado es la primera del **art. 2.1.a**.",
+ "Es verdadera, así que no se marca. Las Administraciones de las comunidades autónomas están en el **art. 2.1.b**.",
+ "Esta es la falsa, y por eso es la que hay que marcar. El personal funcionario de los demás órganos constitucionales del Estado está en el **art. 4.b**: el Estatuto solo se le aplica directamente si su legislación específica lo dispone."]},
+"au-01-003": {"bloque": "ambito", "precepto": "Art. 3.2 del TREBEP", "correcta": 2, "justificaciones": [
+ "No. El **art. 3.2** dice que se rigen “también” por el Estatuto y por la legislación autonómica, pero con una excepción, así que no es “exclusivamente”.",
+ "No. No depende de lo que diga su legislación específica. Se rigen por el Estatuto directamente, salvo lo que la ley de fuerzas y cuerpos de seguridad regule para ellos.",
+ "Es esta. Excepto en lo establecido para ellos en la **Ley Orgánica 2/1986** de Fuerzas y Cuerpos de Seguridad (art. 3.2).",
+ "No. La excepción no es la ley de bases de régimen local, sino la Ley Orgánica 2/1986, de Fuerzas y Cuerpos de Seguridad."]},
+"au-01-004": {"bloque": "ambito", "precepto": "Art. 2.4 del TREBEP", "correcta": 2, "justificaciones": [
+ "No. El **art. 2.2** permite dictar normas singulares para el personal de investigación, pero el Estatuto sí se les aplica.",
+ "No. El personal docente y el estatutario se rigen por su legislación específica y además por lo previsto en el Estatuto (con algunas excepciones), no “únicamente” por la específica (**art. 2.3**).",
+ "Es esta. El **art. 2.4** dice que cada vez que el Estatuto menciona al personal funcionario de carrera se entiende comprendido el personal estatutario de los Servicios de Salud.",
+ "No. No se aplica directamente a todo el personal. Hay personal con legislación específica propia (**art. 4**) y el personal laboral solo en lo que proceda."]},
+"au-01-005": {"bloque": "ambito", "precepto": "Art. 3.1 del TREBEP", "correcta": 1, "justificaciones": [
+ "No. Te han dicho que el Estatuto no forma parte de la legislación estatal aplicable. Sí forma parte.",
+ "Es esta. El **art. 3.1** dice que se rigen por la legislación estatal que resulte de aplicación, de la que forma parte este Estatuto, y por la de las comunidades autónomas, con respeto a la autonomía local.",
+ "No. No es “exclusivamente” el Estatuto: también cuenta la legislación autonómica.",
+ "No. No es solo la legislación autonómica: también se aplica la estatal, y el Estatuto es parte de ella."]},
+"au-01-006": {"bloque": "ambito", "precepto": "Art. 4.h del TREBEP", "correcta": 1, "justificaciones": [
+ "No. El personal del Banco de España está en la lista del **art. 4**, así que el Estatuto no se le aplica en todos los aspectos.",
+ "Es esta. El **art. 4.h** incluye al personal del Banco de España y del Fondo de Garantía de Depósitos entre quienes solo se rigen directamente por el Estatuto cuando lo disponga su legislación específica.",
+ "No. No es “en ningún supuesto”: si su legislación específica lo dispone, se aplica.",
+ "No. No hay una excepción solo para el régimen sancionador. Todo depende de lo que disponga su legislación específica."]},
+"au-01-007": {"bloque": "ambito", "precepto": "Art. 2.1.b del TREBEP", "correcta": 1, "justificaciones": [
+ "No. El personal funcionario de las Cortes Generales está en el **art. 4.a**: solo se le aplica el Estatuto si su legislación específica lo dispone.",
+ "Es esta. El **art. 2.1.b** incluye a las Administraciones de las comunidades autónomas y de las ciudades de Ceuta y Melilla, y se aplica a su personal laboral en lo que proceda.",
+ "No. El personal de las Fuerzas y Cuerpos de Seguridad del Estado está en el **art. 4.e**.",
+ "No. El **art. 2.1.d** habla de entidades de derecho público. Las entidades de derecho privado no están en esa lista."]},
+"au-01-008": {"bloque": "ambito", "precepto": "Art. 4.f del TREBEP", "correcta": 0, "justificaciones": [
+ "Es esta. El personal retribuido por arancel está en la lista del **art. 4.f**: el Estatuto solo se le aplica directamente si su legislación específica lo dispone.",
+ "No. El personal docente no está en el art. 4. Se rige por su legislación específica y por el Estatuto, salvo algunos preceptos (**art. 2.3**).",
+ "No. Para el personal de investigación el **art. 2.2** solo permite dictar normas singulares. No está en el art. 4.",
+ "No. El personal estatutario de los Servicios de Salud está en el **art. 2.3**, no en el art. 4."]},
+"au-01-009": {"bloque": "ambito", "precepto": "Art. 4.d del TREBEP", "correcta": 1, "justificaciones": [
+ "No. El personal estatutario de los servicios de salud se rige por su legislación específica y por el Estatuto (**art. 2.3**). No está en la lista del art. 4.",
+ "Es esta. El personal militar de las Fuerzas Armadas está en el **art. 4.d**: solo se le aplica el Estatuto directamente cuando lo disponga su legislación específica.",
+ "No. Las Universidades Públicas están en el ámbito de aplicación directa (**art. 2.1.e**).",
+ "No. Los Cuerpos de Policía Local se rigen también por el Estatuto (**art. 3.2**), con la excepción de la ley orgánica de fuerzas y cuerpos de seguridad."]},
+"au-01-010": {"bloque": "ambito", "precepto": "Arts. 2.1.d y 4 del TREBEP", "correcta": 3, "justificaciones": [
+ "Es verdadera, así que no se marca. El personal de las Fuerzas y Cuerpos de Seguridad está en el **art. 4.e**.",
+ "Es verdadera, así que no se marca. El personal funcionario de las asambleas legislativas autonómicas está en el **art. 4.a**.",
+ "Es verdadera, así que no se marca. El personal del Banco de España está en el **art. 4.h**.",
+ "Esta es la falsa, y por eso es la que hay que marcar. Los organismos públicos y entidades de derecho público vinculados o dependientes de las Administraciones Públicas están en el **art. 2.1.d**: el Estatuto se les aplica directamente."]},
+"au-01-011": {"bloque": "ambito", "precepto": "Arts. 2.1 y 4.a del TREBEP", "correcta": 1, "justificaciones": [
+ "No. La Administración General del Estado es el primer supuesto del **art. 2.1.a**: el Estatuto se aplica directamente.",
+ "Es esta. El personal funcionario de las Cortes Generales está en el **art. 4.a**: solo se aplica directamente si su legislación específica lo dispone.",
+ "No. Las Administraciones de las comunidades autónomas están en el **art. 2.1.b**: aplicación directa.",
+ "No. Las Universidades Públicas están en el **art. 2.1.e**: aplicación directa."]},
+"au-01-012": {"bloque": "ambito", "precepto": "Art. 4.c del TREBEP", "correcta": 0, "justificaciones": [
+ "Es esta. Jueces, Magistrados, Fiscales y demás personal funcionario al servicio de la Administración de Justicia están en el **art. 4.c**: el Estatuto solo se les aplica directamente cuando lo disponga su legislación específica.",
+ "No. “En todo caso” contradice el **art. 4**, que condiciona la aplicación a lo que diga su legislación específica.",
+ "No. No es “en ningún caso”: si su legislación específica lo dispone, se aplica.",
+ "No. No se aplica salvo cuando lo disponga su legislación, sino al revés: solo se aplica cuando lo disponga."]},
+"au-01-013": {"bloque": "ambito", "precepto": "Art. 5 del TREBEP", "correcta": 1, "justificaciones": [
+ "No. Has invertido el orden. El Estatuto es supletorio, no la norma principal.",
+ "Es esta. El **art. 5** dice que el personal funcionario de Correos y Telégrafos se rige por sus normas específicas y supletoriamente por el Estatuto.",
+ "No. La legislación laboral es para su personal laboral, no para el funcionario.",
+ "No. No es “exclusivamente” por sus normas específicas: el Estatuto se aplica de forma supletoria."]},
+"au-01-014": {"bloque": "ambito", "precepto": "Art. 7 del TREBEP", "correcta": 1, "justificaciones": [
+ "No. La legislación laboral rige al personal laboral con carácter general, pero en estos permisos el **art. 7** manda aplicar el Estatuto.",
+ "Es esta. Desde el Real Decreto-ley 9/2025, el **art. 7** dice que en materia de permisos de nacimiento, adopción, del progenitor diferente de la madre biológica, lactancia y parental, el personal laboral se rige por el Estatuto.",
+ "No. El **art. 7** dice expresamente que no se le aplican las previsiones del Estatuto de los Trabajadores sobre las suspensiones de contrato por esos supuestos.",
+ "No. No es “exclusivamente” el convenio: manda el Estatuto Básico para esos permisos."]},
+"au-01-015": {"bloque": "ambito", "precepto": "Art. 6 del TREBEP", "correcta": 0, "justificaciones": [
+ "Es esta. El **art. 6** dice que las Cortes Generales y las asambleas legislativas de las comunidades autónomas aprobarán, en el ámbito de sus competencias, las leyes de Función Pública.",
+ "No. Las entidades locales no aprueban leyes. El **art. 6** solo habla de las Cortes Generales y de las asambleas autonómicas.",
+ "No. No son “únicamente” las Cortes: también las asambleas legislativas de las comunidades autónomas.",
+ "No. El Estatuto sí necesita leyes de desarrollo, como dice su **art. 6**."]},
+"au-02-001": {"bloque": "clases", "precepto": "Art. 8.2 del TREBEP", "correcta": 2, "justificaciones": [
+ "No. El personal estatutario no es una clase del art. 8.2. El Estatuto lo trata aparte (art. 2.3).",
+ "No. Faltan el personal laboral y el eventual, y sobra el personal estatutario.",
+ "Es esta. El **art. 8.2** clasifica a los empleados públicos en funcionarios de carrera, funcionarios interinos, personal laboral y personal eventual.",
+ "No. Faltan los interinos y los eventuales, y sobra el estatutario."]},
+"au-02-002": {"bloque": "clases", "precepto": "Art. 9.2 del TREBEP", "correcta": 2, "justificaciones": [
+ "No. No todos los empleados públicos pueden ejercer potestades públicas.",
+ "No. El personal temporal no es el criterio. Lo es la condición de funcionario.",
+ "Es esta. El **art. 9.2** reserva exclusivamente a los funcionarios públicos las funciones de participación directa o indirecta en el ejercicio de potestades públicas.",
+ "No. El personal laboral no puede ejercer esas funciones (art. 9.2, y art. 11.2 que lo recuerda)."]},
+"au-02-003": {"bloque": "clases", "precepto": "Art. 10.1.c del TREBEP", "correcta": 2, "justificaciones": [
+ "No. El plazo es de tres años, no de dos.",
+ "No. La ampliación es de doce meses, no de seis.",
+ "Es esta. El **art. 10.1.c** dice que los programas temporales no pueden durar más de tres años, ampliable hasta doce meses más.",
+ "No. Ni dos años ni seis meses: son tres años y doce meses."]},
+"au-02-004": {"bloque": "clases", "precepto": "Art. 10.5 del TREBEP", "correcta": 3, "justificaciones": [
+ "No. El personal laboral se rige por la legislación laboral, no es el régimen supletorio de los interinos.",
+ "No. El personal eventual tiene su propio régimen (art. 12).",
+ "No. Los funcionarios en prácticas no son el régimen de referencia de los interinos.",
+ "Es esta. El **art. 10.5** dice que se les aplica el régimen general de los funcionarios de carrera, en cuanto sea adecuado a su naturaleza temporal."]},
+"au-02-005": {"bloque": "clases", "precepto": "Art. 13.4 del TREBEP", "correcta": 2, "justificaciones": [
+ "No. Cuando el directivo es personal laboral no se le aplica el régimen de los funcionarios.",
+ "No. No es el régimen general del personal laboral, sino uno especial.",
+ "Es esta. El **art. 13.4** dice que, cuando reúna la condición de personal laboral, estará sometido a la relación laboral de carácter especial de alta dirección.",
+ "No. El personal eventual es otra clase de empleado público."]},
+"au-02-006": {"bloque": "clases", "precepto": "Art. 13 del TREBEP", "correcta": 2, "justificaciones": [
+ "No. Su designación atiende a mérito, capacidad e idoneidad y debe garantizar publicidad y concurrencia (**art. 13.2**).",
+ "No. Está sujeto a evaluación y responde por su gestión (**art. 13.3**).",
+ "Es esta. El **art. 13.4** dice que la determinación de sus condiciones de empleo no es materia de negociación colectiva.",
+ "No. Solo se le aplica la relación laboral de alta dirección cuando reúna la condición de personal laboral, no “en todo caso”."]},
+"au-02-007": {"bloque": "clases", "precepto": "Art. 13.2 del TREBEP", "correcta": 0, "justificaciones": [
+ "Es esta. El **art. 13.2** dice que su designación atenderá a principios de mérito y capacidad y a criterios de idoneidad.",
+ "No. La profesionalidad no aparece como principio en el art. 13.2.",
+ "No. Ni profesionalidad ni igualdad aparecen en ese apartado.",
+ "No. Falta el mérito y la idoneidad es un criterio, no un principio."]},
+"au-02-008": {"bloque": "clases", "precepto": "Art. 13.3 del TREBEP", "correcta": 0, "justificaciones": [
+ "Es esta. El **art. 13.3** dice que estará sujeto a evaluación con arreglo a los criterios de eficacia y eficiencia, responsabilidad por su gestión y control de resultados.",
+ "No. Mérito y capacidad son los principios de su designación, no de su evaluación.",
+ "No. La idoneidad es un criterio de designación, no de evaluación.",
+ "No. Publicidad y concurrencia son las garantías del procedimiento de designación."]},
+"au-02-009": {"bloque": "clases", "precepto": "Art. 12.1 del TREBEP", "correcta": 2, "justificaciones": [
+ "No. El interino sustituye o desempeña funciones propias de funcionarios de carrera.",
+ "No. El directivo desarrolla funciones directivas profesionales.",
+ "Es esta. El **art. 12.1** define al personal eventual así: nombramiento, carácter no permanente, funciones de confianza o asesoramiento especial y retribución con cargo a créditos presupuestarios para ese fin.",
+ "No. El personal laboral lo es por contrato de trabajo, no por nombramiento."]},
+"au-02-010": {"bloque": "clases", "precepto": "Art. 13.4 del TREBEP", "correcta": 2, "justificaciones": [
+ "No. Para el personal eventual el art. 13.4 no dice nada.",
+ "No. Las condiciones del personal laboral sí se negocian.",
+ "Es esta. El **art. 13.4** excluye de la negociación colectiva la determinación de las condiciones de empleo del personal directivo.",
+ "No. Solo es correcta la c), no la a): el personal eventual no está en esa exclusión."]},
+"au-02-011": {"bloque": "clases", "precepto": "Art. 12 del TREBEP", "correcta": 0, "justificaciones": [
+ "Esta es la falsa, y por eso es la que hay que marcar. El **art. 12.2** dice que el número máximo y las condiciones retributivas serán públicas.",
+ "Es verdadera, así que no se marca. Es el **art. 12.4**.",
+ "Es verdadera, así que no se marca. Lo dice el **art. 12.3**.",
+ "Es verdadera, así que no se marca. El número máximo lo fijan los respectivos órganos de gobierno (**art. 12.2**)."]},
+"au-02-012": {"bloque": "clases", "precepto": "Art. 11.1 del TREBEP", "correcta": 1, "justificaciones": [
+ "No. Falta la categoría “por tiempo indefinido”: son tres, no dos.",
+ "Es esta. El **art. 11.1** dice que, en función de la duración del contrato, el personal laboral puede ser fijo, por tiempo indefinido o temporal.",
+ "No. Sí puede ser temporal.",
+ "No. No es siempre fijo: puede ser fijo, indefinido o temporal."]},
+"au-02-013": {"bloque": "clases", "precepto": "Art. 12 del TREBEP", "correcta": 2, "justificaciones": [
+ "Es verdadera, así que no se marca. **Art. 12.3**.",
+ "Es verdadera, así que no se marca. **Art. 12.5**.",
+ "Esta es la falsa, y por eso es la que hay que marcar. El **art. 12.4** dice justo lo contrario: no podrá constituir mérito para el acceso ni para la promoción interna.",
+ "Es verdadera, así que no se marca. **Art. 12.3**."]},
+"au-02-014": {"bloque": "clases", "precepto": "Art. 12.2 del TREBEP", "correcta": 0, "justificaciones": [
+ "Es esta. El **art. 12.2** dice que el número máximo se establecerá por los respectivos órganos de gobierno.",
+ "No. No lo fija la Ley de Presupuestos Generales del Estado.",
+ "No. El Estatuto no pone un tope del diez por ciento.",
+ "No. Sí hay un máximo: lo fijan los órganos de gobierno. Los créditos presupuestarios son el origen de la retribución, no el límite del número."]},
+"au-02-015": {"bloque": "clases", "precepto": "Art. 10.5 del TREBEP", "correcta": 0, "justificaciones": [
+ "Es esta. El **art. 10.5** les aplica el régimen general de los funcionarios de carrera en cuanto sea adecuado a su naturaleza temporal.",
+ "No. Se nombran por razones de necesidad y urgencia (**art. 10.1**).",
+ "No. Desempeñan funciones propias de funcionarios de carrera (**art. 10.1**).",
+ "No. Su selección sí respeta los principios de igualdad, mérito, capacidad, publicidad y celeridad (**art. 10.2**)."]},
+"au-02-016": {"bloque": "clases", "precepto": "Art. 10.1.d del TREBEP", "correcta": 1, "justificaciones": [
+ "No. No son doce meses dentro de dieciocho.",
+ "Es esta. El **art. 10.1.d** vigente dice por plazo máximo de nueve meses, dentro de un periodo de dieciocho meses.",
+ "No. Seis meses dentro de doce era la redacción anterior. Hoy es nueve dentro de dieciocho.",
+ "No. No son doce meses dentro de veinticuatro."]
+ , "ojo": "La redacción antigua del art. 10.1.d decía seis meses dentro de doce. Se cambió a nueve dentro de dieciocho.", "revisar": "Respondida con el texto vigente. Si el profesor corrige con la redacción antigua (seis y doce), la clave sería la opción 3."},
+"au-02-017": {"bloque": "clases", "precepto": "Art. 8.1 del TREBEP", "correcta": 2, "justificaciones": [
+ "No. Son las funciones en las Administraciones Públicas, no en cualquier entidad participada.",
+ "No. Las funciones han de ser retribuidas: “retribuidas o no” es falso.",
+ "Es esta. El **art. 8.1** dice: quienes desempeñan funciones retribuidas en las Administraciones Públicas al servicio de los intereses generales.",
+ "No. No solo la Administración General del Estado, y además las funciones son retribuidas."]},
+"au-02-018": {"bloque": "clases", "precepto": "Art. 9.1 del TREBEP", "correcta": 0, "justificaciones": [
+ "Es esta. El **art. 9.1** habla de relación estatutaria regulada por el Derecho Administrativo para servicios profesionales retribuidos de carácter permanente.",
+ "No. El carácter es permanente, no “no permanente”.",
+ "No. Los servicios son retribuidos.",
+ "No. La relación es estatutaria, regulada por el Derecho Administrativo, no por el laboral."]},
+"au-02-019": {"bloque": "clases", "precepto": "Art. 10.2 del TREBEP", "correcta": 2, "justificaciones": [
+ "No. Esos no son los principios del art. 10.2.",
+ "No. Capacidad sí, pero seguridad jurídica y necesidad no son los principios.",
+ "Es esta. El **art. 10.2** dice que los procedimientos serán públicos y se rigen por los principios de igualdad, mérito, capacidad, publicidad y celeridad.",
+ "No. Eficacia y eficiencia son los criterios de evaluación del personal directivo, no de selección de interinos."]},
+"au-02-020": {"bloque": "clases", "precepto": "Arts. 9, 11 y 12 del TREBEP", "correcta": 3, "justificaciones": [
+ "No. Los interinos desempeñan funciones propias de funcionarios de carrera, no del personal eventual.",
+ "No. El **art. 12.3** dice que cesa cuando se produzca el cese de la autoridad “a la que se preste la función de confianza o asesoramiento”, no de la que lo nombró.",
+ "No. Las funciones con potestades públicas son de los funcionarios públicos (**art. 9.2**), no solo de los de carrera.",
+ "Es esta. Es el **art. 11.1**: fijo, por tiempo indefinido o temporal."]
+ , "revisar": "La opción 1 (eventual) se parece mucho al art. 12.3. Le he dado por falsa por decir “que lo nombró” en lugar de “a la que se preste la función”. Si el profesor la da por buena, hay dos correctas."},
+"au-03-001": {"bloque": "derechos", "precepto": "Art. 14.a del TREBEP", "correcta": 0, "justificaciones": [
+ "Es esta. El **art. 14.a** reconoce la inamovilidad en la condición de funcionario de carrera.",
+ "No. El personal laboral no tiene ese derecho en el Estatuto.",
+ "No. El personal laboral fijo no tiene reconocida la inamovilidad.",
+ "No. Sí se reconoce, a los funcionarios de carrera."]},
+"au-03-002": {"bloque": "derechos", "precepto": "Art. 15.c del TREBEP", "correcta": 1, "justificaciones": [
+ "No. La inamovilidad es un derecho individual de ejercicio individual (**art. 14.a**).",
+ "Es esta. El **art. 15.c** incluye el ejercicio de la huelga, con la garantía de los servicios esenciales, entre los derechos individuales que se ejercen colectivamente.",
+ "No. La libre asociación profesional está en el **art. 14.p**, entre los derechos individuales.",
+ "No. La jubilación está en el **art. 14.n**."]},
+"au-03-003": {"bloque": "derechos", "precepto": "Art. 15.e del TREBEP", "correcta": 2, "justificaciones": [
+ "No. La libre asociación profesional es un derecho individual (**art. 14.p**).",
+ "No. La libertad de expresión es individual (**art. 14.k**).",
+ "Es esta. El derecho de reunión es el **art. 15.e**, de ejercicio colectivo.",
+ "No. La seguridad y salud es un derecho individual (**art. 14.l**)."]},
+"au-03-004": {"bloque": "derechos", "precepto": "Arts. 14.p y 15 del TREBEP", "correcta": 0, "justificaciones": [
+ "Esta es la que NO es de ejercicio colectivo, y por eso es la que hay que marcar. La libre asociación profesional está en el **art. 14.p**, entre los individuales.",
+ "Es de ejercicio colectivo (**art. 15.e**), así que no se marca.",
+ "Es de ejercicio colectivo (**art. 15.a**), así que no se marca.",
+ "Es de ejercicio colectivo (**art. 15.c**), así que no se marca."]},
+"au-03-005": {"bloque": "derechos", "precepto": "Art. 17.a del TREBEP", "correcta": 2, "justificaciones": [
+ "No. En la carrera horizontal no hay grupos: son grados, categorías o escalones.",
+ "No. Tampoco “grupos” ni “niveles”.",
+ "Es esta. El **art. 17.a** habla de un sistema de grados, categorías o escalones de ascenso, fijándose la remuneración a cada uno.",
+ "No. Ni grupos ni niveles: son grados, categorías o escalones."]},
+"au-03-006": {"bloque": "derechos", "precepto": "Art. 16.3.a del TREBEP", "correcta": 3, "justificaciones": [
+ "No. Eso es la promoción interna vertical (**art. 16.3.c**).",
+ "No. Eso es la promoción interna horizontal (**art. 16.3.d**).",
+ "No. Eso es la carrera vertical (**art. 16.3.b**).",
+ "Es esta. La carrera horizontal es la progresión de grado, categoría, escalón u otros conceptos análogos sin cambiar de puesto (**art. 16.3.a**)."]},
+"au-03-007": {"bloque": "derechos", "precepto": "Art. 16.3.b del TREBEP", "correcta": 2, "justificaciones": [
+ "No. Eso es la carrera horizontal.",
+ "No. Eso es la promoción interna horizontal.",
+ "Es esta. La carrera vertical es el ascenso en la estructura de puestos de trabajo por los procedimientos de provisión (**art. 16.3.b**).",
+ "No. Eso es la promoción interna vertical."]},
+"au-03-008": {"bloque": "derechos", "precepto": "Art. 20.3 del TREBEP", "correcta": 2, "justificaciones": [
+ "No. Las situaciones administrativas no son un efecto de la evaluación.",
+ "No. Ni la inamovilidad ni las retribuciones básicas dependen de la evaluación.",
+ "Es esta. El **art. 20.3** dice: carrera profesional horizontal, formación, provisión de puestos de trabajo y retribuciones complementarias.",
+ "No. Las retribuciones básicas no están afectadas, solo las complementarias."]},
+"au-03-009": {"bloque": "derechos", "precepto": "Art. 16.2 del TREBEP", "correcta": 3, "justificaciones": [
+ "No. Eso es la carrera horizontal, solo una modalidad.",
+ "No. Eso es la carrera vertical, otra modalidad.",
+ "No. Eso es la promoción interna horizontal.",
+ "Es esta. El **art. 16.2** define la carrera profesional como el conjunto ordenado de oportunidades de ascenso y expectativas de progreso profesional conforme a igualdad, mérito y capacidad."]},
+"au-03-010": {"bloque": "derechos", "precepto": "Art. 17 del TREBEP", "correcta": 0, "justificaciones": [
+ "Esta es la falsa, y por eso es la que hay que marcar. El **art. 17.a** dice que los ascensos serán consecutivos “con carácter general”, salvo excepciones. No “en todo caso”.",
+ "Es verdadera, así que no se marca. **Art. 17.b**.",
+ "Es verdadera, así que no se marca. **Art. 17.b**.",
+ "Es verdadera, así que no se marca. **Art. 17.a**."]},
+"au-03-011": {"bloque": "derechos", "precepto": "Art. 19.1 del TREBEP", "correcta": 0, "justificaciones": [
+ "Es esta. El **art. 19.1** dice que el personal laboral tendrá derecho a la promoción profesional.",
+ "No. Los sistemas objetivos de evaluación del desempeño los exige el **art. 20.5** para la carrera horizontal, no para la promoción interna.",
+ "No. El derecho a la promoción profesional es de los funcionarios de carrera (**art. 16.1**) y del personal laboral (**art. 19**).",
+ "No. Es “con carácter general”, no “sin excepciones” (**art. 17.a**)."]},
+"au-03-012": {"bloque": "derechos", "precepto": "Art. 20.1 del TREBEP", "correcta": 2, "justificaciones": [
+ "No. No es un nombre que use el Estatuto.",
+ "No. No es un nombre que use el Estatuto.",
+ "Es esta. El **art. 20.1** define la evaluación del desempeño como el procedimiento que mide y valora la conducta profesional y el rendimiento o logro de resultados.",
+ "No. No es un nombre que use el Estatuto."]},
+"au-03-013": {"bloque": "derechos", "precepto": "Art. 16.3 del TREBEP", "correcta": 3, "justificaciones": [
+ "Es una modalidad (**art. 16.3.c**), así que no se marca.",
+ "Es una modalidad (**art. 16.3.b**), así que no se marca.",
+ "Es una modalidad (**art. 16.3.a**), así que no se marca.",
+ "Esta es la falsa, y por eso es la que hay que marcar. La evaluación del desempeño está en el **art. 20** y no es una modalidad de carrera profesional."]},
+"au-03-014": {"bloque": "derechos", "precepto": "Art. 18.2 del TREBEP", "correcta": 1, "justificaciones": [
+ "Es requisito, así que no es la respuesta. **Art. 18.2**.",
+ "Es esta. Participar en cursos de preparación no figura entre los requisitos del **art. 18.2**.",
+ "Es requisito, así que no es la respuesta. Dos años de antigüedad en el Subgrupo inferior (**art. 18.2**).",
+ "Es requisito, así que no es la respuesta. Superar las pruebas selectivas (**art. 18.2**)."]},
+"au-03-015": {"bloque": "derechos", "precepto": "Art. 20.5 del TREBEP", "correcta": 2, "justificaciones": [
+ "No. Afecta a las retribuciones complementarias, no a las básicas (**art. 20.3**).",
+ "No. La continuidad vinculada a la evaluación es en un puesto obtenido por concurso, no por promoción interna (**art. 20.4**).",
+ "Es esta. El **art. 20.5** exige la aprobación previa de sistemas objetivos de evaluación del desempeño para aplicar la carrera horizontal.",
+ "No. Eso describe la carrera horizontal, no la evaluación del desempeño."]}
+}
