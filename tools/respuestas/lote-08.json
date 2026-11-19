@@ -1,0 +1,279 @@
+{
+"of-03-001": {"bloque": "derechos", "precepto": "Art. 16.3.b del TREBEP", "correcta": 1, "justificaciones": [
+ "No. La carrera horizontal es la progresión de grado, categoría o escalón sin cambiar de puesto (**art. 16.3.a**).",
+ "Es esta. La carrera vertical es el ascenso en la estructura de puestos por los procedimientos de provisión (**art. 16.3.b**).",
+ "No. La promoción interna vertical es el ascenso de un cuerpo o escala de un Subgrupo a otro superior (**art. 16.3.c**).",
+ "No. La promoción interna horizontal es el acceso a cuerpos o escalas del mismo Subgrupo (**art. 16.3.d**)."]},
+"of-03-002": {"bloque": "derechos", "precepto": "Art. 16.3.a del TREBEP", "correcta": 2, "justificaciones": [
+ "No. Eso describe la carrera vertical.",
+ "No. Eso describe la promoción interna horizontal.",
+ "Es esta. La carrera horizontal es la progresión de grado, categoría o escalón sin cambiar de puesto (**art. 16.3.a**).",
+ "No. Eso describe la promoción interna vertical."]},
+"of-03-003": {"bloque": "derechos", "precepto": "Art. 16.3.d del TREBEP", "correcta": 2, "justificaciones": [
+ "No. \"Carrera interna horizontal\" no existe en el artículo.",
+ "No. \"Progresión horizontal\" no existe en el artículo.",
+ "Es esta. Promoción interna horizontal (**art. 16.3.d**).",
+ "No. \"Promoción horizontal\" no es la denominación exacta."]},
+"of-03-004": {"bloque": "derechos", "precepto": "Art. 16.3.a del TREBEP", "correcta": 0, "justificaciones": [
+ "Es esta. Progresión de grado, categoría, escalón u otros conceptos análogos sin cambiar de puesto (**art. 16.3.a**).",
+ "No. Eso es la carrera vertical.",
+ "No. Eso es la promoción interna vertical.",
+ "No. Eso es la promoción interna horizontal."]},
+"of-03-005": {"bloque": "derechos", "precepto": "Art. 16.3.c del TREBEP", "correcta": 2, "justificaciones": [
+ "No. \"Promoción profesional vertical\" no es la denominación del artículo.",
+ "No. La carrera vertical es el ascenso en la estructura de puestos.",
+ "Es esta. Promoción interna vertical (**art. 16.3.c**).",
+ "No. \"Carrera profesional interna\" no es una modalidad del artículo."]},
+"of-03-006": {"bloque": "derechos", "precepto": "Art. 18.2 del TREBEP", "correcta": 1, "justificaciones": [
+ "No. Se exigen dos años, no uno.",
+ "Es esta. Al menos dos años de servicio activo en el inferior Subgrupo o Grupo (**art. 18.2**).",
+ "No. Los dos años son en el inferior Subgrupo o Grupo, no en cualquier otro cuerpo.",
+ "No. Se exigen dos años, no cinco."]},
+"of-03-007": {"bloque": "derechos", "precepto": "Art. 18.1 del TREBEP", "correcta": 2, "justificaciones": [
+ "No. Está prevista para funcionarios de carrera.",
+ "No. Se realiza mediante procesos selectivos, no mediante evaluación del superior.",
+ "Es esta. Se realiza mediante procesos selectivos que garanticen igualdad, mérito y capacidad (**art. 18.1**).",
+ "No. No se identifica con la carrera horizontal."]},
+"of-03-008": {"bloque": "derechos", "precepto": "Art. 15.a del TREBEP", "correcta": 3, "justificaciones": [
+ "No. La libre asociación profesional es un derecho individual (**art. 14.p**).",
+ "No. Participar en la consecución de los objetivos es un derecho individual (**art. 14.e**).",
+ "No. La protección en seguridad y salud es un derecho individual (**art. 14.l**).",
+ "Es esta. La libertad sindical es un derecho individual de ejercicio colectivo (**art. 15.a**)."]},
+"of-03-009": {"bloque": "derechos", "precepto": "Art. 16.3.a del TREBEP", "correcta": 2, "justificaciones": [
+ "No. La progresión de nivel no figura.",
+ "No. La progresión de subgrupo no figura.",
+ "Es esta. Grado, categoría, escalón u otros conceptos análogos (**art. 16.3.a**).",
+ "No. La progresión de clasificación no figura."]},
+"of-03-010": {"bloque": "derechos", "precepto": "Art. 16.3.b del TREBEP", "correcta": 3, "justificaciones": [
+ "No. Eso es la promoción interna vertical.",
+ "No. Eso es la carrera horizontal.",
+ "No. Eso es la promoción interna horizontal.",
+ "Es esta. La carrera vertical es el ascenso en la estructura de puestos mediante los procedimientos de provisión: concurso o libre designación (**art. 16.3.b**)."]},
+"of-03-011": {"bloque": "derechos", "precepto": "Art. 14.k del TREBEP", "correcta": 0, "justificaciones": [
+ "Es esta. La libertad de expresión dentro de los límites del ordenamiento jurídico es un derecho individual (**art. 14.k**).",
+ "No. Esa inviolabilidad no figura en el art. 14.",
+ "No. El derecho es a la defensa jurídica y protección de la Administración por el ejercicio legítimo de sus funciones, no a cualquier defensa (**art. 14.f**).",
+ "No. El derecho es a la inamovilidad en la condición de funcionario de carrera, no a la movilidad (**art. 14.a**)."]},
+"of-03-012": {"bloque": "derechos", "precepto": "Art. 15.a del TREBEP", "correcta": 2, "justificaciones": [
+ "No. La libre asociación profesional es un derecho individual (**art. 14.p**).",
+ "No. Es un derecho individual (**art. 14.e**).",
+ "Es esta. La libertad sindical (**art. 15.a**).",
+ "No. La formación continua es un derecho individual (**art. 14.g**)."]},
+"of-03-013": {"bloque": "derechos", "precepto": "Art. 14.a del TREBEP", "correcta": 0, "justificaciones": [
+ "Es esta. El derecho es a la inamovilidad en la condición de funcionario de carrera, no en el puesto de trabajo (**art. 14.a**).",
+ "No. Es un derecho individual (**art. 14.e**).",
+ "No. Es un derecho individual (**art. 14.k**).",
+ "No. Es un derecho individual (**art. 14.p**)."]},
+"of-03-014": {"bloque": "derechos", "precepto": "Art. 18.2 del TREBEP", "correcta": 1, "justificaciones": [
+ "No. Son dos años, no uno.",
+ "Es esta. Al menos dos años de servicio activo (**art. 18.2**).",
+ "No. Son dos años, no tres.",
+ "No. Son dos años, no cinco."]},
+"of-03-015": {"bloque": "derechos", "precepto": "Art. 15.c del TREBEP", "correcta": 1, "justificaciones": [
+ "No. La libre asociación profesional es un derecho individual (**art. 14.p**).",
+ "Es esta. El ejercicio de la huelga (**art. 15.c**).",
+ "No. La formación continua es un derecho individual (**art. 14.g**).",
+ "No. Participar en la consecución de los objetivos es un derecho individual (**art. 14.e**)."]},
+"of-03-016": {"bloque": "derechos", "precepto": "Art. 15.b del TREBEP", "correcta": 2, "justificaciones": [
+ "No. La libre asociación profesional es un derecho individual (**art. 14.p**).",
+ "No. La progresión en la carrera es un derecho individual (**art. 14.c**).",
+ "Es esta. La negociación colectiva y la participación en la determinación de las condiciones de trabajo (**art. 15.b**).",
+ "No. La libertad de expresión es un derecho individual (**art. 14.k**)."]},
+"of-03-017": {"bloque": "derechos", "precepto": "Art. 15.a del TREBEP", "correcta": 3, "justificaciones": [
+ "No. La libre asociación profesional es un derecho individual (**art. 14.p**).",
+ "No. La libertad de expresión es un derecho individual (**art. 14.k**).",
+ "No. La formación continua es un derecho individual (**art. 14.g**).",
+ "Es esta. La libertad sindical (**art. 15.a**)."]},
+"of-03-018": {"bloque": "derechos", "precepto": "Art. 14.a del TREBEP", "correcta": 0, "justificaciones": [
+ "Es esta. El derecho es a la inamovilidad en la condición de funcionario de carrera, no en el puesto (**art. 14.a**).",
+ "No. Sí es un derecho individual (**art. 14.j bis**).",
+ "No. Sí es un derecho individual (**art. 14.l**).",
+ "No. Sí es un derecho individual (**art. 14.k**)."]},
+"of-03-019": {"bloque": "derechos", "precepto": "Art. 18.2 del TREBEP", "correcta": 2, "justificaciones": [
+ "No. La antigüedad exigida no depende del Subgrupo al que se acceda.",
+ "No. No se exigen tres años continuados en el puesto.",
+ "Es esta. Dos años de servicio activo (**art. 18.2**).",
+ "No. Son dos años, no tres."]},
+"of-03-020": {"bloque": "derechos", "precepto": "Art. 15 del TREBEP", "correcta": 0, "justificaciones": [
+ "Es esta. Libertad sindical, negociación colectiva, huelga, conflictos colectivos y reunión (**art. 15**).",
+ "No. Faltan derechos, y la libre asociación profesional es un derecho individual.",
+ "No. La libertad de expresión es un derecho individual.",
+ "No. Faltan derechos, y la libre asociación profesional es un derecho individual."]},
+"of-03-021": {"bloque": "derechos", "precepto": "Art. 18.2 del TREBEP", "correcta": 0, "justificaciones": [
+ "Es esta. Requisitos de ingreso, dos años de servicio activo en el inferior Subgrupo y superar las pruebas selectivas (**art. 18.2**).",
+ "No. Son dos años, no tres.",
+ "No. No basta participar: hay que superar las pruebas selectivas.",
+ "No. Son dos años y hay que superar las pruebas."]},
+
+"of-04-001": {"bloque": "retribuciones", "precepto": "Art. 23 del TREBEP", "correcta": 0, "justificaciones": [
+ "Es esta. Las retribuciones básicas son el sueldo y los trienios, única y exclusivamente (**art. 23**).",
+ "No. El complemento de destino es una retribución complementaria.",
+ "No. Los complementos de rendimiento son retribuciones complementarias (**art. 24.c**).",
+ "No. Los trienios también son retribución básica."]},
+"of-04-002": {"bloque": "retribuciones", "precepto": "Art. 24.d del TREBEP", "correcta": 1, "justificaciones": [
+ "No. Las dietas son indemnizaciones por razón del servicio, no retribuciones (**art. 28**).",
+ "Es esta. Las gratificaciones por servicios extraordinarios son retribuciones complementarias (**art. 24.d**).",
+ "No. Las asistencias son indemnizaciones por razón del servicio (**art. 28**).",
+ "No. Las indemnizaciones por traslado son indemnizaciones por razón del servicio (**art. 28**)."]},
+"of-04-003": {"bloque": "retribuciones", "precepto": "Art. 27 del TREBEP", "correcta": 3, "justificaciones": [
+ "No. Básicas y complementarias son las de los funcionarios de carrera (**art. 22**).",
+ "No. Los presupuestos fijan los incrementos globales, pero no determinan las retribuciones del personal laboral.",
+ "No. No lo fija una Comisión Interministerial.",
+ "Es esta. Legislación laboral, convenio colectivo y contrato de trabajo (**art. 27**)."]},
+"of-04-004": {"bloque": "retribuciones", "precepto": "Art. 30.1 del TREBEP", "correcta": 3, "justificaciones": [
+ "No. La cuantía y estructura de las complementarias las establecen las leyes de cada Administración (**art. 24**).",
+ "No. Las básicas son el sueldo y los trienios (**art. 23**).",
+ "No. Quienes ejercitan la huelga no devengan ni perciben retribuciones por ese tiempo (**art. 30.2**).",
+ "Es esta. La parte de jornada no realizada da lugar a deducción proporcional de haberes, sin carácter sancionador (**art. 30.1**)."]},
+"of-04-005": {"bloque": "retribuciones", "precepto": "Art. 24 del TREBEP", "correcta": 1, "justificaciones": [
+ "No. Las básicas son solo sueldo y trienios (**art. 23**).",
+ "Es esta. La cuantía y estructura de las complementarias se establecen por las leyes de cada Administración (**art. 24**).",
+ "No. Esa es la función de las complementarias, que retribuyen las características del puesto (**art. 22.3**).",
+ "No. Las pagas extraordinarias no son una clase de retribución complementaria."]},
+"of-04-006": {"bloque": "retribuciones", "precepto": "Art. 22.5 del TREBEP", "correcta": 1, "justificaciones": [
+ "No. Sí se tiene en cuenta (**art. 24.c**).",
+ "Es esta. No se pueden percibir participaciones en ingresos de la Administración como contraprestación de servicios (**art. 22.5**); no es un factor del **art. 24**.",
+ "No. Sí se tiene en cuenta (**art. 24.b**).",
+ "No. Sí se tiene en cuenta (**art. 24.d**)."]},
+"of-04-007": {"bloque": "retribuciones", "precepto": "Art. 29 del TREBEP", "correcta": 3, "justificaciones": [
+ "No. No se consideran retribución complementaria.",
+ "No. No se consideran retribución extraordinaria.",
+ "No. No se consideran retribución en especie.",
+ "Es esta. Tienen la consideración de retribución diferida (**art. 29**)."]},
+"of-04-008": {"bloque": "retribuciones", "precepto": "Art. 23.a del TREBEP", "correcta": 1, "justificaciones": [
+ "No. Eso retribuye las complementarias (**art. 24.b**).",
+ "Es esta. El sueldo se asigna a cada Subgrupo o Grupo de clasificación profesional (**art. 23.a**).",
+ "No. Eso retribuye las complementarias (**art. 24.c**).",
+ "No. Eso retribuye las complementarias (**art. 22.3**)."]},
+"of-04-009": {"bloque": "retribuciones", "precepto": "Art. 23 del TREBEP", "correcta": 0, "justificaciones": [
+ "Es esta. Los trienios son retribución básica (**art. 23.b**).",
+ "No. El complemento de destino es complementario.",
+ "No. El complemento específico es complementario.",
+ "No. La productividad es complementaria (**art. 24.c**)."]},
+"of-04-010": {"bloque": "retribuciones", "precepto": "Art. 26 del TREBEP", "correcta": 0, "justificaciones": [
+ "Es esta. Como mínimo, el sueldo del Subgrupo o Grupo al que aspiren a ingresar (**art. 26**).",
+ "No. No se fija un mínimo de complementarias.",
+ "No. El mínimo es el sueldo, sin complementarias.",
+ "No. El mínimo es el sueldo, sin los trienios."]},
+"of-04-011": {"bloque": "retribuciones", "precepto": "Art. 23.b del TREBEP", "correcta": 1, "justificaciones": [
+ "No. Los trienios son retribución básica.",
+ "Es esta. Los trienios son retribución básica (**art. 23.b**).",
+ "No. Una paga extraordinaria es otra cosa.",
+ "No. No son una indemnización."]},
+"of-04-012": {"bloque": "retribuciones", "precepto": "Art. 23.b del TREBEP", "correcta": 3, "justificaciones": [
+ "No. El complemento de destino es complementario.",
+ "No. El complemento específico es complementario.",
+ "No. La productividad es complementaria.",
+ "Es esta. Los trienios son retribución básica (**art. 23.b**)."]},
+"of-04-013": {"bloque": "retribuciones", "precepto": "Art. 23 del TREBEP", "correcta": 0, "justificaciones": [
+ "Es esta. El sueldo se asigna por Subgrupo o Grupo, y los trienios son una cantidad igual para cada uno (**art. 23**).",
+ "No. Las complementarias las fijan las leyes de cada Administración, no las leyes de presupuestos (**art. 24**).",
+ "No. Las complementarias las fijan las leyes de cada Administración (**art. 24**).",
+ "No. Las gratificaciones retribuyen servicios extraordinarios fuera de jornada, no la valía personal (**art. 24.d**)."]},
+"of-04-014": {"bloque": "retribuciones", "precepto": "Art. 23.b del TREBEP", "correcta": 1, "justificaciones": [
+ "No. Los trienios son retribución básica.",
+ "Es esta. Los trienios son retribución básica (**art. 23.b**).",
+ "No. Una paga extraordinaria es otra cosa.",
+ "No. No son una indemnización."]},
+"of-04-015": {"bloque": "retribuciones", "precepto": "Art. 24 del TREBEP", "correcta": 3, "justificaciones": [
+ "No. Sí lo incluye (**art. 24.c**).",
+ "No. Sí lo incluye (**art. 24.d**).",
+ "No. Sí lo incluye (**art. 24.b**).",
+ "Es esta. La especial peligrosidad no figura expresamente entre los factores del **art. 24**."]},
+"of-04-016": {"bloque": "retribuciones", "precepto": "Art. 23 del TREBEP", "correcta": 1, "justificaciones": [
+ "No. Las pagas extraordinarias no son un concepto básico propio.",
+ "Es esta. Sueldo y trienios, única y exclusivamente (**art. 23**).",
+ "No. Los complementos no son retribución básica.",
+ "No. Faltan los trienios y los complementos no son básicos."]},
+"of-04-017": {"bloque": "retribuciones", "precepto": "Art. 22.1 del TREBEP", "correcta": 1, "justificaciones": [
+ "No. Esa no es la clasificación del **art. 22.1**.",
+ "Es esta. Básicas y complementarias (**art. 22.1**).",
+ "No. Esa no es la clasificación del artículo.",
+ "No. Sueldo y trienios son las retribuciones básicas."]},
+"of-04-018": {"bloque": "retribuciones", "precepto": "Art. 25.2 del TREBEP", "correcta": 0, "justificaciones": [
+ "Es esta. Se reconocen los trienios de servicios anteriores, con efectos retributivos solo desde la entrada en vigor del Estatuto (**art. 25.2**).",
+ "No. Se reconocen también los de servicios anteriores.",
+ "No. Los efectos retributivos son solo desde la entrada en vigor.",
+ "No. Sí se reconocen los de servicios anteriores."]},
+"of-04-019": {"bloque": "retribuciones", "precepto": "Art. 22.4 del TREBEP", "correcta": 3, "justificaciones": [
+ "No. Incluyen también las complementarias, salvo las de los apartados c) y d) del art. 24.",
+ "No. No es solo la mensualidad ordinaria: hay excepciones en las complementarias.",
+ "No. Son dos pagas, no tres.",
+ "Es esta. Dos pagas, cada una de una mensualidad de básicas y de las complementarias, salvo las de rendimiento y servicios extraordinarios (**art. 22.4**)."]},
+"of-04-020": {"bloque": "retribuciones", "precepto": "Art. 21.1 del TREBEP", "correcta": 2, "justificaciones": [
+ "No. Invierte básicas y complementarias: la ley fija las cuantías de las básicas y el incremento de las complementarias.",
+ "No. No es una orden ministerial: es la ley de presupuestos.",
+ "Es esta. Las cuantías de las básicas y el incremento global de las complementarias, y la masa salarial del personal laboral, en la ley de presupuestos (**art. 21.1**).",
+ "No. Las cuantías de las complementarias no se fijan en la ley de presupuestos."]},
+
+"of-05-001": {"bloque": "negociacion", "precepto": "Art. 34.4 del TREBEP", "correcta": 1, "justificaciones": [
+ "No. Las Mesas Especiales no existen en el artículo.",
+ "Es esta. Dependiendo de las Mesas Generales pueden constituirse Mesas Sectoriales (**art. 34.4**).",
+ "No. Las Mesas Especializadas no existen en el artículo.",
+ "No. Las Mesas Delegadas no existen en el artículo."]},
+"of-05-002": {"bloque": "negociacion", "precepto": "Art. 37.2.d del TREBEP", "correcta": 2, "justificaciones": [
+ "No. Sí es objeto de negociación (**art. 37.1.e**).",
+ "No. Sí es objeto de negociación (**art. 37.1.i**).",
+ "Es esta. Los poderes de dirección y control propios de la relación jerárquica están excluidos (**art. 37.2.d**).",
+ "No. Sí es objeto de negociación (**art. 37.1.l**)."]},
+"of-05-003": {"bloque": "negociacion", "precepto": "Art. 37.2.c del TREBEP", "correcta": 1, "justificaciones": [
+ "No. Es objeto de negociación (**art. 37.1.b**).",
+ "Es esta. La determinación de condiciones de trabajo del personal directivo está excluida (**art. 37.2.c**).",
+ "No. Es objeto de negociación (**art. 37.1.l**).",
+ "No. Es objeto de negociación (**art. 37.1.d**)."]},
+"of-05-004": {"bloque": "negociacion", "precepto": "Art. 35.4 del TREBEP", "correcta": 1, "justificaciones": [
+ "No. El máximo es quince, no diez.",
+ "Es esta. Ninguna de las partes puede superar quince miembros (**art. 35.4**).",
+ "No. El máximo es quince, no veinte.",
+ "No. El máximo es quince, no treinta."]},
+"of-05-005": {"bloque": "negociacion", "precepto": "Art. 37.2.b del TREBEP", "correcta": 0, "justificaciones": [
+ "Es esta. La regulación del ejercicio de los derechos de los ciudadanos y usuarios está excluida (**art. 37.2.b**).",
+ "No. Es objeto de negociación (**art. 37.1.l**).",
+ "No. Es objeto de negociación (**art. 37.1.b**).",
+ "No. Es objeto de negociación (**art. 37.1.d**)."]},
+"of-05-006": {"bloque": "negociacion", "precepto": "Art. 37.1.i del TREBEP", "correcta": 0, "justificaciones": [
+ "Es esta. Los criterios generales de acción social (**art. 37.1.i**).",
+ "No. Las condiciones del personal directivo están excluidas (**art. 37.2.c**).",
+ "No. Los poderes de dirección y control están excluidos (**art. 37.2.d**).",
+ "No. Solo las materias que establezca la normativa de prevención de riesgos laborales (**art. 37.1.j**)."]},
+"of-05-007": {"bloque": "negociacion", "precepto": "Art. 38 del TREBEP", "correcta": 3, "justificaciones": [
+ "No. Los Acuerdos requieren aprobación expresa y formal del órgano de gobierno (**art. 38.3**).",
+ "No. Los Acuerdos no requieren siempre una ley: solo si versan sobre reserva de ley.",
+ "No. Los Acuerdos también se aplican directamente cuando están ratificados y versan sobre materias que decide el órgano de gobierno.",
+ "Es esta. Los Pactos se aplican directamente; los Acuerdos, si están ratificados y afectan a temas que decide el órgano de gobierno (**art. 38.2 y 38.3**)."]},
+"of-05-008": {"bloque": "negociacion", "precepto": "Art. 37.2.c del TREBEP", "correcta": 3, "justificaciones": [
+ "No. Sí es objeto de negociación (**art. 37.1.a**).",
+ "No. Sí es objeto de negociación (**art. 37.1.e**).",
+ "No. Sí es objeto de negociación (**art. 37.1.g**).",
+ "Es esta. Las condiciones del personal directivo están excluidas (**art. 37.2.c**)."]},
+"of-05-009": {"bloque": "negociacion", "precepto": "Art. 38.2 del TREBEP", "correcta": 1, "justificaciones": [
+ "No. Los Acuerdos versan sobre materias de los órganos de gobierno.",
+ "Es esta. Los Pactos se celebran sobre materias del ámbito del órgano que los suscribe y se aplican directamente (**art. 38.2**).",
+ "No. Los Convenios no son el instrumento del artículo.",
+ "No. Los Conciertos no son el instrumento del artículo."]},
+"of-05-010": {"bloque": "negociacion", "precepto": "Art. 37.2.e del TREBEP", "correcta": 2, "justificaciones": [
+ "No. Es objeto de negociación (**art. 37.1.m**).",
+ "No. Es objeto de negociación (**art. 37.1**).",
+ "Es esta. La regulación concreta de los procedimientos de acceso al empleo público está excluida (**art. 37.2.e**).",
+ "No. Es objeto de negociación (**art. 37.1.a**)."]},
+"of-05-011": {"bloque": "negociacion", "precepto": "Art. 33.1 del TREBEP", "correcta": 2, "justificaciones": [
+ "No. La jerarquía no es uno de los principios del **art. 33.1**.",
+ "No. La seguridad jurídica no es uno de ellos.",
+ "Es esta. Cobertura presupuestaria, junto con legalidad, obligatoriedad, buena fe, publicidad y transparencia (**art. 33.1**).",
+ "No. La voluntariedad no es uno de ellos: la negociación es obligatoria."]},
+"of-05-012": {"bloque": "negociacion", "precepto": "Art. 37.1.b del TREBEP", "correcta": 1, "justificaciones": [
+ "No. Están excluidos (**art. 37.2.d**).",
+ "Es esta. La determinación y aplicación de las retribuciones complementarias (**art. 37.1.b**).",
+ "No. La regulación concreta de la promoción profesional está excluida (**art. 37.2.e**).",
+ "No. Está excluida (**art. 37.2.b**)."]},
+"of-05-013": {"bloque": "negociacion", "precepto": "Art. 37.2.e del TREBEP", "correcta": 2, "justificaciones": [
+ "No. Es objeto de negociación (**art. 37.1.b**).",
+ "No. Es objeto de negociación (**art. 37.1.d**).",
+ "Es esta. La regulación concreta de los sistemas y procedimientos de acceso al empleo público está excluida (**art. 37.2.e**).",
+ "No. Es objeto de negociación (**art. 37.1.e**)."]},
+"of-05-014": {"bloque": "negociacion", "precepto": "Art. 31.2 del TREBEP", "correcta": 2, "justificaciones": [
+ "No. Eso es la participación institucional (**art. 31.4**).",
+ "No. Eso es la representación (**art. 31.3**).",
+ "Es esta. El derecho a negociar la determinación de condiciones de trabajo de los empleados de la Administración Pública (**art. 31.2**).",
+ "No. No es solo del personal laboral."]}
+}

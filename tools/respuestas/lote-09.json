@@ -1,0 +1,304 @@
+{
+"of-06-001": {"bloque": "representacion", "precepto": "Art. 41.1.b del TREBEP", "correcta": 2, "justificaciones": [
+ "No. El acceso y libre circulación es dentro de los horarios habituales de trabajo, no sin límite horario (**art. 41.1.a**).",
+ "No. La audiencia en expedientes disciplinarios es durante el mandato y el año posterior, no dos (**art. 41.1.c**).",
+ "Es esta. La distribución libre de publicaciones sobre cuestiones profesionales y sindicales (**art. 41.1.b**).",
+ "No. La protección frente a traslados y sanciones es durante el mandato y el año siguiente, no dos (**art. 41.1.e**)."]},
+"of-06-002": {"bloque": "representacion", "precepto": "Art. 44.d del TREBEP", "correcta": 1, "justificaciones": [
+ "No. Los Delegados se eligen por listas abiertas, y el sistema es mayoritario.",
+ "Es esta. Listas abiertas y sistema mayoritario (**art. 44.d**).",
+ "No. Las listas son abiertas, pero el sistema es mayoritario, no proporcional.",
+ "No. Esa es la fórmula de las Juntas de Personal."]},
+"of-06-003": {"bloque": "representacion", "precepto": "Art. 46.1 del TREBEP", "correcta": 3, "justificaciones": [
+ "No. Las Juntas de Personal sí están legitimadas (**art. 46.1.b**).",
+ "No. Los Comités de Empresa sí están legitimados (**art. 46.1.c**).",
+ "No. Los empleados públicos sí, si son al menos el 40 por 100 (**art. 46.1.d**).",
+ "Es esta. Los Delegados de Prevención no figuran entre los legitimados del **art. 46.1**."]},
+"of-06-004": {"bloque": "representacion", "precepto": "Art. 39.1 del TREBEP", "correcta": 2, "justificaciones": [
+ "No. Los Comités de Empresa son del personal laboral.",
+ "No. Los Delegados Sindicales y los Comités de Empresa no son los órganos específicos de funcionarios.",
+ "Es esta. Los Delegados de Personal y las Juntas de Personal (**art. 39.1**).",
+ "No. Las Mesas de Negociación son órganos de negociación, no de representación."]},
+"of-06-005": {"bloque": "representacion", "precepto": "Art. 46.1.d del TREBEP", "correcta": 2, "justificaciones": [
+ "No. El mínimo es el 40 por 100, no el 20.",
+ "No. El mínimo es el 40 por 100, no el 30.",
+ "Es esta. En número no inferior al 40 por 100 del colectivo convocado (**art. 46.1.d**).",
+ "No. El mínimo es el 40 por 100, no el 50."]},
+"of-06-006": {"bloque": "representacion", "precepto": "Art. 42 del TREBEP", "correcta": 1, "justificaciones": [
+ "No. El mandato es de cuatro años, no de dos.",
+ "Es esta. Cuatro años, pudiendo ser reelegidos (**art. 42**).",
+ "No. Se prorroga si no se hubiesen promovido nuevas elecciones, no si se han promovido.",
+ "No. Sí pueden ser reelegidos."]},
+"of-06-007": {"bloque": "representacion", "precepto": "Art. 40.1.e del TREBEP", "correcta": 0, "justificaciones": [
+ "Es esta. Vigilar el cumplimiento de las normas vigentes en materia de condiciones de trabajo (**art. 40.1.e**).",
+ "No. Esa regulación está excluida de la negociación (**art. 37.2.e**) y no es función de las Juntas.",
+ "No. Negociar es función de las Mesas de Negociación, no de las Juntas.",
+ "No. Negociar es función de las Mesas de Negociación, no de las Juntas."]},
+"of-06-008": {"bloque": "representacion", "precepto": "Art. 41.1.d del TREBEP", "correcta": 3, "justificaciones": [
+ "No. Hasta 100 funcionarios son 15 horas, no 20.",
+ "No. De 101 a 250 son 20 horas, no 30.",
+ "No. De 501 a 750 son 35 horas, no 30.",
+ "Es esta. De 751 en adelante son 40 horas (**art. 41.1.d**)."]},
+"of-06-009": {"bloque": "representacion", "precepto": "Art. 39.2 del TREBEP", "correcta": 1, "justificaciones": [
+ "No. No corresponde a otra Junta de Personal.",
+ "Es esta. A los Delegados de Personal (**art. 39.2**).",
+ "No. El Comité de Empresa es del personal laboral.",
+ "No. No se designa a un trabajador por la Junta provincial."]},
+"of-06-010": {"bloque": "representacion", "precepto": "Art. 43.1 del TREBEP", "correcta": 3, "justificaciones": [
+ "No. Los funcionarios lo hacen por acuerdo mayoritario, no unánime (**art. 43.1.e**).",
+ "No. El porcentaje es del 10 por 100, no del 5 (**art. 43.1.d**).",
+ "No. El porcentaje es del 10 por 100, no del 15 (**art. 43.1.c**).",
+ "Es esta. Los sindicatos más representativos a nivel de comunidad autónoma, si la unidad está en su ámbito (**art. 43.1.b**)."]},
+"of-06-011": {"bloque": "representacion", "precepto": "Art. 39.3 del TREBEP", "correcta": 2, "justificaciones": [
+ "No. El Comité de Empresa es del personal laboral.",
+ "No. Los Delegados de Personal son para unidades de 6 a 49 funcionarios.",
+ "Es esta. Con 101 a 250 funcionarios hay Junta de Personal, que se constituye desde 50 (**art. 39.3**).",
+ "No. Los Delegados de Prevención no son órganos de representación del art. 39."]},
+"of-06-012": {"bloque": "representacion", "precepto": "Art. 39.5 del TREBEP", "correcta": 3, "justificaciones": [
+ "No. Cinco representantes es el tramo de 50 a 100.",
+ "No. Nueve es el tramo de 101 a 250.",
+ "No. Trece es el tramo de 251 a 500.",
+ "Es esta. Con 550 funcionarios se está en el tramo de 501 a 750, con 17 representantes (**art. 39.5**)."]},
+"of-06-013": {"bloque": "representacion", "precepto": "Art. 42 del TREBEP", "correcta": 1, "justificaciones": [
+ "No. Sí pueden ser reelegidos, y el mandato se prorroga si no hay nuevas elecciones.",
+ "Es esta. Cuatro años, pudiendo ser reelegidos (**art. 42**).",
+ "No. El mandato es de cuatro años, no cinco.",
+ "No. El mandato es de cuatro años, no cinco."]},
+"of-06-014": {"bloque": "representacion", "precepto": "Art. 42 del TREBEP", "correcta": 3, "justificaciones": [
+ "No. Las Juntas de Personal representan a los funcionarios, no al personal laboral.",
+ "No. Representan al personal funcionario, no al laboral.",
+ "No. Las Mesas de Negociación se constituyen para la negociación, no sustituyen a la representación.",
+ "Es esta. El mandato de los Delegados de Personal es de cuatro años (**art. 42**)."]},
+"of-06-015": {"bloque": "representacion", "precepto": "Art. 39.1 del TREBEP", "correcta": 2, "justificaciones": [
+ "No. Los Comités de Empresa son del personal laboral.",
+ "No. Los Comités de Empresa son del personal laboral.",
+ "Es esta. Las Juntas de Personal y los Delegados de Personal (**art. 39.1**).",
+ "No. Las Mesas de Negociación no son órganos de representación."]},
+
+"of-07-001": {"bloque": "jornada", "precepto": "Art. 50.1 del TREBEP", "correcta": 3, "justificaciones": [
+ "No. Son veintidós días hábiles, no treinta.",
+ "No. Son veintidós días hábiles, no treinta y dos.",
+ "No. Son veintidós días hábiles, no veinte.",
+ "Es esta. Veintidós días hábiles, o los proporcionales si el servicio fue menor (**art. 50.1**)."]},
+"of-07-002": {"bloque": "jornada", "precepto": "Art. 48.a del TREBEP", "correcta": 2, "justificaciones": [
+ "No. El traslado sin cambio de residencia da un día, no dos (**art. 48.b**).",
+ "No. Para exámenes finales el permiso dura los días de su celebración (**art. 48.d**).",
+ "Es esta. Enfermedad grave de un familiar de primer grado por afinidad, cinco días hábiles (**art. 48.a**).",
+ "No. Los asuntos particulares son seis días al año (**art. 48.k**); el deber inexcusable es el tiempo indispensable (**art. 48.j**)."]},
+"of-07-003": {"bloque": "jornada", "precepto": "Art. 49.c del TREBEP", "correcta": 0, "justificaciones": [
+ "Es esta. El progenitor diferente de la madre biológica tiene 19 semanas, de las que las seis primeras son obligatorias (**art. 49.c**).",
+ "No. La lactancia es para hijos menores de doce meses (**art. 48.f**).",
+ "No. No tiene que ser simultáneo al de la madre.",
+ "No. Son 19 semanas, con seis obligatorias, no 18 con diez."]},
+"of-07-004": {"bloque": "jornada", "precepto": "Art. 48.a del TREBEP", "correcta": 3, "justificaciones": [
+ "No. El hermano del padre es tío: pariente de tercer grado de consanguinidad, no de segundo.",
+ "No. No es un familiar de segundo grado.",
+ "No. No es un familiar de primer grado.",
+ "Es esta. Un tío es pariente de tercer grado, y el permiso solo cubre hasta el segundo (**art. 48.a**)."]},
+"of-07-005": {"bloque": "jornada", "precepto": "Art. 48.a del TREBEP", "correcta": 2, "justificaciones": [
+ "No. Son cuatro días hábiles, no dos.",
+ "No. Son cuatro días hábiles, no tres.",
+ "Es esta. La cuñada es familiar de segundo grado por afinidad: cuatro días hábiles (**art. 48.a**).",
+ "No. Sí le corresponde: es un familiar de segundo grado por afinidad."]},
+"of-07-006": {"bloque": "jornada", "precepto": "Art. 48.a del TREBEP", "correcta": 2, "justificaciones": [
+ "No. Son cinco días hábiles, no tres.",
+ "No. Son cinco días hábiles, no tres naturales.",
+ "Es esta. Cinco días hábiles para un familiar de primer grado (**art. 48.a**).",
+ "No. Son días hábiles, no naturales."]},
+"of-07-007": {"bloque": "jornada", "precepto": "Art. 48.a del TREBEP", "correcta": 2, "justificaciones": [
+ "No. En primer grado, en distinta localidad, son cinco días hábiles.",
+ "No. En segundo grado, en distinta localidad, son cuatro, no tres.",
+ "Es esta. Cuatro días hábiles por fallecimiento de un familiar de segundo grado en distinta localidad (**art. 48.a**).",
+ "No. En segundo grado son cuatro días, no cinco."]},
+"of-07-008": {"bloque": "jornada", "precepto": "Art. 48.a del TREBEP", "correcta": 3, "justificaciones": [
+ "No. Aunque sea de tercer grado, convive con ella y requiere su cuidado, que también da derecho.",
+ "No. Son cinco días hábiles, no cuatro.",
+ "No. Sí se contempla la intervención quirúrgica sin hospitalización con reposo domiciliario.",
+ "Es esta. Cualquier persona que conviva con la funcionaria y requiera su cuidado efectivo da derecho a cinco días hábiles (**art. 48.a**)."]},
+"of-07-009": {"bloque": "jornada", "precepto": "Art. 49.b del TREBEP", "correcta": 3, "justificaciones": [
+ "No. Se perciben exclusivamente las retribuciones básicas, no las íntegras.",
+ "No. La duración es de hasta dos meses, y solo las retribuciones básicas.",
+ "No. La duración es de hasta dos meses, no uno.",
+ "Es esta. Hasta dos meses, con retribuciones básicas exclusivamente (**art. 49.b**)."]},
+"of-07-010": {"bloque": "jornada", "precepto": "Art. 48.i del TREBEP", "correcta": 0, "justificaciones": [
+ "Es esta. La reducción es con carácter retribuido: retribuciones íntegras (**art. 48.i**).",
+ "No. No se limita a las básicas.",
+ "No. No es proporcional a la reducción: es retribuida.",
+ "No. No existe ese 75 por ciento."]},
+"of-07-011": {"bloque": "jornada", "precepto": "Art. 48.b del TREBEP", "correcta": 3, "justificaciones": [
+ "No. Es un día, no dos.",
+ "No. Es un día, no cinco.",
+ "No. Es un día, no tres.",
+ "Es esta. Un día (**art. 48.b**)."]},
+"of-07-012": {"bloque": "jornada", "precepto": "Art. 47 bis.2 del TREBEP", "correcta": 1, "justificaciones": [
+ "No. El teletrabajo no responde a un porcentaje por número de empleados.",
+ "Es esta. Habrá de ser expresamente autorizada y será compatible con la modalidad presencial (**art. 47 bis.2**).",
+ "No. Tiene carácter voluntario y reversible, no forzoso.",
+ "No. El artículo no fija un máximo del cincuenta por ciento."]},
+"of-07-013": {"bloque": "jornada", "precepto": "Art. 50.3 del TREBEP", "correcta": 2, "justificaciones": [
+ "No. Hay una excepción: la conclusión de la relación de servicios por causas ajenas a la voluntad.",
+ "No. Las necesidades de servicio no permiten sustituirlas por dinero.",
+ "Es esta. En la conclusión de la relación de servicios por causas ajenas a su voluntad se puede solicitar compensación económica (**art. 50.3**).",
+ "No. La incapacidad temporal permite disfrutarlas después, no cobrarlas (**art. 50.2**)."]},
+"of-07-014": {"bloque": "jornada", "precepto": "Art. 48.a del TREBEP", "correcta": 2, "justificaciones": [
+ "No. En primer grado son tres días en la misma localidad y cinco en otra.",
+ "No. En segundo grado son dos días en la misma localidad y cuatro en otra.",
+ "Es esta. Primer grado de consanguinidad o afinidad: tres días hábiles en la misma localidad y cinco en distinta (**art. 48.a**).",
+ "No. El primer grado incluye la afinidad."]},
+"of-07-015": {"bloque": "jornada", "precepto": "Art. 49.d del TREBEP", "correcta": 3, "justificaciones": [
+ "No. Mantiene las retribuciones íntegras si reduce un tercio o menos.",
+ "No. El umbral es un tercio, no dos tercios.",
+ "No. El umbral es un tercio y las retribuciones son íntegras, no solo las básicas.",
+ "Es esta. Reducción de jornada con retribuciones íntegras si reduce un tercio o menos (**art. 49.d**)."]},
+"of-07-016": {"bloque": "jornada", "precepto": "Art. 50.2 del TREBEP", "correcta": 1, "justificaciones": [
+ "No. Se puede disfrutar después, no hay que seguir.",
+ "Es esta. Se podrán disfrutar aunque haya terminado el año natural, sin superar los dieciocho meses desde el final del año en que se originó (**art. 50.2**).",
+ "No. No queda limitado al año natural.",
+ "No. No es en cualquier momento: hay un límite de dieciocho meses."]},
+"of-07-017": {"bloque": "jornada", "precepto": "Art. 49.d del TREBEP", "correcta": 2, "justificaciones": [
+ "Es verdadera, así que no se marca (**art. 49.b**).",
+ "Es verdadera, así que no se marca (**art. 49.c**).",
+ "Esta es la falsa, y por eso es la que hay que marcar. El permiso es de las funcionarias víctimas de violencia de género o sexual, no de los empleados públicos en general (**art. 49.d**).",
+ "Es verdadera, así que no se marca (**art. 49.a**)."]},
+"of-07-018": {"bloque": "jornada", "precepto": "Art. 50.2 del TREBEP", "correcta": 1, "justificaciones": [
+ "No. El plazo es de dieciocho meses, no doce.",
+ "Es esta. No más de dieciocho meses desde el final del año en que se originó (**art. 50.2**).",
+ "No. No se cuenta desde la autorización del permiso.",
+ "No. Los veintidós días son la duración de las vacaciones, no el plazo."]},
+"of-07-019": {"bloque": "jornada", "precepto": "Art. 48.k del TREBEP", "correcta": 3, "justificaciones": [
+ "No. Son seis días, no tres.",
+ "No. Son seis días, no cinco.",
+ "No. Son seis días, no ocho.",
+ "Es esta. Seis días al año (**art. 48.k**)."]},
+"of-07-020": {"bloque": "jornada", "precepto": "Art. 48 del TREBEP", "correcta": 0, "justificaciones": [
+ "Es esta. El art. 48 no prevé permiso por reforma del domicilio.",
+ "No. No existe ese permiso de tres días.",
+ "No. No existe ese permiso.",
+ "No. No existe ese permiso de cinco días."]},
+"of-07-021": {"bloque": "jornada", "precepto": "Art. 47 bis.3 del TREBEP", "correcta": 1, "justificaciones": [
+ "No. Tiene los mismos deberes y derechos, y la normativa de prevención de riesgos se incluye.",
+ "Es esta. Los mismos deberes y derechos, individuales y colectivos, incluida la prevención de riesgos, salvo los inherentes a la presencialidad (**art. 47 bis.3**).",
+ "No. No son diferentes.",
+ "No. No se excluyen los derechos colectivos."]},
+
+"of-08-001": {"bloque": "acceso", "precepto": "Art. 62.1 del TREBEP", "correcta": 0, "justificaciones": [
+ "Es esta. Superación del proceso selectivo, nombramiento, acatamiento de la Constitución y toma de posesión (**art. 62.1**).",
+ "No. Falta el nombramiento.",
+ "No. Falta la toma de posesión.",
+ "No. La toma de posesión es el último requisito."]},
+"of-08-002": {"bloque": "acceso", "precepto": "Art. 59.1 del TREBEP", "correcta": 2, "justificaciones": [
+ "No. El cupo se reserva en las ofertas de empleo público, no en las convocatorias.",
+ "No. No es un cupo fijo, sino no inferior, y es en las ofertas.",
+ "Es esta. En las ofertas de empleo público, un cupo no inferior al siete por ciento (**art. 59.1**).",
+ "No. Es un mínimo, no un máximo."]},
+"of-08-003": {"bloque": "acceso", "precepto": "Art. 60.1 del TREBEP", "correcta": 1, "justificaciones": [
+ "No. El artículo no fija un número impar ni un mínimo de tres.",
+ "Es esta. Se tenderá a la paridad entre mujer y hombre (**art. 60.1**).",
+ "No. El personal de designación política no puede formar parte (**art. 60.2**).",
+ "No. La pertenencia es a título individual, no en representación (**art. 60.3**)."]},
+"of-08-004": {"bloque": "acceso", "precepto": "Art. 57.1 del TREBEP", "correcta": 3, "justificaciones": [
+ "No. Puede ser empleado público.",
+ "No. No se limita al personal eventual.",
+ "No. No solo laboral: también funcionario.",
+ "Es esta. Puede acceder como personal funcionario, con las excepciones del poder público (**art. 57.1**)."]},
+"of-08-005": {"bloque": "acceso", "precepto": "Art. 59.1 del TREBEP", "correcta": 3, "justificaciones": [
+ "No. El cupo es del siete por ciento, no del cinco.",
+ "No. El cupo es del siete por ciento, no del nueve.",
+ "No. El cupo es del siete por ciento, no del tres.",
+ "Es esta. No inferior al siete por ciento, con al menos un dos por ciento para discapacidad intelectual (**art. 59.1**)."]},
+"of-08-006": {"bloque": "acceso", "precepto": "Art. 60.2 del TREBEP", "correcta": 2, "justificaciones": [
+ "No. El artículo no exige cinco años de antigüedad.",
+ "No. Es siempre a título individual (**art. 60.3**).",
+ "Es esta. No pueden formar parte los funcionarios interinos (**art. 60.2**).",
+ "No. La prolongación del servicio activo no es causa de exclusión."]},
+"of-08-007": {"bloque": "acceso", "precepto": "Art. 57.5 del TREBEP", "correcta": 2, "justificaciones": [
+ "No. Una resolución no basta: hace falta ley.",
+ "No. Un acuerdo no basta: hace falta ley.",
+ "Es esta. Por ley de las Cortes Generales o de las asambleas legislativas autonómicas (**art. 57.5**).",
+ "No. Una orden ministerial no basta: hace falta ley."]},
+"of-08-008": {"bloque": "acceso", "precepto": "Art. 56.1.c del TREBEP", "correcta": 0, "justificaciones": [
+ "Es esta. Solo por ley (**art. 56.1.c**).",
+ "No. Un real decreto no basta: hace falta ley.",
+ "No. Una orden ministerial no basta.",
+ "No. Una resolución no basta."]},
+"of-08-009": {"bloque": "acceso", "precepto": "Art. 61.2 del TREBEP", "correcta": 3, "justificaciones": [
+ "No. Los órganos de selección son colegiados (**art. 60.1**).",
+ "No. El Estatuto no prevé esa designación de la mitad por el departamento.",
+ "No. El Estatuto no fija que se nombren cada año.",
+ "Es esta. Las pruebas pueden consistir en la comprobación de conocimientos y capacidad analítica, oral o escrita (**art. 61.2**)."]},
+"of-08-010": {"bloque": "acceso", "precepto": "Art. 60.2 del TREBEP", "correcta": 1, "justificaciones": [
+ "No. Aunque sea funcionario, el personal de designación política no puede formar parte.",
+ "Es esta. Un Subsecretario es un alto cargo de designación política (**art. 60.2**).",
+ "No. Ser del Cuerpo convocado no cambia la exclusión.",
+ "No. No es personal eventual, pero igualmente no puede formar parte."]},
+"of-08-011": {"bloque": "acceso", "precepto": "Art. 56.1.c del TREBEP", "correcta": 0, "justificaciones": [
+ "Es esta. Dieciséis años cumplidos y no exceder de la edad máxima de jubilación forzosa (**art. 56.1.c**).",
+ "No. La edad mínima es dieciséis, y sí hay máximo: la jubilación forzosa.",
+ "No. El máximo es la jubilación forzosa, no 60 años.",
+ "No. Hay límites de edad."]},
+"of-08-012": {"bloque": "acceso", "precepto": "Art. 57.4 del TREBEP", "correcta": 0, "justificaciones": [
+ "Es esta. Pueden acceder como personal laboral en igualdad de condiciones (**art. 57.4**).",
+ "No. No se prevé el acceso como funcionarios interinos.",
+ "No. Como funcionarios de carrera, solo los nacionales de la Unión Europea y asimilados.",
+ "No. No como funcionarios de carrera ni como personal eventual."]},
+"of-08-013": {"bloque": "acceso", "precepto": "Art. 60.3 del TREBEP", "correcta": 1, "justificaciones": [
+ "No. No hay excepción para los suplentes.",
+ "Es esta. Siempre a título individual, sin ostentarse en representación o por cuenta de nadie (**art. 60.3**).",
+ "No. La pertenencia no es a título colectivo.",
+ "No. No pueden formar parte el personal eventual ni otros excluidos (**art. 60.2**)."]},
+"of-08-014": {"bloque": "acceso", "precepto": "Art. 61.6 del TREBEP", "correcta": 3, "justificaciones": [
+ "No. No basta la convocatoria: hace falta ley.",
+ "No. No basta la oferta de empleo público: hace falta ley.",
+ "No. No basta una norma reglamentaria: hace falta ley.",
+ "Es esta. Solo en virtud de ley (**art. 61.6**)."]},
+"of-08-015": {"bloque": "acceso", "precepto": "Art. 60.2 del TREBEP", "correcta": 3, "justificaciones": [
+ "No. El personal de designación política no puede formar parte.",
+ "No. El personal eventual no puede formar parte.",
+ "No. Los funcionarios interinos no pueden formar parte.",
+ "Es esta. El personal laboral no figura entre los excluidos del **art. 60.2**."]},
+"of-08-016": {"bloque": "acceso", "precepto": "Art. 56.1.c del TREBEP", "correcta": 0, "justificaciones": [
+ "Es esta. Solo por ley (**art. 56.1.c**).",
+ "No. Un real decreto no basta: hace falta ley.",
+ "No. Las bases de la convocatoria no bastan.",
+ "No. Una orden ministerial no basta."]},
+"of-08-017": {"bloque": "acceso", "precepto": "Art. 62.1.c del TREBEP", "correcta": 1, "justificaciones": [
+ "Es verdadera, así que no se marca (**art. 62.1.d**).",
+ "Esta es la falsa, y por eso es la que hay que marcar. El acatamiento es del Estatuto de Autonomía correspondiente, no del de la comunidad donde resida el aspirante (**art. 62.1.c**).",
+ "Es verdadera, así que no se marca (**art. 62.1.a**).",
+ "Es verdadera, así que no se marca (**art. 62.1.b**)."]},
+"of-08-018": {"bloque": "acceso", "precepto": "Art. 59.1 del TREBEP", "correcta": 1, "justificaciones": [
+ "No. El cupo es del siete por ciento, no del cinco.",
+ "Es esta. No inferior al siete por ciento (**art. 59.1**).",
+ "No. Es un mínimo, no un máximo, y la cifra es siete.",
+ "No. La cifra es siete por ciento, no más del nueve."]},
+"of-08-019": {"bloque": "deberes", "precepto": "Art. 53.7 del TREBEP", "correcta": 1, "justificaciones": [
+ "No. Es un principio de conducta (**art. 54.2**).",
+ "Es esta. No aceptar trato de favor o privilegio es un principio ético (**art. 53.7**).",
+ "No. Es un principio de conducta (**art. 54.5**).",
+ "No. Es un principio de conducta (**art. 54.11**)."]},
+"of-08-020": {"bloque": "acceso", "precepto": "Art. 62.1.c del TREBEP", "correcta": 1, "justificaciones": [
+ "No. La toma de posesión es dentro del plazo que se establezca, no en tres días.",
+ "Es esta. Acto de acatamiento de la Constitución, del Estatuto de Autonomía correspondiente y del resto del ordenamiento (**art. 62.1.c**).",
+ "No. Hay que acreditar los requisitos de la convocatoria, incluida la titulación (**art. 62.2**).",
+ "No. La toma de posesión no es al día siguiente, sino dentro del plazo que se establezca."]},
+"of-08-021": {"bloque": "acceso", "precepto": "Art. 61.7 del TREBEP", "correcta": 3, "justificaciones": [
+ "No. Falta la oposición y la entrevista no es un sistema.",
+ "No. Falta la oposición y el concurso no lleva entrevista obligatoria.",
+ "No. Falta el concurso de valoración de méritos.",
+ "Es esta. Oposición, concurso-oposición o concurso de valoración de méritos (**art. 61.7**)."]},
+"of-08-022": {"bloque": "acceso", "precepto": "Art. 59.1 del TREBEP", "correcta": 0, "justificaciones": [
+ "Es esta. Al menos el dos por ciento (**art. 59.1**).",
+ "No. El mínimo es el dos por ciento, no el tres.",
+ "No. El mínimo es el dos por ciento, no el cinco.",
+ "No. El siete por ciento es el cupo total de discapacidad."]},
+"of-08-023": {"bloque": "acceso", "precepto": "Art. 56.1.c del TREBEP", "correcta": 1, "justificaciones": [
+ "No. Es la edad máxima de jubilación forzosa, no la mínima.",
+ "Es esta. Dieciséis años cumplidos y no exceder, en su caso, de la edad máxima de jubilación forzosa (**art. 56.1.c**).",
+ "No. La edad mínima es dieciséis, no dieciocho.",
+ "No. Habla de sanción disciplinaria o equivalente, no pecuniaria, y en el Estado de origen (**art. 56.1.d**)."]},
+"of-08-024": {"bloque": "acceso", "precepto": "Art. 60.1 del TREBEP", "correcta": 3, "justificaciones": [
+ "No. No son individualistas.",
+ "No. No son solidarios.",
+ "No. No son mancomunados.",
+ "Es esta. Los órganos de selección son colegiados (**art. 60.1**)."]}
+}
