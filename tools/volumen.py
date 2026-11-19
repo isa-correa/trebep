@@ -38,37 +38,38 @@ HOJAS = {
     1: ("portada", "Portada e índice", "", "entrada"),
     2: ("metodo", "Método del supuesto práctico", "", "entrada"),
     3: ("senuelos", "Los señuelos que más se repiten", "", "entrada"),
-    4: ("t1-aplica", "A quién se aplica el TREBEP", "2-5", "teoria"),
-    5: ("t1-art4", "Las ocho letras del art. 4", "4", "teoria"),
-    6: ("t1-practica", "Práctica y trampas del ámbito", "1-7", "practica"),
-    7: ("t2-clases", "Las cuatro clases de empleados", "8,9,12,13", "teoria"),
-    8: ("t2-interinos", "Los interinos del art. 10", "10", "teoria"),
-    9: ("t2-laboral", "Laboral, eventual y directivo", "11-13", "teoria"),
-    10: ("t2-practica", "Práctica: qué empleado es y cómo cesa", "8-13", "practica"),
-    11: ("t3-14-15", "Art. 14 frente al art. 15", "14,15", "teoria"),
-    12: ("t3-practica", "Práctica: ¿art. 14 o art. 15?", "14,15", "practica"),
-    13: ("t4-escalera", "La escalera de la carrera profesional", "16", "teoria"),
-    14: ("t4-promocion", "Promoción interna y evaluación del desempeño", "17-20", "teoria"),
-    15: ("t4-practica", "Práctica: qué modalidad de carrera es", "16-20", "practica"),
-    16: ("t5-estructura", "La estructura retributiva", "21,22", "teoria"),
-    17: ("t5-basicas", "Básicas frente a complementarias", "23,24", "teoria"),
-    18: ("t5-otros", "Quién cobra qué: interinos, prácticas, laboral y diferidas", "25-27,29", "teoria"),
-    19: ("t5-indemnizaciones", "Indemnizaciones y deducción de retribuciones", "28,30", "teoria"),
-    20: ("t5-practica", "Práctica: qué cobra y qué se le descuenta", "21-30", "practica"),
-    21: ("cifras", "Cifras y plazos", "", "cierre"),
-    22: ("decide", "Quién decide y qué no se aplica", "", "cierre"),
-    23: ("glosario", "Glosario de términos de examen", "", "cierre"),
+    4: ("t1-arranque", "El arranque del Estatuto", "1,6,7", "teoria"),
+    5: ("t1-aplica", "¿A quién se aplica el Estatuto?", "2,3", "teoria"),
+    6: ("t1-propia", "¿Quién tiene ley propia?", "4,5", "teoria"),
+    7: ("t1-practica", "Práctica y trampas del ámbito", "1-7", "practica"),
+    8: ("t2-clases", "Las cuatro clases de empleados", "8,9,12,13", "teoria"),
+    9: ("t2-interinos", "Los interinos del art. 10", "10", "teoria"),
+    10: ("t2-laboral", "Laboral, eventual y directivo", "11-13", "teoria"),
+    11: ("t2-practica", "Práctica: qué empleado es y cómo cesa", "8-13", "practica"),
+    12: ("t3-14-15", "Art. 14 frente al art. 15", "14,15", "teoria"),
+    13: ("t3-practica", "Práctica: ¿art. 14 o art. 15?", "14,15", "practica"),
+    14: ("t4-escalera", "La escalera de la carrera profesional", "16", "teoria"),
+    15: ("t4-promocion", "Promoción interna y evaluación del desempeño", "17-20", "teoria"),
+    16: ("t4-practica", "Práctica: qué modalidad de carrera es", "16-20", "practica"),
+    17: ("t5-estructura", "La estructura retributiva", "21,22", "teoria"),
+    18: ("t5-basicas", "Básicas frente a complementarias", "23,24", "teoria"),
+    19: ("t5-otros", "Quién cobra qué: interinos, prácticas, laboral y diferidas", "25-27,29", "teoria"),
+    20: ("t5-indemnizaciones", "Indemnizaciones y deducción de retribuciones", "28,30", "teoria"),
+    21: ("t5-practica", "Práctica: qué cobra y qué se le descuenta", "21-30", "practica"),
+    22: ("cifras", "Cifras y plazos", "", "cierre"),
+    23: ("decide", "Quién decide y qué no se aplica", "", "cierre"),
+    24: ("glosario", "Glosario de términos de examen", "", "cierre"),
 }
 
 # bloques de la pestaña Apuntes: (id, etiqueta, nombre, descripción, hojas)
 BLOQUES = [
     ("0", "00", "Entrada", "Portada, método del supuesto práctico y los señuelos que más se repiten. Para empezar.", [1, 2, 3]),
-    ("1", "01", "Ámbito de aplicación", "Arts. 1 a 7. A quién se aplica el Estatuto y qué personal tiene legislación propia.", [4, 5, 6]),
-    ("2", "02", "Clases de empleados públicos", "Arts. 8 a 13. Las cuatro clases de empleados, interinos incluidos.", [7, 8, 9, 10]),
-    ("3", "03", "Derechos de los empleados", "Arts. 14 y 15. Derechos individuales y derechos individuales ejercidos colectivamente.", [11, 12]),
-    ("4", "04", "Carrera profesional", "Arts. 16 a 20. Carrera, promoción interna y evaluación del desempeño.", [13, 14, 15]),
-    ("5", "05", "Retribuciones", "Arts. 21 a 30. Estructura retributiva, sueldos, indemnizaciones y deducciones.", [16, 17, 18, 19, 20]),
-    ("6", "06", "Cierre", "Cifras y plazos, quién decide y glosario. Para repasar.", [21, 22, 23]),
+    ("1", "01", "Ámbito de aplicación", "Arts. 1 a 7. Qué regula el Estatuto, a quién se aplica y quién tiene legislación propia.", [4, 5, 6, 7]),
+    ("2", "02", "Clases de empleados públicos", "Arts. 8 a 13. Las cuatro clases de empleados, interinos incluidos.", [8, 9, 10, 11]),
+    ("3", "03", "Derechos de los empleados", "Arts. 14 y 15. Derechos individuales y derechos individuales ejercidos colectivamente.", [12, 13]),
+    ("4", "04", "Carrera profesional", "Arts. 16 a 20. Carrera, promoción interna y evaluación del desempeño.", [14, 15, 16]),
+    ("5", "05", "Retribuciones", "Arts. 21 a 30. Estructura retributiva, sueldos, indemnizaciones y deducciones.", [17, 18, 19, 20, 21]),
+    ("6", "06", "Cierre", "Cifras y plazos, quién decide y glosario. Para repasar.", [22, 23, 24]),
 ]
 
 
@@ -108,6 +109,11 @@ def main():
             sys.exit("Falta la hoja %02d (o hay más de una) en %s" % (n, carpeta))
         w, h = convertir(pdfs[0], os.path.join(salida, eid + "-1.webp"))
         catalogo[eid] = {"titulo": titulo, "paginas": [{"src": "img/esquemas/%s-1.webp" % eid, "w": w, "h": h}], "a": arts}
+
+    # quita las imágenes de hojas que ya no existen (por ejemplo, si cambia un id)
+    for f in os.listdir(salida):
+        if f.endswith("-1.webp") and f[:-len("-1.webp")] not in catalogo:
+            os.remove(os.path.join(salida, f))
 
     apuntes = []
     for bid, etq, nombre, desc, hojas in BLOQUES:
