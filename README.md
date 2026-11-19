@@ -8,6 +8,7 @@ Se publica tal cual en GitHub Pages: no necesita compilar nada. Solo hay que sub
 
 - Las **890 preguntas** del aula virtual están extraídas en `tools/preguntas.json` (con id estable): 16 tests de autoevaluación (275), 10 oficiales (195), 5 de votaciones (162), 10 exámenes (161), 2 ejercicios (27) y 6 supuestos (70).
 - Las respuestas razonadas se van añadiendo en `tools/respuestas/*.json`. Solo entran en la web las preguntas con respuesta, y un supuesto solo sale cuando tiene todas las suyas.
+- Los apuntes del profesor (`TREBEP_apuntes_fuente.html`) llegan a la clase 1, arts. 1 a 30. Lo que marca como estrella o clave de examen está en `tools/marcas.py`, y sus explicaciones y ejemplos de clase van en el campo `ojo` de cada pregunta, empezando por «En clase:». Falta desde el art. 31.
 
 ## Flujo
 

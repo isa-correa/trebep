@@ -206,14 +206,12 @@
  "Es esta. Durante el permiso de hasta dos meses para el desplazamiento se perciben exclusivamente las retribuciones básicas (**art. 49.b**).",
  "No. El artículo no prevé dietas de desplazamiento para este permiso.",
  "No. Combina la a y la c, y ninguna de las dos es cierta."]},
-"au-08-012": {"bloque": "jornada", "precepto": "Art. 7 del TREBEP", "correcta": 1,
- "ojo": "Antes de la reforma del art. 7, estos permisos del personal laboral se regían por el Estatuto de los Trabajadores. Ahora el art. 7 manda aplicar el Estatuto Básico y excluye las suspensiones del Estatuto de los Trabajadores.",
- "revisar": "Respondida con el texto vigente del art. 7. Si el profesor corrige con la redacción antigua, la clave sería la opción 0.",
- "justificaciones": [
+"au-08-012": {"bloque": "jornada", "precepto": "Art. 7 del TREBEP", "correcta": 1, "justificaciones": [
  "No. El **art. 7** dice que no se les aplican las previsiones del Estatuto de los Trabajadores sobre las suspensiones de contrato por esos supuestos.",
  "Es esta. En materia de permisos de nacimiento, adopción, del progenitor diferente de la madre biológica, lactancia y parental, el personal laboral se rige por el Estatuto Básico (**art. 7**).",
  "No. El Real Decreto 364/1995 es el reglamento de ingreso del personal de la Administración General del Estado, no regula estos permisos.",
- "No. El contrato de trabajo no es la fuente que el **art. 7** fija para estos permisos."]},
+ "No. El contrato de trabajo no es la fuente que el **art. 7** fija para estos permisos."],
+ "ojo": "Antes de la reforma del art. 7, estos permisos del personal laboral se regían por el Estatuto de los Trabajadores. Ahora el art. 7 manda aplicar el Estatuto Básico y excluye las suspensiones del Estatuto de los Trabajadores. En clase: el laboral se rige por la legislación laboral, los convenios y los preceptos del Estatuto que así lo digan. En los permisos de nacimiento, adopción, del progenitor diferente de la madre biológica, lactancia y parental manda el Estatuto, y no se aplican las suspensiones del Estatuto de los Trabajadores."},
 "au-08-013": {"bloque": "jornada", "precepto": "Art. 48.f del TREBEP", "correcta": 1, "justificaciones": [
  "No. El permiso no puede transferirse al otro progenitor, adoptante, guardador o acogedor.",
  "Es esta. Es un derecho individual de los funcionarios, sin que pueda transferirse su ejercicio al otro progenitor (**art. 48.f**).",

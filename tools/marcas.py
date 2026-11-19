@@ -1,7 +1,8 @@
-"""Lo que el profesor marca en sus apuntes como estrella, clave de examen o poco preguntado.
+"""Lo que el profesor marca en TREBEP_apuntes_fuente.html como estrella, clave de examen o poco preguntado.
 
-Todavía no hay marcas: se añadirán cuando lleguen los apuntes. Mientras MARCAS esté vacío, ninguna pregunta
-lleva marca y el filtro «Solo estrella y clave de examen» sale a cero.
+Los apuntes todavía no están completos: llegan a la clase 1, arts. 1 a 30 (títulos I y II y capítulos I a III
+del título III). Falta desde el art. 31 (negociación colectiva). Cuando se actualice el HTML, se añaden aquí
+las marcas nuevas y se vuelve a ejecutar tools/construir.py.
 
 Cada marca se ata a artículos del TREBEP. Una pregunta recibe la marca si su precepto cita ese artículo
 (o ese apartado: "10.4" atrapa "art. 10.4" y "art. 10.4.a)", pero no "art. 10.5").
@@ -18,6 +19,19 @@ NIVELES = {"estrella": 3, "clave": 2, "poco": 1}
 
 # ("estrella" | "clave" | "poco", "artículos", "lo que dice el profesor")
 MARCAS = [
+    # ---------- Estrella: el profesor dice que es casi seguro o «clarísima pregunta» ----------
+    ("estrella", "4", "Artículo fundamental y de «casi seguro pregunta»: las ocho letras de personal con legislación propia, al que el Estatuto solo se aplica si esa legislación lo dice."),
+    ("estrella", "11.1", "«Clarísima pregunta»: según la duración del contrato, el laboral es fijo, por tiempo indefinido o temporal."),
+
+    # ---------- Clave de examen: lo que marca como importante, IMP o ya preguntado ----------
+    ("clave", "2.3", "Pregunta típica: qué partes del TREBEP no se aplican al personal docente y estatutario de los Servicios de Salud."),
+    ("clave", "6", "Marcado como importante: las leyes de Función Pública las aprueban las Cortes Generales y las asambleas legislativas autonómicas."),
+    ("clave", "8", "«Pregunta regalo»: solo hay cuatro clases de empleados públicos y el personal directivo no es una de ellas."),
+    ("clave", "10", "El profesor le da en torno a un 50 % de probabilidad de pregunta: los interinos, sus cuatro supuestos y plazos, el cese y su régimen."),
+    ("clave", "13", "Marcado como importante, con la nota «no es empleado público». Trampa de test: en su designación falta la igualdad."),
+    ("clave", "14.a", "Ya preguntado en Administrativo libre 2019 y en la estabilización de 2021: la inamovilidad es solo de los funcionarios de carrera."),
+    ("clave", "14.p", "Marcado como IMP: la libre asociación profesional parece colectiva, pero es un derecho individual. Es trampa."),
+    ("clave", "18", "Marcado como importante, con la nota «sí hay examen»: requisitos de ingreso, dos años en el subgrupo inferior y superar las pruebas."),
 ]
 
 
@@ -43,7 +57,9 @@ def citas(precepto):
         m = re.search(r"\barts?\b\.?\s*(.*)", trozo, re.I)
         if not m:
             continue
-        nums = re.split(r"\s(?:de la|del|de)\s|\bTREBEP\b", m.group(1))[0]
+        # Las disposiciones (DA 13.ª) no son artículos, y "47 bis.2" es el art. 47 bis, no el 2.
+        nums = re.split(r"\s(?:de la|del|de)\s|\bTREBEP\b|\b(?:DA|DT|DF)\b", m.group(1))[0]
+        nums = re.sub(r"(\d+)\s+bis\b", r"\1", nums)
         for n in re.finditer(r"(\d+)((?:\.\w+)*)\)?(?:\s*(?:a|-)\s*(\d+))?", nums):
             a = int(n.group(1))
             if n.group(3) and not n.group(2):

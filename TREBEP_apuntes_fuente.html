@@ -1,0 +1,747 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>TREBEP, clase 1 (arts. 1 a 30)</title>
+<style>
+@font-face { font-family: 'Quicksand'; src: url('/usr/share/fonts/truetype/quicksand/Quicksand-Regular.ttf'); font-weight: 400; }
+@font-face { font-family: 'Quicksand'; src: url('/usr/share/fonts/truetype/quicksand/Quicksand-Medium.ttf'); font-weight: 600; }
+@font-face { font-family: 'Quicksand'; src: url('/usr/share/fonts/truetype/quicksand/Quicksand-Bold.ttf'); font-weight: 700; }
+
+@page {
+  size: A4;
+  margin: 2cm 1.3cm 2cm 1.3cm;
+  @bottom-right { content: counter(page); font-family: 'Quicksand'; font-size: 9pt; color: #555555; }
+}
+@page :first { @bottom-right { content: none; } }
+
+* { box-sizing: border-box; }
+body { font-family: 'Quicksand', sans-serif; font-size: 9pt; line-height: 1.5; color: #1a1a1a; font-weight: 400; }
+h1, h2, h3 { break-after: avoid-page; font-weight: 700; color: #111111; }
+p, li { orphans: 3; widows: 3; }
+
+/* PORTADA */
+.portada { text-align: center; padding-top: 5cm; }
+.portada .kicker { font-size: 10pt; letter-spacing: 2px; text-transform: uppercase; color: #555555; margin-bottom: 0.6cm; }
+.portada h1.titulo { font-size: 26pt; font-weight: 700; margin: 0 0 0.3cm 0; line-height: 1.25; }
+.portada .subtitulo { font-size: 13pt; font-weight: 600; color: #333333; margin-bottom: 1.2cm; }
+.portada .linea { width: 3cm; height: 2px; background: #333333; margin: 0.8cm auto; }
+.portada .meta { font-size: 10.5pt; color: #444444; margin-top: 3cm; line-height: 1.8; }
+.page-break { break-before: page; }
+
+/* ÍNDICE */
+.toc-list { list-style: none; padding: 0; margin: 0; }
+.toc-list li { display: flex; justify-content: space-between; align-items: baseline; padding: 0.16cm 0; border-bottom: 1px dotted #bbbbbb; font-size: 8.7pt; }
+.toc-list li.toc-main { font-weight: bold; font-size: 9.3pt; border-bottom: 1px solid #999999; padding-top: 0.3cm; }
+.toc-list li.toc-sub { padding-left: 0.5cm; color: #333333; border-bottom: 1px dotted #dddddd; }
+.toc-list li.toc-subsub { padding-left: 1cm; font-size: 8.5pt; color: #555555; border-bottom: 1px dotted #eeeeee; }
+.toc-list a { color: #1a1a1a; text-decoration: none; }
+.toc-page::after { content: target-counter(attr(data-href url), page); color: #1a1a1a; }
+
+/* SECCIONES */
+h1.articulo { font-size: 12pt; border-bottom: 2px solid #222222; padding-bottom: 0.12cm; margin-top: 0.9cm; margin-bottom: 0.4cm; break-inside: avoid; }
+h1.articulo .num { display: inline-block; background: #222222; color: #ffffff; font-size: 10pt; padding: 0.05cm 0.25cm; border-radius: 3px; margin-right: 0.25cm; vertical-align: middle; }
+h2.sub { font-size: 10pt; font-weight: 600; margin-top: 0.55cm; margin-bottom: 0.2cm; color: #222222; }
+h3.subsub { font-size: 9.5pt; font-weight: 600; margin-top: 0.35cm; margin-bottom: 0.15cm; color: #333333; }
+h1.intro-title { font-size: 12pt; margin-top: 0; margin-bottom: 0.4cm; border-bottom: 2px solid #222222; padding-bottom: 0.12cm; }
+h1.parte { font-size: 16pt; text-align: center; margin-top: 7cm; border: none; }
+.parte-sub { text-align: center; font-size: 10.5pt; color: #444444; }
+
+/* RECUADROS */
+.box { break-inside: avoid; margin: 0.4cm 0; padding: 0.3cm 0.45cm; border-radius: 4px; font-size: 8.7pt; }
+.box .box-label { font-weight: 700; font-size: 9.5pt; text-transform: uppercase; letter-spacing: 0.5px; display: block; margin-bottom: 0.15cm; font-style: normal; }
+.box.clave { background: #eeeeee; border: 1.5px solid #222222; border-left: 5px solid #222222; }
+.box.aviso { background: #f7f7f7; border: 1.5px dashed #555555; border-left: 5px solid #555555; }
+.box.ejemplo { background: #fafafa; border: 1px solid #999999; border-left: 4px solid #999999; font-style: italic; }
+.box ul { margin-bottom: 0.05cm; }
+
+/* TABLAS */
+table { width: 100%; border-collapse: collapse; margin: 0.35cm 0 0.5cm 0; font-size: 8pt; }
+table.compacta { break-inside: avoid; }
+tr { break-inside: avoid; }
+tr:first-child { break-after: avoid; }
+th, td { border: 1px solid #999999; padding: 0.18cm 0.28cm; text-align: left; vertical-align: top; }
+th { background: #dddddd; font-weight: 700; }
+tr:nth-child(even) td { background: #f5f5f5; }
+td.oscuro { background: #8f8f8f !important; color: #ffffff; font-weight: 700; }
+
+ul, ol { margin: 0.15cm 0 0.35cm 0; padding-left: 0.6cm; }
+li { margin-bottom: 0.08cm; }
+
+.diagrama { text-align: center; margin: 0.4cm 0; break-inside: avoid; }
+.leyenda { font-size: 8.5pt; margin: 0.3cm auto 0 auto; max-width: 15cm; text-align: left; }
+.leyenda .item { display: flex; align-items: flex-start; margin-bottom: 0.15cm; }
+.leyenda .swatch { width: 0.4cm; height: 0.4cm; margin-right: 0.25cm; margin-top: 0.05cm; border: 1px solid #333; flex-shrink: 0; }
+
+.trampa { break-inside: avoid; margin: 0 0 0.3cm 0; padding: 0.2cm 0.35cm; border-left: 4px solid #555555; background: #f7f7f7; font-size: 8.7pt; }
+.trampa .alerta { font-weight: 700; display: block; margin-bottom: 0.05cm; }
+.nota-final { font-size: 8.5pt; color: #555555; margin-top: 0.6cm; border-top: 1px solid #bbbbbb; padding-top: 0.25cm; }
+.pequena { font-size: 8pt; color: #666666; }
+#glosario td, #glosario th { padding: 0.14cm 0.26cm; }
+</style>
+</head>
+<body>
+<div class="portada">
+  <div class="kicker">Oposiciones C1 · Cuerpo General Administrativo del Estado</div>
+  <h1 class="titulo">TREBEP</h1>
+  <div class="subtitulo">Apuntes de estudio · Bloque IV, Gestión de personal · Clase 1: arts. 1 a 30</div>
+  <div class="linea"></div>
+  <div class="meta">
+    Real Decreto Legislativo 5/2015, de 30 de octubre,<br>
+    texto refundido del Estatuto Básico del Empleado Público<br><br>
+    Título I: objeto y ámbito de aplicación<br>
+    Título II: clases de empleados públicos<br>
+    Título III: derechos, carrera profesional, evaluación del desempeño y retribuciones
+  </div>
+</div>
+<div class="indice page-break">
+  <h1 class="intro-title">Índice</h1>
+  <ul class="toc-list">
+<li class=""><a href="#intro">Introducción: qué hay en este documento y cómo estudiarlo</a><span class="toc-page" data-href="#intro"></span></li>
+<li class="toc-main"><a href="#previos-h">Antes de empezar: grupos, cuerpos y puestos</a><span class="toc-page" data-href="#previos-h"></span></li>
+<li class="toc-main"><a href="#tit1">TÍTULO I. Objeto y ámbito de aplicación (arts. 1 a 7)</a><span class="toc-page" data-href="#tit1"></span></li>
+<li class="toc-sub"><a href="#a1">Artículo 1. Objeto y fundamentos de actuación</a><span class="toc-page" data-href="#a1"></span></li>
+<li class="toc-sub"><a href="#a2">Artículo 2. Ámbito de aplicación</a><span class="toc-page" data-href="#a2"></span></li>
+<li class="toc-sub"><a href="#a3">Artículo 3. Personal funcionario de las entidades locales</a><span class="toc-page" data-href="#a3"></span></li>
+<li class="toc-sub"><a href="#a4">Artículo 4. Personal con legislación específica propia</a><span class="toc-page" data-href="#a4"></span></li>
+<li class="toc-sub"><a href="#a5">Artículo 5. Personal de Correos y Telégrafos</a><span class="toc-page" data-href="#a5"></span></li>
+<li class="toc-sub"><a href="#a6">Artículo 6. Leyes de Función Pública</a><span class="toc-page" data-href="#a6"></span></li>
+<li class="toc-sub"><a href="#a7">Artículo 7. Normativa aplicable al personal laboral</a><span class="toc-page" data-href="#a7"></span></li>
+<li class="toc-main"><a href="#tit2">TÍTULO II. Personal al servicio de las Administraciones Públicas (arts. 8 a 13)</a><span class="toc-page" data-href="#tit2"></span></li>
+<li class="toc-sub"><a href="#a8">Artículo 8. Concepto y clases de empleados públicos</a><span class="toc-page" data-href="#a8"></span></li>
+<li class="toc-sub"><a href="#a9">Artículo 9. Funcionarios de carrera</a><span class="toc-page" data-href="#a9"></span></li>
+<li class="toc-sub"><a href="#a10">Artículo 10. Funcionarios interinos</a><span class="toc-page" data-href="#a10"></span></li>
+<li class="toc-sub"><a href="#a11">Artículo 11. Personal laboral</a><span class="toc-page" data-href="#a11"></span></li>
+<li class="toc-sub"><a href="#a12">Artículo 12. Personal eventual</a><span class="toc-page" data-href="#a12"></span></li>
+<li class="toc-sub"><a href="#a13">Artículo 13. Personal directivo profesional</a><span class="toc-page" data-href="#a13"></span></li>
+<li class="toc-main"><a href="#tit3">TÍTULO III. Derechos y deberes. Código de conducta (arts. 14 a 30)</a><span class="toc-page" data-href="#tit3"></span></li>
+<li class="toc-sub"><a href="#cap1">Capítulo I. Derechos de los empleados públicos (arts. 14 y 15)</a><span class="toc-page" data-href="#cap1"></span></li>
+<li class="toc-subsub"><a href="#a14">Artículo 14. Derechos individuales</a><span class="toc-page" data-href="#a14"></span></li>
+<li class="toc-subsub"><a href="#a15">Artículo 15. Derechos individuales ejercidos colectivamente</a><span class="toc-page" data-href="#a15"></span></li>
+<li class="toc-sub"><a href="#cap2">Capítulo II. Derecho a la carrera profesional y a la promoción interna (arts. 16 a 20)</a><span class="toc-page" data-href="#cap2"></span></li>
+<li class="toc-subsub"><a href="#a16">Artículo 16. Carrera profesional: cuatro modalidades</a><span class="toc-page" data-href="#a16"></span></li>
+<li class="toc-subsub"><a href="#a17">Artículo 17. Carrera horizontal</a><span class="toc-page" data-href="#a17"></span></li>
+<li class="toc-subsub"><a href="#a18">Artículo 18. Promoción interna</a><span class="toc-page" data-href="#a18"></span></li>
+<li class="toc-subsub"><a href="#a19">Artículo 19. Carrera y promoción del personal laboral</a><span class="toc-page" data-href="#a19"></span></li>
+<li class="toc-subsub"><a href="#a20">Artículo 20. Evaluación del desempeño</a><span class="toc-page" data-href="#a20"></span></li>
+<li class="toc-sub"><a href="#cap3">Capítulo III. Derechos retributivos (arts. 21 a 30)</a><span class="toc-page" data-href="#cap3"></span></li>
+<li class="toc-subsub"><a href="#a21">Artículo 21. Retribuciones de los funcionarios</a><span class="toc-page" data-href="#a21"></span></li>
+<li class="toc-subsub"><a href="#a22">Artículo 22. Estructura retributiva</a><span class="toc-page" data-href="#a22"></span></li>
+<li class="toc-subsub"><a href="#a23">Artículo 23. Retribuciones básicas</a><span class="toc-page" data-href="#a23"></span></li>
+<li class="toc-subsub"><a href="#a24">Artículo 24. Retribuciones complementarias</a><span class="toc-page" data-href="#a24"></span></li>
+<li class="toc-subsub"><a href="#a25">Artículo 25. Retribuciones de los funcionarios interinos</a><span class="toc-page" data-href="#a25"></span></li>
+<li class="toc-subsub"><a href="#a26">Artículo 26. Funcionarios en prácticas</a><span class="toc-page" data-href="#a26"></span></li>
+<li class="toc-subsub"><a href="#a27">Artículo 27. Personal laboral</a><span class="toc-page" data-href="#a27"></span></li>
+<li class="toc-subsub"><a href="#a28">Artículo 28. Indemnizaciones por razón del servicio</a><span class="toc-page" data-href="#a28"></span></li>
+<li class="toc-subsub"><a href="#a29">Artículo 29. Retribuciones diferidas</a><span class="toc-page" data-href="#a29"></span></li>
+<li class="toc-subsub"><a href="#a30">Artículo 30. Deducción de retribuciones</a><span class="toc-page" data-href="#a30"></span></li>
+<li class="toc-main"><a href="#chuleta">Chuleta final: tablas y esquemas de repaso</a><span class="toc-page" data-href="#chuleta"></span></li>
+<li class="toc-sub"><a href="#ch1">1. A quién se aplica el TREBEP (arts. 2 a 7)</a><span class="toc-page" data-href="#ch1"></span></li>
+<li class="toc-sub"><a href="#ch2">2. Las cuatro clases de empleados públicos</a><span class="toc-page" data-href="#ch2"></span></li>
+<li class="toc-sub"><a href="#ch3">3. Interinos: causas y plazos (art. 10)</a><span class="toc-page" data-href="#ch3"></span></li>
+<li class="toc-sub"><a href="#ch4">4. Carrera y promoción: cuál es cuál</a><span class="toc-page" data-href="#ch4"></span></li>
+<li class="toc-sub"><a href="#ch5">5. Derechos: art. 14 frente a art. 15</a><span class="toc-page" data-href="#ch5"></span></li>
+<li class="toc-sub"><a href="#ch6">6. Retribuciones de un vistazo (arts. 21 a 30)</a><span class="toc-page" data-href="#ch6"></span></li>
+<li class="toc-main"><a href="#glosario">Glosario de términos de examen</a><span class="toc-page" data-href="#glosario"></span></li>
+<li class="toc-main"><a href="#trampas">Trampas y preguntas clásicas de examen</a><span class="toc-page" data-href="#trampas"></span></li>
+<li class="toc-sub"><a href="#tr1">Cifras y plazos</a><span class="toc-page" data-href="#tr1"></span></li>
+<li class="toc-sub"><a href="#tr2">Confusiones de vocabulario o clasificación</a><span class="toc-page" data-href="#tr2"></span></li>
+<li class="toc-sub"><a href="#tr3">Quién decide o es competente</a><span class="toc-page" data-href="#tr3"></span></li>
+<li class="toc-sub"><a href="#tr4">Qué no se puede hacer o no se aplica</a><span class="toc-page" data-href="#tr4"></span></li>
+  </ul>
+</div>
+<!-- ==================== INTRODUCCIÓN ==================== -->
+<div class="page-break" id="intro">
+<h1 class="intro-title">Introducción: qué hay en este documento y cómo estudiarlo</h1>
+<p>Este documento recoge la <strong>clase 1 del TREBEP</strong> (Real Decreto Legislativo 5/2015, de 30 de octubre, texto refundido de la Ley del Estatuto Básico del Empleado Público), dentro del <strong>Bloque IV, Gestión de personal</strong>. Cubre los <strong>Títulos I y II completos</strong> (arts. 1 a 13) y, del Título III, los <strong>arts. 14 a 30</strong> (derechos individuales y colectivos, carrera profesional, evaluación del desempeño y retribuciones). Se irá ampliando clase a clase.</p>
+
+<h2 class="sub">El Bloque IV de un vistazo</h2>
+<p>El Bloque IV tiene 9 temas y gran parte de su normativa son anexos que el profesor numera del I al XVI. Cada pregunta de examen sale de alguna de estas normas:</p>
+<table class="compacta">
+<tr><th style="width:12%">Anexo</th><th>Norma</th></tr>
+<tr><td>I</td><td><strong>TREBEP</strong> (RDLeg 5/2015)</td></tr>
+<tr><td>II</td><td>Decreto 315/1964, Ley de Funcionarios Civiles del Estado</td></tr>
+<tr><td>III</td><td>Ley 30/1984, de medidas para la reforma de la Función Pública</td></tr>
+<tr><td>IV</td><td><strong>RD 364/1995</strong>, Reglamento General de Ingreso, Provisión de Puestos y Promoción Profesional de los funcionarios civiles de la AGE</td></tr>
+<tr><td>V</td><td>RD 365/1995, Reglamento de Situaciones Administrativas</td></tr>
+<tr><td>VI</td><td>RD 33/1986, Reglamento de Régimen Disciplinario</td></tr>
+<tr><td>VII</td><td>Ley 53/1984 de incompatibilidades y RD 598/1985</td></tr>
+<tr><td>VIII</td><td>RD 2073/1999, Registro Central de Personal</td></tr>
+<tr><td>IX</td><td>RD 2271/2004, acceso al empleo público de personas con discapacidad</td></tr>
+<tr><td>X</td><td>Ley 70/1978, reconocimiento de servicios previos</td></tr>
+<tr><td>XI</td><td>RD 462/2002, indemnizaciones por razón del servicio</td></tr>
+<tr><td>XII</td><td>Resolución de 14 de abril de 2026 de la Secretaría de Estado de Función Pública, jornada y horarios</td></tr>
+<tr><td>XIII</td><td>IV Convenio colectivo único del personal laboral de la AGE</td></tr>
+<tr><td>XIV y XV</td><td>Seguridad Social de los funcionarios y RDLeg 8/2015 (Ley General de la Seguridad Social)</td></tr>
+<tr><td>XVI</td><td>RDL 6/2023 y Órdenes TDF/379/2024 y TDF/380/2024</td></tr>
+</table>
+<div class="box clave"><span class="box-label">Dónde están los puntos</span>
+Según el profesor, el <strong>TREBEP</strong> y el <strong>RD 364/1995</strong> suponen aproximadamente <strong>la mitad de las preguntas del bloque</strong> (unas 5 o 6 de cada 10). Por eso el TREBEP se estudia artículo a artículo.</div>
+
+<h2 class="sub">El TREBEP: origen y estructura</h2>
+<ul>
+<li><strong>Base constitucional:</strong> el art. 103.3 CE ordena regular por ley el estatuto de los funcionarios. El Estado dicta las bases del régimen estatutario (art. 149.1.18.ª CE) y la legislación laboral (art. 149.1.7.ª CE).</li>
+<li><strong>Origen:</strong> Ley 7/2007 (EBEP), refundida después en el <strong>RDLeg 5/2015</strong> (TREBEP), publicado en el BOE el <strong>31 de octubre de 2015</strong> y en vigor el <strong>1 de noviembre de 2015</strong>.</li>
+<li><strong>Tamaño:</strong> <strong>100 artículos</strong>, <strong>8 títulos</strong>, 17 disposiciones adicionales, 9 transitorias, 1 derogatoria y 4 finales.</li>
+</ul>
+<table class="compacta">
+<tr><th style="width:12%">Título</th><th>Contenido</th><th style="width:16%">Artículos</th></tr>
+<tr><td>I</td><td>Objeto y ámbito de aplicación</td><td>1 a 7</td></tr>
+<tr><td>II</td><td>Personal al servicio de las Administraciones Públicas</td><td>8 a 13</td></tr>
+<tr><td>III</td><td>Derechos y deberes. Código de conducta (cap. I derechos 14-15; II carrera 16-20; III retribuciones 21-30; IV negociación colectiva 31-46; V jornada, permisos y vacaciones 47-51; VI deberes 52-54)</td><td>14 a 54</td></tr>
+<tr><td>IV</td><td>Adquisición y pérdida de la relación de servicio</td><td>55 a 68</td></tr>
+<tr><td>V</td><td>Ordenación de la actividad profesional</td><td>69 a 84</td></tr>
+<tr><td>VI</td><td>Situaciones administrativas</td><td>85 a 92</td></tr>
+<tr><td>VII</td><td>Régimen disciplinario</td><td>93 a 98</td></tr>
+<tr><td>VIII</td><td>Cooperación entre las Administraciones Públicas</td><td>99 y 100</td></tr>
+</table>
+<p class="pequena">Esta clase cubre los Títulos I y II y los capítulos I a III del Título III.</p>
+</div>
+
+<!-- ==================== CONCEPTOS PREVIOS ==================== -->
+<div id="previos">
+<h1 class="articulo" id="previos-h">Antes de empezar: grupos, cuerpos y puestos</h1>
+<p>La carrera profesional (art. 16) y las retribuciones (arts. 21 a 30) usan cuatro conceptos que conviene tener claros desde el principio. Son la base de muchas preguntas.</p>
+<table class="compacta">
+<tr><th style="width:18%">Concepto</th><th>Qué es</th></tr>
+<tr><td><strong>Grupo y subgrupo</strong></td><td>Clasificación de los <strong>cuerpos</strong> según la titulación exigida para entrar. <strong>A</strong> (subgrupos A1 y A2), <strong>B</strong> (sin subgrupos) y <strong>C</strong> (subgrupos C1 y C2).</td></tr>
+<tr><td><strong>Titulación</strong></td><td>A1 y A2: Grado. B: Técnico Superior. C1: Bachiller o Técnico. C2: ESO.</td></tr>
+<tr><td><strong>Cuerpo</strong></td><td>Conjunto de funcionarios de la misma clase. Ejemplos: Administrativo (C1), Gestión (A2), Auxiliar (C2), Ayudantes de Instituciones Penitenciarias (C1), Observadores de Meteorología (C1), Abogado del Estado (A1).</td></tr>
+<tr><td><strong>Puesto de trabajo</strong></td><td>El lugar concreto que se ocupa dentro de la organización. Dentro del mismo cuerpo hay puestos distintos (por ejemplo, un gestor de entrada y uno de salida).</td></tr>
+</table>
+<div class="box clave"><span class="box-label">Clave</span>
+El <strong>sueldo depende del subgrupo, no del cuerpo</strong>. Todos los cuerpos C1 cobran el mismo sueldo base, sea Administrativo, Ayudante de Instituciones Penitenciarias u Observador de Meteorología.</div>
+</div>
+
+<!-- ==================== TÍTULO I ==================== -->
+<div class="page-break" id="titulo1">
+<h1 class="articulo" id="tit1"><span class="num">TÍTULO I</span> Objeto y ámbito de aplicación (arts. 1 a 7)</h1>
+
+<h2 class="sub" id="a1">Artículo 1. Objeto y fundamentos de actuación</h2>
+<ul>
+<li><strong>Apartado 1:</strong> establecer las <strong>bases del régimen estatutario</strong> de los funcionarios públicos incluidos en su ámbito. Se dicta al amparo del <strong>art. 149.1.18.ª CE</strong>. El profesor lo resume como "derechos y deberes básicos".</li>
+<li><strong>Apartado 2:</strong> determinar las <strong>normas aplicables al personal laboral</strong> al servicio de las Administraciones Públicas. Al amparo del <strong>art. 149.1.7.ª CE</strong>.</li>
+<li><strong>Apartado 3:</strong> refleja los siguientes <strong>fundamentos de actuación</strong>:</li>
+</ul>
+<table class="compacta">
+<tr><th style="width:6%">&nbsp;</th><th>Fundamento</th></tr>
+<tr><td>a</td><td>Servicio a los ciudadanos y a los intereses generales</td></tr>
+<tr><td>b</td><td><strong>Igualdad, mérito y capacidad</strong> en el acceso y en la promoción profesional</td></tr>
+<tr><td>c</td><td>Sometimiento pleno a la ley y al Derecho</td></tr>
+<tr><td>d</td><td><strong>Igualdad</strong> de trato entre mujeres y hombres</td></tr>
+<tr><td>e</td><td><strong>Objetividad, profesionalidad e imparcialidad</strong> en el servicio, garantizadas con la <strong>inamovilidad</strong> en la condición de funcionario de carrera</td></tr>
+<tr><td>f</td><td>Eficacia en la planificación y gestión de los recursos humanos</td></tr>
+<tr><td>g</td><td>Desarrollo y cualificación profesional permanente</td></tr>
+<tr><td>h</td><td>Transparencia</td></tr>
+<tr><td>i</td><td><strong>Evaluación y responsabilidad</strong> en la gestión</td></tr>
+<tr><td>j</td><td><strong>Jerarquía</strong> en la atribución, ordenación y desempeño de funciones y tareas</td></tr>
+<tr><td>k</td><td>Negociación colectiva y participación, a través de los representantes, en la determinación de las condiciones de empleo</td></tr>
+<tr><td>l</td><td>Cooperación entre las Administraciones Públicas en la regulación y gestión del empleo público</td></tr>
+</table>
+<div class="box aviso"><span class="box-label">Atención: no confundir</span>
+La inamovilidad solo la garantiza a los <strong>funcionarios de carrera</strong>, no a interinos, laborales ni eventuales. Y no confundas la fuente constitucional: la <strong>igualdad</strong> en el acceso a funciones públicas está en el <strong>art. 23.2 CE</strong>, y el <strong>mérito y la capacidad</strong> en el <strong>art. 103.3 CE</strong>.</div>
+
+<h2 class="sub" id="a2">Artículo 2. Ámbito de aplicación</h2>
+<p>El Estatuto se aplica al <strong>personal funcionario</strong> y, <strong>en lo que proceda</strong>, al <strong>personal laboral</strong> de:</p>
+<ul>
+<li>a) La <strong>Administración General del Estado</strong>.</li>
+<li>b) Las <strong>Comunidades Autónomas</strong> y las ciudades de <strong>Ceuta y Melilla</strong>.</li>
+<li>c) Las <strong>Entidades Locales</strong>.</li>
+<li>d) Los organismos públicos, agencias y demás <strong>entidades de derecho público con personalidad jurídica propia, vinculadas o dependientes</strong> de cualquier Administración.</li>
+<li>e) Las <strong>Universidades Públicas</strong>.</li>
+</ul>
+<h3 class="subsub">Reglas especiales dentro del art. 2</h3>
+<table class="compacta">
+<tr><th style="width:22%">Personal</th><th>Régimen</th></tr>
+<tr><td>Personal de <strong>investigación</strong></td><td>Se pueden dictar <strong>normas singulares</strong> para adecuar el Estatuto a sus peculiaridades.</td></tr>
+<tr><td><strong>Docente</strong> y <strong>estatutario de los Servicios de Salud</strong></td><td>Se rigen por su <strong>legislación específica</strong> (estatal y autonómica) <strong>y además</strong> por el TREBEP, <strong>excepto</strong>: el capítulo II del título III (carrera y promoción interna) salvo el art. 20; los arts. 22.3 y 24 (retribuciones complementarias); y el art. 84 (movilidad voluntaria entre Administraciones).</td></tr>
+<tr><td>Mención a "funcionario de carrera"</td><td>Cada vez que el TREBEP la hace, se entiende <strong>comprendido el personal estatutario de los Servicios de Salud</strong>.</td></tr>
+<tr><td>Resto de personal de las AAPP</td><td>El TREBEP es de <strong>carácter supletorio</strong> para todo el personal no incluido en su ámbito. El profesor anota que la <strong>Policía Nacional</strong> se rige "en todo caso de manera supletoria".</td></tr>
+</table>
+<div class="box aviso"><span class="box-label">Atención: no confundir</span>
+En docentes y sanitarios el TREBEP <strong>sí se aplica</strong> (la legislación específica va "y" el Estatuto, no "o"). Lo que no se aplica son las excepciones citadas. Pregunta típica: <em>"¿qué artículos del TREBEP no se aplican al personal docente y estatutario?"</em>.</div>
+
+<h2 class="sub" id="a3">Artículo 3. Personal funcionario de las entidades locales</h2>
+<ul>
+<li>Se rige por la <strong>legislación estatal</strong> que resulte de aplicación (incluido el TREBEP) y por la <strong>legislación de las Comunidades Autónomas</strong>, con respeto a la <strong>autonomía local</strong>.</li>
+<li>La <strong>Policía Local</strong> se rige por el TREBEP y por la legislación autonómica, <strong>excepto</strong> lo que disponga la Ley Orgánica de Fuerzas y Cuerpos de Seguridad.</li>
+</ul>
+
+<h2 class="sub" id="a4">Artículo 4. Personal con legislación específica propia</h2>
+<p>Estas personas tienen su propia legislación y el TREBEP solo les es de aplicación <strong>directa cuando así lo disponga esa legislación específica</strong>. El profesor lo marca como un artículo fundamental y de "casi seguro pregunta".</p>
+<table>
+<tr><th style="width:6%">&nbsp;</th><th style="width:44%">Personal</th><th>Ejemplos y notas</th></tr>
+<tr><td>a</td><td>Personal funcionario de las <strong>Cortes Generales</strong> y de las <strong>asambleas legislativas</strong> de las CCAA</td><td>Congreso, Senado, parlamentos autonómicos</td></tr>
+<tr><td>b</td><td>Personal de los <strong>demás órganos constitucionales</strong> del Estado y de los <strong>órganos estatutarios</strong> de las CCAA</td><td>Tribunal de Cuentas, Consejo de Estado; Cámara de Cuentas, Consejo Consultivo autonómicos</td></tr>
+<tr><td>c</td><td><strong>Jueces, Magistrados, Fiscales</strong> y demás personal funcionario al servicio de la <strong>Administración de Justicia</strong></td><td>Se rigen por la LOPJ</td></tr>
+<tr><td>d</td><td>Personal <strong>militar</strong> de las Fuerzas Armadas</td><td></td></tr>
+<tr><td>e</td><td>Personal de las <strong>Fuerzas y Cuerpos de Seguridad</strong></td><td>No confundir con la <strong>Policía Local</strong>, que sí entra en el TREBEP (art. 3)</td></tr>
+<tr><td>f</td><td>Personal <strong>retribuido por arancel</strong></td><td>Notarios, procuradores</td></tr>
+<tr><td>g</td><td>Personal del <strong>Centro Nacional de Inteligencia</strong></td><td></td></tr>
+<tr><td>h</td><td>Personal del <strong>Banco de España</strong> y del <strong>Fondo de Garantía de Depósitos</strong></td><td></td></tr>
+</table>
+
+<h2 class="sub" id="a5">Artículo 5. Personal de Correos y Telégrafos</h2>
+<ul>
+<li><strong>Funcionarios</strong> de Correos: se rigen por su norma específica y el TREBEP les es <strong>supletorio</strong>.</li>
+<li><strong>Personal laboral</strong> de Correos: legislación laboral y convenios colectivos.</li>
+</ul>
+
+<h2 class="sub" id="a6">Artículo 6. Leyes de Función Pública</h2>
+<p>El profesor lo marca como importante. Las <strong>Cortes Generales y las asambleas legislativas</strong> de las CCAA aprueban, en desarrollo del Estatuto, las <strong>leyes de Función Pública</strong>, que son las que concretan el modelo de cada Administración. La nota al pie remite al RDL 6/2023 (libro segundo).</p>
+
+<h2 class="sub" id="a7">Artículo 7. Normativa aplicable al personal laboral</h2>
+<ul>
+<li>Se rige por la <strong>legislación laboral</strong>, los <strong>convenios colectivos</strong> y <strong>los preceptos del Estatuto que así lo dispongan</strong>.</li>
+<li>El TREBEP regula los <strong>permisos de nacimiento, adopción, del progenitor diferente de la madre biológica, de lactancia y parental</strong>. Las <strong>suspensiones del Estatuto de los Trabajadores no se aplican</strong> en estos casos.</li>
+</ul>
+
+<div class="box clave"><span class="box-label">Clave: arts. 1 a 7 en una frase</span>
+El TREBEP se aplica a funcionarios y, en lo que proceda, a laborales de AGE, CCAA (más Ceuta y Melilla), entidades locales, organismos públicos y universidades. Con <strong>legislación propia</strong> (art. 4, 8 supuestos a-h) solo si esa legislación lo dice. A todos los demás les es <strong>supletorio</strong>.</div>
+</div>
+
+
+<!-- ==================== TÍTULO II ==================== -->
+<div class="page-break" id="titulo2">
+<h1 class="articulo" id="tit2"><span class="num">TÍTULO II</span> Personal al servicio de las Administraciones Públicas (arts. 8 a 13)</h1>
+
+<h2 class="sub" id="a8">Artículo 8. Concepto y clases de empleados públicos</h2>
+<p>Son <strong>empleados públicos</strong> quienes desempeñan funciones retribuidas en las Administraciones Públicas al servicio de los intereses generales. Se clasifican en <strong>cuatro clases</strong>:</p>
+<table class="compacta">
+<tr><th style="width:5%">&nbsp;</th><th style="width:28%">Clase</th><th>Rasgo</th></tr>
+<tr><td>1</td><td><strong>Funcionarios de carrera</strong></td><td>Nombramiento legal, relación estatutaria, servicios permanentes</td></tr>
+<tr><td>2</td><td><strong>Funcionarios interinos</strong></td><td>Nombramiento temporal por razones de necesidad y urgencia</td></tr>
+<tr><td>3</td><td><strong>Personal laboral</strong></td><td>Contrato de trabajo: fijo, indefinido o temporal</td></tr>
+<tr><td>4</td><td><strong>Personal eventual</strong></td><td>Confianza o asesoramiento especial, nombramiento y cese libres</td></tr>
+</table>
+<div class="box aviso"><span class="box-label">Atención: no confundir</span>
+El <strong>personal directivo no es una clase diferenciada</strong> de empleado público (nota al pie del art. 8). El profesor lo llama "pregunta regalo": solo hay cuatro clases y el directivo no es una de ellas.</div>
+
+<h2 class="sub" id="a9">Artículo 9. Funcionarios de carrera</h2>
+<div class="box clave"><span class="box-label">Definición</span>
+Son <strong>funcionarios de carrera</strong> quienes, en virtud de <strong>nombramiento legal</strong>, están vinculados a una Administración Pública por una <strong>relación estatutaria regulada por el Derecho Administrativo</strong> para el desempeño de <strong>servicios profesionales retribuidos de carácter permanente</strong>.</div>
+<ul>
+<li>En la AGE los nombra el <strong>Secretario de Estado de Función Pública</strong>.</li>
+<li><strong>Apartado 2:</strong> el ejercicio de las funciones que impliquen <strong>participación directa o indirecta en el ejercicio de potestades públicas</strong> o en la <strong>salvaguardia de los intereses generales</strong> corresponde <strong>exclusivamente a funcionarios públicos</strong> (de carrera e interinos), en los términos de la ley de cada Administración. Ejemplos: inspector de trabajo, policía.</li>
+</ul>
+
+<h2 class="sub" id="a10">Artículo 10. Funcionarios interinos</h2>
+<p>El profesor estima en torno a un <strong>50% de probabilidad</strong> de pregunta. Son los que, por <strong>razones expresamente justificadas de necesidad y urgencia</strong>, son nombrados para el desempeño de funciones propias de funcionarios de carrera.</p>
+<h3 class="subsub">Los cuatro supuestos y su duración máxima</h3>
+<table class="compacta">
+<tr><th style="width:5%">&nbsp;</th><th style="width:34%">Supuesto</th><th>Duración</th></tr>
+<tr><td>a</td><td>Existencia de <strong>plazas vacantes</strong>, cuando no sea posible su cobertura por funcionarios de carrera</td><td class="oscuro">Máximo 3 años</td></tr>
+<tr><td>b</td><td><strong>Sustitución transitoria</strong> de los titulares</td><td>El tiempo estrictamente necesario</td></tr>
+<tr><td>c</td><td>Ejecución de <strong>programas de carácter temporal</strong></td><td class="oscuro">Máximo 3 años, ampliable hasta 12 meses más por las leyes de Función Pública</td></tr>
+<tr><td>d</td><td><strong>Exceso o acumulación de tareas</strong></td><td class="oscuro">Máximo 9 meses dentro de un período de 18</td></tr>
+</table>
+<h3 class="subsub">Selección, nombramiento y cese</h3>
+<ul>
+<li><strong>Selección:</strong> procedimientos ágiles que respeten los principios de <strong>igualdad, mérito, capacidad, publicidad, celeridad</strong> y cobertura inmediata. Se hace por medio de bolsas de interinos.</li>
+<li>El nombramiento <strong>nunca confiere la condición de funcionario de carrera</strong>.</li>
+<li><strong>Cese:</strong> de oficio, <strong>sin indemnización</strong>, por las causas del art. 63 (aplicables en lo que proceda) o por causas específicas: cobertura reglada de la plaza por un funcionario de carrera, supresión o amortización del puesto, finalización del plazo autorizado, finalización de la causa que motivó el nombramiento.</li>
+<li><strong>Apartado 5:</strong> se les aplica el <strong>régimen general de los funcionarios de carrera</strong>, salvo lo que sea inherente a la condición de carrera: la <strong>inamovilidad</strong> y las <strong>situaciones administrativas</strong> como la excedencia voluntaria.</li>
+</ul>
+<h3 class="subsub">Vacantes cubiertas por interinos (apartado 4)</h3>
+<p>Las vacantes ocupadas por interinos deben incluirse en la <strong>oferta de empleo público</strong>. Si transcurren <strong>3 años</strong> desde el nombramiento, la interinidad termina y la plaza solo puede cubrirla un funcionario de carrera. Si el proceso selectivo queda desierto, se puede nombrar otro interino. <strong>Excepción:</strong> si la convocatoria se ha publicado dentro del plazo de los 3 años y se resuelve conforme al art. 70 (la OEP se ejecuta en 3 años improrrogables), el interino <strong>continúa hasta la resolución</strong> del proceso, sin indemnización.</p>
+
+<div class="diagrama">
+<svg width="520" height="150" viewBox="0 0 520 150" xmlns="http://www.w3.org/2000/svg" font-family="Quicksand, sans-serif">
+<line x1="30" y1="60" x2="490" y2="60" stroke="#333" stroke-width="2"/>
+<circle cx="30" cy="60" r="5" fill="#333"/><circle cx="330" cy="60" r="5" fill="#333"/>
+<text x="30" y="40" font-size="9" text-anchor="start" font-weight="700">Nombramiento</text>
+<text x="330" y="40" font-size="9" text-anchor="middle" font-weight="700">3 años</text>
+<rect x="30" y="68" width="300" height="12" fill="#d8d8d8" stroke="#333"/>
+<text x="180" y="78" font-size="8" text-anchor="middle">interinidad por vacante</text>
+<rect x="330" y="68" width="150" height="12" fill="#eeeeee" stroke="#333" stroke-dasharray="4 3"/>
+<text x="405" y="78" font-size="8" text-anchor="middle">solo si convocatoria publicada</text>
+<text x="30" y="108" font-size="8.5" font-weight="700">Con convocatoria publicada dentro de los 3 años:</text>
+<text x="30" y="121" font-size="8.5">sigue hasta la resolución del proceso (sin indemnización)</text>
+<text x="30" y="137" font-size="8.5" font-weight="700">Sin convocatoria:</text>
+<text x="110" y="137" font-size="8.5">la interinidad termina a los 3 años; la plaza es solo de carrera</text>
+</svg>
+</div>
+<div class="box aviso"><span class="box-label">Atención: indemnización por abuso</span>
+Si se superan ilegalmente los máximos, la <strong>disposición adicional 17.ª</strong> prevé una compensación de <strong>20 días de retribuciones fijas por año de servicio</strong>, con un máximo de <strong>12 mensualidades</strong>. Se aplica a los nombrados después del <strong>30 de diciembre de 2021</strong> (Ley 20/2021). No confundir con la ausencia de indemnización en el cese ordinario.</div>
+
+<h2 class="sub" id="a11">Artículo 11. Personal laboral</h2>
+<p>Es el que, en virtud de <strong>contrato de trabajo escrito</strong>, presta servicios retribuidos en las Administraciones Públicas. Según la <strong>duración</strong> del contrato puede ser:</p>
+<ul><li><strong>Fijo</strong>, <strong>indefinido</strong> o <strong>temporal</strong>. El profesor lo marca como "clarísima pregunta".</li></ul>
+<ul>
+<li>Las leyes de Función Pública determinan los puestos que pueden cubrir, respetando el art. 9.2 (potestades públicas, solo funcionarios).</li>
+<li><strong>Selección:</strong> procedimientos públicos con igualdad, mérito y capacidad. Para el temporal, además, <strong>celeridad</strong> y necesidad y urgencia.</li>
+</ul>
+<div class="box ejemplo"><span class="box-label">Ejemplo del profesor</span>
+Un trabajador <strong>indefinido no fijo</strong> no se convierte en fijo con el paso de los años, porque eso vulneraría la igualdad, el mérito y la capacidad en el acceso al empleo público.</div>
+
+<h2 class="sub" id="a12">Artículo 12. Personal eventual</h2>
+<ul>
+<li>Realiza <strong>funciones expresamente calificadas de confianza o asesoramiento especial</strong>, no permanentes, y solo se retribuye con <strong>cargo a los créditos presupuestarios consignados</strong> para este fin.</li>
+<li><strong>Nombramiento:</strong> libre. En la AGE los subsecretarios lo nombran y cesan (art. 63.1.l Ley 40/2015).</li>
+<li><strong>Cese:</strong> libre, y <strong>en todo caso cuando cese la autoridad a la que asesoran</strong> (el Ministro, no el subsecretario que firmó el nombramiento).</li>
+<li>Las leyes de Función Pública determinan los órganos de gobierno que pueden tener personal eventual y el órgano de gobierno fija el <strong>número máximo</strong>. El número y las retribuciones se publican.</li>
+<li><strong>No es mérito</strong> para el acceso a la función pública ni para la promoción interna.</li>
+<li>Se le aplica, en lo que sea adecuado, el régimen general de los funcionarios de carrera.</li>
+</ul>
+<div class="box ejemplo"><span class="box-label">Ejemplo del profesor</span>
+Las retribuciones salen de una "bolsa" de crédito: cuantos más eventuales se nombren, menos cobra cada uno. (El profesor cita el Ayuntamiento de Madrid, con 81 eventuales.)</div>
+
+<h2 class="sub" id="a13">Artículo 13. Personal directivo profesional</h2>
+<p>El profesor lo marca como importante, con la nota "no es empleado público" (no es una clase del art. 8).</p>
+<ul>
+<li><strong>Designación:</strong> según principios de <strong>mérito y capacidad</strong> y criterios de <strong>idoneidad</strong>, mediante procedimientos que garanticen <strong>publicidad y concurrencia</strong>. Anotación del profesor: "falta igualdad, cuidado en el test".</li>
+<li><strong>Evaluación:</strong> con arreglo a los criterios de <strong>eficacia y eficiencia, responsabilidad por su gestión y control de resultados</strong>.</li>
+<li>Sus <strong>condiciones de empleo no se negocian colectivamente</strong>.</li>
+<li>Si es personal laboral, tiene una <strong>relación laboral especial de alta dirección</strong>.</li>
+<li>En la AGE: titulares de las subdirecciones generales (nota al pie, RDL 6/2023).</li>
+</ul>
+<div class="box aviso"><span class="box-label">Atención: trampa de test</span>
+Entre los criterios de designación del directivo <strong>no aparece la igualdad</strong>: solo mérito, capacidad e idoneidad, con publicidad y concurrencia.</div>
+</div>
+
+
+<!-- ==================== TÍTULO III ==================== -->
+<div class="page-break" id="titulo3">
+<h1 class="articulo" id="tit3"><span class="num">TÍTULO III</span> Derechos y deberes. Código de conducta (arts. 14 a 30)</h1>
+
+<h2 class="sub" id="cap1">Capítulo I. Derechos de los empleados públicos (arts. 14 y 15)</h2>
+
+<h3 class="subsub" id="a14">Artículo 14. Derechos individuales</h3>
+<p>Los empleados públicos tienen los siguientes derechos de carácter individual <strong>en correspondencia con la naturaleza jurídica de su relación de servicio</strong>:</p>
+<table>
+<tr><th style="width:6%">&nbsp;</th><th>Derecho</th></tr>
+<tr><td>a</td><td>A la <strong>inamovilidad</strong> en la condición de <strong>funcionario de carrera</strong></td></tr>
+<tr><td>b</td><td>Al <strong>desempeño efectivo</strong> de las funciones o tareas propias de su condición profesional y de acuerdo con la progresión alcanzada en su carrera</td></tr>
+<tr><td>c</td><td>A la <strong>progresión en la carrera profesional y promoción interna</strong>, según los principios constitucionales de igualdad, mérito y capacidad, mediante sistemas objetivos y transparentes de evaluación</td></tr>
+<tr><td>d</td><td>A percibir las <strong>retribuciones y las indemnizaciones</strong> por razón del servicio</td></tr>
+<tr><td>e</td><td>A participar en la consecución de los objetivos de la unidad y a <strong>ser informado por sus superiores</strong> de las tareas a desarrollar</td></tr>
+<tr><td>f</td><td>A la <strong>defensa jurídica y protección</strong> de la Administración en los procedimientos ante cualquier orden jurisdiccional como consecuencia del <strong>ejercicio legítimo de sus funciones</strong> o cargos públicos</td></tr>
+<tr><td>g</td><td>A la <strong>formación continua</strong> y actualización permanente, <strong>preferentemente en horario laboral</strong> (también es un deber)</td></tr>
+<tr><td>h</td><td>Al <strong>respeto de su intimidad</strong>, orientación e identidad sexual, expresión de género, características sexuales, propia imagen y dignidad en el trabajo, especialmente frente al acoso</td></tr>
+<tr><td>i</td><td>A la <strong>no discriminación</strong> por nacimiento, origen racial o étnico, género, sexo, orientación e identidad sexual, religión, opinión, discapacidad, edad o cualquier otra condición o circunstancia personal o social</td></tr>
+<tr><td>j</td><td>A la adopción de medidas que favorezcan la <strong>conciliación</strong> de la vida personal, familiar y laboral</td></tr>
+<tr><td>j bis</td><td>A la <strong>intimidad en el uso de dispositivos digitales</strong> puestos a su disposición y frente a la videovigilancia y geolocalización, y a la <strong>desconexión digital</strong></td></tr>
+<tr><td>k</td><td>A la <strong>libertad de expresión</strong> dentro de los límites del ordenamiento jurídico</td></tr>
+<tr><td>l</td><td>A recibir protección eficaz en materia de <strong>seguridad y salud</strong> en el trabajo</td></tr>
+<tr><td>m</td><td>A las <strong>vacaciones, descansos, permisos y licencias</strong></td></tr>
+<tr><td>n</td><td>A la <strong>jubilación</strong> según las normas aplicables</td></tr>
+<tr><td>o</td><td>A las <strong>prestaciones de la Seguridad Social</strong> del régimen aplicable</td></tr>
+<tr><td>p</td><td>A la <strong>libre asociación profesional</strong>. Anotación del profesor (IMP): es un derecho <strong>individual</strong>, parece colectivo y es trampa</td></tr>
+<tr><td>q</td><td>A los demás derechos reconocidos por el ordenamiento jurídico</td></tr>
+</table>
+<div class="box aviso"><span class="box-label">Preguntas ya aparecidas</span>
+El derecho a la <strong>inamovilidad</strong> solo corresponde a los <strong>funcionarios de carrera</strong> (se ha preguntado en Administrativo libre 2019 y en la estabilización de 2021).</div>
+
+<h3 class="subsub" id="a15">Artículo 15. Derechos individuales ejercidos colectivamente</h3>
+<table class="compacta">
+<tr><th style="width:6%">&nbsp;</th><th>Derecho</th></tr>
+<tr><td>a</td><td><strong>Libertad sindical</strong></td></tr>
+<tr><td>b</td><td><strong>Negociación colectiva</strong> y participación en la determinación de las condiciones de trabajo</td></tr>
+<tr><td>c</td><td><strong>Huelga</strong>, con garantía del mantenimiento de los servicios esenciales de la comunidad</td></tr>
+<tr><td>d</td><td>Planteamiento de <strong>conflictos colectivos</strong> de trabajo</td></tr>
+<tr><td>e</td><td><strong>Reunión</strong>, en los términos del art. 46</td></tr>
+</table>
+<div class="box aviso"><span class="box-label">Atención: no confundir</span>
+<strong>Art. 14</strong> = derechos que se ejercen individualmente, incluido el de libre asociación profesional (p). <strong>Art. 15</strong> = derechos individuales <strong>ejercidos colectivamente</strong>: libertad sindical, negociación, huelga, conflictos y reunión.</div>
+
+<div class="box clave"><span class="box-label">Importante: capítulos II y III sin vigencia plena</span>
+Los capítulos II (carrera, arts. 16 a 20) y III (retribuciones, arts. 21 a 30) <strong>no están en vigor</strong> hasta que se aprueben las leyes de Función Pública que los desarrollen (disposición final 4.ª), <strong>salvo el art. 25.2</strong>. Mientras tanto siguen vigentes las retribuciones de la Ley 30/1984. La DT 7.ª del RDL 6/2023 prevé que el <strong>complemento de desempeño sustituirá a la productividad</strong>. Aun así, <strong>se siguen preguntando en examen</strong>.</div>
+
+<h2 class="sub" id="cap2">Capítulo II. Derecho a la carrera profesional y a la promoción interna (arts. 16 a 20)</h2>
+
+<h3 class="subsub" id="a16">Artículo 16. Carrera profesional: cuatro modalidades</h3>
+<p>Las leyes de Función Pública pueden regular la carrera horizontal, la carrera vertical, la promoción interna vertical y la promoción interna horizontal.</p>
+<table class="compacta">
+<tr><th style="width:20%">Modalidad</th><th>En qué consiste</th><th style="width:18%">Cambia de cuerpo o subgrupo</th><th style="width:12%">Examen</th></tr>
+<tr><td><strong>Carrera horizontal</strong></td><td>Reconocimiento de <strong>grados, categorías o escalones</strong> sin cambiar de puesto. Evaluación del desempeño.</td><td>No</td><td>No</td></tr>
+<tr><td><strong>Carrera vertical</strong></td><td>Ascenso en la estructura de <strong>puestos</strong> mediante provisión (concurso, libre designación, art. 78.2).</td><td>No</td><td>No</td></tr>
+<tr><td><strong>Promoción interna vertical</strong></td><td>Ascenso desde un cuerpo a otro <strong>de subgrupo superior</strong>.</td><td>Sí, a subgrupo superior</td><td>Sí</td></tr>
+<tr><td><strong>Promoción interna horizontal</strong></td><td>Acceso a cuerpos del <strong>mismo subgrupo</strong>. En la práctica no existen.</td><td>Sí, mismo subgrupo</td><td>Sí</td></tr>
+</table>
+<p><strong>Apartado 4:</strong> la carrera horizontal y la vertical pueden <strong>coexistir</strong> en una misma Administración.</p>
+
+<div class="diagrama">
+<svg width="540" height="250" viewBox="0 0 540 250" xmlns="http://www.w3.org/2000/svg" font-family="Quicksand, sans-serif">
+<rect x="190" y="8" width="160" height="30" rx="4" fill="#eeeeee" stroke="#333"/>
+<text x="270" y="27" font-size="9" text-anchor="middle" font-weight="700">¿Cambia de cuerpo?</text>
+<line x1="230" y1="38" x2="120" y2="70" stroke="#333"/><text x="150" y="52" font-size="8">No</text>
+<line x1="310" y1="38" x2="420" y2="70" stroke="#333"/><text x="380" y="52" font-size="8">Sí</text>
+<rect x="40" y="70" width="160" height="30" rx="4" fill="#eeeeee" stroke="#333"/>
+<text x="120" y="89" font-size="9" text-anchor="middle" font-weight="700">¿Cambia de puesto?</text>
+<rect x="340" y="70" width="160" height="30" rx="4" fill="#eeeeee" stroke="#333"/>
+<text x="420" y="89" font-size="9" text-anchor="middle" font-weight="700">¿De subgrupo superior?</text>
+<line x1="80" y1="100" x2="60" y2="140" stroke="#333"/><text x="55" y="122" font-size="8">No</text>
+<line x1="160" y1="100" x2="180" y2="140" stroke="#333"/><text x="178" y="122" font-size="8">Sí</text>
+<line x1="380" y1="100" x2="360" y2="140" stroke="#333"/><text x="357" y="122" font-size="8">No</text>
+<line x1="460" y1="100" x2="480" y2="140" stroke="#333"/><text x="480" y="122" font-size="8">Sí</text>
+<rect x="5" y="140" width="110" height="60" rx="4" fill="#8f8f8f" stroke="#333"/>
+<text x="60" y="165" font-size="9" text-anchor="middle" fill="#fff" font-weight="700">Carrera</text>
+<text x="60" y="178" font-size="9" text-anchor="middle" fill="#fff" font-weight="700">HORIZONTAL</text>
+<text x="60" y="191" font-size="7.5" text-anchor="middle" fill="#fff">grados, sin examen</text>
+<rect x="130" y="140" width="110" height="60" rx="4" fill="#d8d8d8" stroke="#333"/>
+<text x="185" y="165" font-size="9" text-anchor="middle" font-weight="700">Carrera</text>
+<text x="185" y="178" font-size="9" text-anchor="middle" font-weight="700">VERTICAL</text>
+<text x="185" y="191" font-size="7.5" text-anchor="middle">puestos, sin examen</text>
+<rect x="305" y="140" width="110" height="60" rx="4" fill="#8f8f8f" stroke="#333"/>
+<text x="360" y="159" font-size="9" text-anchor="middle" fill="#fff" font-weight="700">Promoción</text>
+<text x="360" y="171" font-size="9" text-anchor="middle" fill="#fff" font-weight="700">interna</text>
+<text x="360" y="183" font-size="9" text-anchor="middle" fill="#fff" font-weight="700">HORIZONTAL</text>
+<text x="360" y="195" font-size="7.5" text-anchor="middle" fill="#fff">mismo subgrupo, examen</text>
+<rect x="425" y="140" width="110" height="60" rx="4" fill="#d8d8d8" stroke="#333"/>
+<text x="480" y="159" font-size="9" text-anchor="middle" font-weight="700">Promoción</text>
+<text x="480" y="171" font-size="9" text-anchor="middle" font-weight="700">interna</text>
+<text x="480" y="183" font-size="9" text-anchor="middle" font-weight="700">VERTICAL</text>
+<text x="480" y="195" font-size="7.5" text-anchor="middle">subgrupo superior, examen</text>
+<text x="270" y="228" font-size="8" text-anchor="middle">Misma lógica: la carrera no cambia de cuerpo, la promoción interna sí, y exige superar pruebas.</text>
+</svg>
+</div>
+
+<h3 class="subsub" id="a17">Artículo 17. Carrera horizontal</h3>
+<ul>
+<li>Sistema de <strong>grados, categorías o escalones</strong> de ascenso, con la remuneración que corresponda.</li>
+<li>Los ascensos son <strong>consecutivos</strong>, salvo casos excepcionales.</li>
+<li>Se valoran la trayectoria y actuación profesional, la calidad de los trabajos, los conocimientos adquiridos y el resultado de la <strong>evaluación del desempeño</strong> (además de la especificidad de las funciones y la experiencia).</li>
+<li>Nota al pie (art. 122.7 RDL 6/2023): el complemento de carrera es de la <strong>misma cuantía por grupo o subgrupo y tramo</strong>.</li>
+</ul>
+
+<h3 class="subsub" id="a18">Artículo 18. Promoción interna</h3>
+<p>El profesor anota "sí hay examen" y lo marca como importante.</p>
+<ul>
+<li>Requisitos: los de <strong>ingreso</strong> en el cuerpo, <strong>2 años de servicio activo</strong> en el subgrupo inferior (o grupo, si no hay subgrupo) y <strong>superar las pruebas</strong>.</li>
+<li>Principios del art. 55.2. Las leyes de Función Pública fijan los sistemas y los cuerpos del mismo subgrupo.</li>
+<li>Las Administraciones pueden adoptar medidas de incentivo.</li>
+</ul>
+
+<h3 class="subsub" id="a19">Artículo 19. Carrera y promoción del personal laboral</h3>
+<p>Se hace efectivo a través del <strong>Estatuto de los Trabajadores</strong> o de los <strong>convenios colectivos</strong>.</p>
+
+<h3 class="subsub" id="a20">Artículo 20. Evaluación del desempeño</h3>
+<div class="box clave"><span class="box-label">Definición</span>
+Procedimiento para <strong>medir y valorar la conducta profesional y el rendimiento o logro de resultados</strong> de los empleados públicos. Los criterios son <strong>transparencia, objetividad, imparcialidad y no discriminación</strong>.</div>
+<ul>
+<li>Sus <strong>efectos</strong> se reflejan en: la carrera horizontal, la provisión de puestos, las retribuciones complementarias (art. 24) y la formación.</li>
+<li>Mantenerse en un puesto obtenido por concurso se vincula a la evaluación (con audiencia al interesado y resolución motivada).</li>
+<li>Se exige la <strong>aprobación previa de sistemas objetivos</strong> para: la carrera horizontal, la productividad (art. 24.c) y el cese en un puesto por concurso.</li>
+</ul>
+<div class="box ejemplo"><span class="box-label">Explicación del profesor</span>
+La evaluación del desempeño puede suponer entre un <strong>30% y un 40% del salario</strong>. Es el único artículo del capítulo II que sí se aplica al personal docente y estatutario de salud (art. 2.3).</div>
+
+<h2 class="sub" id="cap3">Capítulo III. Derechos retributivos (arts. 21 a 30)</h2>
+
+<h3 class="subsub" id="a21">Artículo 21. Retribuciones de los funcionarios</h3>
+<p>Las <strong>Leyes de Presupuestos Generales del Estado</strong> fijan las <strong>retribuciones básicas</strong> y el <strong>incremento global</strong> de las complementarias. No puede haber un incremento global superior al límite que fije la LPGE.</p>
+
+<h3 class="subsub" id="a22">Artículo 22. Estructura retributiva</h3>
+<ul>
+<li><strong>Retribuciones básicas</strong>: <strong>sueldo</strong> (según subgrupo o grupo) y <strong>trienios</strong> (antigüedad).</li>
+<li><strong>Retribuciones complementarias</strong>.</li>
+<li><strong>Pagas extraordinarias</strong> (22.4): <strong>dos al año</strong>, de un importe de una mensualidad de retribuciones básicas más las complementarias, <strong>salvo</strong> las del art. 24.c (productividad) y 24.d (gratificaciones).</li>
+<li>No pueden percibirse participaciones en tributos ni en comisiones por la actividad (por ejemplo, multas).</li>
+</ul>
+
+<h3 class="subsub" id="a23">Artículo 23. Retribuciones básicas</h3>
+<p>Las fija la LPGE. Son solo <strong>sueldo</strong> y <strong>trienios</strong>. Un <strong>trienio</strong> es la cuantía por <strong>cada tres años</strong> de servicio y es igual para todos los funcionarios del mismo subgrupo.</p>
+<table class="compacta">
+<tr><th>Subgrupo</th><th>Sueldo mensual 2026</th><th>1 trienio (mensual)</th></tr>
+<tr><td>A1</td><td>1.387,24 €</td><td>53,39 €</td></tr>
+<tr><td>A2</td><td>1.199,52 €</td><td>43,54 €</td></tr>
+<tr><td>B</td><td>1.048,55 €</td><td>38,20 €</td></tr>
+<tr><td>C1</td><td>900,63 €</td><td>32,96 €</td></tr>
+<tr><td>C2</td><td>749,58 €</td><td>22,44 €</td></tr>
+<tr><td>Agrupaciones Profesionales</td><td>686,07 €</td><td>16,90 €</td></tr>
+</table>
+<p class="pequena">Cifras de 2026 (Hacienda, RDL 14/2025 de 2 de diciembre). En clase se usaron cifras de años anteriores como ejemplo (C1 804,19 y A2 1.071); lo que se pregunta es que el sueldo depende del <strong>subgrupo</strong> y no del cuerpo.</p>
+
+<h3 class="subsub" id="a24">Artículo 24. Retribuciones complementarias</h3>
+<p>Las fija <strong>la ley de cada Administración</strong>, atendiendo a:</p>
+<table class="compacta">
+<tr><th style="width:5%">&nbsp;</th><th style="width:48%">Criterio</th><th>Complemento (AGE)</th></tr>
+<tr><td>a</td><td>Progresión alcanzada dentro de la carrera profesional</td><td><strong>Complemento de destino</strong></td></tr>
+<tr><td>b</td><td>Dificultad técnica, responsabilidad, dedicación, incompatibilidad y condiciones en que se desarrolla el trabajo</td><td><strong>Complemento específico</strong></td></tr>
+<tr><td>c</td><td>Grado de interés, iniciativa o esfuerzo y rendimiento, <strong>dentro de la jornada</strong></td><td><strong>Productividad</strong></td></tr>
+<tr><td>d</td><td>Servicios extraordinarios <strong>fuera de la jornada</strong> normal</td><td><strong>Gratificaciones</strong></td></tr>
+</table>
+<div class="box aviso"><span class="box-label">Atención: no confundir</span>
+<strong>Productividad</strong> se cobra por rendimiento <strong>dentro</strong> de la jornada; <strong>gratificaciones</strong> por servicios extraordinarios <strong>fuera</strong> de ella. Y estas dos <strong>no</strong> entran en las pagas extraordinarias.</div>
+
+<h3 class="subsub" id="a25">Artículo 25. Retribuciones de los funcionarios interinos</h3>
+<p>Perciben las <strong>retribuciones básicas</strong>, las <strong>pagas extraordinarias</strong> y las <strong>complementarias b, c y d</strong> (específico, productividad, gratificaciones), más el complemento de destino <strong>del nivel de la categoría de entrada</strong>. El <strong>apartado 2</strong> (único que está en vigor) reconoce los trienios anteriores al EBEP con efectos desde su entrada en vigor.</p>
+
+<h3 class="subsub" id="a26">Artículo 26. Funcionarios en prácticas</h3>
+<p>Perciben, como mínimo, el <strong>sueldo del subgrupo o grupo</strong> en el que aspiran a ingresar.</p>
+
+<h3 class="subsub" id="a27">Artículo 27. Personal laboral</h3>
+<p>Sus retribuciones se determinan según la <strong>legislación laboral</strong>, el <strong>convenio colectivo</strong> y el <strong>contrato de trabajo</strong>, respetando el art. 21.</p>
+
+<h3 class="subsub" id="a28">Artículo 28. Indemnizaciones por razón del servicio</h3>
+<p>Los empleados públicos tienen derecho a ser indemnizados por los <strong>gastos efectuados</strong> en el desempeño de su servicio (dietas, desplazamientos). <strong>No son retribuciones</strong> y se cargan al <strong>Capítulo II</strong> del presupuesto (gastos corrientes en bienes y servicios), <strong>no al Capítulo I</strong> (gastos de personal). Se regulan en el RD 462/2002.</p>
+
+<h3 class="subsub" id="a29">Artículo 29. Retribuciones diferidas</h3>
+<p>Son aportaciones a <strong>planes de pensiones de empleo</strong> o <strong>contratos de seguro colectivos</strong> que incluyan la cobertura de la contingencia de jubilación.</p>
+
+<h3 class="subsub" id="a30">Artículo 30. Deducción de retribuciones</h3>
+<ul>
+<li>Por <strong>jornada no realizada</strong> se practica la <strong>deducción proporcional</strong> de haberes. <strong>No tiene carácter de sanción</strong>.</li>
+<li>En la <strong>huelga</strong> no se retribuye el tiempo no trabajado. Esa deducción <strong>no es sanción</strong> y no afecta a las prestaciones sociales.</li>
+</ul>
+
+<div class="diagrama">
+<svg width="520" height="130" viewBox="0 0 520 130" xmlns="http://www.w3.org/2000/svg" font-family="Quicksand, sans-serif">
+<rect x="10" y="10" width="230" height="110" rx="4" fill="#d8d8d8" stroke="#333"/>
+<text x="125" y="28" font-size="9.5" text-anchor="middle" font-weight="700">BÁSICAS (las fija la LPGE)</text>
+<text x="125" y="48" font-size="8.5" text-anchor="middle">Sueldo (por subgrupo)</text>
+<text x="125" y="63" font-size="8.5" text-anchor="middle">Trienios (cada 3 años)</text>
+<text x="125" y="85" font-size="8.5" text-anchor="middle">+ 2 pagas extra al año</text>
+<text x="125" y="100" font-size="8" text-anchor="middle">(1 mensualidad básica + complementarias,</text>
+<text x="125" y="111" font-size="8" text-anchor="middle">salvo productividad y gratificaciones)</text>
+<rect x="280" y="10" width="230" height="110" rx="4" fill="#eeeeee" stroke="#333"/>
+<text x="395" y="28" font-size="9.5" text-anchor="middle" font-weight="700">COMPLEMENTARIAS (ley de cada AP)</text>
+<text x="395" y="48" font-size="8.5" text-anchor="middle">a) Destino (carrera)</text>
+<text x="395" y="63" font-size="8.5" text-anchor="middle">b) Específico (puesto)</text>
+<text x="395" y="78" font-size="8.5" text-anchor="middle">c) Productividad (dentro de jornada)</text>
+<text x="395" y="93" font-size="8.5" text-anchor="middle">d) Gratificaciones (fuera de jornada)</text>
+</svg>
+</div>
+</div>
+
+
+<!-- ==================== CHULETA ==================== -->
+<div class="page-break" id="chuleta">
+<h1 class="intro-title">Chuleta final: tablas y esquemas de repaso</h1>
+<p class="pequena">Formato pregunta y respuesta. Se irá ampliando con cada clase y fusionando lo que responda a la misma pregunta.</p>
+
+<h2 class="sub" id="ch1">1. A quién se aplica el TREBEP (arts. 2 a 7)</h2>
+<table>
+<tr><th style="width:36%">Personal</th><th>Régimen</th></tr>
+<tr><td>AGE, CCAA (y Ceuta y Melilla), entidades locales, organismos públicos y universidades públicas</td><td>TREBEP: a funcionarios y, <strong>en lo que proceda</strong>, a laborales (art. 2.1)</td></tr>
+<tr><td>Docente y estatutario de salud</td><td>Legislación específica <strong>y</strong> TREBEP, salvo cap. II título III (excepto art. 20), arts. 22.3, 24 y 84</td></tr>
+<tr><td>Investigación</td><td>Normas singulares</td></tr>
+<tr><td>Policía Local</td><td>TREBEP y legislación autonómica, salvo LO de Fuerzas y Cuerpos de Seguridad</td></tr>
+<tr><td>Art. 4, letras a a h (Cortes y asambleas; órganos constitucionales y estatutarios; Jueces, Magistrados, Fiscales y Justicia; militares; Fuerzas y Cuerpos de Seguridad; retribuidos por arancel; CNI; Banco de España y Fondo de Garantía de Depósitos)</td><td>Su legislación específica. TREBEP solo si esa legislación lo dispone</td></tr>
+<tr><td>Correos</td><td>Funcionarios: norma propia y TREBEP supletorio. Laborales: legislación laboral y convenios</td></tr>
+<tr><td>Todo el personal no incluido</td><td>TREBEP <strong>supletorio</strong> (art. 2.5)</td></tr>
+</table>
+
+<h2 class="sub" id="ch2">2. Las cuatro clases de empleados públicos</h2>
+<table>
+<tr><th style="width:18%">Clase</th><th style="width:30%">Vínculo</th><th>Rasgos clave</th></tr>
+<tr><td>Funcionario de carrera</td><td>Nombramiento legal, relación estatutaria</td><td>Permanente. Inamovilidad. En la AGE lo nombra el Secretario de Estado de Función Pública</td></tr>
+<tr><td>Funcionario interino</td><td>Nombramiento temporal</td><td>Necesidad y urgencia. No adquiere condición de carrera. Cese sin indemnización</td></tr>
+<tr><td>Personal laboral</td><td>Contrato de trabajo escrito</td><td>Fijo, indefinido o temporal (por duración)</td></tr>
+<tr><td>Personal eventual</td><td>Nombramiento libre</td><td>Confianza o asesoramiento especial. Cesa cuando cesa la autoridad a la que asesora. No es mérito</td></tr>
+<tr><td class="oscuro">Directivo</td><td class="oscuro">No es una clase del art. 8</td><td class="oscuro">Mérito, capacidad, idoneidad, publicidad y concurrencia. Sin negociación colectiva</td></tr>
+</table>
+
+<h2 class="sub" id="ch3">3. Interinos: causas y plazos (art. 10)</h2>
+<table class="compacta">
+<tr><th>Causa</th><th style="width:40%">Duración máxima</th></tr>
+<tr><td>Plazas vacantes</td><td class="oscuro">3 años</td></tr>
+<tr><td>Sustitución transitoria</td><td>Tiempo estrictamente necesario</td></tr>
+<tr><td>Programas temporales</td><td class="oscuro">3 años (+ hasta 12 meses por ley)</td></tr>
+<tr><td>Exceso o acumulación de tareas</td><td class="oscuro">9 meses dentro de 18</td></tr>
+</table>
+
+<h2 class="sub" id="ch4">4. Carrera y promoción: cuál es cuál</h2>
+<table class="compacta">
+<tr><th>Modalidad</th><th>Cambia puesto</th><th>Cambia cuerpo</th><th>Subgrupo</th><th>Examen</th></tr>
+<tr><td>Carrera horizontal</td><td>No</td><td>No</td><td>Mismo</td><td>No (grados)</td></tr>
+<tr><td>Carrera vertical</td><td>Sí</td><td>No</td><td>Mismo</td><td>No (concurso, libre designación)</td></tr>
+<tr><td>Promoción interna vertical</td><td>Sí</td><td>Sí</td><td>Superior</td><td>Sí</td></tr>
+<tr><td>Promoción interna horizontal</td><td>Sí</td><td>Sí</td><td>Mismo</td><td>Sí</td></tr>
+</table>
+<p class="pequena">Promoción interna: requisitos de ingreso, 2 años de servicio activo en el subgrupo inferior y superar pruebas (art. 18).</p>
+
+<h2 class="sub" id="ch5">5. Derechos: art. 14 frente a art. 15</h2>
+<table class="compacta">
+<tr><th style="width:30%">Art. 14 (individuales)</th><th>Art. 15 (individuales ejercidos colectivamente)</th></tr>
+<tr><td>Inamovilidad (solo carrera), carrera, retribuciones, defensa jurídica, formación, intimidad, no discriminación, conciliación, desconexión digital, libertad de expresión, salud laboral, vacaciones, jubilación, Seguridad Social, <strong>libre asociación profesional (p)</strong></td><td>Libertad sindical, negociación colectiva, huelga, conflictos colectivos, reunión (art. 46)</td></tr>
+</table>
+
+<h2 class="sub" id="ch6">6. Retribuciones de un vistazo (arts. 21 a 30)</h2>
+<table>
+<tr><th style="width:26%">Concepto</th><th style="width:38%">Qué es</th><th>Dato de examen</th></tr>
+<tr><td>Básicas</td><td>Sueldo (por subgrupo) y trienios (cada 3 años)</td><td>Las fija la LPGE. Dependen del subgrupo, no del cuerpo</td></tr>
+<tr><td>Complementarias</td><td>Destino (a), específico (b), productividad (c), gratificaciones (d)</td><td>Las fija la ley de cada Administración</td></tr>
+<tr><td>Pagas extra</td><td>2 al año: 1 mensualidad básica + complementarias</td><td>Excepto productividad y gratificaciones</td></tr>
+<tr><td>Interinos</td><td>Básicas, pagas extra, complementarias b, c, d y destino de la categoría de entrada</td><td>Art. 25</td></tr>
+<tr><td>Funcionarios en prácticas</td><td>Al menos el sueldo del subgrupo al que aspiran</td><td>Art. 26</td></tr>
+<tr><td>Indemnizaciones (dietas)</td><td>No son retribuciones</td><td>Capítulo II, no Capítulo I</td></tr>
+<tr><td>Deducción por jornada no realizada o huelga</td><td>Deducción proporcional</td><td>No es sanción</td></tr>
+</table>
+<table class="compacta">
+<tr><th>Subgrupo</th><th>Sueldo mensual 2026</th><th>Trienio</th></tr>
+<tr><td>A1</td><td>1.387,24 €</td><td>53,39 €</td></tr>
+<tr><td>A2</td><td>1.199,52 €</td><td>43,54 €</td></tr>
+<tr><td>B</td><td>1.048,55 €</td><td>38,20 €</td></tr>
+<tr><td>C1</td><td>900,63 €</td><td>32,96 €</td></tr>
+<tr><td>C2</td><td>749,58 €</td><td>22,44 €</td></tr>
+</table>
+</div>
+
+<!-- ==================== GLOSARIO ==================== -->
+<div class="page-break" id="glosario">
+<h1 class="intro-title">Glosario de términos de examen</h1>
+<table>
+<tr><th style="width:26%">Término</th><th>Definición</th></tr>
+<tr><td>Arancel</td><td>Sistema de retribución por tarifas pagadas por el usuario (notarios, procuradores). Su personal queda en el art. 4.</td></tr>
+<tr><td>Bolsa de interinos</td><td>Lista ordenada de candidatos para cubrir de forma inmediata una interinidad.</td></tr>
+<tr><td>Carrera horizontal</td><td>Progresión por grados o escalones sin cambiar de puesto ni de cuerpo.</td></tr>
+<tr><td>Carrera vertical</td><td>Ascenso a puestos superiores del mismo cuerpo y subgrupo mediante provisión.</td></tr>
+<tr><td>Complemento de destino</td><td>Complementaria que retribuye el nivel del puesto (progresión en la carrera).</td></tr>
+<tr><td>Complemento específico</td><td>Complementaria por dificultad, responsabilidad, dedicación, incompatibilidad o condiciones del puesto.</td></tr>
+<tr><td>Cuerpo</td><td>Conjunto de funcionarios agrupado por titulación y funciones (Administrativo, Gestión, Auxiliar...).</td></tr>
+<tr><td>Desconexión digital</td><td>Derecho a no atender comunicaciones laborales fuera de la jornada (art. 14 j bis).</td></tr>
+<tr><td>Eventual</td><td>Empleado de confianza o asesoramiento especial, de nombramiento y cese libres.</td></tr>
+<tr><td>Evaluación del desempeño</td><td>Medición de la conducta profesional y del rendimiento (art. 20).</td></tr>
+<tr><td>Gratificaciones</td><td>Retribución por servicios extraordinarios fuera de la jornada normal.</td></tr>
+<tr><td>Inamovilidad</td><td>Garantía de permanencia en la condición, exclusiva del funcionario de carrera.</td></tr>
+<tr><td>Indefinido no fijo</td><td>Laboral de duración indefinida que no adquiere la condición de fijo.</td></tr>
+<tr><td>Interino</td><td>Funcionario nombrado temporalmente por necesidad y urgencia. No adquiere la condición de carrera.</td></tr>
+<tr><td>Personal directivo</td><td>Personal designado por mérito, capacidad e idoneidad. No es una de las cuatro clases del art. 8.</td></tr>
+<tr><td>Productividad</td><td>Complementaria por interés, iniciativa, esfuerzo y rendimiento dentro de la jornada.</td></tr>
+<tr><td>Promoción interna</td><td>Ascenso a otro cuerpo mediante pruebas, con 2 años de servicio en el subgrupo inferior.</td></tr>
+<tr><td>Retribuciones básicas</td><td>Sueldo y trienios, fijados por la Ley de Presupuestos.</td></tr>
+<tr><td>Retribuciones diferidas</td><td>Aportaciones a planes de pensiones de empleo o seguros colectivos con cobertura de jubilación.</td></tr>
+<tr><td>Subgrupo</td><td>Subdivisión de los grupos A (A1, A2) y C (C1, C2). El grupo B no tiene subgrupos.</td></tr>
+<tr><td>Supletorio</td><td>Aplicable solo cuando la norma específica no regula la materia.</td></tr>
+<tr><td>Trienio</td><td>Cuantía por cada tres años de servicio, igual para todos los del mismo subgrupo.</td></tr>
+</table>
+</div>
+
+<!-- ==================== TRAMPAS ==================== -->
+<div class="page-break" id="trampas">
+<h1 class="intro-title">Trampas y preguntas clásicas de examen</h1>
+<p class="pequena">Agrupadas por tipo de trampa. Recoge lo que el profesor marcó como pregunta de examen o confusión habitual.</p>
+
+<h2 class="sub" id="tr1">Cifras y plazos</h2>
+<div class="trampa"><span class="alerta">Los plazos del interino: 3 años, 3 años, 9 meses en 18</span>Vacante: 3 años. Programa temporal: 3 años, ampliable hasta 12 meses más. Exceso o acumulación de tareas: 9 meses dentro de 18. Se pregunta mezclando cifras.</div>
+<div class="trampa"><span class="alerta">Dos años para promocionar</span>La promoción interna exige 2 años de servicio activo en el subgrupo inferior, además de los requisitos de ingreso y superar pruebas.</div>
+<div class="trampa"><span class="alerta">Dos pagas extra, sin productividad ni gratificaciones</span>Cada paga es una mensualidad de básicas más complementarias, excepto las de los apartados c y d del art. 24.</div>
+<div class="trampa"><span class="alerta">Indemnización del abuso de interinidad</span>20 días de retribuciones fijas por año, máximo 12 mensualidades (DA 17.ª). El cese ordinario del interino no genera indemnización.</div>
+
+<h2 class="sub" id="tr2">Confusiones de vocabulario o clasificación</h2>
+<div class="trampa"><span class="alerta">El directivo no es una clase de empleado público</span>El art. 8 recoge solo cuatro clases. En el art. 13 no aparece la igualdad entre los criterios de designación.</div>
+<div class="trampa"><span class="alerta">Libre asociación profesional: derecho individual</span>Parece colectivo, pero es la letra p del art. 14. Los colectivos son los del art. 15.</div>
+<div class="trampa"><span class="alerta">Las clases de laboral son por duración</span>Fijo, indefinido o temporal. No se clasifican por la función ni por la categoría.</div>
+<div class="trampa"><span class="alerta">Horizontal frente a vertical</span>La carrera horizontal no cambia de puesto, la vertical sí. La promoción interna cambia de cuerpo y exige examen. La promoción interna horizontal es del mismo subgrupo.</div>
+<div class="trampa"><span class="alerta">Productividad frente a gratificaciones</span>Productividad es rendimiento dentro de la jornada. Gratificaciones son servicios extraordinarios fuera de ella.</div>
+<div class="trampa"><span class="alerta">Policía Local frente a Fuerzas y Cuerpos de Seguridad</span>La Policía Local entra en el TREBEP (art. 3). Las Fuerzas y Cuerpos de Seguridad están en el art. 4.</div>
+
+<h2 class="sub" id="tr3">Quién decide o es competente</h2>
+<div class="trampa"><span class="alerta">Cesa la autoridad asesorada, no quien nombró</span>El eventual cesa en todo caso cuando cesa el Ministro al que asesora. Si cesa el subsecretario que lo nombró, no pasa nada.</div>
+<div class="trampa"><span class="alerta">Quién fija las retribuciones</span>La LPGE fija las básicas. La ley de cada Administración fija las complementarias.</div>
+<div class="trampa"><span class="alerta">Nombramiento de los funcionarios de carrera de la AGE</span>Lo hace el Secretario de Estado de Función Pública. Los subsecretarios nombran y cesan al personal eventual.</div>
+
+<h2 class="sub" id="tr4">Qué no se puede hacer o no se aplica</h2>
+<div class="trampa"><span class="alerta">La inamovilidad solo es de carrera</span>No la tienen interinos, laborales ni eventuales (se ha preguntado en Administrativo libre 2019 y en la estabilización de 2021).</div>
+<div class="trampa"><span class="alerta">El eventual no puede alegar mérito</span>Su condición no cuenta como mérito para el acceso ni para la promoción interna.</div>
+<div class="trampa"><span class="alerta">El interino no adquiere la condición de carrera</span>Ni por antigüedad ni por nombramiento. Tampoco tiene excedencia voluntaria ni otras situaciones inherentes a la carrera.</div>
+<div class="trampa"><span class="alerta">La deducción de haberes no es sanción</span>Ni la jornada no realizada ni la huelga. La huelga además no afecta a las prestaciones sociales.</div>
+<div class="trampa"><span class="alerta">Las dietas no son retribuciones</span>Son indemnizaciones por razón del servicio y se cargan al Capítulo II.</div>
+<div class="trampa"><span class="alerta">Capítulos II y III sin vigencia plena</span>Carrera y retribuciones no están en vigor hasta las leyes de Función Pública (excepto el art. 25.2), pero se preguntan.</div>
+
+<p class="nota-final">Esta clase cubre el TREBEP, Títulos I y II (arts. 1 a 13) y Título III, capítulos I a III (arts. 14 a 30). El documento seguirá creciendo con las siguientes clases del Bloque IV. Importes de retribuciones básicas de 2026 verificados con Hacienda; en clase se mencionaron cifras de años anteriores.</p>
+</div>
+
+</body>
+</html>
