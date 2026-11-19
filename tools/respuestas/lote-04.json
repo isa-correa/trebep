@@ -1,0 +1,254 @@
+{
+"au-09-001": {"bloque": "jornada", "precepto": "Art. 48.i del TREBEP", "correcta": 1, "justificaciones": [
+ "Es verdadera, así que no se marca. Es una reducción de hasta el cincuenta por ciento de la jornada, con carácter retribuido (**art. 48.i**).",
+ "Esta es la falsa, y por eso es la que hay que marcar. Sí tiene plazo máximo: un mes (**art. 48.i**).",
+ "Es verdadera, así que no se marca. El familiar debe ser de primer grado.",
+ "Es verdadera, así que no se marca. Si hay varios titulares, el tiempo se prorratea respetando el máximo de un mes."]},
+"au-09-002": {"bloque": "jornada", "precepto": "Art. 48.g del TREBEP", "correcta": 1, "justificaciones": [
+ "No. El máximo es de dos horas, no de cuatro.",
+ "Es esta. Pueden reducir la jornada hasta un máximo de dos horas, con la disminución proporcional de las retribuciones (**art. 48.g**).",
+ "No. Las dos horas con retribuciones íntegras son la ausencia del trabajo, no la reducción de jornada, que se reduce proporcionalmente.",
+ "No. El máximo es de dos horas, no de cuatro."]},
+"au-09-003": {"bloque": "jornada", "precepto": "Art. 49 del TREBEP", "correcta": 0, "justificaciones": [
+ "Es esta. Tienen derecho a reintegrarse a su puesto de trabajo en términos y condiciones no menos favorables al disfrute del permiso (**art. 49**).",
+ "No. El derecho es a su puesto de trabajo, no a otro de la misma provincia.",
+ "No. El derecho es a su puesto de trabajo, no a otro del mismo municipio.",
+ "No. No se les reintegra de forma provisional: vuelven a su puesto."]},
+"au-09-004": {"bloque": "jornada", "precepto": "Art. 49.d del TREBEP", "correcta": 0, "justificaciones": [
+ "Es esta. La funcionaria víctima de violencia de género mantiene las retribuciones íntegras cuando reduce su jornada en un tercio o menos (**art. 49.d**).",
+ "No. El umbral es un tercio, no un cuarto.",
+ "No. Si reduce más de un tercio, la retribución disminuye proporcionalmente.",
+ "No. El umbral es un tercio, no el cincuenta por ciento."]},
+"au-09-005": {"bloque": "jornada", "precepto": "Art. 49.b del TREBEP", "correcta": 3, "justificaciones": [
+ "No. Dura diecinueve semanas, no dieciocho, y no todas son ininterrumpidas: solo las seis primeras.",
+ "No. Una vez finalizado el descanso obligatorio sí se puede participar en cursos de formación.",
+ "No. Puede iniciarse hasta cuatro semanas antes de la decisión, no dos.",
+ "Es esta. El acogimiento temporal debe tener una duración no inferior a un año (**art. 49.b**)."]},
+"au-09-006": {"bloque": "jornada", "precepto": "Art. 48.k del TREBEP", "correcta": 2, "justificaciones": [
+ "No. La guarda legal da derecho a reducción de jornada, no a seis días (**art. 48.h**).",
+ "No. Las funciones sindicales o de representación se conceden en los términos que se determinen (**art. 48.c**).",
+ "Es esta. Por asuntos particulares son seis días al año (**art. 48.k**).",
+ "No. Para exámenes finales el permiso dura los días de su celebración (**art. 48.d**)."]},
+"au-09-007": {"bloque": "jornada", "precepto": "Art. 49.c del TREBEP", "correcta": 3, "justificaciones": [
+ "No. Son dos semanas en total, una para cada progenitor, no cuatro.",
+ "No. Son dos semanas, no una.",
+ "No. La ampliación es para ambos progenitores, una semana cada uno, y no se exige que sea ininterrumpida.",
+ "Es esta. Se amplía para ambos progenitores en dos semanas más, una para cada uno (**art. 49.c**)."]},
+"au-09-008": {"bloque": "jornada", "precepto": "Art. 48.f del TREBEP", "correcta": 2, "justificaciones": [
+ "Es verdadera, así que no se marca. Se puede sustituir por una reducción de media hora al inicio y al final.",
+ "Es verdadera, así que no se marca. Es un derecho individual y no se puede transferir al otro progenitor.",
+ "Esta es la falsa, y por eso es la que hay que marcar. El permiso es para hijos menores de doce meses, no de dieciocho (**art. 48.f**).",
+ "Es verdadera, así que no se marca. También se puede sustituir por una reducción de una hora al inicio o al final."]},
+"au-09-009": {"bloque": "jornada", "precepto": "Art. 48.a del TREBEP", "correcta": 0, "justificaciones": [
+ "Es esta. El suegro es familiar de primer grado por afinidad, y la intervención quirúrgica sin hospitalización con reposo domiciliario da cinco días hábiles (**art. 48.a**).",
+ "No. Cuatro días hábiles es para familiares de segundo grado.",
+ "No. Tres días hábiles es el fallecimiento de un familiar de primer grado en la misma localidad.",
+ "No. Sí origina permiso: el padre del cónyuge es familiar de primer grado por afinidad."]},
+"au-09-010": {"bloque": "jornada", "precepto": "Disposición adicional decimocuarta del TREBEP", "correcta": 3, "justificaciones": [
+ "No. Las vacaciones no pueden sustituirse por una cuantía económica (**art. 50.3**).",
+ "No. En la renuncia voluntaria debe garantizarse el disfrute de las vacaciones devengadas (**art. 50.3**).",
+ "No. Son veintidós días hábiles, no naturales (**art. 50.1**).",
+ "Es esta. Cada Administración puede establecer hasta cuatro días adicionales de vacaciones por tiempo de servicios (**disposición adicional decimocuarta**)."]},
+"au-09-011": {"bloque": "jornada", "precepto": "Art. 48.a del TREBEP", "correcta": 1, "justificaciones": [
+ "No. Son cuatro días hábiles, no tres.",
+ "Es esta. Para un familiar de segundo grado con enfermedad grave el permiso es de cuatro días hábiles (**art. 48.a**).",
+ "No. Seis días hábiles no figura en el artículo.",
+ "No. Cinco días hábiles es para familiares de primer grado."]},
+"au-09-012": {"bloque": "jornada", "precepto": "Art. 49.d del TREBEP", "correcta": 1, "justificaciones": [
+ "No. La reducción de jornada es con disminución proporcional de la retribución.",
+ "Es esta. Tienen derecho a la reordenación del tiempo de trabajo, adaptando el horario o con horario flexible (**art. 49.d**).",
+ "No. No existe un permiso retribuido de hasta seis meses en este artículo.",
+ "No. Solo es correcta la reordenación del tiempo de trabajo."]},
+"au-09-013": {"bloque": "jornada", "precepto": "Art. 48.h del TREBEP", "correcta": 3, "justificaciones": [
+ "No. Por asuntos particulares son seis días, no ocho (**art. 48.k**).",
+ "No. Por matrimonio son quince días, sin la precisión de hábiles (**art. 48.l**).",
+ "No. Los deberes de conciliación dan el tiempo indispensable, sin fijar tres días al año (**art. 48.j**).",
+ "Es esta. Por razones de guarda legal hay reducción de jornada, con la disminución de retribuciones que corresponda (**art. 48.h**)."]},
+"au-09-014": {"bloque": "jornada", "precepto": "Art. 49.e del TREBEP", "correcta": 0, "justificaciones": [
+ "Es esta. Reducción de al menos la mitad de la jornada, con retribuciones íntegras, como máximo hasta que el menor cumpla 23 años (**art. 49.e**).",
+ "No. El plazo de un mes es el de la reducción por enfermedad muy grave de un familiar (**art. 48.i**).",
+ "No. Es de al menos la mitad, no hasta la mitad, y el plazo de un mes es de otro permiso.",
+ "No. Es de al menos la mitad, no hasta la mitad."]},
+"au-09-015": {"bloque": "jornada", "precepto": "Art. 49.c del TREBEP", "correcta": 1, "justificaciones": [
+ "No. Dieciséis semanas era la duración anterior.",
+ "Es esta. Tiene una duración de diecinueve semanas (**art. 49.c**).",
+ "No. Diecisiete semanas no figura en el artículo.",
+ "No. Ocho semanas es la duración máxima del permiso parental (**art. 49.g**)."]},
+
+"au-10-001": {"bloque": "deberes", "precepto": "Art. 53.8 del TREBEP", "correcta": 2, "justificaciones": [
+ "No. Tratar con atención y respeto es un principio de conducta (**art. 54.1**).",
+ "No. Mantener actualizada la formación es un principio de conducta (**art. 54.8**).",
+ "Es esta. Actuar de acuerdo con eficacia, economía y eficiencia es un principio ético (**art. 53.8**).",
+ "No. Observar las normas de seguridad y salud laboral es un principio de conducta (**art. 54.9**)."]},
+"au-10-002": {"bloque": "deberes", "precepto": "Art. 54.11 del TREBEP", "correcta": 3, "justificaciones": [
+ "No. Cumplir con diligencia las tareas es un principio ético (**art. 53.10**).",
+ "No. Respetar la Constitución es un principio ético (**art. 53.1**).",
+ "No. La lealtad y la buena fe son un principio ético (**art. 53.3**).",
+ "Es esta. Garantizar la atención al ciudadano en la lengua que lo solicite, si es oficial en el territorio, es un principio de conducta (**art. 54.11**)."]},
+"au-10-003": {"bloque": "deberes", "precepto": "Art. 53.7 del TREBEP", "correcta": 0, "justificaciones": [
+ "Es esta. No aceptar ningún trato de favor o situación que implique privilegio o ventaja injustificada es un principio ético (**art. 53.7**).",
+ "No. Rechazar regalos y favores es un principio de conducta (**art. 54.6**).",
+ "No. Garantizar la constancia y permanencia de los documentos es un principio de conducta (**art. 54.7**).",
+ "No. Desempeñar las tareas de forma diligente es un principio de conducta (**art. 54.2**)."]},
+"au-10-004": {"bloque": "deberes", "precepto": "Art. 54.4 del TREBEP", "correcta": 1, "justificaciones": [
+ "No. Guardar secreto de las materias clasificadas es un principio ético (**art. 53.12**).",
+ "Es esta. Informar a los ciudadanos sobre lo que tengan derecho a conocer es un principio de conducta (**art. 54.4**).",
+ "No. Abstenerse en asuntos de interés personal es un principio ético (**art. 53.5**).",
+ "No. La dedicación al servicio público es un principio ético (**art. 53.11**)."]},
+"au-10-005": {"bloque": "deberes", "precepto": "Art. 54.5 del TREBEP", "correcta": 0, "justificaciones": [
+ "Es esta. Administrar los recursos y bienes públicos con austeridad es un principio de conducta (**art. 54.5**).",
+ "No. Eficacia, economía y eficiencia es un principio ético (**art. 53.8**).",
+ "No. No intervenir en negocios jurídicos con conflicto de intereses es un principio ético (**art. 53.6**).",
+ "No. La dedicación al servicio público es un principio ético (**art. 53.11**)."]},
+"au-10-006": {"bloque": "deberes", "precepto": "Art. 53.3 del TREBEP", "correcta": 1, "justificaciones": [
+ "No. Tratar con atención y respeto es un principio de conducta (**art. 54.1**).",
+ "Es esta. Ajustar la actuación a la lealtad y la buena fe con la Administración es un principio ético (**art. 53.3**).",
+ "No. Cumplir la jornada y el horario es un principio de conducta (**art. 54.2**).",
+ "No. Obedecer las instrucciones y órdenes profesionales es un principio de conducta (**art. 54.3**)."]},
+"au-10-007": {"bloque": "deberes", "precepto": "Art. 54.5 del TREBEP", "correcta": 2, "justificaciones": [
+ "No. No aceptar trato de favor es un principio ético (**art. 53.7**).",
+ "No. La dedicación al servicio público es un principio ético (**art. 53.11**).",
+ "Es esta. Administrar los recursos con austeridad es un principio de conducta, no ético (**art. 54.5**).",
+ "No. El respeto de los derechos fundamentales es un principio ético (**art. 53.4**)."]},
+"au-10-008": {"bloque": "deberes", "precepto": "Art. 53.5 del TREBEP", "correcta": 3, "justificaciones": [
+ "No. Mantener actualizada la formación es un principio de conducta (**art. 54.8**).",
+ "No. Observar las normas de seguridad y salud laboral es un principio de conducta (**art. 54.9**).",
+ "No. Garantizar la atención en la lengua que se solicite es un principio de conducta (**art. 54.11**).",
+ "Es esta. Abstenerse en asuntos de interés personal es un principio ético (**art. 53.5**)."]},
+"au-10-009": {"bloque": "deberes", "precepto": "Art. 54.4 del TREBEP", "correcta": 2, "justificaciones": [
+ "No. Respetar la Constitución es un principio ético (**art. 53.1**).",
+ "No. La lealtad y la buena fe son un principio ético (**art. 53.3**).",
+ "Es esta. Informar a los ciudadanos sobre lo que tengan derecho a conocer es un principio de conducta (**art. 54.4**).",
+ "No. Guardar secreto de las materias clasificadas es un principio ético (**art. 53.12**)."]},
+"au-10-010": {"bloque": "deberes", "precepto": "Art. 53.4 del TREBEP", "correcta": 0, "justificaciones": [
+ "Es esta. El respeto a los derechos fundamentales y la no discriminación es un principio ético, no de conducta (**art. 53.4**).",
+ "No. Tratar con atención y respeto es un principio de conducta (**art. 54.1**).",
+ "No. Rechazar regalos y favores es un principio de conducta (**art. 54.6**).",
+ "No. Obedecer las órdenes salvo infracción manifiesta es un principio de conducta (**art. 54.3**)."]},
+
+"au-11-001": {"bloque": "acceso", "precepto": "Art. 55.2 del TREBEP", "correcta": 3, "justificaciones": [
+ "No. La publicidad de las convocatorias y sus bases es un principio rector (**art. 55.2.a**).",
+ "No. La transparencia es un principio rector (**art. 55.2.b**).",
+ "No. La imparcialidad y profesionalidad de los órganos de selección es un principio rector (**art. 55.2.c**).",
+ "Es esta. El principio es la independencia y discrecionalidad técnica, no la objetividad técnica (**art. 55.2.d**)."]},
+"au-11-002": {"bloque": "acceso", "precepto": "Art. 56.1.c del TREBEP", "correcta": 0, "justificaciones": [
+ "Es esta. Hay que tener cumplidos dieciséis años (**art. 56.1.c**).",
+ "No. La edad mínima es de dieciséis años, no de dieciocho.",
+ "No. La edad mínima es de dieciséis años, no de catorce.",
+ "No. La edad mínima es de dieciséis años, no de veinte."]},
+"au-11-003": {"bloque": "acceso", "precepto": "Art. 56.1.c del TREBEP", "correcta": 1, "justificaciones": [
+ "No. La capacidad funcional sí se exige (**art. 56.1.b**).",
+ "Es esta. El TREBEP exige tener cumplidos dieciséis años, no dieciocho (**art. 56.1.c**).",
+ "No. La titulación exigida sí se exige (**art. 56.1.e**).",
+ "No. La nacionalidad española sí se exige, sin perjuicio del art. 57 (**art. 56.1.a**)."]},
+"au-11-004": {"bloque": "acceso", "precepto": "Art. 59.1 del TREBEP", "correcta": 1, "justificaciones": [
+ "No. El cupo es del siete por ciento, no del cinco.",
+ "Es esta. Se reserva un cupo no inferior al siete por ciento de las vacantes (**art. 59.1**).",
+ "No. Es un mínimo, no un máximo, y la cifra es siete.",
+ "No. Es un mínimo, no un máximo."]},
+"au-11-005": {"bloque": "acceso", "precepto": "Art. 59.1 del TREBEP", "correcta": 0, "justificaciones": [
+ "Es esta. Al menos el dos por ciento de las plazas ofertadas es para personas con discapacidad intelectual (**art. 59.1**).",
+ "No. El mínimo es del dos por ciento, no del tres.",
+ "No. El cinco por ciento no figura en el artículo.",
+ "No. El siete por ciento es el cupo total para personas con discapacidad."]},
+"au-11-006": {"bloque": "acceso", "precepto": "Art. 60.2 del TREBEP", "correcta": 0, "justificaciones": [
+ "Es esta. No pueden formar parte el personal de elección o designación política, los funcionarios interinos y el personal eventual (**art. 60.2**).",
+ "No. El personal directivo no figura entre los excluidos.",
+ "No. El personal laboral no figura entre los excluidos.",
+ "No. Faltan los funcionarios interinos y sobra el personal laboral."]},
+"au-11-007": {"bloque": "acceso", "precepto": "Art. 61.6 del TREBEP", "correcta": 2, "justificaciones": [
+ "No. Sí es posible, con carácter excepcional.",
+ "No. El concurso no se aplica con carácter general, sino excepcional.",
+ "Es esta. Solo en virtud de ley y con carácter excepcional puede aplicarse el concurso (**art. 61.6**).",
+ "No. Hace falta una ley, no basta una norma reglamentaria."]},
+"au-11-008": {"bloque": "acceso", "precepto": "Art. 61.6 del TREBEP", "correcta": 2, "justificaciones": [
+ "No. Hay también concurso-oposición, y excepcionalmente concurso.",
+ "No. Falta el concurso, que puede aplicarse excepcionalmente por ley.",
+ "Es esta. Oposición y concurso-oposición, y excepcionalmente el concurso, solo en virtud de ley (**art. 61.6**).",
+ "No. La oposición y el concurso-oposición son los sistemas ordinarios; solo el concurso es excepcional."]},
+"au-11-009": {"bloque": "acceso", "precepto": "Art. 61.7 del TREBEP", "correcta": 3, "justificaciones": [
+ "No. En el personal laboral fijo el concurso de valoración de méritos no es excepcional.",
+ "No. La exigencia de ley y carácter excepcional es la del concurso para funcionarios de carrera.",
+ "No. No es solo el concurso: también la oposición y el concurso-oposición.",
+ "Es esta. Oposición, concurso-oposición y concurso de valoración de méritos (**art. 61.7**)."]},
+"au-11-010": {"bloque": "acceso", "precepto": "Art. 62.1 del TREBEP", "correcta": 1, "justificaciones": [
+ "No. La nacionalidad es un requisito para participar en los procesos selectivos (**art. 56.1.a**), no para adquirir la condición.",
+ "Es esta. La toma de posesión dentro del plazo que se establezca es uno de los requisitos (**art. 62.1.d**).",
+ "No. La declaración responsable no figura en el art. 62.",
+ "No. La edad es un requisito para participar en el proceso selectivo (**art. 56.1.c**), no para adquirir la condición."]},
+"au-11-011": {"bloque": "acceso", "precepto": "Art. 55 del TREBEP", "correcta": 2, "justificaciones": [
+ "No. La igualdad es un principio constitucional rector (**art. 55.1**).",
+ "No. La adecuación entre procesos y funciones es un principio rector (**art. 55.2.e**).",
+ "Es esta. La agilidad es sin perjuicio de la objetividad, no de la subjetividad (**art. 55.2.f**).",
+ "No. La capacidad es un principio constitucional rector (**art. 55.1**)."]},
+"au-11-012": {"bloque": "acceso", "precepto": "Art. 60.2 del TREBEP", "correcta": 2, "justificaciones": [
+ "No. El personal laboral fijo no está excluido.",
+ "No. El personal laboral temporal no está excluido.",
+ "Es esta. Los funcionarios interinos no pueden formar parte (**art. 60.2**).",
+ "No. Los funcionarios de carrera sí pueden formar parte."]},
+"au-11-013": {"bloque": "acceso", "precepto": "Art. 55.2 del TREBEP", "correcta": 2, "justificaciones": [
+ "No. La transparencia es un principio (**art. 55.2.b**).",
+ "No. La publicidad de las convocatorias es un principio (**art. 55.2.a**).",
+ "Es esta. La eficiencia en la actuación del órgano de selección no figura entre los principios del **art. 55.2**.",
+ "No. La agilidad, sin perjuicio de la objetividad, es un principio (**art. 55.2.f**)."]},
+"au-11-014": {"bloque": "acceso", "precepto": "Art. 57.1 del TREBEP", "correcta": 0, "justificaciones": [
+ "Es esta. No pueden acceder a empleos que impliquen participación en el poder público o en la salvaguardia de los intereses del Estado o de las Administraciones (**art. 57.1**).",
+ "No. Hay excepciones: los empleos de poder público.",
+ "No. La edad de veintiún años se refiere a descendientes del cónyuge, no a una condición general.",
+ "No. No hay exclusión por exigir titulación universitaria."]},
+"au-11-015": {"bloque": "acceso", "precepto": "Art. 62.1 del TREBEP", "correcta": 2, "justificaciones": [
+ "No. La superación del proceso selectivo es un requisito (**art. 62.1.a**).",
+ "No. El nombramiento por el órgano competente es un requisito (**art. 62.1.b**).",
+ "Es esta. La toma de posesión es un requisito, pero dentro del plazo que se establezca, no del mes siguiente (**art. 62.1.d**).",
+ "No. El acto de acatamiento de la Constitución es un requisito (**art. 62.1.c**)."]},
+"au-11-016": {"bloque": "acceso", "precepto": "Art. 57.5 del TREBEP", "correcta": 0, "justificaciones": [
+ "Es esta. Solo por ley de las Cortes Generales o de las asambleas legislativas de las comunidades autónomas, por razones de interés general (**art. 57.5**).",
+ "No. No se exime por real decreto ni por necesidades de servicio.",
+ "No. Sí se puede eximir, por ley.",
+ "No. El órgano convocante no puede eximirlo."]},
+"au-11-017": {"bloque": "acceso", "precepto": "Art. 57.4 del TREBEP", "correcta": 3, "justificaciones": [
+ "No. La edad mínima es de dieciséis años (**art. 56.1.c**).",
+ "No. Por ley sí puede establecerse otra edad máxima (**art. 56.1.c**).",
+ "No. Puede eximirse por ley, por razones de interés general (**art. 57.5**).",
+ "Es esta. Los extranjeros con residencia legal pueden acceder como personal laboral en igualdad de condiciones que los españoles (**art. 57.4**)."]},
+"au-11-018": {"bloque": "acceso", "precepto": "Art. 59.1 del TREBEP", "correcta": 3, "justificaciones": [
+ "No. El cupo mínimo es del siete por ciento, no del cinco.",
+ "No. El cupo mínimo es del siete por ciento, no del tres.",
+ "No. El cupo mínimo es del siete por ciento, no del diez.",
+ "Es esta. No inferior al siete por ciento (**art. 59.1**)."]},
+"au-11-019": {"bloque": "acceso", "precepto": "Art. 59.1 del TREBEP", "correcta": 1, "justificaciones": [
+ "No. Se habla de discapacidad intelectual.",
+ "Es esta. Al menos el dos por ciento de las plazas es para personas con discapacidad intelectual (**art. 59.1**).",
+ "No. La discapacidad física entra en el resto de las plazas reservadas.",
+ "No. El dos por ciento es solo para la discapacidad intelectual."]},
+"au-11-020": {"bloque": "acceso", "precepto": "Art. 55.1 del TREBEP", "correcta": 2, "justificaciones": [
+ "No. La agilidad es un principio del TREBEP (**art. 55.2.f**), no constitucional.",
+ "No. La transparencia es un principio del TREBEP (**art. 55.2.b**), no constitucional.",
+ "Es esta. Los principios constitucionales son igualdad, mérito y capacidad (**art. 55.1**).",
+ "No. La publicidad es un principio del TREBEP (**art. 55.2.a**), no constitucional."]},
+"au-11-021": {"bloque": "acceso", "precepto": "Art. 61.6 del TREBEP", "correcta": 0, "justificaciones": [
+ "Es esta. El concurso consiste únicamente en la valoración de méritos (**art. 61.6**).",
+ "No. La oposición consiste en pruebas de capacidad.",
+ "No. La libre designación es una forma de provisión de puestos, no un sistema selectivo.",
+ "No. La evaluación del desempeño no es un sistema selectivo."]},
+"au-11-022": {"bloque": "acceso", "precepto": "Art. 57 del TREBEP", "correcta": 0, "justificaciones": [
+ "Es esta. Un italiano es nacional de un Estado miembro: puede acceder como funcionario (salvo poder público) y como laboral (**art. 57.1 y 57.4**).",
+ "No. También puede acceder como personal laboral.",
+ "No. No se exige que su cónyuge sea español.",
+ "No. También puede acceder como personal funcionario."]},
+"au-11-023": {"bloque": "acceso", "precepto": "Art. 61.8 del TREBEP", "correcta": 2, "justificaciones": [
+ "No. Los procesos son abiertos, pero sí admiten medidas de discriminación positiva (**art. 61.1**).",
+ "No. El cupo del siete por ciento se reserva en las ofertas de empleo público, no en cada convocatoria (**art. 59.1**).",
+ "Es esta. Excepcionalmente puede proponerse un número superior de aprobados cuando lo prevea la convocatoria (**art. 61.8**).",
+ "No. La pertenencia a los órganos de selección es siempre a título individual (**art. 60.3**)."]},
+"au-11-024": {"bloque": "acceso", "precepto": "Art. 56.1.a del TREBEP", "correcta": 1, "justificaciones": [
+ "Es verdadera, así que no se marca (**art. 56.1.b**).",
+ "Esta es la falsa, y por eso es la que hay que marcar. La nacionalidad española se exige sin perjuicio del art. 57, así que no es en todo caso (**art. 56.1.a**).",
+ "Es verdadera, así que no se marca (**art. 56.1.d**).",
+ "Es verdadera, así que no se marca (**art. 56.1.e**)."]},
+"au-11-025": {"bloque": "acceso", "precepto": "Art. 61.1 del TREBEP", "correcta": 0, "justificaciones": [
+ "Es esta. Los procesos selectivos tienen carácter abierto, no cerrado (**art. 61.1**).",
+ "No. Garantizan la libre concurrencia (**art. 61.1**).",
+ "No. Los órganos velan por la igualdad de oportunidades entre sexos (**art. 61.1**).",
+ "No. Se cuida la conexión entre las pruebas y las tareas de los puestos (**art. 61.2**)."]}
+}
