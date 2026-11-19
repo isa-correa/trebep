@@ -45,7 +45,7 @@
 "No. Es el Centro Nacional de Inteligencia, no de Investigación (**art. 4.g**).",
 "No. Es el Fondo de Garantía de Depósitos de Entidades de Crédito, no de Débito (**art. 4.h**)."
 ],
-"ojo": "En clase: las ocho letras del art. 4: Cortes Generales y asambleas autonómicas (a); órganos constitucionales y estatutarios, como el Tribunal de Cuentas, el Consejo de Estado o los consejos consultivos (b); Jueces, Magistrados, Fiscales y personal de Justicia, que se rigen por la LOPJ (c); militares (d); Fuerzas y Cuerpos de Seguridad (e); retribuidos por arancel, como notarios y procuradores (f); CNI (g); Banco de España y Fondo de Garantía de Depósitos (h). Solo se les aplica el Estatuto si su legislación lo dispone."
+"ojo": "En clase: las ocho letras del art. 4. A todos ellos el Estatuto solo se les aplica si su legislación lo dispone.\na) Cortes Generales y asambleas autonómicas.\nb) Órganos constitucionales y estatutarios: Tribunal de Cuentas, Consejo de Estado, consejos consultivos.\nc) Jueces, Magistrados, Fiscales y personal de Justicia, que se rigen por la LOPJ.\nd) Militares de las Fuerzas Armadas.\ne) Fuerzas y Cuerpos de Seguridad.\nf) Retribuidos por arancel: notarios, procuradores.\ng) CNI.\nh) Banco de España y Fondo de Garantía de Depósitos."
 },
 "vo-04-005": {
 "bloque": "ambito",
@@ -129,7 +129,7 @@
 "Es esta. Plazo máximo de nueve meses dentro de un periodo de dieciocho (**art. 10.1.d**).",
 "No. El tiempo estrictamente necesario es para la sustitución transitoria de titulares (**art. 10.1.b**)."
 ],
-"ojo": "En clase: los plazos se preguntan mezclados: vacante, 3 años; sustitución, el tiempo estrictamente necesario; programas temporales, 3 años ampliables hasta 12 meses más por las leyes de Función Pública; exceso o acumulación de tareas, 9 meses dentro de 18."
+"ojo": "En clase: los plazos se preguntan mezclados.\na) Vacante: 3 años.\nb) Sustitución: el tiempo estrictamente necesario.\nc) Programas temporales: 3 años, ampliables hasta 12 meses más por las leyes de Función Pública.\nd) Exceso o acumulación de tareas: 9 meses dentro de 18."
 },
 "vo-04-012": {
 "bloque": "clases",
@@ -141,7 +141,7 @@
 "Es verdadera, así que no se marca. Es causa de cese (**art. 10.3.b**).",
 "Es verdadera, así que no se marca. Es causa de cese (**art. 10.3.c**)."
 ],
-"ojo": "En clase: el cese es de oficio y sin indemnización. Causas propias: cobertura reglada de la plaza por funcionario de carrera (no por otro interino ni por laboral fijo), supresión o amortización del puesto, fin del plazo autorizado y fin de la causa. Además, las del art. 63 en lo que proceda."
+"ojo": "En clase: el cese es de oficio y sin indemnización. Causas propias:\n· Cobertura reglada de la plaza por funcionario de carrera (no por otro interino ni por laboral fijo).\n· Supresión o amortización del puesto.\n· Fin del plazo autorizado.\n· Fin de la causa que motivó el nombramiento.\nAdemás, las del art. 63 en lo que proceda."
 },
 "vo-04-013": {
 "bloque": "clases",
@@ -225,7 +225,7 @@
 "Es esta. El planteamiento de conflictos colectivos de trabajo se ejerce colectivamente (**art. 15.d**).",
 "No. La libre asociación profesional es de ejercicio individual (**art. 14.p**)."
 ],
-"ojo": "En clase: los cinco del art. 15: libertad sindical, negociación colectiva y participación, huelga (con los servicios esenciales), conflictos colectivos y reunión (art. 46). Trampa: la libre asociación profesional parece colectiva, pero es individual (art. 14.p)."
+"ojo": "En clase: los cinco del art. 15:\na) Libertad sindical.\nb) Negociación colectiva y participación.\nc) Huelga, con los servicios esenciales.\nd) Conflictos colectivos.\ne) Reunión (art. 46).\nTrampa: la libre asociación profesional parece colectiva, pero es individual (art. 14.p)."
 },
 "vo-04-020": {
 "bloque": "derechos",
@@ -237,7 +237,7 @@
 "Es esta. La promoción interna horizontal es el acceso a cuerpos o escalas del mismo Subgrupo (**art. 16.3.d**).",
 "No. La promoción interna vertical es el ascenso a un Subgrupo superior (**art. 16.3.c**)."
 ],
-"ojo": "En clase: dos preguntas lo resuelven. ¿Cambia de cuerpo? Si no, es carrera: horizontal si no cambia de puesto (grados, tramos) y vertical si cambia de puesto por concurso o libre designación, sin examen. Si cambia de cuerpo, es promoción interna y hay examen: vertical si sube de subgrupo, horizontal si es del mismo subgrupo (en la práctica no existe)."
+"ojo": "En clase: dos preguntas lo resuelven. ¿Cambia de cuerpo? ¿Sube de subgrupo?\n· Carrera horizontal: no cambia de cuerpo ni de puesto (grados, tramos). Sin examen.\n· Carrera vertical: no cambia de cuerpo, sí de puesto (concurso o libre designación). Sin examen.\n· Promoción interna vertical: cambia de cuerpo y sube de subgrupo. Con examen.\n· Promoción interna horizontal: cambia de cuerpo dentro del mismo subgrupo. Con examen (en la práctica no existe)."
 },
 "vo-04-021": {
 "bloque": "derechos",
@@ -249,7 +249,7 @@
 "No. La carrera horizontal no cambia de puesto (**art. 16.3.a**).",
 "Es esta. Es la carrera vertical (**art. 16.3.b**)."
 ],
-"ojo": "En clase: dos preguntas lo resuelven. ¿Cambia de cuerpo? Si no, es carrera: horizontal si no cambia de puesto (grados, tramos) y vertical si cambia de puesto por concurso o libre designación, sin examen. Si cambia de cuerpo, es promoción interna y hay examen: vertical si sube de subgrupo, horizontal si es del mismo subgrupo (en la práctica no existe)."
+"ojo": "En clase: dos preguntas lo resuelven. ¿Cambia de cuerpo? ¿Sube de subgrupo?\n· Carrera horizontal: no cambia de cuerpo ni de puesto (grados, tramos). Sin examen.\n· Carrera vertical: no cambia de cuerpo, sí de puesto (concurso o libre designación). Sin examen.\n· Promoción interna vertical: cambia de cuerpo y sube de subgrupo. Con examen.\n· Promoción interna horizontal: cambia de cuerpo dentro del mismo subgrupo. Con examen (en la práctica no existe)."
 },
 "vo-04-022": {
 "bloque": "derechos",
@@ -261,7 +261,7 @@
 "No. Es la promoción interna vertical (**art. 16.3.c**).",
 "No. Es la promoción interna horizontal (**art. 16.3.d**)."
 ],
-"ojo": "En clase: dos preguntas lo resuelven. ¿Cambia de cuerpo? Si no, es carrera: horizontal si no cambia de puesto (grados, tramos) y vertical si cambia de puesto por concurso o libre designación, sin examen. Si cambia de cuerpo, es promoción interna y hay examen: vertical si sube de subgrupo, horizontal si es del mismo subgrupo (en la práctica no existe)."
+"ojo": "En clase: dos preguntas lo resuelven. ¿Cambia de cuerpo? ¿Sube de subgrupo?\n· Carrera horizontal: no cambia de cuerpo ni de puesto (grados, tramos). Sin examen.\n· Carrera vertical: no cambia de cuerpo, sí de puesto (concurso o libre designación). Sin examen.\n· Promoción interna vertical: cambia de cuerpo y sube de subgrupo. Con examen.\n· Promoción interna horizontal: cambia de cuerpo dentro del mismo subgrupo. Con examen (en la práctica no existe)."
 },
 "vo-04-023": {
 "bloque": "derechos",
@@ -285,7 +285,7 @@
 "No. Es para funcionarios de carrera, no interinos, y son dos años.",
 "No. Es para funcionarios de carrera, no interinos."
 ],
-"ojo": "En clase: tres requisitos: los de ingreso en el cuerpo, 2 años de servicio activo en el subgrupo inferior (o grupo, si no tiene subgrupo) y superar las pruebas. Es para funcionarios de carrera y siempre con examen."
+"ojo": "En clase: tres requisitos:\n1) Los de ingreso en el cuerpo.\n2) 2 años de servicio activo en el subgrupo inferior (o grupo, si no tiene subgrupo).\n3) Superar las pruebas.\nEs para funcionarios de carrera y siempre con examen."
 },
 "vo-04-025": {
 "bloque": "derechos",
@@ -345,7 +345,7 @@
 "No. El grado de interés y el rendimiento no se refieren a trabajar fuera de la jornada (**art. 24.c**).",
 "No. El sueldo y los trienios de las pagas extraordinarias son retribuciones básicas (**art. 22.2**)."
 ],
-"ojo": "En clase: las complementarias las fija la ley de cada Administración. En la AGE: a) destino (carrera), b) específico (puesto), c) productividad (rendimiento dentro de la jornada) y d) gratificaciones (servicios extraordinarios fuera de la jornada). Productividad y gratificaciones no entran en las pagas extra."
+"ojo": "En clase: las complementarias las fija la ley de cada Administración. En la AGE:\na) Destino: la carrera.\nb) Específico: el puesto.\nc) Productividad: rendimiento dentro de la jornada.\nd) Gratificaciones: servicios extraordinarios fuera de la jornada.\nProductividad y gratificaciones no entran en las pagas extra."
 },
 "vo-04-030": {
 "bloque": "retribuciones",
