@@ -1,0 +1,566 @@
+{
+"vo-04-001": {
+"bloque": "ambito",
+"precepto": "Art. 1.1 del TREBEP",
+"correcta": 1,
+"justificaciones": [
+"No. El régimen estatutario es el de los funcionarios; el personal laboral se rige por el **art. 1.2**.",
+"Es esta. El Estatuto establece las bases del régimen estatutario de los funcionarios públicos incluidos en su ámbito (**art. 1.1**).",
+"No. Además de funcionarios, también fija normas para el personal laboral (**art. 1.2**), y la fórmula del **art. 1.1** es la de las bases del régimen estatutario.",
+"No. El personal eventual no es el objeto del **art. 1**."
+]
+},
+"vo-04-002": {
+"bloque": "ambito",
+"precepto": "Art. 2.2 del TREBEP",
+"correcta": 0,
+"justificaciones": [
+"Es esta. Se aplica el Estatuto y se pueden dictar normas singulares para adecuarlo a sus peculiaridades (**art. 2.2**).",
+"No. Esa fórmula corresponde a los colectivos del **art. 4**.",
+"No. No se aplica solo con carácter supletorio: el supletorio es para el personal no incluido en el ámbito (**art. 2.5**).",
+"No. No hay exclusión de carrera profesional ni de promoción interna."
+]
+},
+"vo-04-003": {
+"bloque": "ambito",
+"precepto": "Art. 3.1 del TREBEP",
+"correcta": 2,
+"revisar": "Las opciones 3 y 4 reproducen el art. 3.1 incompleto. Elegida la que conserva el respeto a la autonomía local. Si la clave del examen fuera la 4, sería la que omite esa cláusula.",
+"justificaciones": [
+"No. La legislación específica del Estado y de las comunidades es la fórmula del personal docente y estatutario (**art. 2.3**).",
+"No. Es la misma fórmula del personal docente y estatutario (**art. 2.3**).",
+"Es esta. Legislación estatal aplicable y legislación autonómica, con respeto a la autonomía local (**art. 3.1**). El artículo añade que el Estatuto forma parte de la legislación estatal.",
+"No. Omite el respeto a la autonomía local que cierra el **art. 3.1**."
+]
+},
+"vo-04-004": {
+"bloque": "ambito",
+"precepto": "Art. 4.c del TREBEP",
+"correcta": 0,
+"justificaciones": [
+"Es esta. Jueces, Magistrados, Fiscales y demás personal de la Administración de Justicia (**art. 4.c**).",
+"No. Las Universidades Públicas están en el ámbito directo (**art. 2.1.e**).",
+"No. Es el Centro Nacional de Inteligencia, no de Investigación (**art. 4.g**).",
+"No. Es el Fondo de Garantía de Depósitos de Entidades de Crédito, no de Débito (**art. 4.h**)."
+]
+},
+"vo-04-005": {
+"bloque": "ambito",
+"precepto": "Art. 5 del TREBEP",
+"correcta": 1,
+"justificaciones": [
+"No. El personal laboral se rige por la legislación laboral y los convenios, no por las normas específicas con el Estatuto supletorio.",
+"Es esta. El personal funcionario, por sus normas específicas y supletoriamente por el Estatuto; el laboral, por la legislación laboral y las normas convencionales (**art. 5**).",
+"No. El Estatuto se aplica supletoriamente al personal funcionario.",
+"No. Solo es correcta la segunda."
+]
+},
+"vo-04-006": {
+"bloque": "ambito",
+"precepto": "Art. 6 del TREBEP",
+"correcta": 1,
+"justificaciones": [
+"No. Son leyes, no acuerdos del ejecutivo.",
+"Es esta. Las Cortes Generales y las asambleas legislativas de las comunidades autónomas (**art. 6**).",
+"No. Los plenos de los ayuntamientos no aprueban leyes.",
+"No. También las asambleas legislativas autonómicas."
+]
+},
+"vo-04-007": {
+"bloque": "ambito",
+"precepto": "Art. 7 del TREBEP",
+"correcta": 2,
+"justificaciones": [
+"Es verdadera, así que no se marca. El permiso por nacimiento se rige por el Estatuto (**art. 7**).",
+"Es verdadera, así que no se marca. El permiso por adopción se rige por el Estatuto (**art. 7**).",
+"Esta es la falsa, y por eso es la que hay que marcar. El permiso por matrimonio no figura entre los que el **art. 7** somete al Estatuto.",
+"Es verdadera, así que no se marca. El permiso parental se rige por el Estatuto (**art. 7**)."
+]
+},
+"vo-04-008": {
+"bloque": "clases",
+"precepto": "Art. 8.2 del TREBEP",
+"correcta": 2,
+"justificaciones": [
+"No. Faltan el personal laboral y el eventual.",
+"No. No existen el personal fijo discontinuo ni el subvencionado como clases del **art. 8.2**.",
+"Es esta. Funcionarios de carrera, interinos, personal laboral (fijo, indefinido o temporal) y eventual (**art. 8.2**).",
+"No. El personal indefinido no fijo por sentencia no es una clase del **art. 8.2**."
+]
+},
+"vo-04-009": {
+"bloque": "clases",
+"precepto": "Art. 9.1 del TREBEP",
+"correcta": 0,
+"justificaciones": [
+"Es esta. Nombramiento legal, relación estatutaria regulada por el Derecho Administrativo y servicios de carácter permanente (**art. 9.1**).",
+"No. El vínculo es por nombramiento, no por contrato.",
+"No. El carácter es permanente, no temporal.",
+"No. Ni por contrato ni de carácter temporal."
+]
+},
+"vo-04-010": {
+"bloque": "clases",
+"precepto": "Art. 9.2 del TREBEP",
+"correcta": 2,
+"justificaciones": [
+"No. No cualquier empleado público.",
+"No. El artículo dice funcionarios públicos, no solo de carrera.",
+"Es esta. Corresponden exclusivamente a los funcionarios públicos (**art. 9.2**).",
+"No. Los interinos son funcionarios públicos, pero la fórmula del artículo no se limita a ellos."
+]
+},
+"vo-04-011": {
+"bloque": "clases",
+"precepto": "Art. 10.1.d del TREBEP",
+"correcta": 2,
+"justificaciones": [
+"No. Los tres años son para plazas vacantes (**art. 10.1.a**).",
+"No. Los tres años ampliables doce meses son para programas temporales (**art. 10.1.c**).",
+"Es esta. Plazo máximo de nueve meses dentro de un periodo de dieciocho (**art. 10.1.d**).",
+"No. El tiempo estrictamente necesario es para la sustitución transitoria de titulares (**art. 10.1.b**)."
+]
+},
+"vo-04-012": {
+"bloque": "clases",
+"precepto": "Art. 10.3.a del TREBEP",
+"correcta": 1,
+"justificaciones": [
+"Es verdadera, así que no se marca. Es causa de cese (**art. 10.3.d**).",
+"Esta es la falsa, y por eso es la que hay que marcar. La causa es la cobertura reglada del puesto por personal funcionario de carrera, no por personal interino (**art. 10.3.a**).",
+"Es verdadera, así que no se marca. Es causa de cese (**art. 10.3.b**).",
+"Es verdadera, así que no se marca. Es causa de cese (**art. 10.3.c**)."
+]
+},
+"vo-04-013": {
+"bloque": "clases",
+"precepto": "Art. 10.4 del TREBEP",
+"correcta": 1,
+"justificaciones": [
+"No. La disponibilidad de crédito no es el requisito.",
+"Es esta. Puede permanecer si se ha publicado la convocatoria dentro del plazo de los tres años desde su nombramiento (**art. 10.4**).",
+"No. Se exige la convocatoria, no la oferta de empleo público.",
+"No. Sí es posible, excepcionalmente (**art. 10.4**)."
+]
+},
+"vo-04-014": {
+"bloque": "clases",
+"precepto": "Art. 11.3 del TREBEP",
+"correcta": 1,
+"justificaciones": [
+"Es verdadera, así que no se marca. Es el **art. 11.3**.",
+"Esta es la falsa, y por eso es la que hay que marcar. El **art. 11.3** habla de celeridad y de razones de necesidad y urgencia, pero no limita el contrato a un plazo no superior a dos años.",
+"Es verdadera, así que no se marca. Es el **art. 11.1**.",
+"Es verdadera, así que no se marca. Es el **art. 47 bis.5**."
+]
+},
+"vo-04-015": {
+"bloque": "clases",
+"precepto": "Art. 12.2 del TREBEP",
+"correcta": 0,
+"justificaciones": [
+"Es esta. Las leyes de Función Pública determinan los órganos de gobierno que pueden disponer de personal eventual (**art. 12.2**).",
+"No. El número máximo lo establecen los respectivos órganos de gobierno, no las leyes de función pública (**art. 12.2**).",
+"No. El número y las condiciones retributivas son públicos (**art. 12.2**).",
+"No. Solo es correcta la primera."
+]
+},
+"vo-04-016": {
+"bloque": "clases",
+"precepto": "Art. 13.4 del TREBEP",
+"correcta": 2,
+"justificaciones": [
+"No. No es una relación laboral común.",
+"No. No hay opción: es la relación especial de alta dirección.",
+"Es esta. Relación laboral de carácter especial de alta dirección (**art. 13.4**).",
+"No. Se le aplica la legislación laboral de alta dirección."
+]
+},
+"vo-04-017": {
+"bloque": "derechos",
+"precepto": "Art. 14.a del TREBEP",
+"correcta": 2,
+"justificaciones": [
+"No. Es un derecho individual (**art. 14.j bis**).",
+"No. Es un derecho individual (**art. 14.l**).",
+"Es esta. El derecho es a la inamovilidad en la condición de funcionario de carrera, no en el puesto (**art. 14.a**).",
+"No. Es un derecho individual (**art. 14.k**)."
+]
+},
+"vo-04-018": {
+"bloque": "derechos",
+"precepto": "Art. 15 del TREBEP",
+"correcta": 2,
+"justificaciones": [
+"No. La huelga se ejerce colectivamente (**art. 15.c**).",
+"No. La negociación colectiva se ejerce colectivamente (**art. 15.b**).",
+"Es esta. La libre asociación profesional es un derecho individual de ejercicio individual (**art. 14.p**).",
+"No. La libertad sindical se ejerce colectivamente (**art. 15.a**)."
+]
+},
+"vo-04-019": {
+"bloque": "derechos",
+"precepto": "Art. 15.d del TREBEP",
+"correcta": 2,
+"justificaciones": [
+"No. La libertad de expresión es de ejercicio individual (**art. 14.k**).",
+"No. La conciliación es de ejercicio individual (**art. 14.j**).",
+"Es esta. El planteamiento de conflictos colectivos de trabajo se ejerce colectivamente (**art. 15.d**).",
+"No. La libre asociación profesional es de ejercicio individual (**art. 14.p**)."
+]
+},
+"vo-04-020": {
+"bloque": "derechos",
+"precepto": "Art. 16.3.d del TREBEP",
+"correcta": 2,
+"justificaciones": [
+"No. La carrera horizontal es la progresión de grado sin cambiar de puesto (**art. 16.3.a**).",
+"No. La carrera vertical es el ascenso en la estructura de puestos (**art. 16.3.b**).",
+"Es esta. La promoción interna horizontal es el acceso a cuerpos o escalas del mismo Subgrupo (**art. 16.3.d**).",
+"No. La promoción interna vertical es el ascenso a un Subgrupo superior (**art. 16.3.c**)."
+]
+},
+"vo-04-021": {
+"bloque": "derechos",
+"precepto": "Art. 16.3.b del TREBEP",
+"correcta": 3,
+"justificaciones": [
+"No. La promoción interna vertical cambia de cuerpo o escala (**art. 16.3.c**).",
+"No. La horizontal es el acceso a cuerpos del mismo Subgrupo (**art. 16.3.d**).",
+"No. La carrera horizontal no cambia de puesto (**art. 16.3.a**).",
+"Es esta. Es la carrera vertical (**art. 16.3.b**)."
+]
+},
+"vo-04-022": {
+"bloque": "derechos",
+"precepto": "Art. 16.3.a del TREBEP",
+"correcta": 0,
+"justificaciones": [
+"Es esta. Progresión de grado, categoría o escalón sin cambiar de puesto (**art. 16.3.a**).",
+"No. Es la carrera vertical (**art. 16.3.b**).",
+"No. Es la promoción interna vertical (**art. 16.3.c**).",
+"No. Es la promoción interna horizontal (**art. 16.3.d**)."
+]
+},
+"vo-04-023": {
+"bloque": "derechos",
+"precepto": "Art. 17 del TREBEP",
+"correcta": 3,
+"justificaciones": [
+"Es verdadera, así que no se marca. Los ascensos son consecutivos con carácter general (**art. 17.a**).",
+"Es verdadera, así que no se marca. El Estatuto no fija un máximo de grados.",
+"Es verdadera, así que no se marca. Se valora el resultado de la evaluación del desempeño (**art. 17.b**).",
+"Esta es la falsa, y por eso es la que hay que marcar. Las leyes de Función Pública podrán regular la carrera horizontal, no están obligadas (**art. 17**)."
+]
+},
+"vo-04-024": {
+"bloque": "derechos",
+"precepto": "Art. 18.2 del TREBEP",
+"correcta": 0,
+"justificaciones": [
+"Es esta. Funcionarios de carrera con al menos dos años de servicio activo en el Subgrupo inferior que superen las pruebas (**art. 18.2**).",
+"No. Son dos años, no cinco.",
+"No. Es para funcionarios de carrera, no interinos, y son dos años.",
+"No. Es para funcionarios de carrera, no interinos."
+]
+},
+"vo-04-025": {
+"bloque": "derechos",
+"precepto": "Art. 20.4 del TREBEP",
+"correcta": 3,
+"justificaciones": [
+"No. El **art. 20.4** se refiere al puesto obtenido por concurso.",
+"No. El **art. 20.4** se refiere al puesto obtenido por concurso.",
+"No. El **art. 20.4** se refiere al puesto obtenido por concurso.",
+"Es esta. La continuidad en un puesto obtenido por concurso queda vinculada a la evaluación del desempeño (**art. 20.4**)."
+]
+},
+"vo-04-026": {
+"bloque": "retribuciones",
+"precepto": "Art. 21 del TREBEP",
+"correcta": 3,
+"justificaciones": [
+"No. Están invertidas: las cuantías de las básicas y el incremento de las complementarias.",
+"No. Se reflejan en la ley de presupuestos, no en una ley tributaria.",
+"No. No pueden acordarse incrementos que superen los límites de la Ley de Presupuestos (**art. 21.2**).",
+"Es esta. No podrán acordarse incrementos que superen los límites fijados en la Ley de Presupuestos Generales del Estado (**art. 21.2**)."
+]
+},
+"vo-04-027": {
+"bloque": "retribuciones",
+"precepto": "Art. 22.3 del TREBEP",
+"correcta": 1,
+"justificaciones": [
+"No. Se clasifican en básicas y complementarias (**art. 22.1**).",
+"Es esta. Las complementarias retribuyen las características de los puestos, la carrera o el desempeño y los resultados (**art. 22.3**).",
+"No. No podrá percibirse participación en tributos ni en multas (**art. 22.5**).",
+"No. Las pagas extraordinarias excluyen los complementos de productividad y de servicios extraordinarios (**art. 22.4**)."
+]
+},
+"vo-04-028": {
+"bloque": "retribuciones",
+"precepto": "Art. 23.b del TREBEP",
+"correcta": 2,
+"justificaciones": [
+"No. Es un factor de las retribuciones complementarias (**art. 24.a**).",
+"No. Es un factor de las retribuciones complementarias (**art. 24.d**).",
+"Es esta. Los trienios son retribución básica (**art. 23.b**).",
+"No. Son retribuciones diferidas (**art. 29**)."
+]
+},
+"vo-04-029": {
+"bloque": "retribuciones",
+"precepto": "Art. 24.d del TREBEP",
+"correcta": 1,
+"justificaciones": [
+"No. El factor del **art. 24.b** habla de incompatibilidad exigible, no de compatibilidad.",
+"Es esta. Los servicios extraordinarios fuera de la jornada normal son un factor de las retribuciones complementarias (**art. 24.d**).",
+"No. El grado de interés y el rendimiento no se refieren a trabajar fuera de la jornada (**art. 24.c**).",
+"No. El sueldo y los trienios de las pagas extraordinarias son retribuciones básicas (**art. 22.2**)."
+]
+},
+"vo-04-030": {
+"bloque": "retribuciones",
+"precepto": "Art. 26 del TREBEP",
+"correcta": 1,
+"justificaciones": [
+"No. No se fija el 75 %.",
+"Es esta. Como mínimo, el sueldo del Subgrupo o Grupo en que aspiren a ingresar (**art. 26**).",
+"No. El artículo habla del sueldo como mínimo, no de sueldo y pagas extraordinarias.",
+"No. Sí perciben retribuciones."
+]
+},
+"vo-04-031": {
+"bloque": "retribuciones",
+"precepto": "Art. 29 del TREBEP",
+"correcta": 0,
+"justificaciones": [
+"Es esta. Retribuciones diferidas (**art. 29**).",
+"No. No son retribuciones complementarias.",
+"No. No son retribuciones básicas.",
+"No. No son indemnizaciones por razón del servicio."
+]
+},
+"vo-04-032": {
+"bloque": "retribuciones",
+"precepto": "Art. 30.1 del TREBEP",
+"correcta": 1,
+"justificaciones": [
+"No. No tiene carácter sancionador tampoco en general.",
+"Es esta. La deducción proporcional de haberes no tiene carácter sancionador (**art. 30.1**).",
+"No. No tiene carácter sancionador, ni siquiera por huelga (**art. 30.2**).",
+"No. No tiene carácter sancionador, sin perjuicio de la sanción disciplinaria que pudiera corresponder (**art. 30.1**)."
+]
+},
+"vo-05-001": {
+"bloque": "negociacion",
+"precepto": "Art. 33.1 del TREBEP",
+"correcta": 0,
+"justificaciones": [
+"Es esta. Legalidad, cobertura presupuestaria y transparencia figuran entre los principios (**art. 33.1**).",
+"No. El servicio a los ciudadanos no es uno de los principios del **art. 33.1**.",
+"No. La eficacia en la gestión de los recursos humanos no es uno de los principios.",
+"No. La eficiencia y la seguridad jurídica no son de la lista."
+]
+},
+"vo-05-002": {
+"bloque": "negociacion",
+"precepto": "Art. 34.6 del TREBEP",
+"correcta": 1,
+"justificaciones": [
+"No. El plazo es de un mes, no dos.",
+"Es esta. Un mes desde que la mayoría de una de las partes legitimadas lo promueva (**art. 34.6**).",
+"No. El plazo es de un mes y no se habla de mayoría absoluta.",
+"No. El plazo es de un mes, pero no se habla de mayoría absoluta."
+]
+},
+"vo-05-003": {
+"bloque": "negociacion",
+"precepto": "Art. 35.4 del TREBEP",
+"correcta": 1,
+"justificaciones": [
+"No. El límite no es de 25 miembros.",
+"Es esta. Ninguna de las partes puede superar quince miembros (**art. 35.4**).",
+"No. El límite no es de 13.",
+"No. El límite no es de 17."
+]
+},
+"vo-05-004": {
+"bloque": "negociacion",
+"precepto": "Art. 37.2.d del TREBEP",
+"correcta": 1,
+"justificaciones": [
+"No. Las retribuciones complementarias son objeto de negociación (**art. 37.1.b**).",
+"Es esta. Los poderes de dirección y control propios de la relación jerárquica quedan excluidos (**art. 37.2.d**).",
+"No. Los criterios de acción social son objeto de negociación (**art. 37.1.i**).",
+"No. Los planes de previsión social complementaria son objeto de negociación (**art. 37.1.e**)."
+]
+},
+"vo-05-005": {
+"bloque": "negociacion",
+"precepto": "Art. 37.2.b del TREBEP",
+"correcta": 3,
+"justificaciones": [
+"No. Esas materias son objeto de negociación (**art. 37.1.m**).",
+"No. Las propuestas sobre derechos sindicales y de participación son objeto de negociación (**art. 37.1.h**).",
+"No. Los criterios de evaluación del desempeño son objeto de negociación (**art. 37.1.d**).",
+"Es esta. La regulación del ejercicio de los derechos de los ciudadanos y usuarios queda excluida (**art. 37.2.b**)."
+]
+},
+"vo-05-006": {
+"bloque": "negociacion",
+"precepto": "Art. 38.11 del TREBEP",
+"correcta": 0,
+"justificaciones": [
+"Es esta. Salvo acuerdo en contrario, se prorrogan de año en año si no hay denuncia expresa de una de las partes (**art. 38.11**).",
+"No. No existe esa mayoría de dos tercios.",
+"No. La regla es la prórroga, no la no prórroga.",
+"No. La prórroga es anual y no exige unanimidad."
+]
+},
+"vo-05-007": {
+"bloque": "representacion",
+"precepto": "Art. 39.5 del TREBEP",
+"correcta": 2,
+"justificaciones": [
+"No. 17 representantes son para 501 a 750 funcionarios.",
+"No. 13 representantes son para 251 a 500.",
+"Es esta. De 751 a 1.000 funcionarios, 21 representantes (**art. 39.5**).",
+"No. No hay una banda de 19 representantes en la escala."
+]
+},
+"vo-05-008": {
+"bloque": "representacion",
+"precepto": "Art. 45.3 del TREBEP",
+"correcta": 0,
+"justificaciones": [
+"Es esta. La mediación será obligatoria cuando lo solicite una de las partes (**art. 45.3**).",
+"No. Las propuestas del mediador pueden ser libremente aceptadas o rechazadas (**art. 45.3**).",
+"No. En el arbitraje las partes se comprometen a aceptar la resolución, y las propuestas de mediación no se aplican aquí.",
+"No. El acuerdo tiene la eficacia jurídica de los Pactos y Acuerdos regulados en el Estatuto, no de los convenios colectivos (**art. 45.4**)."
+]
+},
+"vo-05-009": {
+"bloque": "representacion",
+"precepto": "Art. 46.1 del TREBEP",
+"correcta": 0,
+"justificaciones": [
+"Es esta. Los Delegados de Personal están legitimados (**art. 46.1.a**).",
+"No. Las Juntas de Empresarios no existen en el artículo.",
+"No. El órgano es la Junta de Personal, no un Comité de Personal.",
+"No. El porcentaje es del 40 %, no del 20 % (**art. 46.1.d**)."
+]
+},
+"vo-05-010": {
+"bloque": "jornada",
+"precepto": "Art. 47.1 del TREBEP",
+"correcta": 0,
+"justificaciones": [
+"Es esta. Tiempo completo o tiempo parcial (**art. 47.1**).",
+"No. También cabe a tiempo parcial.",
+"No. También cabe a tiempo completo.",
+"No. No existe el tiempo especial."
+]
+},
+"vo-05-011": {
+"bloque": "jornada",
+"precepto": "Art. 48.a del TREBEP",
+"correcta": 2,
+"justificaciones": [
+"No. Son tres o cinco según la localidad, no cinco en todo caso.",
+"No. Los días son hábiles, no naturales.",
+"Es esta. Tres días hábiles en la misma localidad y cinco en distinta (**art. 48.a**).",
+"No. Los días son hábiles, no naturales."
+]
+},
+"vo-05-012": {
+"bloque": "jornada",
+"precepto": "Art. 48.g del TREBEP",
+"correcta": 1,
+"justificaciones": [
+"No. El máximo es de dos horas diarias.",
+"Es esta. Un máximo de dos horas diarias, con retribuciones íntegras (**art. 48.g**).",
+"No. El máximo es de dos horas.",
+"No. El máximo es de dos horas."
+]
+},
+"vo-05-013": {
+"bloque": "jornada",
+"precepto": "Art. 48.i del TREBEP",
+"correcta": 2,
+"justificaciones": [
+"No. El plazo máximo es de un mes, no de dos.",
+"No. Es con carácter retribuido.",
+"Es esta. Hasta el 50 % de la jornada, con carácter retribuido, por enfermedad muy grave y por un máximo de un mes (**art. 48.i**).",
+"No. Es hasta el 50 %, no el 40 %."
+]
+},
+"vo-05-014": {
+"bloque": "jornada",
+"precepto": "Art. 49.a del TREBEP",
+"correcta": 3,
+"justificaciones": [
+"No. La monoparentalidad es de 32 semanas, no 38.",
+"No. El permiso es de 19 semanas, no 17.",
+"No. El permiso es de 19 semanas, no 16, y 32 en monoparentalidad.",
+"Es esta. Diecinueve semanas y, en monoparentalidad, treinta y dos (**art. 49.a**)."
+]
+},
+"vo-05-015": {
+"bloque": "jornada",
+"precepto": "Art. 49.a del TREBEP",
+"correcta": 1,
+"justificaciones": [
+"No. No depende de las primeras cuatro semanas.",
+"Es esta. En caso de fallecimiento de la madre, el otro progenitor puede hacer uso de la totalidad o de la parte que reste (**art. 49.a**).",
+"No. No hay cesión del derecho por parte de la madre: es un derecho individual que no puede transferirse (**art. 49.a**).",
+"No. Sí puede, en caso de fallecimiento de la madre."
+]
+},
+"vo-05-016": {
+"bloque": "jornada",
+"precepto": "Art. 49.b del TREBEP",
+"correcta": 1,
+"justificaciones": [
+"No. Son retribuciones básicas, no íntegras.",
+"Es esta. Permiso de hasta dos meses, con exclusivamente las retribuciones básicas (**art. 49.b**).",
+"No. El permiso es de hasta dos meses, no cuatro semanas.",
+"No. El permiso es de hasta dos meses y solo con retribuciones básicas."
+]
+},
+"vo-05-017": {
+"bloque": "jornada",
+"precepto": "Art. 49.d del TREBEP",
+"correcta": 3,
+"justificaciones": [
+"Es verdadera, así que no se marca. Es un derecho del **art. 49.d**.",
+"Es verdadera, así que no se marca. Es un derecho del **art. 49.d**.",
+"Es verdadera, así que no se marca. Mantienen las íntegras si reducen un tercio o menos (**art. 49.d**).",
+"Esta es la falsa, y por eso es la que hay que marcar. El umbral es un tercio o menos, no la mitad (**art. 49.d**)."
+]
+},
+"vo-05-018": {
+"bloque": "jornada",
+"precepto": "Art. 49.g del TREBEP",
+"correcta": 3,
+"justificaciones": [
+"No. La duración es no superior a ocho semanas, no inferior.",
+"No. Es hasta que el menor cumpla ocho años.",
+"No. No tiene carácter retribuido.",
+"Es esta. Es un derecho individual de progenitores, adoptantes o acogedores, hombres y mujeres, sin que pueda transferirse (**art. 49.g**)."
+]
+},
+"vo-05-019": {
+"bloque": "jornada",
+"precepto": "Art. 50 y DA 13ª y 14ª del TREBEP",
+"correcta": 3,
+"ojo": "El Estatuto fija 22 días de vacaciones (art. 50.1) y solo permite que cada Administración añada hasta cuatro por antigüedad (DA 14ª). Con 25 años de servicio, la AGE concede 25 días hábiles. En asuntos particulares, 6 base, dos más por el sexto trienio y uno más por el octavo: 9.",
+"revisar": "Respondida con el régimen que aplica la AGE (25 años: 25 días hábiles de vacaciones; 6 + 2 + 1 de asuntos particulares). El Estatuto solo permite hasta cuatro días extra y hasta dos más de asuntos, que cada Administración decide.",
+"justificaciones": [
+"No. Con ocho días de asuntos particulares no se llega: seis base, dos por el sexto trienio y uno por el octavo suman nueve, y las vacaciones son 25.",
+"No. Los días de asuntos particulares son hábiles, no naturales (**art. 48.k**).",
+"No. Con 25 años de servicio le corresponden 25 días hábiles de vacaciones, no 24.",
+"Es esta. 25 días hábiles de vacaciones (22 más tres por antigüedad, **art. 50.1** y **DA 14ª**) y 9 de asuntos particulares (**art. 48.k** y **DA 13ª**)."
+]
+}
+}
