@@ -9,8 +9,10 @@ for f in sorted(glob.glob("tools/respuestas/*.json")):
     R.update(json.load(open(f, encoding="utf8")))
 
 BLOQUES = [("ambito", "Ámbito de aplicación (arts. 1 a 7)"), ("clases", "Clases de personal (arts. 8 a 13)"),
-           ("derechos", "Derechos y deberes (arts. 14 a 20)"), ("retribuciones", "Retribuciones, jornada y permisos (arts. 21 a 30)"),
-           ("negociacion", "Negociación colectiva y representación (arts. 31 a 38)"),
+           ("derechos", "Derechos y deberes (arts. 14 a 20)"), ("retribuciones", "Retribuciones (arts. 21 a 30)"),
+           ("negociacion", "Negociación colectiva (arts. 31 a 38)"),
+           ("representacion", "Representación y derecho de reunión (arts. 39 a 46)"),
+           ("jornada", "Jornada, permisos y vacaciones (arts. 47 a 51)"),
            ("deberes", "Deberes y código de conducta (arts. 52 a 54)"),
            ("acceso", "Acceso al empleo público (arts. 55 a 62)"),
            ("adquisicion", "Adquisición y pérdida de la relación de servicio (arts. 63 a 68)"),

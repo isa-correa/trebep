@@ -1,0 +1,232 @@
+{
+"au-06-001": {"bloque": "representacion", "precepto": "Art. 44.d del TREBEP", "correcta": 0, "justificaciones": [
+ "Es esta. Los Delegados de Personal se eligen por listas abiertas y sistema mayoritario (**art. 44.d**).",
+ "No. Las listas abiertas son las de los Delegados, pero el sistema proporcional corregido es el de las Juntas de Personal.",
+ "No. Las listas cerradas son las de las Juntas de Personal, no las de los Delegados.",
+ "No. Esta es la fórmula de las Juntas de Personal, no la de los Delegados (**art. 44.d**)."]},
+"au-06-002": {"bloque": "representacion", "precepto": "Art. 41.1.d del TREBEP", "correcta": 1, "justificaciones": [
+ "No. Veinte horas es el tramo de 101 a 250 funcionarios.",
+ "Es esta. Con 300 funcionarios se está en el tramo de 251 a 500, que da treinta horas mensuales (**art. 41.1.d**).",
+ "No. Treinta y cinco horas es el tramo de 501 a 750 funcionarios.",
+ "No. Cuarenta horas es de 751 funcionarios en adelante."]},
+"au-06-003": {"bloque": "representacion", "precepto": "Art. 41.1.d del TREBEP", "correcta": 0, "justificaciones": [
+ "Esta es la falsa, y por eso es la que hay que marcar. Los créditos horarios sí se pueden acumular, si lo manifiestan miembros de la misma candidatura y lo comunican a la Jefatura de Personal (**art. 41.1.d**).",
+ "Es verdadera, así que no se marca. El crédito de horas es dentro de la jornada de trabajo.",
+ "Es verdadera, así que no se marca. Las horas se retribuyen como de trabajo efectivo.",
+ "Es verdadera, así que no se marca. La escala va de 15 horas (hasta 100 funcionarios) a 40 (de 751 en adelante)."]},
+"au-06-004": {"bloque": "representacion", "precepto": "Art. 39.3 del TREBEP", "correcta": 2, "justificaciones": [
+ "No. No es un máximo: las Juntas de Personal exigen un mínimo, y además es de 50 funcionarios (**art. 39.3**).",
+ "No. Cien es el límite de la primera franja de la escala del crédito de horas, no el mínimo para constituir Junta.",
+ "Es esta. Las Juntas de Personal se constituyen en unidades electorales con un censo mínimo de 50 funcionarios (**art. 39.3**).",
+ "No. Es un mínimo, no un máximo, y la cifra es 50."]},
+"au-06-005": {"bloque": "representacion", "precepto": "Art. 42 del TREBEP", "correcta": 1, "justificaciones": [
+ "No. El mandato es de cuatro años, no cinco, y sí se puede ser reelegido.",
+ "Es esta. El mandato es de cuatro años, pudiendo ser reelegidos (**art. 42**).",
+ "No. Los cuatro años son correctos, pero sí cabe la reelección.",
+ "No. Es reelegible, pero el mandato es de cuatro años, no de cinco."]},
+"au-06-006": {"bloque": "representacion", "precepto": "Art. 39.2 del TREBEP", "correcta": 0, "justificaciones": [
+ "Es esta. De 31 a 49 funcionarios se eligen tres Delegados, que ejercen su representación conjunta y mancomunadamente (**art. 39.2**).",
+ "No. De 31 a 49 se eligen tres, no cinco.",
+ "No. Son tres, pero la representación es mancomunada, no solidaria.",
+ "No. Ni son cinco ni la representación es solidaria."]},
+"au-06-007": {"bloque": "representacion", "precepto": "Art. 39.5 del TREBEP", "correcta": 0, "justificaciones": [
+ "Es esta. Con 1.000 funcionarios se está en el tramo de 751 a 1.000, que tiene 21 representantes (**art. 39.5**).",
+ "No. Diecinueve no figura en la escala.",
+ "No. Quince tampoco figura en la escala.",
+ "No. Diecisiete es el tramo de 501 a 750 funcionarios."]},
+"au-06-008": {"bloque": "representacion", "precepto": "Art. 39.2 del TREBEP", "correcta": 3, "justificaciones": [
+ "No. Hasta 30 funcionarios se elige un solo Delegado; los tres son para el tramo de 31 a 49.",
+ "No. Los tres Delegados, mancomunados, son para el tramo de 31 a 49, no para el de 6 a 30.",
+ "No. La Junta de Personal exige un censo mínimo de 50 funcionarios (**art. 39.3**).",
+ "Es esta. Hasta 30 funcionarios se elige un Delegado de Personal (**art. 39.2**)."]},
+"au-06-009": {"bloque": "representacion", "precepto": "Art. 41.1.d del TREBEP", "correcta": 1, "justificaciones": [
+ "No. Quince horas es hasta 100 funcionarios.",
+ "Es esta. De 101 a 250 funcionarios son veinte horas mensuales, dentro de la jornada y retribuidas (**art. 41.1.d**).",
+ "No. Treinta horas es el tramo de 251 a 500.",
+ "No. Treinta y cinco horas es el tramo de 501 a 750."]},
+"au-06-010": {"bloque": "representacion", "precepto": "Art. 41.1.d del TREBEP", "correcta": 3, "justificaciones": [
+ "No. Quince horas es hasta 100 funcionarios.",
+ "No. Veinte horas es el tramo de 101 a 250.",
+ "No. Treinta horas es el tramo de 251 a 500.",
+ "Es esta. De 501 a 750 funcionarios son treinta y cinco horas mensuales, dentro de la jornada y retribuidas (**art. 41.1.d**)."]},
+"au-06-011": {"bloque": "representacion", "precepto": "Art. 46.2 del TREBEP", "correcta": 1, "justificaciones": [
+ "No. La regla general es la contraria: se autorizan fuera de las horas de trabajo.",
+ "Es esta. Las reuniones en el centro de trabajo se autorizan fuera de las horas de trabajo, salvo acuerdo entre el órgano competente en materia de personal y los convocantes (**art. 46.2**).",
+ "No. Sí son posibles: el artículo regula en qué horario se autorizan.",
+ "No. Hay una correcta."]},
+"au-06-012": {"bloque": "representacion", "precepto": "Art. 46.1.d del TREBEP", "correcta": 2, "justificaciones": [
+ "No. El porcentaje mínimo es del 40 por 100, no del 20.",
+ "No. El porcentaje mínimo es del 40 por 100, no del 30.",
+ "Es esta. Los empleados públicos pueden convocar en número no inferior al 40 por 100 del colectivo convocado (**art. 46.1.d**).",
+ "No. El porcentaje mínimo es del 40 por 100, no del 50."]},
+"au-06-013": {"bloque": "representacion", "precepto": "Art. 39.5 del TREBEP", "correcta": 1, "justificaciones": [
+ "No. Veintiuno es el tramo de 751 a 1.000 funcionarios.",
+ "Es esta. Con 263 funcionarios se está en el tramo de 251 a 500, que tiene 13 representantes (**art. 39.5**).",
+ "No. Nueve es el tramo de 101 a 250 funcionarios.",
+ "No. Diecisiete es el tramo de 501 a 750 funcionarios."]},
+"au-06-014": {"bloque": "representacion", "precepto": "Art. 39.5 del TREBEP", "correcta": 1, "justificaciones": [
+ "No. Trece es el tramo de 251 a 500 funcionarios.",
+ "Es esta. Con 850 funcionarios se está en el tramo de 751 a 1.000, que tiene 21 representantes (**art. 39.5**).",
+ "No. Diecisiete es el tramo de 501 a 750 funcionarios.",
+ "No. Diecinueve no figura en la escala."]},
+"au-06-015": {"bloque": "representacion", "precepto": "Art. 39.5 del TREBEP", "correcta": 2, "justificaciones": [
+ "No. Los Delegados de Personal son para unidades de 6 a 49 funcionarios; con 500 hay Junta de Personal.",
+ "No. Diecisiete es el tramo de 501 a 750 funcionarios.",
+ "Es esta. Con 500 funcionarios corresponde Junta de Personal, y el tramo de 251 a 500 tiene 13 representantes (**art. 39.5**).",
+ "No. El Comité de Empresa es el órgano del personal laboral; los funcionarios se representan con Juntas de Personal."]},
+
+"au-07-001": {"bloque": "representacion", "precepto": "Art. 39.6 del TREBEP", "correcta": 1, "justificaciones": [
+ "Es verdadera, así que no se marca. El censo mínimo es de 50 funcionarios (**art. 39.3**).",
+ "Esta es la falsa, y por eso es la que hay que marcar. El reglamento y sus modificaciones exigen los votos favorables de, al menos, dos tercios de los miembros, no una mayoría simple (**art. 39.6**).",
+ "Es verdadera, así que no se marca. El mandato es de cuatro años, con posibilidad de reelección (**art. 42**).",
+ "Es verdadera, así que no se marca. Las Juntas son informadas de todas las sanciones por faltas muy graves (**art. 40.1.c**)."]},
+"au-07-002": {"bloque": "representacion", "precepto": "Art. 40.1.b del TREBEP", "correcta": 3, "justificaciones": [
+ "No. Es cierta (**art. 40.1.b**), pero la opción correcta es la que recoge todas.",
+ "No. Es cierta (**art. 40.1.b**), pero la opción correcta es la que recoge todas.",
+ "No. Es cierta (**art. 40.1.b**), pero la opción correcta es la que recoge todas.",
+ "Es esta. El **art. 40.1.b** les atribuye emitir informe, a solicitud de la Administración, sobre el traslado de instalaciones y sobre la implantación o revisión de sistemas de organización y métodos de trabajo."]},
+"au-07-003": {"bloque": "representacion", "precepto": "Art. 46.1 del TREBEP", "correcta": 2, "justificaciones": [
+ "No. Los Delegados de Personal sí están legitimados (**art. 46.1.a**).",
+ "No. Los Comités de Empresa sí están legitimados (**art. 46.1.c**).",
+ "Es esta. El Comité Intercentros no figura en la lista de legitimados del **art. 46.1**.",
+ "No. Los empleados públicos sí pueden convocar si son al menos el 40 por 100 del colectivo convocado (**art. 46.1.d**)."]},
+"au-07-004": {"bloque": "representacion", "precepto": "Art. 39.1 del TREBEP", "correcta": 3, "justificaciones": [
+ "No. Son órganos de negociación, no de representación.",
+ "No. Los sindicatos no son los órganos específicos de representación que enumera el **art. 39.1**.",
+ "No. Las comisiones paritarias resuelven los conflictos de aplicación e interpretación de los Pactos y Acuerdos (**art. 38.5**).",
+ "Es esta. Los órganos específicos de representación de los funcionarios son los Delegados de Personal y las Juntas de Personal (**art. 39.1**)."]},
+"au-07-005": {"bloque": "representacion", "precepto": "Art. 39.3 del TREBEP", "correcta": 1, "justificaciones": [
+ "No. No se constituyen en todas las unidades electorales, solo en las de 50 o más funcionarios.",
+ "Es esta. Las Juntas de Personal se constituyen en unidades electorales con un censo mínimo de 50 funcionarios (**art. 39.3**).",
+ "No. El mínimo es de 50, no de 75.",
+ "No. El mínimo es de 50, no de 25."]},
+"au-07-006": {"bloque": "representacion", "precepto": "Art. 39.2 del TREBEP", "correcta": 2, "justificaciones": [
+ "No. Con un censo mínimo de 50 funcionarios corresponde Junta de Personal, no Delegados.",
+ "No. Invierte los límites: el tramo incluye el 6 y excluye el 50.",
+ "Es esta. Corresponde a Delegados de Personal en unidades con un número de funcionarios igual o superior a 6 e inferior a 50 (**art. 39.2**).",
+ "No. Con 50 funcionarios ya se constituye Junta de Personal (**art. 39.3**)."]},
+"au-07-007": {"bloque": "representacion", "precepto": "Art. 42 del TREBEP", "correcta": 1, "justificaciones": [
+ "No. Los cuatro años son correctos, pero sí cabe la reelección.",
+ "Es esta. El mandato es de cuatro años, pudiendo ser reelegidos (**art. 42**).",
+ "No. El mandato es de cuatro años, no de cinco, y hay reelección.",
+ "No. El mandato es de cuatro años, no de cinco, y no se limita la reelección a una vez."]},
+"au-07-008": {"bloque": "representacion", "precepto": "Art. 41.1.e del TREBEP", "correcta": 0, "justificaciones": [
+ "Es esta. No pueden ser trasladados ni sancionados por causas relacionadas con su mandato ni durante este ni en el año siguiente, salvo que se extinga por revocación o dimisión (**art. 41.1.e**).",
+ "No. La protección dura la vigencia del mandato y el año siguiente a su extinción.",
+ "No. La excepción es la revocación o la dimisión, no la incompatibilidad.",
+ "No. Hay excepción: la extinción por revocación o dimisión."]},
+"au-07-009": {"bloque": "representacion", "precepto": "Art. 46.1 del TREBEP", "correcta": 1, "justificaciones": [
+ "No. Los Comités de Empresa sí están legitimados (**art. 46.1.c**).",
+ "Es esta. Los empleados públicos solo pueden convocar si son al menos el 40 por 100 del colectivo; por debajo no están legitimados (**art. 46.1.d**).",
+ "No. Los Delegados de Personal sí están legitimados (**art. 46.1.a**).",
+ "No. Las Juntas de Personal sí están legitimadas (**art. 46.1.b**)."]},
+"au-07-010": {"bloque": "representacion", "precepto": "Art. 44.d del TREBEP", "correcta": 2, "justificaciones": [
+ "No. El sistema proporcional corregido es el de las Juntas, pero con listas cerradas, no abiertas.",
+ "No. Las listas cerradas son las de las Juntas, pero con sistema proporcional corregido, no mayoritario.",
+ "Es esta. Las Juntas de Personal se eligen mediante listas cerradas a través de un sistema proporcional corregido (**art. 44.d**).",
+ "No. Listas abiertas y sistema mayoritario es la fórmula de los Delegados de Personal."]},
+"au-07-011": {"bloque": "representacion", "precepto": "Art. 39.6 del TREBEP", "correcta": 0, "justificaciones": [
+ "Es esta. El reglamento y sus modificaciones deben aprobarse por al menos dos tercios de los miembros (**art. 39.6**).",
+ "No. No basta la mayoría simple.",
+ "No. Tres quintos no es la mayoría que fija el artículo.",
+ "No. No basta la mayoría absoluta: se exigen dos tercios."]},
+"au-07-012": {"bloque": "representacion", "precepto": "Art. 46.2 del TREBEP", "correcta": 3, "justificaciones": [
+ "No. Sí se autorizan fuera de las horas de trabajo si hay acuerdo con el órgano competente en materia de personal.",
+ "No. Invierte la regla: lo que se autoriza fuera de las horas de trabajo es lo normal, y el acuerdo permite lo contrario.",
+ "No. No se exige una autorización expresa: la regla general ya es que se autoricen fuera de las horas de trabajo.",
+ "Es esta. Se autorizan fuera de las horas de trabajo, salvo acuerdo entre el órgano competente en materia de personal y quienes estén legitimados para convocarlas (**art. 46.2**)."]},
+"au-07-013": {"bloque": "representacion", "precepto": "Art. 39.5 del TREBEP", "correcta": 1, "justificaciones": [
+ "No. Trece es el tramo de 251 a 500 funcionarios.",
+ "Es esta. Con 501 funcionarios se entra en el tramo de 501 a 750, que tiene 17 representantes (**art. 39.5**).",
+ "No. Veintiuno es el tramo de 751 a 1.000 funcionarios.",
+ "No. Once no figura en la escala."]},
+"au-07-014": {"bloque": "representacion", "precepto": "Art. 40.2 del TREBEP", "correcta": 2, "justificaciones": [
+ "No. Las Juntas actúan colegiadamente y por mayoría, no mancomunadamente ni por unanimidad.",
+ "No. Los Delegados de Personal actúan mancomunadamente, no solidariamente.",
+ "Es esta. Las Juntas de Personal, colegiadamente por decisión mayoritaria, y los Delegados, mancomunadamente, están legitimados para iniciar procedimientos y ejercitar acciones (**art. 40.2**).",
+ "No. Mezcla los términos: las Juntas actúan colegiadamente y los Delegados, mancomunadamente."]},
+"au-07-015": {"bloque": "representacion", "precepto": "Art. 45 del TREBEP", "correcta": 0, "justificaciones": [
+ "Es esta. Las propuestas del mediador pueden ser libremente aceptadas o rechazadas por las partes (**art. 45.3**).",
+ "No. No son obligatorias: las partes son libres de aceptarlas o rechazarlas.",
+ "No. En el arbitraje las partes se comprometen de antemano a aceptar el contenido de la resolución (**art. 45.3**).",
+ "No. El acuerdo logrado por mediación o arbitraje tiene la misma eficacia jurídica que los Pactos y Acuerdos (**art. 45.4**)."]},
+
+"au-08-001": {"bloque": "jornada", "precepto": "Art. 50.2 del TREBEP", "correcta": 1, "justificaciones": [
+ "No. El plazo es de dieciocho meses, no de doce.",
+ "Es esta. Las vacaciones se pueden disfrutar aunque haya terminado el año natural, siempre que no hayan pasado más de dieciocho meses desde el final del año en que se originó la situación (**art. 50.2**).",
+ "No. El plazo no se cuenta desde la autorización de un permiso interrumpido, sino desde el final del año en que se originó la situación.",
+ "No. Los veintidós días hábiles son la duración de las vacaciones (**art. 50.1**), no el plazo para disfrutarlas."]},
+"au-08-002": {"bloque": "jornada", "precepto": "Art. 48.a del TREBEP", "correcta": 0, "justificaciones": [
+ "Es esta. El fallecimiento de un familiar de segundo grado de consanguinidad o afinidad da dos días hábiles si es en la misma localidad y cuatro si es en otra (**art. 48.a**).",
+ "No. En el nacimiento de hijos prematuros hospitalizados el permiso es de hasta dos horas diarias, no dos días (**art. 48.g**).",
+ "No. Para un familiar de primer grado con enfermedad grave son cinco días hábiles (**art. 48.a**), no dos.",
+ "No. El traslado de domicilio da un día, pero sin cambio de residencia (**art. 48.b**)."]},
+"au-08-003": {"bloque": "jornada", "precepto": "Art. 48.k del TREBEP", "correcta": 3, "justificaciones": [
+ "No. Son seis días, no ocho.",
+ "No. Son seis días, no cuatro.",
+ "No. Son seis días, no cinco.",
+ "Es esta. El permiso por asuntos particulares es de seis días al año (**art. 48.k**)."]},
+"au-08-004": {"bloque": "jornada", "precepto": "Art. 48.i del TREBEP", "correcta": 0, "justificaciones": [
+ "Es esta. La reducción de hasta el 50 por ciento por enfermedad muy grave de un familiar de primer grado es con carácter retribuido, así que se perciben las retribuciones íntegras (**art. 48.i**).",
+ "No. No se pierden las complementarias: la reducción es retribuida.",
+ "No. No se pierden las básicas: la reducción es retribuida.",
+ "No. No se limita a básicas y complemento de destino: las retribuciones son íntegras."]},
+"au-08-005": {"bloque": "jornada", "precepto": "Art. 48.f del TREBEP", "correcta": 3, "justificaciones": [
+ "No. El permiso es para hijos menores de doce meses, no de nueve.",
+ "No. El permiso es para hijos menores de doce meses, no de dieciocho.",
+ "No. El permiso es para hijos menores de doce meses, no de seis.",
+ "Es esta. La lactancia se prevé para hijos menores de doce meses (**art. 48.f**)."]},
+"au-08-006": {"bloque": "jornada", "precepto": "Art. 48.l del TREBEP", "correcta": 2, "justificaciones": [
+ "No. Para hijos prematuros hospitalizados el permiso es de hasta dos horas diarias (**art. 48.g**). Las trece semanas son una ampliación del permiso por nacimiento (**art. 49**).",
+ "No. Para un familiar de primer grado con enfermedad grave son cinco días hábiles, no cuatro (**art. 48.a**).",
+ "Es esta. Por matrimonio o constitución de pareja de hecho formalizada por documento público, quince días (**art. 48.l**).",
+ "No. El traslado de domicilio da un día, pero sin cambio de residencia (**art. 48.b**)."]},
+"au-08-007": {"bloque": "jornada", "precepto": "Disposición adicional decimotercera del TREBEP", "correcta": 1, "justificaciones": [
+ "No. Los dos días adicionales se pueden establecer al cumplir el sexto trienio, no el quinto.",
+ "Es esta. Hasta dos días adicionales al cumplir el sexto trienio, con un día más por cada trienio cumplido a partir del octavo (**disposición adicional decimotercera**).",
+ "No. No es el cuarto trienio, sino el sexto, ni el incremento arranca en el séptimo.",
+ "No. El sexto trienio es correcto, pero el incremento arranca a partir del octavo, no del séptimo."]},
+"au-08-008": {"bloque": "jornada", "precepto": "Art. 48.g del TREBEP", "correcta": 1, "justificaciones": [
+ "No. El máximo es de dos horas diarias, no de tres.",
+ "Es esta. Hasta dos horas diarias, percibiendo las retribuciones íntegras (**art. 48.g**).",
+ "No. Son dos horas, no tres, y se perciben las retribuciones íntegras.",
+ "No. Las dos horas son correctas, pero con las retribuciones íntegras."]},
+"au-08-009": {"bloque": "jornada", "precepto": "Art. 48.f del TREBEP", "correcta": 3, "justificaciones": [
+ "No. Es un derecho individual de los funcionarios, sea madre u otro progenitor, lo que no se puede es transferirlo (**art. 48.f**).",
+ "No. Lo que se puede solicitar es sustituir la lactancia por un permiso retribuido que acumule el tiempo en jornadas completas, no por uno no retribuido.",
+ "No. Puede ser una hora de ausencia dividida en dos fracciones, o una reducción de media hora al inicio y al final, o de una hora al inicio o al final.",
+ "Es esta. El permiso se incrementa proporcionalmente en los casos de parto, adopción, guarda con fines de adopción o acogimiento múltiple (**art. 48.f**)."]},
+"au-08-010": {"bloque": "jornada", "precepto": "Art. 49.b del TREBEP", "correcta": 1, "justificaciones": [
+ "No. El permiso es de hasta dos meses, no uno.",
+ "Es esta. Si hace falta el desplazamiento previo al país de origen del adoptado, hay un permiso de hasta dos meses (**art. 49.b**).",
+ "No. El permiso es de hasta dos meses, no tres.",
+ "No. El permiso es de hasta dos meses, no seis."]},
+"au-08-011": {"bloque": "jornada", "precepto": "Art. 49.b del TREBEP", "correcta": 1, "justificaciones": [
+ "No. Durante ese permiso no se perciben las retribuciones íntegras, solo las básicas.",
+ "Es esta. Durante el permiso de hasta dos meses para el desplazamiento se perciben exclusivamente las retribuciones básicas (**art. 49.b**).",
+ "No. El artículo no prevé dietas de desplazamiento para este permiso.",
+ "No. Combina la a y la c, y ninguna de las dos es cierta."]},
+"au-08-012": {"bloque": "jornada", "precepto": "Art. 7 del TREBEP", "correcta": 1,
+ "ojo": "Antes de la reforma del art. 7, estos permisos del personal laboral se regían por el Estatuto de los Trabajadores. Ahora el art. 7 manda aplicar el Estatuto Básico y excluye las suspensiones del Estatuto de los Trabajadores.",
+ "revisar": "Respondida con el texto vigente del art. 7. Si el profesor corrige con la redacción antigua, la clave sería la opción 0.",
+ "justificaciones": [
+ "No. El **art. 7** dice que no se les aplican las previsiones del Estatuto de los Trabajadores sobre las suspensiones de contrato por esos supuestos.",
+ "Es esta. En materia de permisos de nacimiento, adopción, del progenitor diferente de la madre biológica, lactancia y parental, el personal laboral se rige por el Estatuto Básico (**art. 7**).",
+ "No. El Real Decreto 364/1995 es el reglamento de ingreso del personal de la Administración General del Estado, no regula estos permisos.",
+ "No. El contrato de trabajo no es la fuente que el **art. 7** fija para estos permisos."]},
+"au-08-013": {"bloque": "jornada", "precepto": "Art. 48.f del TREBEP", "correcta": 1, "justificaciones": [
+ "No. El permiso no puede transferirse al otro progenitor, adoptante, guardador o acogedor.",
+ "Es esta. Es un derecho individual de los funcionarios, sin que pueda transferirse su ejercicio al otro progenitor (**art. 48.f**).",
+ "No. No se puede transferir ni siquiera durante el primer mes.",
+ "No. No se puede transferir ni la mitad."]},
+"au-08-014": {"bloque": "jornada", "precepto": "Art. 49.a del TREBEP", "correcta": 0, "justificaciones": [
+ "Es esta. Las seis semanas ininterrumpidas inmediatamente posteriores al parto son obligatorias y se disfrutan a jornada completa (**art. 49.a**).",
+ "No. El descanso obligatorio es de seis semanas, no cuatro.",
+ "No. Dieciséis semanas no es el descanso obligatorio: son seis, de las diecinueve del permiso.",
+ "No. Sí lo establece: seis semanas (**art. 49.a**)."]},
+"au-08-015": {"bloque": "jornada", "precepto": "Art. 49.a del TREBEP", "correcta": 0, "justificaciones": [
+ "Es esta. Durante el permiso se puede participar en los cursos de formación una vez finalizado el período de descanso obligatorio (**art. 49.a**).",
+ "No. No es en cualquier momento: hay que haber terminado el descanso obligatorio de seis semanas.",
+ "No. No se espera a las dieciséis semanas: basta con que haya terminado el descanso obligatorio.",
+ "No. No hay que esperar a la incorporación efectiva: se puede durante el permiso, tras el descanso obligatorio."]}
+}
