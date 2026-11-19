@@ -1,0 +1,244 @@
+{
+ "su-05-001": {
+  "bloque": "jornada",
+  "precepto": "Art. 48.a del TREBEP",
+  "correcta": 1,
+  "justificaciones": [
+   "No. Dos días hábiles no corresponden a ningún caso de hospitalización.",
+   "Es esta. Un hermano es familiar de segundo grado: hospitalización, cuatro días hábiles, sin distinguir localidad (**art. 48.a, párrafo segundo**).",
+   "No. Cinco días son para cónyuge, pareja de hecho y parientes de primer grado.",
+   "No. Sí hay permiso para familiares hasta el segundo grado."
+  ]
+ },
+ "su-05-002": {
+  "bloque": "jornada",
+  "precepto": "Art. 48.a del TREBEP",
+  "correcta": 0,
+  "justificaciones": [
+   "Es esta. El suegro es familiar de primer grado por afinidad: fallecimiento en la misma localidad, tres días hábiles (**art. 48.a, párrafo tercero**).",
+   "No. Cuatro días serían de segundo grado y distinta localidad.",
+   "No. Cinco días serían con el suceso en distinta localidad.",
+   "No. Sí hay permiso."
+  ]
+ },
+ "su-05-003": {
+  "bloque": "jornada",
+  "precepto": "Art. 48.a del TREBEP",
+  "correcta": 2,
+  "justificaciones": [
+   "No. Tres días son para fallecimiento de primer grado en la misma localidad.",
+   "No. Cuatro días son para familiares de segundo grado.",
+   "Es esta. La pareja de hecho está en el primer párrafo: intervención quirúrgica sin hospitalización con reposo domiciliario, cinco días hábiles (**art. 48.a**).",
+   "No. Sí hay permiso."
+  ]
+ },
+ "su-05-004": {
+  "bloque": "jornada",
+  "precepto": "Art. 48.a del TREBEP",
+  "correcta": 3,
+  "justificaciones": [
+   "No. Un primo hermano es pariente de cuarto grado, fuera del permiso.",
+   "No. Cuatro días son para segundo grado.",
+   "No. Cinco días son para primer grado en distinta localidad.",
+   "Es esta. El permiso solo llega hasta el segundo grado de consanguinidad o afinidad (**art. 48.a**), y el primo hermano es de cuarto."
+  ]
+ },
+ "su-05-005": {
+  "bloque": "jornada",
+  "precepto": "Art. 48.a del TREBEP",
+  "correcta": 2,
+  "justificaciones": [
+   "No. Dos días son para fallecimiento de segundo grado en la misma localidad.",
+   "No. Tres días son para fallecimiento de primer grado en la misma localidad.",
+   "Es esta. La hermana es familiar de segundo grado, así que son cuatro días hábiles por accidente grave (**art. 48.a, párrafo segundo**); la convivencia solo importa para quien no es familiar hasta el primer grado.",
+   "No. Cinco días son para cónyuge, pareja y primer grado, y para convivientes que no sean familiares dentro del permiso."
+  ]
+ },
+ "su-05-006": {
+  "bloque": "jornada",
+  "precepto": "Art. 48.a del TREBEP",
+  "correcta": 0,
+  "justificaciones": [
+   "Es esta. La abuela es de segundo grado y fallece en la misma localidad: dos días hábiles. La convivencia no cambia el plazo por fallecimiento (**art. 48.a, párrafo tercero**).",
+   "No. Tres días son para primer grado en la misma localidad.",
+   "No. Cuatro días serían con el suceso en distinta localidad.",
+   "No. Cinco días son para primer grado en distinta localidad."
+  ]
+ },
+ "su-05-007": {
+  "bloque": "jornada",
+  "precepto": "Art. 48.a del TREBEP",
+  "correcta": 2,
+  "justificaciones": [
+   "No. Dos días serían en la misma localidad.",
+   "No. Tres días son para primer grado en la misma localidad.",
+   "Es esta. El hermano del cónyuge es de segundo grado por afinidad y fallece en distinta localidad: cuatro días hábiles (**art. 48.a, párrafo tercero**).",
+   "No. Cinco días son para primer grado en distinta localidad."
+  ]
+ },
+ "su-05-008": {
+  "bloque": "jornada",
+  "precepto": "Art. 48.a del TREBEP",
+  "correcta": 3,
+  "justificaciones": [
+   "No. Cinco días son para primer grado o convivientes.",
+   "No. Cuatro días son para segundo grado, y una tía es de tercero.",
+   "No. Tres días no figuran para hospitalización.",
+   "Es esta. La tía es de tercer grado y no convive con Teresa, así que el art. 48.a no da permiso (aunque podría valer la reducción del **art. 48.h**, que no es lo que se pregunta)."
+  ]
+ },
+ "su-05-009": {
+  "bloque": "jornada",
+  "precepto": "Art. 48.a del TREBEP",
+  "correcta": 0,
+  "justificaciones": [
+   "Es esta. Una persona que convive con la funcionaria y requiere su cuidado efectivo está incluida en el primer párrafo, y la enfermedad grave da cinco días hábiles (**art. 48.a**).",
+   "No. Los días son hábiles, no naturales.",
+   "No. Tres días no corresponden a este supuesto.",
+   "No. Sí le corresponde, porque el texto incluye a cualquier persona que conviva y precise el cuidado."
+  ]
+ },
+ "su-05-010": {
+  "bloque": "jornada",
+  "precepto": "Art. 48.a del TREBEP",
+  "correcta": 2,
+  "justificaciones": [
+   "No. Dos días no corresponden a una pareja de hecho.",
+   "No. Cuatro días son para segundo grado.",
+   "Es esta. La pareja de hecho equivale al primer grado: fallecimiento en distinta localidad, cinco días hábiles (**art. 48.a, párrafo tercero**).",
+   "No. Sí hay permiso."
+  ]
+ },
+ "su-06-001": {
+  "bloque": "jornada",
+  "precepto": "Art. 48.b del TREBEP",
+  "correcta": 0,
+  "justificaciones": [
+   "Es esta. Por traslado de domicilio sin cambio de residencia corresponde un día (**art. 48.b**).",
+   "No. No son dos días hábiles.",
+   "No. No es el tiempo indispensable: el plazo está fijado.",
+   "No. Sí hay permiso, aunque siga en la misma localidad, porque la regla es para traslado sin cambio de residencia."
+  ]
+ },
+ "su-06-002": {
+  "bloque": "jornada",
+  "precepto": "Art. 48.g del TREBEP",
+  "correcta": 1,
+  "justificaciones": [
+   "No. La ausencia de dos horas es con retribuciones íntegras, solo la reducción adicional baja el sueldo.",
+   "Es esta. Puede ausentarse hasta dos horas diarias con retribuciones íntegras y, además, reducir su jornada hasta dos horas con disminución proporcional (**art. 48.g**).",
+   "No. La reducción adicional sí está prevista.",
+   "No. La reducción de jornada se paga proporcionalmente, no íntegra."
+  ]
+ },
+ "su-06-003": {
+  "bloque": "jornada",
+  "precepto": "Art. 48.i del TREBEP",
+  "correcta": 2,
+  "justificaciones": [
+   "No. El mes se prorratea entre los titulares, no es un mes cada uno.",
+   "No. La reducción es retribuida, no con disminución de retribuciones.",
+   "Es esta. Reducción de hasta el 50 %, retribuida, prorrateando entre los titulares el plazo máximo de un mes (**art. 48.i**).",
+   "No. No se limita a uno: puede prorratearse entre los dos."
+  ]
+ },
+ "su-06-004": {
+  "bloque": "jornada",
+  "precepto": "Art. 48.f del TREBEP",
+  "correcta": 3,
+  "justificaciones": [
+   "No. El permiso es un derecho individual y no hay renuncia del padre que lo transfiera.",
+   "No. Es una hora diaria, no dos, y no hay segunda hora.",
+   "No. La acumulación en jornadas completas es del tiempo propio, no del de ambos progenitores.",
+   "Es esta. Tiene una hora de ausencia y el derecho no puede transferirse al otro progenitor (**art. 48.f**)."
+  ]
+ },
+ "su-06-005": {
+  "bloque": "jornada",
+  "precepto": "Art. 48.h del TREBEP",
+  "correcta": 1,
+  "justificaciones": [
+   "No. No exige guarda legal: basta el cuidado directo de un familiar hasta segundo grado que no pueda valerse por sí mismo.",
+   "Es esta. La abuela es familiar de segundo grado, y la reducción lleva la disminución de retribuciones que corresponda (**art. 48.h, párrafo segundo**).",
+   "No. La reducción retribuida de un mes es la del **art. 48.i**, para familiares de primer grado con enfermedad muy grave.",
+   "No. Llega hasta el segundo grado, no solo al primero."
+  ]
+ },
+ "su-06-006": {
+  "bloque": "jornada",
+  "precepto": "Art. 48.e del TREBEP",
+  "correcta": 0,
+  "justificaciones": [
+   "Es esta. En la adopción, por el tiempo indispensable para asistir a las sesiones de información y preparación dentro de la jornada (**art. 48.e**).",
+   "No. No son días completos, sino el tiempo indispensable.",
+   "No. No se descuenta del permiso por adopción.",
+   "No. No hay que esperar a que se constituya la adopción."
+  ]
+ },
+ "su-06-007": {
+  "bloque": "jornada",
+  "precepto": "Art. 48.d del TREBEP",
+  "correcta": 2,
+  "justificaciones": [
+   "No. No hay límite de cuatro horas.",
+   "No. No incluye el día anterior.",
+   "Es esta. El permiso es para concurrir a exámenes finales durante los días de su celebración (**art. 48.d**).",
+   "No. No hay que recuperar las horas."
+  ]
+ },
+ "su-06-008": {
+  "bloque": "jornada",
+  "precepto": "Art. 48.k del TREBEP",
+  "correcta": 1,
+  "justificaciones": [
+   "No. No son cuatro días.",
+   "Es esta. El TREBEP reconoce seis días al año por asuntos particulares (**art. 48.k**).",
+   "No. Ocho días no son el régimen general del art. 48.",
+   "No. Diez días no son el régimen general del art. 48."
+  ]
+ },
+ "su-06-009": {
+  "bloque": "jornada",
+  "precepto": "Art. 48.l del TREBEP",
+  "correcta": 3,
+  "justificaciones": [
+   "No. Ambos tienen quince días.",
+   "No. No son diez días.",
+   "No. La pareja de hecho inscrita también tiene derecho.",
+   "Es esta. Por matrimonio o registro de pareja de hecho corresponden quince días a cada uno (**art. 48.l**)."
+  ]
+ },
+ "su-06-010": {
+  "bloque": "jornada",
+  "precepto": "Art. 48.f del TREBEP",
+  "correcta": 3,
+  "justificaciones": [
+   "No. El derecho no está reservado a la madre: es individual de los funcionarios.",
+   "No. Se puede sustituir el tiempo de lactancia por un permiso retribuido en jornadas completas.",
+   "No. No habla del período de descanso obligatorio: la acumulación se disfruta tras finalizar el permiso.",
+   "Es esta. La modalidad acumulada se disfruta únicamente a partir de la finalización del permiso del progenitor diferente de la madre biológica (**art. 48.f**)."
+  ]
+ },
+ "su-06-011": {
+  "bloque": "jornada",
+  "precepto": "Art. 48.a del TREBEP",
+  "correcta": 2,
+  "justificaciones": [
+   "No. Dos días son para fallecimiento de segundo grado.",
+   "No. Cuatro días son para segundo grado.",
+   "Es esta. El suegro es de primer grado por afinidad: hospitalización, cinco días hábiles (**art. 48.a**).",
+   "No. Sí hay permiso."
+  ]
+ },
+ "su-06-012": {
+  "bloque": "jornada",
+  "precepto": "Art. 48.a del TREBEP",
+  "correcta": 2,
+  "justificaciones": [
+   "No. Dos días serían en la misma localidad.",
+   "No. Tres días son para primer grado.",
+   "Es esta. El hermano es de segundo grado y el fallecimiento ocurre en distinta localidad: cuatro días hábiles (**art. 48.a, párrafo tercero**).",
+   "No. Cinco días son para primer grado en distinta localidad."
+  ]
+ }
+}
