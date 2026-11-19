@@ -25,12 +25,27 @@ norm = lambda x: re.sub(r"\W+", "", x.lower())
 clave = lambda p: norm(p["enunciado"]) + "|" + "|".join(sorted(map(norm, p["opciones"])))
 # Una pregunta repetida en otro test hereda la respuesta de la primera que se respondió.
 primera = {}
+porid = {p["id"]: p for p in D["preguntas"]}
 for p in D["preguntas"]:
     if p["id"] in R:
         primera.setdefault(clave(p), p["id"])
 for p in D["preguntas"]:
     if p["id"] not in R and clave(p) in primera:
-        R[p["id"]] = R[primera[clave(p)]]
+        o = primera[clave(p)]
+        r = dict(R[o])
+        # Si las opciones vienen en otro orden, se recolocan por su texto.
+        pos = {norm(t): i for i, t in enumerate(p["opciones"])}
+        m = [pos[norm(t)] for t in porid[o]["opciones"]]
+        if m != list(range(len(m))):
+            j = [None] * len(m)
+            for i, k in enumerate(m):
+                j[k] = r["justificaciones"][i]
+            r["justificaciones"] = j
+            r["correcta"] = m[r["correcta"]]
+            if "correctas" in r:
+                r["correctas"] = sorted(m[i] for i in r["correctas"])
+                r["correcta"] = r["correctas"][0]
+        R[p["id"]] = r
 err, salida = [], []
 for p in D["preguntas"]:
     r = R.get(p["id"])

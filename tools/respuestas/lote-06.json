@@ -1,0 +1,203 @@
+{
+"au-15-001": {"bloque": "provision", "precepto": "Art. 70.1 del TREBEP", "correcta": 0, "justificaciones": [
+ "Es esta. En todo caso, la ejecución de la oferta debe desarrollarse dentro del plazo improrrogable de tres años (**art. 70.1**).",
+ "No. El plazo no admite excepción por interés público: es improrrogable en todo caso.",
+ "No. El plazo es de tres años, no de cinco.",
+ "No. El plazo es de tres años y no hay excepción."]},
+"au-15-002": {"bloque": "provision", "precepto": "Art. 75.2 del TREBEP", "correcta": 0, "justificaciones": [
+ "Es esta. Los cuerpos y escalas se crean, modifican y suprimen por ley (**art. 75.2**).",
+ "No. No se crean por la norma de convocatoria.",
+ "No. No basta un acuerdo del Consejo de Gobierno: hace falta ley.",
+ "No. No basta un decreto: hace falta ley."]},
+"au-15-003": {"bloque": "provision", "precepto": "Art. 75.2 del TREBEP", "correcta": 3, "justificaciones": [
+ "No. La Conferencia Sectorial no modifica cuerpos y escalas.",
+ "No. Un real decreto no basta: hace falta ley.",
+ "No. La autoorganización no permite modificarlos por simple acuerdo: hace falta ley.",
+ "Es esta. Mediante ley de las Cortes Generales o de las asambleas legislativas autonómicas (**art. 75.2**)."]},
+"au-15-004": {"bloque": "provision", "precepto": "Art. 74 del TREBEP", "correcta": 2, "justificaciones": [
+ "Es verdadera, así que no se marca (**art. 74**).",
+ "Es verdadera, así que no se marca (**art. 74**).",
+ "Esta es la falsa, y por eso es la que hay que marcar. Las relaciones de puestos incluyen las retribuciones complementarias, no las básicas (**art. 74**).",
+ "Es verdadera, así que no se marca (**art. 74**)."]},
+"au-15-005": {"bloque": "provision", "precepto": "Art. 70 del TREBEP", "correcta": 3, "justificaciones": [
+ "Es cierta (**art. 70.1**), así que no se marca.",
+ "Es cierta (**art. 70.1**), así que no se marca.",
+ "Es cierta (**art. 70.2**), así que no se marca.",
+ "Es esta. La oferta podrá contener medidas derivadas de la planificación, no deberá contenerlas en todo caso (**art. 70.3**)."]},
+"au-15-006": {"bloque": "provision", "precepto": "Art. 74 del TREBEP", "correcta": 1, "justificaciones": [
+ "No. Sí lo dice literalmente (**art. 74**).",
+ "Es esta. El artículo menciona las retribuciones complementarias, no la totalidad de las retribuciones (**art. 74**).",
+ "No. Sí lo dice literalmente: los grupos de clasificación profesional (**art. 74**).",
+ "No. Sí lo dice literalmente: los sistemas de provisión (**art. 74**)."]},
+"au-15-007": {"bloque": "provision", "precepto": "Art. 70.2 del TREBEP", "correcta": 2, "justificaciones": [
+ "No. Su objeto son las necesidades que se provean con personal de nuevo ingreso, no la promoción interna.",
+ "No. El plazo es de tres años, no de dos.",
+ "Es esta. Se aprueba anualmente por los órganos de Gobierno de las Administraciones Públicas (**art. 70.2**).",
+ "No. El adicional es de hasta un diez por cien, no un 7 %."]},
+"au-15-008": {"bloque": "provision", "precepto": "Art. 70.1 del TREBEP", "correcta": 0, "justificaciones": [
+ "Es esta. Las necesidades que se proveen con personal de nuevo ingreso son objeto de la Oferta de empleo público (**art. 70.1**).",
+ "No. Los registros recogen datos del personal.",
+ "No. Los planes de ordenación son más amplios (**art. 69.2**).",
+ "No. Las relaciones de puestos estructuran la organización (**art. 74**)."]},
+"au-15-009": {"bloque": "provision", "precepto": "Art. 70.1 del TREBEP", "correcta": 3, "justificaciones": [
+ "No. El plazo es de tres años y no se prorroga.",
+ "No. El plazo es de tres años, no de cuatro.",
+ "No. El plazo es de tres años, no de dos.",
+ "Es esta. Dentro del plazo improrrogable de tres años (**art. 70.1**)."]},
+"au-15-010": {"bloque": "provision", "precepto": "Art. 76 del TREBEP", "correcta": 0, "justificaciones": [
+ "Es esta. Para el Grupo B se exige el título de Técnico Superior (**art. 76**).",
+ "No. En C2 el título es el de Graduado en ESO.",
+ "No. En C1 el título es el de Bachiller o Técnico.",
+ "No. En el Grupo A se exige título universitario de Grado."]},
+"au-15-011": {"bloque": "provision", "precepto": "Art. 76 del TREBEP", "correcta": 3, "justificaciones": [
+ "No. El Grupo B no se divide en subgrupos y exige Técnico Superior.",
+ "No. C1 exige Bachiller o Técnico.",
+ "No. El Grupo B no se divide en subgrupos.",
+ "Es esta. El título de Graduado en ESO permite el acceso al Subgrupo C2 (**art. 76**)."]},
+"au-15-012": {"bloque": "provision", "precepto": "Art. 75.2 del TREBEP", "correcta": 3, "justificaciones": [
+ "No. Un real decreto no basta: hace falta ley.",
+ "No. Un reglamento no basta: hace falta ley.",
+ "No. Una orden ministerial no basta: hace falta ley.",
+ "Es esta. Ley de las Cortes Generales o de las asambleas legislativas autonómicas (**art. 75.2**)."]},
+"au-15-013": {"bloque": "provision", "precepto": "Art. 76 del TREBEP", "correcta": 1, "justificaciones": [
+ "No. El Grupo B exige Técnico Superior.",
+ "Es esta. Bachiller o Técnico permite el acceso al Subgrupo C1 (**art. 76**).",
+ "No. El Subgrupo A1 exige título universitario de Grado.",
+ "No. El Subgrupo A2 exige título universitario de Grado."]},
+"au-15-014": {"bloque": "provision", "precepto": "Art. 76 del TREBEP", "correcta": 3, "justificaciones": [
+ "No. El Grupo A se divide en A1 y A2, y el B no se divide.",
+ "No. El Grupo B no se divide, y el C sí.",
+ "No. El Grupo A sí se divide en A1 y A2.",
+ "Es esta. Grupo A (A1 y A2), Grupo B y Grupo C (C1 y C2) (**art. 76**)."]},
+"au-15-015": {"bloque": "provision", "precepto": "Art. 76 del TREBEP", "correcta": 1, "justificaciones": [
+ "No. El Grupo A se divide en A1 y A2.",
+ "Es esta. El Grupo B no se divide en subgrupos (**art. 76**).",
+ "No. El Grupo C se divide en C1 y C2.",
+ "No. No existe un Grupo D en el TREBEP."]},
+"au-15-016": {"bloque": "provision", "precepto": "Art. 71.3 del TREBEP", "correcta": 2, "justificaciones": [
+ "No. Son contenidos comunes, así que no los fija cada Administración por separado.",
+ "No. No se fijan por real decreto.",
+ "Es esta. Mediante convenio de Conferencia Sectorial (**art. 71.3**).",
+ "No. No es materia de negociación colectiva."]},
+"au-15-017": {"bloque": "provision", "precepto": "Art. 69.2 del TREBEP", "correcta": 3, "justificaciones": [
+ "No. Es correcta (**art. 69.2.b**), pero la opción correcta es la que recoge todas.",
+ "No. Es correcta (**art. 69.2.d**), pero la opción correcta es la que recoge todas.",
+ "No. Es correcta (**art. 69.2.e**), pero la opción correcta es la que recoge todas.",
+ "Es esta. Las tres medidas figuran en el **art. 69.2**."]},
+"au-15-018": {"bloque": "provision", "precepto": "Art. 70.1 del TREBEP", "correcta": 0, "justificaciones": [
+ "Es esta. Obliga a convocar las plazas comprometidas y hasta un diez por cien adicional (**art. 70.1**).",
+ "No. El adicional es del diez por cien, no del 20.",
+ "No. El adicional es del diez por cien, no del 30.",
+ "No. El adicional es del diez por cien, no del 40."]},
+"au-15-019": {"bloque": "provision", "precepto": "Art. 71.5 del TREBEP", "correcta": 2, "justificaciones": [
+ "No. También cooperan las comunidades autónomas.",
+ "No. También coopera la Administración General del Estado.",
+ "Es esta. La Administración General del Estado y las comunidades autónomas cooperan con ellas (**art. 71.5**).",
+ "No. El artículo prevé cooperación, no exención de implantarlo."]},
+"au-15-020": {"bloque": "provision", "precepto": "Art. 73.3 del TREBEP", "correcta": 3, "justificaciones": [
+ "No. Es correcta (**art. 73.3**), pero la opción correcta es la que recoge todas.",
+ "No. Es correcta (**art. 73.3**), pero la opción correcta es la que recoge todas.",
+ "No. Es correcta (**art. 73.3**), pero la opción correcta es la que recoge todas.",
+ "Es esta. Pueden agruparse para ordenar la selección, la formación y la movilidad (**art. 73.3**)."]},
+
+"au-16-001": {"bloque": "provision", "precepto": "Art. 78.2 del TREBEP", "correcta": 2, "justificaciones": [
+ "No. La oposición es un sistema de selección de personal, no de provisión de puestos.",
+ "No. El concurso-oposición es un sistema de selección, no de provisión.",
+ "Es esta. Concurso y libre designación con convocatoria pública (**art. 78.2**).",
+ "No. Son sistemas selectivos, no de provisión de puestos."]},
+"au-16-002": {"bloque": "provision", "precepto": "Art. 79.1 del TREBEP", "correcta": 0, "justificaciones": [
+ "Es esta. El concurso es el procedimiento normal de provisión (**art. 79.1**).",
+ "No. El concurso-oposición es un sistema selectivo.",
+ "No. La libre designación no es el procedimiento normal.",
+ "No. La movilidad interadministrativa no es el procedimiento normal de provisión."]},
+"au-16-003": {"bloque": "provision", "precepto": "Art. 78 del TREBEP", "correcta": 0, "justificaciones": [
+ "Es esta. Se provee mediante procedimientos basados en igualdad, mérito, capacidad y publicidad (**art. 78.1**).",
+ "No. La libre designación es con convocatoria pública.",
+ "No. No es exclusivo: las leyes pueden establecer otros procedimientos (**art. 78.3**).",
+ "No. Esos son sistemas de selección, no de provisión."]},
+"au-16-004": {"bloque": "provision", "precepto": "Art. 82.1 del TREBEP", "correcta": 2, "justificaciones": [
+ "No. No es movilidad voluntaria.",
+ "No. No es un nombramiento provisional.",
+ "Es esta. Este traslado tiene la consideración de traslado forzoso (**art. 82.1**).",
+ "No. No es un traslado voluntario."]},
+"au-16-005": {"bloque": "provision", "precepto": "Art. 84.3 del TREBEP", "correcta": 2, "justificaciones": [
+ "No. El plazo de un mes para solicitar reingreso es del cese por libre designación, no de la supresión de un puesto de concurso.",
+ "No. No lo decide la Administración de destino: permanece en ella.",
+ "Es esta. Permanece en la Administración de destino, que debe asignarle un puesto (**art. 84.3**).",
+ "No. Dos meses no figura y no tiene que reingresar."]},
+"au-16-006": {"bloque": "provision", "precepto": "Art. 82.2 del TREBEP", "correcta": 3, "justificaciones": [
+ "No. No es movilidad voluntaria.",
+ "No. No es un nombramiento provisional.",
+ "No. No es un traslado voluntario.",
+ "Es esta. Este traslado tiene la consideración de traslado forzoso (**art. 82.2**)."]},
+"au-16-007": {"bloque": "provision", "precepto": "Art. 79.1 del TREBEP", "correcta": 3, "justificaciones": [
+ "No. La oposición es un sistema selectivo.",
+ "No. La libre designación es la apreciación discrecional de la idoneidad.",
+ "No. La evaluación del desempeño no es un sistema de provisión.",
+ "Es esta. El concurso consiste en la valoración de méritos y capacidades por órganos colegiados de carácter técnico (**art. 79.1**)."]},
+"au-16-008": {"bloque": "provision", "precepto": "Art. 79.2 del TREBEP", "correcta": 3, "justificaciones": [
+ "No. El TREBEP no fija un año.",
+ "No. El TREBEP no fija dos años.",
+ "No. El TREBEP no fija un máximo de dos años.",
+ "Es esta. Son las leyes de Función Pública las que establecerán el plazo, sin que el TREBEP lo especifique (**art. 79.2**)."]},
+"au-16-009": {"bloque": "provision", "precepto": "Art. 78.2 del TREBEP", "correcta": 0, "justificaciones": [
+ "Es esta. Por concurso y libre designación con convocatoria pública (**art. 78.2**).",
+ "No. El concurso-oposición no es un procedimiento de provisión.",
+ "No. La libre designación es con convocatoria pública.",
+ "No. La oposición no es un procedimiento de provisión."]},
+"au-16-010": {"bloque": "provision", "precepto": "Art. 81.2 del TREBEP", "correcta": 1, "justificaciones": [
+ "No. También se deben respetar las condiciones esenciales de trabajo.",
+ "Es esta. El traslado por necesidades del servicio respeta las retribuciones y las condiciones esenciales de trabajo (**art. 81.2**).",
+ "No. No se pueden modificar ni las condiciones ni las retribuciones.",
+ "No. No cambia la retribución: se respetan sus retribuciones."]},
+"au-16-011": {"bloque": "provision", "precepto": "Art. 82.1 del TREBEP", "correcta": 0, "justificaciones": [
+ "Es esta. Traslado a un puesto propio de su cuerpo, escala o categoría, de análogas características, sin necesidad de que sea vacante de necesaria cobertura (**art. 82.1**).",
+ "No. No se exige que sea vacante de necesaria cobertura.",
+ "No. La idea es correcta, pero la formulación literal es la de la opción que dice sin necesidad de vacante de necesaria cobertura.",
+ "No. No se limita a la misma comunidad autónoma."]},
+"au-16-012": {"bloque": "provision", "precepto": "Art. 84.3 del TREBEP", "correcta": 2, "justificaciones": [
+ "No. El plazo es de un mes, no de treinta días, y cuenta desde el día siguiente.",
+ "No. El plazo es de un mes, no de dos.",
+ "Es esta. En el plazo máximo de un mes a contar desde el día siguiente al del cese (**art. 84.3**).",
+ "No. El plazo es de un mes, no de dos."]},
+"au-16-013": {"bloque": "provision", "precepto": "Art. 82 del TREBEP", "correcta": 3, "justificaciones": [
+ "No. El traslado por motivos de salud no es forzoso.",
+ "No. La atribución temporal de funciones no es traslado forzoso.",
+ "No. La comisión de servicios no es traslado forzoso.",
+ "Es esta. La movilidad de las víctimas de violencia de género o sexual y de los funcionarios víctimas del terrorismo es traslado forzoso (**art. 82**)."]},
+"au-16-014": {"bloque": "provision", "precepto": "Art. 84.3 del TREBEP", "correcta": 3, "justificaciones": [
+ "No. El plazo es de un mes, no de treinta días.",
+ "No. El plazo es de un mes, no de dos.",
+ "No. El plazo es de un mes, no de quince días.",
+ "Es esta. Debe solicitar el reingreso en el plazo máximo de un mes (**art. 84.3**)."]},
+"au-16-015": {"bloque": "provision", "precepto": "Art. 84.3 del TREBEP", "correcta": 1, "justificaciones": [
+ "No. No se le declara en excedencia forzosa.",
+ "Es esta. Será declarado de oficio en excedencia voluntaria por interés particular (**art. 84.3**).",
+ "No. Esa es la situación mientras está en la otra Administración.",
+ "No. No se le declara en suspensión de funciones."]},
+"au-16-016": {"bloque": "provision", "precepto": "Art. 84.2 del TREBEP", "correcta": 2, "justificaciones": [
+ "No. No lo aprueba el Consejo de Ministros.",
+ "No. No lo aprueban las Cortes Generales.",
+ "Es esta. La Conferencia Sectorial de Administración Pública aprueba los criterios generales (**art. 84.2**).",
+ "No. No lo aprueba el ministerio."]},
+"au-16-017": {"bloque": "provision", "precepto": "Art. 80.1 del TREBEP", "correcta": 0, "justificaciones": [
+ "Es esta. Consiste en la apreciación discrecional por el órgano competente de la idoneidad de los candidatos (**art. 80.1**).",
+ "No. Eso describe el concurso (**art. 79.1**).",
+ "No. Es discrecional, no reglada.",
+ "No. No se define por entrevistas o sistemas subjetivos de valoración de méritos."]},
+"au-16-018": {"bloque": "provision", "precepto": "Art. 84.3 del TREBEP", "correcta": 2, "justificaciones": [
+ "No. No es excedencia voluntaria.",
+ "No. No es servicio en comunidades autónomas.",
+ "Es esta. Quedan en servicio en otras Administraciones Públicas (**art. 84.3**).",
+ "No. No es servicio activo con destino en otra Administración."]},
+"au-16-019": {"bloque": "provision", "precepto": "Art. 78.1 del TREBEP", "correcta": 2, "justificaciones": [
+ "No. No es equidad, sino igualdad.",
+ "No. El último principio es la publicidad, no la celeridad.",
+ "Es esta. Igualdad, mérito, capacidad y publicidad (**art. 78.1**).",
+ "No. Faltan mérito y la idoneidad no es un principio del artículo."]},
+"au-16-020": {"bloque": "provision", "precepto": "Art. 81.3 del TREBEP", "correcta": 3, "justificaciones": [
+ "No. El procedimiento normal es el concurso (**art. 79.1**); la libre designación es otro procedimiento.",
+ "No. No es exclusivo: las leyes pueden establecer otros procedimientos (**art. 78.3**).",
+ "No. El plazo mínimo lo fijan las leyes de Función Pública, no es un año (**art. 79.2**).",
+ "Es esta. En caso de urgente e inaplazable necesidad, los puestos pueden proveerse con carácter provisional (**art. 81.3**)."]}
+}
