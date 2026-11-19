@@ -1,0 +1,236 @@
+{
+"au-12-001": {"bloque": "acceso", "precepto": "Art. 61.1 del TREBEP", "correcta": 3, "justificaciones": [
+ "No. Son abiertos, pero garantizan la libre concurrencia, no una concurrencia limitada.",
+ "No. No son cerrados ni de concurrencia limitada.",
+ "No. La libre concurrencia es correcta, pero no son restringidos sino abiertos.",
+ "Es esta. Los procesos selectivos son abiertos y garantizan la libre concurrencia (**art. 61.1**)."]},
+"au-12-002": {"bloque": "acceso", "precepto": "Art. 55.2 del TREBEP", "correcta": 2, "justificaciones": [
+ "No. La imparcialidad y profesionalidad de los órganos es un principio (**art. 55.2.c**).",
+ "No. La agilidad, sin perjuicio de la objetividad, es un principio (**art. 55.2.f**).",
+ "Es esta. El principio del **art. 55.2.e** es la adecuación entre el contenido de los procesos y las funciones, no la proporcionalidad entre dificultad y funciones.",
+ "No. La independencia y discrecionalidad técnica es un principio (**art. 55.2.d**)."]},
+"au-12-003": {"bloque": "acceso", "precepto": "Art. 56.1.c del TREBEP", "correcta": 3, "justificaciones": [
+ "No. La edad mínima es de dieciséis años, no de dieciocho.",
+ "No. No hay un máximo fijo de 70 años: es la edad máxima de jubilación forzosa.",
+ "No. Ni el mínimo es 18 ni el máximo es fijo en 70.",
+ "Es esta. Dieciséis años cumplidos y no exceder de la edad máxima de jubilación forzosa (**art. 56.1.c**)."]},
+"au-12-004": {"bloque": "acceso", "precepto": "Art. 57.5 del TREBEP", "correcta": 0, "justificaciones": [
+ "Es esta. Solo por ley de las Cortes Generales o de las asambleas legislativas de las comunidades autónomas, por razones de interés general (**art. 57.5**).",
+ "No. Sí puede eximirse, por ley.",
+ "No. La exención no depende de que sean nacionales de la Unión Europea, y se hace por ley.",
+ "No. También pueden hacerlo las asambleas legislativas de las comunidades autónomas, no solo las Cortes Generales."]},
+"au-12-005": {"bloque": "acceso", "precepto": "Art. 57.5 del TREBEP", "correcta": 3, "justificaciones": [
+ "No. Un Consejo de Gobierno no puede hacerlo: hace falta ley.",
+ "No. El Consejo de Ministros no puede hacerlo: hace falta ley.",
+ "No. Una ministra o ministro no puede hacerlo: hace falta ley.",
+ "Es esta. Solo por ley de las Cortes Generales o de las asambleas legislativas autonómicas (**art. 57.5**)."]},
+"au-12-006": {"bloque": "acceso", "precepto": "Art. 60.1 del TREBEP", "correcta": 1, "justificaciones": [
+ "No. Son colegiados, no unipersonales.",
+ "Es esta. Los órganos de selección serán colegiados (**art. 60.1**).",
+ "No. El artículo no los califica de privados.",
+ "No. El artículo no los califica de secretos."]},
+"au-12-007": {"bloque": "acceso", "precepto": "Art. 60.3 del TREBEP", "correcta": 0, "justificaciones": [
+ "Es esta. La pertenencia es siempre a título individual (**art. 60.3**).",
+ "No. No puede ostentarse en representación de nadie.",
+ "No. No puede ostentarse por cuenta de nadie.",
+ "No. Es siempre a título individual, no cabe la representación."]},
+"au-12-008": {"bloque": "acceso", "precepto": "Art. 61.7 del TREBEP", "correcta": 1, "justificaciones": [
+ "No. Falta la oposición.",
+ "Es esta. Oposición, concurso-oposición y concurso de valoración de méritos (**art. 61.7**).",
+ "No. La libre designación no es un sistema selectivo.",
+ "No. Falta el concurso de valoración de méritos."]},
+"au-12-009": {"bloque": "acceso", "precepto": "Art. 61.5 del TREBEP", "correcta": 3, "justificaciones": [
+ "No. Es cierta (**art. 61.5**), pero la opción correcta es la que recoge todas.",
+ "No. Es cierta (**art. 61.5**), pero la opción correcta es la que recoge todas.",
+ "No. Es cierta (**art. 61.5**), pero la opción correcta es la que recoge todas.",
+ "Es esta. El **art. 61.5** menciona cursos, periodos de prácticas, exposición curricular, pruebas psicotécnicas y entrevistas."]},
+"au-12-010": {"bloque": "acceso", "precepto": "Art. 61.7 del TREBEP", "correcta": 3, "justificaciones": [
+ "Es verdadera, así que no se marca (**art. 61.1**).",
+ "Es verdadera, así que no se marca (**art. 61.6**).",
+ "Es verdadera, así que no se marca (**art. 61.2**).",
+ "Esta es la falsa, y por eso es la que hay que marcar. La colaboración de las organizaciones sindicales en los procesos selectivos se prevé para el personal laboral, no para los funcionarios de carrera (**art. 61.7**)."]},
+"au-12-011": {"bloque": "acceso", "precepto": "Art. 60.2 del TREBEP", "correcta": 3, "justificaciones": [
+ "No. Es cierto que no puede formar parte, pero la opción correcta es la que recoge los tres casos (**art. 60.2**).",
+ "No. Es cierto que no pueden formar parte, pero la opción correcta es la que recoge los tres casos (**art. 60.2**).",
+ "No. Es cierto que no puede formar parte, pero la opción correcta es la que recoge los tres casos (**art. 60.2**).",
+ "Es esta. Ni el personal eventual, ni los funcionarios interinos, ni el de elección o designación política pueden formar parte (**art. 60.2**)."]},
+"au-12-012": {"bloque": "acceso", "precepto": "Art. 60 del TREBEP", "correcta": 2, "justificaciones": [
+ "Es verdadera, así que no se marca (**art. 60.1**).",
+ "Es verdadera, así que no se marca (**art. 60.1**).",
+ "Esta es la falsa, y por eso es la que hay que marcar. Se tenderá a la paridad entre mujer y hombre, no se exige igual número (**art. 60.1**).",
+ "Es verdadera, así que no se marca (**art. 60.3**)."]},
+"au-12-013": {"bloque": "acceso", "precepto": "Art. 55.1 del TREBEP", "correcta": 1, "justificaciones": [
+ "No. Falta la igualdad.",
+ "Es esta. Igualdad, mérito y capacidad (**art. 55.1**).",
+ "No. La publicidad es un principio del art. 55.2, no constitucional.",
+ "No. Faltan mérito y capacidad."]},
+"au-12-014": {"bloque": "acceso", "precepto": "Art. 57.5 del TREBEP", "correcta": 2, "justificaciones": [
+ "No. Es correcta, pero incompleta: también pueden las asambleas legislativas de las comunidades autónomas.",
+ "No. Es correcta, pero incompleta: también pueden las Cortes Generales.",
+ "Es esta. Pueden eximirlo tanto las Cortes Generales como las asambleas legislativas autonómicas, por ley (**art. 57.5**).",
+ "No. Sí puede eximirse, por ley."]},
+"au-12-015": {"bloque": "acceso", "precepto": "Art. 61.6 del TREBEP", "correcta": 0, "justificaciones": [
+ "Es esta. Solo en virtud de ley y con carácter excepcional puede aplicarse el concurso (**art. 61.6**).",
+ "No. La oposición es un sistema ordinario, no excepcional.",
+ "No. El concurso-oposición es un sistema ordinario, no excepcional.",
+ "No. La libre designación no es un sistema selectivo."]},
+"au-12-016": {"bloque": "acceso", "precepto": "Art. 62.1 del TREBEP", "correcta": 3, "justificaciones": [
+ "Es verdadera, así que no se marca (**art. 62.1.a**).",
+ "Es verdadera, así que no se marca (**art. 62.1.b**).",
+ "Es verdadera, así que no se marca (**art. 62.1.c**).",
+ "Esta es la falsa, y por eso es la que hay que marcar. La toma de posesión es dentro del plazo que se establezca, no en veinte días (**art. 62.1.d**)."]},
+"au-12-017": {"bloque": "acceso", "precepto": "Art. 57 del TREBEP", "correcta": 1, "justificaciones": [
+ "Es verdadera, así que no se marca (**art. 57.1**).",
+ "Esta es la falsa, y por eso es la que hay que marcar. Los extranjeros con residencia legal solo pueden acceder como personal laboral, no como funcionarios (**art. 57.4**).",
+ "Es verdadera, así que no se marca. Se aplica al cónyuge, cualquiera que sea su nacionalidad (**art. 57.2**).",
+ "Es verdadera, así que no se marca. Se aplica a los descendientes menores de 21 años o mayores dependientes (**art. 57.2**)."]},
+"au-12-018": {"bloque": "acceso", "precepto": "Art. 57.5 del TREBEP", "correcta": 1, "justificaciones": [
+ "No. No es exclusivamente por ley de las Cortes Generales: también pueden las asambleas autonómicas.",
+ "Es esta. Puede eximirse por ley de las asambleas legislativas de las comunidades autónomas (o de las Cortes Generales) (**art. 57.5**).",
+ "No. Solo por razones de interés general, no presupuestarias.",
+ "No. No cabe por decreto ley: hace falta ley, por interés general."]},
+"au-12-019": {"bloque": "acceso", "precepto": "Art. 60.3 del TREBEP", "correcta": 3, "justificaciones": [
+ "Es verdadera, así que no se marca (**art. 60.1**).",
+ "Es verdadera, así que no se marca (**art. 60.1**).",
+ "Es verdadera, así que no se marca (**art. 60.2**).",
+ "Esta es la falsa, y por eso es la que hay que marcar. La pertenencia es siempre a título individual, sin representación de nadie (**art. 60.3**)."]},
+"au-12-020": {"bloque": "acceso", "precepto": "Art. 61.2 del TREBEP", "correcta": 3, "justificaciones": [
+ "No. Es cierta (**art. 61.2**), pero la opción correcta es la que recoge todas.",
+ "No. Es cierta (**art. 61.2**), pero la opción correcta es la que recoge todas.",
+ "No. Es cierta (**art. 61.2**), pero la opción correcta es la que recoge todas.",
+ "Es esta. El **art. 61.2** incluye conocimientos y capacidad analítica, ejercicios de habilidades y destrezas, lenguas extranjeras y pruebas físicas."]},
+
+"au-13-001": {"bloque": "adquisicion", "precepto": "Art. 63 del TREBEP", "correcta": 3, "justificaciones": [
+ "No. Es causa de pérdida (**art. 63.a**).",
+ "No. Es causa de pérdida (**art. 63.b**).",
+ "No. Es causa de pérdida (**art. 63.c**).",
+ "Es esta. La causa es la sanción de separación del servicio con carácter firme, no la de suspensión (**art. 63.d**)."]},
+"au-13-002": {"bloque": "adquisicion", "precepto": "Art. 64.2 del TREBEP", "correcta": 1, "justificaciones": [
+ "No. El destino de la persona tras la renuncia no impide aceptarla.",
+ "Es esta. No puede aceptarse si el funcionario está sujeto a expediente disciplinario o hay auto de procesamiento o apertura de juicio oral (**art. 64.2**).",
+ "No. Solo impide la aceptación el auto de procesamiento o de apertura de juicio oral, no cualquier sentencia firme.",
+ "No. La situación administrativa no impide aceptarla."]},
+"au-13-003": {"bloque": "adquisicion", "precepto": "Art. 68.1 del TREBEP", "correcta": 2, "justificaciones": [
+ "No. La separación del servicio y la jubilación voluntaria no dan derecho a rehabilitación.",
+ "No. La jubilación voluntaria no permite rehabilitar.",
+ "Es esta. Cabe rehabilitación por pérdida de la nacionalidad o jubilación por incapacidad permanente (**art. 68.1**).",
+ "No. La jubilación voluntaria no permite rehabilitar, y la inhabilitación solo excepcionalmente (**art. 68.2**)."]},
+"au-13-004": {"bloque": "adquisicion", "precepto": "Art. 64.3 del TREBEP", "correcta": 1, "justificaciones": [
+ "No. No puede aceptarse si está sujeto a expediente disciplinario (**art. 64.2**).",
+ "Es esta. La renuncia no inhabilita para ingresar de nuevo por el procedimiento de selección (**art. 64.3**).",
+ "No. Debe ser aceptada expresamente, no tácitamente (**art. 64.1**).",
+ "No. La rehabilitación no cabe tras la renuncia (**art. 68**)."]},
+"au-13-005": {"bloque": "adquisicion", "precepto": "Art. 68.1 del TREBEP", "correcta": 0, "justificaciones": [
+ "Es esta. Una vez desaparecida la causa, el interesado puede solicitarla y le será concedida (**art. 68.1**).",
+ "No. Esa es la rehabilitación excepcional por inhabilitación (**art. 68.2**).",
+ "No. No es automática: hay que solicitarla.",
+ "No. Cabe también por pérdida de la nacionalidad y por incapacidad permanente, no por renuncia."]},
+"au-13-006": {"bloque": "adquisicion", "precepto": "Art. 68.1 del TREBEP", "correcta": 1, "justificaciones": [
+ "No. La jubilación voluntaria no permite rehabilitar.",
+ "Es esta. Procede por pérdida de la nacionalidad (**art. 68.1**).",
+ "No. La renuncia voluntaria no permite rehabilitar.",
+ "No. La separación del servicio no permite rehabilitar."]},
+"au-13-007": {"bloque": "adquisicion", "precepto": "Art. 68.2 del TREBEP", "correcta": 1, "justificaciones": [
+ "No. Sí cabe, excepcionalmente.",
+ "Es esta. Los órganos de gobierno pueden concederla con carácter excepcional, a petición del interesado (**art. 68.2**).",
+ "No. No se concede por el mero cumplimiento de la condena.",
+ "No. Es a petición del interesado, no de oficio."]},
+"au-13-008": {"bloque": "adquisicion", "precepto": "Art. 67.1 del TREBEP", "correcta": 3, "justificaciones": [
+ "No. Es correcta (**art. 67.1.a**), pero la opción correcta es la que recoge todas.",
+ "No. Es correcta (**art. 67.1.b**), pero la opción correcta es la que recoge todas.",
+ "No. Es correcta (**art. 67.1.c**), pero la opción correcta es la que recoge todas.",
+ "Es esta. La jubilación puede ser voluntaria, forzosa o por incapacidad permanente (**art. 67.1**)."]},
+"au-13-009": {"bloque": "adquisicion", "precepto": "Art. 63 del TREBEP", "correcta": 0, "justificaciones": [
+ "Es esta. Adquirir la condición de personal laboral fijo no figura entre las causas del **art. 63**.",
+ "No. Es causa de pérdida (**art. 63.b**).",
+ "No. Es causa de pérdida (**art. 63.e**).",
+ "No. Es causa de pérdida (**art. 63.c**)."]},
+"au-13-010": {"bloque": "adquisicion", "precepto": "Art. 65 del TREBEP", "correcta": 3, "justificaciones": [
+ "No. No es en todo caso: no se pierde si simultáneamente se adquiere la nacionalidad de alguno de esos Estados.",
+ "No. No determina una suspensión de funciones.",
+ "No. No determina una excedencia forzosa.",
+ "Es esta. Determina la pérdida de la condición salvo que simultáneamente se adquiera la nacionalidad de alguno de dichos Estados (**art. 65**)."]},
+"au-13-011": {"bloque": "adquisicion", "precepto": "Art. 67.3 del TREBEP", "correcta": 3, "justificaciones": [
+ "No. No se acepta con carácter general: la Administración resuelve motivadamente la aceptación o la denegación.",
+ "No. No es un derecho: la Administración puede aceptar o denegar de forma motivada.",
+ "No. No se acepta automáticamente por conservar las capacidades.",
+ "Es esta. La Administración debe resolver de forma motivada la aceptación o denegación de la prolongación (**art. 67.3**)."]},
+"au-13-012": {"bloque": "adquisicion", "precepto": "Art. 68 del TREBEP", "correcta": 3, "ojo": "La regla del silencio negativo del art. 68.2 se refiere a la rehabilitación excepcional por inhabilitación. En la rehabilitación por pérdida de la nacionalidad o incapacidad (art. 68.1) se concede si la solicita el interesado.",
+ "justificaciones": [
+ "No. No es automática: la solicita el interesado (**art. 68.1**).",
+ "No. Hay que solicitarla.",
+ "No. También cabe por jubilación por incapacidad permanente y, excepcionalmente, por inhabilitación.",
+ "Es esta. Si transcurrido el plazo no hay resolución expresa, se entiende desestimada la solicitud (**art. 68.2**)."]},
+"au-13-013": {"bloque": "adquisicion", "precepto": "Art. 63 del TREBEP", "correcta": 2, "justificaciones": [
+ "No. Es causa de pérdida (**art. 63.e**).",
+ "No. Es causa de pérdida (**art. 63.c**).",
+ "Es esta. La incapacidad temporal no figura entre las causas del **art. 63**.",
+ "No. Es causa de pérdida (**art. 63.b**)."]},
+"au-13-014": {"bloque": "adquisicion", "precepto": "Art. 63 del TREBEP", "correcta": 2, "justificaciones": [
+ "Es verdadera, así que no se marca (**art. 63.b**).",
+ "Es verdadera, así que no se marca (**art. 63.c**).",
+ "Esta es la falsa, y por eso es la que hay que marcar. La causa es la sanción de separación con carácter firme, no la mera incoación del expediente (**art. 63.d**).",
+ "Es verdadera, así que no se marca (**art. 63.e**)."]},
+"au-13-015": {"bloque": "adquisicion", "precepto": "Art. 63.a del TREBEP", "correcta": 0, "justificaciones": [
+ "Es esta. La renuncia a la condición de funcionario es causa de pérdida (**art. 63.a**).",
+ "No. Si se adquiere simultáneamente la de otro Estado miembro, no se pierde (**art. 65**).",
+ "No. La causa es la jubilación total, no la parcial (**art. 63.c**).",
+ "No. La separación solo es causa si tiene carácter firme (**art. 63.d**)."]},
+
+"au-14-001": {"bloque": "adquisicion", "precepto": "Art. 66 del TREBEP", "correcta": 0, "justificaciones": [
+ "Es esta. La inhabilitación absoluta firme produce la pérdida respecto a todos los empleos o cargos (**art. 66**).",
+ "No. La inhabilitación especial solo afecta a los empleos o cargos especificados en la sentencia.",
+ "No. La inhabilitación particular no figura en el artículo.",
+ "No. Hay una correcta."]},
+"au-14-002": {"bloque": "adquisicion", "precepto": "Art. 67.3 del TREBEP", "correcta": 1,
+ "ojo": "El art. 67.3 fija 65 años. El art. 67.4 remite, para el Régimen General de la Seguridad Social, a la edad de acceso a la pensión de jubilación sin coeficiente reductor (hoy hasta 67 años).",
+ "revisar": "Respondida con el art. 67.3 (65 años), que es lo que suele dar la academia. Si la clave es 67 años por el art. 67.4, sería la opción 2.",
+ "justificaciones": [
+ "No. Sesenta años no es la edad de jubilación forzosa.",
+ "Es esta. La jubilación forzosa se declara de oficio al cumplir los sesenta y cinco años (**art. 67.3**).",
+ "No. Es la edad que puede aplicar la normativa de Seguridad Social (**art. 67.4**), pero el **art. 67.3** fija sesenta y cinco.",
+ "No. Setenta años es el máximo de la prolongación de la permanencia en el servicio activo."]},
+"au-14-003": {"bloque": "adquisicion", "precepto": "Art. 67.3 del TREBEP", "correcta": 0, "justificaciones": [
+ "Es esta. Se puede solicitar la prolongación como máximo hasta los setenta años (**art. 67.3**).",
+ "No. El máximo es de setenta años, no setenta y dos.",
+ "No. El máximo es de setenta años, no setenta y tres.",
+ "No. El máximo es de setenta años, no setenta y cinco."]},
+"au-14-004": {"bloque": "adquisicion", "precepto": "Art. 68.1 del TREBEP", "correcta": 3, "justificaciones": [
+ "No. Es correcta (**art. 68.1**), pero también lo es la jubilación por incapacidad.",
+ "No. Es correcta (**art. 68.1**), pero también lo es la pérdida de la nacionalidad.",
+ "No. La separación del servicio no da derecho a rehabilitación.",
+ "Es esta. Pérdida de la nacionalidad y jubilación por incapacidad permanente (**art. 68.1**)."]},
+"au-14-005": {"bloque": "adquisicion", "precepto": "Art. 68 del TREBEP", "correcta": 2, "justificaciones": [
+ "No. La pérdida de la nacionalidad permite rehabilitación (**art. 68.1**).",
+ "No. La incapacidad permanente permite rehabilitación (**art. 68.1**).",
+ "Es esta. Tras la renuncia no cabe rehabilitación; solo se puede volver a ingresar por el procedimiento de selección (**art. 64.3**).",
+ "No. La inhabilitación permite rehabilitación excepcional (**art. 68.2**)."]},
+"au-14-006": {"bloque": "adquisicion", "precepto": "Art. 64 del TREBEP", "correcta": 2, "justificaciones": [
+ "No. Debe ser por escrito, no verbalmente (**art. 64.1**).",
+ "No. No puede aceptarse si el funcionario está sujeto a expediente disciplinario (**art. 64.2**).",
+ "Es esta. No puede aceptarse si se ha dictado auto de procesamiento por un delito (**art. 64.2**).",
+ "No. No inhabilita para ingresar de nuevo (**art. 64.3**)."]},
+"au-14-007": {"bloque": "adquisicion", "precepto": "Art. 67.1.c del TREBEP", "correcta": 2, "justificaciones": [
+ "No. La incapacidad parcial no figura.",
+ "No. La incapacidad parcial no figura.",
+ "Es esta. Incapacidad permanente absoluta o total (**art. 67.1.c**).",
+ "No. La incapacidad parcial no figura."]},
+"au-14-008": {"bloque": "adquisicion", "precepto": "Art. 67.3 del TREBEP", "correcta": 3, "justificaciones": [
+ "No. La prolongación tiene un límite: setenta años.",
+ "No. El límite es setenta años, no setenta y cinco.",
+ "No. El límite es setenta años, no ochenta.",
+ "Es esta. La prolongación llega como máximo hasta los setenta años, así que quien ya los ha cumplido no puede solicitarla (**art. 67.3**)."]},
+"au-14-009": {"bloque": "adquisicion", "precepto": "Art. 67.4 del TREBEP", "correcta": 2, "justificaciones": [
+ "No. Es sin coeficiente reductor.",
+ "No. Es en modalidad contributiva, no no contributiva.",
+ "Es esta. Será la que prevean las normas del Régimen General en su modalidad contributiva sin coeficiente reductor por razón de la edad (**art. 67.4**).",
+ "No. Es contributiva y sin coeficiente reductor."]},
+"au-14-010": {"bloque": "adquisicion", "precepto": "Art. 67.3 del TREBEP", "correcta": 1,
+ "ojo": "El art. 67.3 fija 65 años. El art. 67.4 remite, para el Régimen General de la Seguridad Social, a la edad de acceso a la pensión de jubilación sin coeficiente reductor (hoy hasta 67 años).",
+ "revisar": "Respondida con el art. 67.3 (65 años de oficio). Si la clave fuera 67 años por el art. 67.4, sería la opción 3.",
+ "justificaciones": [
+ "No. Se declara de oficio, no a instancia, y no a los setenta y siete años.",
+ "Es esta. La jubilación forzosa se declara de oficio al cumplir sesenta y cinco años (**art. 67.3**).",
+ "No. Se declara de oficio, no a instancia, y no a los setenta y cinco años.",
+ "No. Es de oficio, pero la edad del **art. 67.3** es sesenta y cinco; sesenta y siete es la del Régimen General (**art. 67.4**)."]}
+}
