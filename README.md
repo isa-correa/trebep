@@ -29,14 +29,14 @@ Autoevaluación, Oficiales, Votaciones, Exámenes y Ejercicios salen en Examen. 
 
 ## Apuntes (tools/volumen.py)
 
-La pestaña Apuntes lleva el volumen «TREBEP · Apuntes» (24 hojas A4 apaisadas, clase 1, arts. 1 a 30): una entrada con el método del supuesto y los señuelos, cinco bloques con su teoría y su práctica (ámbito, clases de empleados, derechos, carrera y retribuciones) y un cierre con cifras y plazos, quién decide y glosario. Se importa con:
+La pestaña Apuntes lleva el volumen «TREBEP · Apuntes» (25 hojas A4 apaisadas, clase 1, arts. 1 a 30): una entrada con el método del supuesto y los señuelos, cinco bloques con su teoría y su práctica (ámbito, clases de empleados, derechos, carrera y retribuciones) y un cierre con cifras y plazos, quién decide y glosario. Se importa con:
 
 ```bash
 python3 tools/construir.py                                  # primero, para que data/trebep.js tenga las preguntas
 python3 -I tools/volumen.py /ruta/a/2_Apuntes_por_bloques   # PDF -> img/esquemas/*.webp y data/esquemas.js
 ```
 
-Hace falta PyMuPDF y Pillow. Cada hoja declara en `HOJAS` qué artículos cubre, y cada pregunta recibe hasta 5 hojas de teoría cuyos artículos coinciden con los de su precepto (las más concretas primero), que salen en el botón «Consultar apuntes». Las hojas de entrada, práctica y cierre salen en Apuntes pero no cuelgan de ninguna pregunta. Para añadir una hoja nueva: ponla en la carpeta con su número, añade una línea a `HOJAS` (y a `BLOQUES` si hay bloque nuevo) y vuelve a ejecutar. Sube el número `?v=` de `esquemas.js` en `index.html` para que el móvil no use la versión guardada.
+Hace falta PyMuPDF y Pillow. Cada hoja declara en `HOJAS` qué artículos cubre, y cada pregunta recibe hasta 5 hojas de teoría cuyos artículos coinciden con los de su precepto (las más concretas primero), que salen en el botón «Consultar apuntes». Las hojas de entrada, práctica y cierre salen en Apuntes pero no cuelgan de ninguna pregunta. Para añadir una hoja nueva: ponla en la carpeta con su número (una hoja intercalada lleva letra, como la 05b), añade una línea a `HOJAS` (y a `BLOQUES` si hay bloque nuevo) y vuelve a ejecutar. Sube el número `?v=` de `esquemas.js` en `index.html` para que el móvil no use la versión guardada.
 
 ## Movimiento
 
