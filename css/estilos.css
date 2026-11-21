@@ -169,6 +169,8 @@ legend{padding:0;margin-bottom:var(--e2);font-size:var(--t-l);font-weight:700}
 .caso-comun details{margin-top:var(--e3)}
 .caso-comun summary{cursor:pointer;font-weight:600;color:var(--violeta-oscuro)}
 .caso-comun details p{margin-top:var(--e2)}
+.caso-movil>summary{font-weight:700;color:var(--tinta)}
+.caso-movil[open]>summary{margin-bottom:var(--e2)}
 .lista-preg{overflow-anchor:none;background:var(--blanco);border-radius:var(--r-m);min-height:0;overflow-y:auto;padding:var(--e4);display:grid;gap:var(--e5);align-content:start}
 .preg h3{font-size:var(--t-m);font-weight:600;line-height:1.4;margin-bottom:var(--e3);white-space:pre-line}
 .preg h3 span{color:var(--violeta-oscuro);font-weight:700}
@@ -328,6 +330,17 @@ i.cuadro{display:block;min-width:0;min-height:0;width:20px;height:20px;flex:none
   .fija.examen .tarjeta,.fija.examen .tarjeta-cuerpo{flex:0 1 auto}
   .fija.examen .tarjeta-cuerpo{padding:var(--e5) var(--e6)}
   .fija.examen .pie{margin-top:var(--e3)}
+  /* Supuesto de una pregunta por pantalla: el caso fijo a la izquierda y la pregunta con sus opciones a la derecha, sin tener que bajar. */
+  .fija.casouno{max-width:var(--ancho)}
+  .fija.casouno .tarjeta-cuerpo{display:grid;grid-template-columns:minmax(0,5fr) minmax(0,7fr);gap:var(--e6);align-items:start}
+  .fija.casouno .col-caso{position:sticky;top:0}
+  .fija.casouno .tarjeta-cuerpo{padding:var(--e4) var(--e5)}
+  .fija.casouno .caso-comun{margin-bottom:0}
+  .fija.casouno .caso-comun p+p,.fija.casouno .caso-comun ul+p,.fija.casouno .caso-comun p+ul{margin-top:var(--e2)}
+  .fija.casouno .caso-comun li+li{margin-top:var(--e1)}
+  .fija.casouno .enunciado{font-size:var(--t-l)}
+  .fija.casouno .col-opc{margin-top:var(--e3)}
+  .caso-comun p+p,.caso-comun ul+p,.caso-comun p+ul{margin-top:var(--e3)}
   .enunciado{font-size:var(--t-xl)}
   .opcion{font-size:var(--t-m)}
   .pie{grid-template-columns:220px 280px;justify-content:end}
