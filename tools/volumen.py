@@ -44,8 +44,11 @@ HOJAS = {
     "06": ("t1-propia", "¿Quién tiene ley propia?", "4,5", "teoria"),
     "07": ("t1-practica", "Práctica y trampas del ámbito", "1-7", "practica"),
     "08": ("t2-clases", "Las cuatro clases de empleados", "8,9,12,13", "teoria"),
+    "08b": ("t2-cuadro", "Cuadro comparativo de las cuatro clases", "9-12", "teoria"),
     "09": ("t2-interinos", "Los interinos del art. 10", "10", "teoria"),
+    "09b": ("t2-interinos-cese", "Funcionarios interinos: nombramiento, cese y régimen", "10", "teoria"),
     "10": ("t2-laboral", "Laboral, eventual y directivo", "11-13", "teoria"),
+    "10b": ("t2-eventual", "Personal eventual: organización, nombramiento y cese", "12", "teoria"),
     "11": ("t2-practica", "Práctica: qué empleado es y cómo cesa", "8-13", "practica"),
     "12": ("t3-14-15", "Art. 14 frente al art. 15", "14,15", "teoria"),
     "13": ("t3-practica", "Práctica: ¿art. 14 o art. 15?", "14,15", "practica"),
@@ -59,18 +62,17 @@ HOJAS = {
     "21": ("t5-practica", "Práctica: qué cobra y qué se le descuenta", "21-30", "practica"),
     "22": ("cifras", "Cifras y plazos", "", "cierre"),
     "23": ("decide", "Quién decide y qué no se aplica", "", "cierre"),
-    "24": ("glosario", "Glosario de términos de examen", "", "cierre"),
 }
 
 # bloques de la pestaña Apuntes: (id, etiqueta, nombre, descripción, hojas)
 BLOQUES = [
     ("0", "00", "Entrada", "Portada, método del supuesto práctico y los señuelos que más se repiten. Para empezar.", ["01", "02", "03"]),
     ("1", "01", "Ámbito de aplicación", "Arts. 1 a 7. Qué regula el Estatuto, a quién se aplica y quién tiene legislación propia.", ["04", "05", "05b", "06", "07"]),
-    ("2", "02", "Clases de empleados públicos", "Arts. 8 a 13. Las cuatro clases de empleados, interinos incluidos.", ["08", "09", "10", "11"]),
+    ("2", "02", "Clases de empleados públicos", "Arts. 8 a 13. Las cuatro clases de empleados, con su cuadro, los interinos y el personal eventual.", ["08", "08b", "09", "09b", "10", "10b", "11"]),
     ("3", "03", "Derechos de los empleados", "Arts. 14 y 15. Derechos individuales y derechos individuales ejercidos colectivamente.", ["12", "13"]),
     ("4", "04", "Carrera profesional", "Arts. 16 a 20. Carrera, promoción interna y evaluación del desempeño.", ["14", "15", "16"]),
     ("5", "05", "Retribuciones", "Arts. 21 a 30. Estructura retributiva, sueldos, indemnizaciones y deducciones.", ["17", "18", "19", "20", "21"]),
-    ("6", "06", "Cierre", "Cifras y plazos, quién decide y glosario. Para repasar.", ["22", "23", "24"]),
+    ("6", "06", "Cierre", "Cifras y plazos y quién decide. Para repasar.", ["22", "23"]),
 ]
 
 
