@@ -610,13 +610,14 @@
     var ultima = ses.pos === ses.ids.length - 1;
     var pct = Math.round((ses.pos + 1) / ses.ids.length * 100);
     var numero = (ses.pos + 1 < 10 ? "0" : "") + (ses.pos + 1);
-    var h = '<div class="fondo"></div><div class="fija examen">';
+    var h = '<div class="fondo"></div><div class="fija examen casouno">';
     h += '<header class="cabecera"><div class="controles"><button class="btn-cuadrado" data-a="atras" aria-label="Pregunta anterior"' + (ses.pos ? "" : " disabled") + ">" + ICONOS.atras + '</button><button class="btn-cuadrado" data-a="salir" aria-label="Volver a inicio">' + ICONOS.casa + "</button></div>";
     h += '<div class="cuenta" aria-label="Pregunta ' + (ses.pos + 1) + " de " + ses.ids.length + '">' + numero + " de " + ses.ids.length + "</div>" + htmlReloj() + "</header>";
     h += '<div class="progreso" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="' + pct + '" aria-label="Avance del supuesto"><i style="width:' + pct + '%"></i></div>';
     h += '<div class="pila"><div class="tarjeta"><div class="tarjeta-cuerpo" data-scroll>';
-    h += '<div class="col-preg" data-scroll>' + htmlCasoComun(c) + '<h1 class="enunciado" id="enunciado" tabindex="-1">' + esc(p.enunciado) + "</h1>";
-    h += '</div><div class="col-opc" data-scroll>' + htmlOpcionesUno(p) + "</div></div></div>";
+    /* Escritorio: el caso, que no cambia, fijo a la izquierda; la pregunta y sus opciones a la derecha. */
+    h += '<div class="col-caso">' + htmlCasoComun(c) + "</div>";
+    h += '<div class="col-preg" data-scroll><h1 class="enunciado" id="enunciado" tabindex="-1">' + esc(p.enunciado) + '</h1><div class="col-opc">' + htmlOpcionesUno(p) + "</div></div></div></div>";
     h += '<div class="pista-scroll" id="pista" hidden aria-hidden="true">Desliza para ver más</div></div>';
     h += '<div class="pie pie-uno"><button class="btn btn-principal" data-a="' + (ultima ? "corregir" : "siguiente") + '">' + (ultima ? "Corregir" : "Siguiente") + "</button></div></div>";
     raiz.innerHTML = h;
@@ -1117,7 +1118,8 @@
   raiz.addEventListener("click", clic);
   dialogo.addEventListener("click", clic);
   dialogo.addEventListener("close", function () { saliendo = false; });
-  raiz.addEventListener("toggle", function (e) { if (e.target.classList && e.target.classList.contains("caso-movil")) casoMovilAbierto = e.target.open; }, true);
+  /* Solo cuenta el toque del usuario: pintar un details ya abierto también dispara "toggle". */
+  raiz.addEventListener("click", function (e) { var s = e.target.closest && e.target.closest(".caso-movil > summary"); if (s) casoMovilAbierto = !s.parentNode.open; });
   raiz.addEventListener("change", cambio);
   raiz.addEventListener("input", function (e) { if (e.target.dataset && e.target.dataset.a === "busca-apuntes") buscarApuntes(e.target.value); });
   document.addEventListener("keydown", teclas);
