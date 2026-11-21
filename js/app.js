@@ -10,6 +10,20 @@
     t.bloques.forEach(function (b) { BLOQUES[b.id] = b.nombre; });
     Object.keys(t.calendarios || {}).forEach(function (k) { CALENDARIOS[k] = t.calendarios[k]; });
   });
+  /* Un caso sin enunciado común repite el caso entero en cada pregunta. Aquí se separa lo que se repite (las primeras líneas
+     iguales en todas) de lo que cambia: el caso pasa a c.texto y cada pregunta se queda solo con su frase. Ese supuesto
+     se contesta de una pregunta en una pregunta (c.unoAUno). Si no hay parte común, el caso queda como estaba. */
+  Object.keys(CASOS).forEach(function (cid) {
+    var c = CASOS[cid];
+    if (c.texto || c.corto || c.ids) return;
+    var ps = Object.keys(PREGUNTAS).map(function (id) { return PREGUNTAS[id]; }).filter(function (p) { return p.caso === cid; });
+    if (ps.length < 2) return;
+    var ls = ps.map(function (p) { return p.enunciado.split("\n"); }), k = 0;
+    while (ls.every(function (l) { return l.length > k + 1 && l[k] === ls[0][k]; })) k++;
+    if (!k) return;
+    c.texto = ls[0].slice(0, k).join("\n"); c.unoAUno = true;
+    ps.forEach(function (p, i) { p.enunciado = ls[i].slice(k).join("\n"); });
+  });
   var ORIGENES = [["oficiales", "Oficiales"], ["votaciones", "Votaciones"], ["autoevaluacion", "Autoevaluación"], ["examenes", "Exámenes"], ["ejercicios", "Ejercicios"]];
   var NOMBRE_ORIGEN = {}; ORIGENES.forEach(function (o) { NOMBRE_ORIGEN[o[0]] = o[1]; });
   NOMBRE_ORIGEN.supuestos = "Supuestos";
@@ -270,7 +284,7 @@
     if (!ses) return pintarInicio();
     if (ses.fin) return ses.modo === "supuesto" ? pintarResultadosCaso() : pintarResultados();
     if (ses.parado) return pintarPausa();
-    return ses.modo === "supuesto" ? pintarCaso() : pintarExamen();
+    return ses.modo === "supuesto" ? (CASOS[ses.caso].unoAUno ? pintarCasoUno() : pintarCaso()) : pintarExamen();
   }
 
   /* ---------- Inicio ---------- */
@@ -563,6 +577,44 @@
     h += '<div class="pie"><button class="btn btn-secundario" data-a="blanco"' + (respondida ? " disabled" : "") + ">Dejar en blanco</button>";
     h += '<button class="btn btn-principal" data-a="siguiente"' + (respondida ? "" : " disabled") + ">" + (ultima ? "Ver resultados" : "Siguiente") + "</button></div>";
     h += "</div>";
+    raiz.innerHTML = h;
+    prepararPista();
+    var e = document.getElementById("enunciado"); if (e) e.focus({ preventScroll: true });
+  }
+
+  /* Supuesto de una pregunta por pantalla: el caso (la lista de personas siempre a la vista, el encargo plegado), la pregunta
+     y sus opciones. Se elige, se pasa a la siguiente y la corrección llega al final, como en el examen. */
+  function htmlCasoComun(c) {
+    var lista = [], resto = [];
+    c.texto.split("\n").forEach(function (l) { (/^- /.test(l) ? lista : resto).push(l); });
+    var h = '<section class="caso-comun" aria-label="Caso"><h2>' + esc(titulo(c)) + "</h2>";
+    if (lista.length) h += "<ul>" + lista.map(function (l) { return "<li>" + esc(l.slice(2)) + "</li>"; }).join("") + "</ul>";
+    if (resto.length) h += "<details><summary>Ver el encargo completo</summary>" + textoCaso(resto.join("\n")) + "</details>";
+    return h + "</section>";
+  }
+  function htmlOpcionesUno(p) {
+    var r = ses.resp[p.id], sel = marcadas(r);
+    var h = (esMulti(p) ? '<p class="nota">Marca todas las correctas. Solo cuenta si marcas exactamente las que son.</p>' : "") + '<div class="opciones" role="group" aria-label="Opciones de respuesta">';
+    p.opciones.forEach(function (o, i) {
+      var on = sel.indexOf(i) >= 0;
+      h += '<button class="opcion' + (on ? " elegida" : "") + '" aria-pressed="' + on + '" data-a="marcar" data-id="' + p.id + '" data-v="' + i + '"><span class="letra">' + LETRAS[i] + ")</span><span>" + esc(o) + "</span>" + (on ? ICONOS.elegida : "") + "</button>";
+    });
+    return h + "</div>";
+  }
+  function pintarCasoUno() {
+    var c = CASOS[ses.caso], id = ses.ids[ses.pos], p = PREGUNTAS[id];
+    var ultima = ses.pos === ses.ids.length - 1;
+    var pct = Math.round((ses.pos + 1) / ses.ids.length * 100);
+    var numero = (ses.pos + 1 < 10 ? "0" : "") + (ses.pos + 1);
+    var h = '<div class="fondo"></div><div class="fija examen">';
+    h += '<header class="cabecera"><div class="controles"><button class="btn-cuadrado" data-a="atras" aria-label="Pregunta anterior"' + (ses.pos ? "" : " disabled") + ">" + ICONOS.atras + '</button><button class="btn-cuadrado" data-a="salir" aria-label="Volver a inicio">' + ICONOS.casa + "</button></div>";
+    h += '<div class="cuenta" aria-label="Pregunta ' + (ses.pos + 1) + " de " + ses.ids.length + '">' + numero + " de " + ses.ids.length + "</div>" + htmlReloj() + "</header>";
+    h += '<div class="progreso" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="' + pct + '" aria-label="Avance del supuesto"><i style="width:' + pct + '%"></i></div>';
+    h += '<div class="pila"><div class="tarjeta"><div class="tarjeta-cuerpo" data-scroll>';
+    h += '<div class="col-preg" data-scroll>' + htmlCasoComun(c) + '<h1 class="enunciado" id="enunciado" tabindex="-1">' + esc(p.enunciado) + "</h1>";
+    h += '</div><div class="col-opc" data-scroll>' + htmlOpcionesUno(p) + "</div></div></div>";
+    h += '<div class="pista-scroll" id="pista" hidden aria-hidden="true">Desliza para ver más</div></div>';
+    h += '<div class="pie pie-uno"><button class="btn btn-principal" data-a="' + (ultima ? "corregir" : "siguiente") + '">' + (ultima ? "Corregir" : "Siguiente") + "</button></div></div>";
     raiz.innerHTML = h;
     prepararPista();
     var e = document.getElementById("enunciado"); if (e) e.focus({ preventScroll: true });
@@ -959,7 +1011,9 @@
           m.sort(function (x, y) { return x - y; });
           if (m.length) ses.resp[id] = m; else delete ses.resp[id];
         } else if (ses.resp[id] === i) delete ses.resp[id]; else ses.resp[id] = i;
-        guardarSesion(); pintar();
+        guardarSesion();
+        var uno = ses.modo === "supuesto" && CASOS[ses.caso] && CASOS[ses.caso].unoAUno, ops = uno && raiz.querySelector(".col-opc");
+        if (ops) { ops.innerHTML = htmlOpcionesUno(PREGUNTAS[id]); var op = ops.querySelector('[data-id="' + id + '"][data-v="' + i + '"]'); if (op) op.focus({ preventScroll: true }); } else pintar();
         break;
       case "plegar": casoPlegado = !casoPlegado; pintar("plegar"); break;
       case "caso-grande": /* Solo en móvil: un toque estira el enunciado y otro lo vuelve a encoger. El texto conserva su scroll. */
