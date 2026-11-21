@@ -653,7 +653,7 @@
     var hechas = ses.ids.filter(function (id) { return ses.resp[id] !== undefined && ses.resp[id] !== null; }).length;
     var pct = Math.round(hechas / ses.ids.length * 100);
     recordarScroll();
-    var h = '<div class="fondo"></div><div class="fija' + (c.corto ? " estrecha" : "") + '">';
+    var h = '<div class="fondo"></div><div class="fija' + (sinPanel(c) ? " estrecha" : "") + '">';
     h += '<header class="cabecera"><button class="btn-cuadrado" data-a="salir" aria-label="Volver a inicio">' + ICONOS.casa + "</button>";
     h += '<div class="cuenta" aria-label="' + hechas + " de " + ses.ids.length + ' respondidas">' + hechas + " de " + ses.ids.length + "</div>" + htmlReloj() + "</header>";
     h += '<div class="progreso" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="' + pct + '" aria-label="Preguntas respondidas"><i style="width:' + pct + '%"></i></div>';
@@ -678,16 +678,18 @@
     if (nueva) nueva.scrollTop = scrollCaso.lista;
     if (texto) texto.scrollTop = scrollCaso.texto;
   }
+  /* Sin enunciado común (cuestionarios, ejercicios y supuestos cuyo caso va dentro de cada pregunta): una sola columna, sin panel. */
+  function sinPanel(c) { return !!(c.corto || !c.texto); }
   function abrirReparto(c) {
-    if (c.corto) return '<div class="reparto solo">';
+    if (sinPanel(c)) return '<div class="reparto solo">';
     return '<div class="reparto' + (casoPlegado ? " plegado" : casoGrande ? " grande" : "") + '">' + panelCaso(c);
   }
   /* En resultados el reparto lleva dentro el acceso directo: columna izquierda en escritorio, acordeón arriba en móvil. */
   function abrirRepartoRes(c) {
-    return '<div class="reparto res' + (c.corto ? " solo" : casoPlegado ? " plegado" : casoGrande ? " grande" : "") + '">' + htmlNavegador(ses.ids, "Volver al inicio") + (c.corto ? "" : panelCaso(c));
+    return '<div class="reparto res' + (sinPanel(c) ? " solo" : casoPlegado ? " plegado" : casoGrande ? " grande" : "") + '">' + htmlNavegador(ses.ids, "Volver al inicio") + (sinPanel(c) ? "" : panelCaso(c));
   }
   function consigna(c) {
-    if (!c.corto) return "";
+    if (!sinPanel(c)) return "";
     return '<div class="consigna"><h2>' + esc(titulo(c)) + "</h2>" + (c.texto ? "<p>" + esc(c.texto) + "</p>" : "") + "</div>";
   }
   // Cada línea del enunciado es un párrafo. "- " abre una lista, "a) " un apartado y "Publicación 1" o "1. Título" un subtítulo.
@@ -844,7 +846,7 @@
   }
   function pintarResultadosCaso() {
     var c = CASOS[ses.caso];
-    var h = '<div class="fondo"></div><div class="fija' + (c.corto ? " estrecha" : "") + '"><header class="cabecera"><button class="btn-cuadrado" data-a="nuevo" aria-label="Volver al inicio">' + ICONOS.atras + '</button><h1 class="cuenta">Resultados</h1><span></span></header>';
+    var h = '<div class="fondo"></div><div class="fija' + (sinPanel(c) ? " estrecha" : "") + '"><header class="cabecera"><button class="btn-cuadrado" data-a="nuevo" aria-label="Volver al inicio">' + ICONOS.atras + '</button><h1 class="cuenta">Resultados</h1><span></span></header>';
     h += abrirRepartoRes(c);
     h += '<section class="lista-preg" aria-label="Resultados" tabindex="0">' + consigna(c) + '<div class="panel" style="padding:0">' + htmlMarcador(ses.ids) + htmlFiltros(ses.ids) + '</div><div class="lista-res">';
     ses.ids.forEach(function (id, n) { h += htmlResultado(id, n); });
