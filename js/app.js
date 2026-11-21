@@ -101,7 +101,7 @@
   var ses = null;        /* examen en curso o corregido */
   var verFiltro = "todas";
   var navAbierto = false;
-  var casoPlegado = false, casoGrande = false;
+  var casoPlegado = false, casoGrande = false, casoMovilAbierto = null; /* null: abierto solo en la primera pregunta */
   var scrollCaso = { lista: 0, texto: 0 };
   var temasAbiertos = {};
   /* Con un solo tema, se abre solo: no hay nada que elegir antes. */
@@ -188,7 +188,7 @@
       modo: modo, ids: ids, caso: casoId || null, pos: 0, resp: {}, fin: false,
       tiempo: tiempo, total: tiempo === "ritmo" ? ids.length * RITMO : 0, seg: 0, parado: false, agotado: false
     };
-    casoPlegado = false; casoGrande = false; verFiltro = "todas"; scrollCaso = { lista: 0, texto: 0 };
+    casoPlegado = false; casoGrande = false; casoMovilAbierto = null; verFiltro = "todas"; scrollCaso = { lista: 0, texto: 0 };
     guardarSesion(); arrancarReloj(); pintar("entrar");
   }
 
@@ -587,10 +587,14 @@
   function htmlCasoComun(c) {
     var lista = [], resto = [];
     c.texto.split("\n").forEach(function (l) { (/^- /.test(l) ? lista : resto).push(l); });
-    var h = '<section class="caso-comun" aria-label="Caso"><h2>' + esc(titulo(c)) + "</h2>";
+    /* En móvil el caso se pliega: abierto en la primera pregunta y cerrado después, salvo que se abra a mano. */
+    var movil = window.matchMedia("(max-width:899px)").matches;
+    var abierto = casoMovilAbierto === null ? ses.pos === 0 : casoMovilAbierto;
+    var h = movil ? '<details class="caso-comun caso-movil"' + (abierto ? " open" : "") + "><summary>" + esc(titulo(c)) + "</summary>"
+                  : '<section class="caso-comun" aria-label="Caso"><h2>' + esc(titulo(c)) + "</h2>";
     if (lista.length) h += "<ul>" + lista.map(function (l) { return "<li>" + esc(l.slice(2)) + "</li>"; }).join("") + "</ul>";
     if (resto.length) h += "<details><summary>Ver el encargo completo</summary>" + textoCaso(resto.join("\n")) + "</details>";
-    return h + "</section>";
+    return h + (movil ? "</details>" : "</section>");
   }
   function htmlOpcionesUno(p) {
     var r = ses.resp[p.id], sel = marcadas(r);
@@ -1113,6 +1117,7 @@
   raiz.addEventListener("click", clic);
   dialogo.addEventListener("click", clic);
   dialogo.addEventListener("close", function () { saliendo = false; });
+  raiz.addEventListener("toggle", function (e) { if (e.target.classList && e.target.classList.contains("caso-movil")) casoMovilAbierto = e.target.open; }, true);
   raiz.addEventListener("change", cambio);
   raiz.addEventListener("input", function (e) { if (e.target.dataset && e.target.dataset.a === "busca-apuntes") buscarApuntes(e.target.value); });
   document.addEventListener("keydown", teclas);
